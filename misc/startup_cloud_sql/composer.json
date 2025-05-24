@@ -1,0 +1,6 @@
+{
+    "description": "WordPress on Cloud Run with Cloud SQL auto-start",
+    "require": {
+        "google/cloud-sql-admin": "^1.2"
+    }
+}
