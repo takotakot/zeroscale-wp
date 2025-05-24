@@ -1,0 +1,8 @@
+/vendor
+*
+!.gitignore
+!composer.json
+!composer.lock
+!wp-config.php
+!healthz.php
+!startup_*.php
