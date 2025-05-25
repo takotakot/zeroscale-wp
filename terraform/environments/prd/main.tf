@@ -181,4 +181,23 @@ resource "google_secret_manager_secret" "wordpress_auth_keys" {
 #   depends_on = [google_secret_manager_secret.wordpress_auth_keys]
 # }
 
+# Artifact Registry Repository
+resource "google_artifact_registry_repository" "gcr" {
+  location      = "us"
+  provider      = google
+  repository_id = "gcr.io"
+  format        = "docker"
+
+  depends_on = [google_project_service.services["artifactregistry.googleapis.com"]]
+}
+
+output "artifact_registry_repository_gcr_url" {
+  value = "gcr.io/${var.project_id}/"
+}
+
+import {
+  id = "projects/${var.project_id}/locations/us/repositories/gcr.io"
+  to = google_artifact_registry_repository.gcr
+}
+
 # --- Cloud Run サービスの作成 ---
