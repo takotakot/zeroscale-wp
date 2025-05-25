@@ -320,3 +320,36 @@ resource "google_project_iam_member" "cloud_build_service_account_artifact_regis
 }
 
 # --- Cloud Run サービスの作成 ---
+resource "google_service_account" "zero-wp-run" {
+  account_id   = "zero-wp-run"
+  display_name = "Zero WP Cloud Run Service Account"
+  project      = var.project_id
+
+  depends_on = [google_project_service.services["iam.googleapis.com"]]
+}
+
+resource "google_project_iam_member" "secret_accessor" {
+  project = var.project_id
+  role    = "roles/secretmanager.secretAccessor"
+  member  = "serviceAccount:${google_service_account.zero-wp-run.email}"
+
+  depends_on = [google_project_service.services["run.googleapis.com"]]
+}
+
+# IAM policy for Cloud Run to access the bucket
+resource "google_storage_bucket_iam_member" "cloud_run_bucket_access" {
+  bucket = google_storage_bucket.zero-wp-uploads.name
+  role   = "roles/storage.objectAdmin"
+  member = "serviceAccount:${google_service_account.zero-wp-run.email}"
+
+  depends_on = [google_storage_bucket.zero-wp-uploads]
+}
+
+# IAM policy for Cloud Run to Start/Stop instances
+resource "google_project_iam_member" "cloud_run_instance_admin" {
+  project = var.project_id
+  role    = "roles/compute.instanceAdmin.v1"
+  member  = "serviceAccount:${google_service_account.zero-wp-run.email}"
+
+  depends_on = [google_project_service.services["run.googleapis.com"]]
+}
