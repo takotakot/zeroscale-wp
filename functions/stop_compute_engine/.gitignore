@@ -1,0 +1,8 @@
+/vendor
+*
+!/.gitignore
+!/.gcloudignore
+!/deploy.sh
+!/composer.json
+!/composer.lock
+!/index.php
