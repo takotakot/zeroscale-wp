@@ -1,0 +1,6 @@
+{
+    "description": "WordPress on Cloud Run with Compute Engine auto-start",
+    "require": {
+        "google/cloud-compute": "^1.30"
+    }
+}
