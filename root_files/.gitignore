@@ -6,3 +6,4 @@
 !wp-config.php
 !healthz.php
 !startup_*.php
+!.htaccess
