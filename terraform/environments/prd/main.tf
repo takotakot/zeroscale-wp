@@ -356,3 +356,153 @@ resource "google_project_iam_member" "cloud_run_instance_admin" {
 
   depends_on = [google_project_service.services["run.googleapis.com"]]
 }
+
+resource "google_cloud_run_v2_service" "zero-wp" {
+  name     = "zero-wp"
+  location = var.region
+
+  template {
+    containers {
+      image = "gcr.io/${var.project_id}/zero-wp:latest"
+      name  = "zero-wp"
+
+      ports {
+        container_port = 80
+      }
+
+      # 環境変数設定
+      env {
+        name  = "PROJECT_ID"
+        value = var.project_id
+      }
+
+      env {
+        name  = "GCE_ZONE"
+        value = local.gce_zone
+      }
+
+      env {
+        name  = "WORDPRESS_DB_INSTANCE_ID"
+        value = local.gce_instance_id
+      }
+
+      env {
+        name  = "WORDPRESS_DB_NAME"
+        value = "wordpress"
+      }
+
+      env {
+        name  = "WORDPRESS_DB_USER"
+        value = "wordpress"
+      }
+
+      # 環境変数としてデータベースパスワードを設定 (Secret Managerリファレンスを使用)
+      env {
+        name = "WORDPRESS_DB_PASSWORD"
+        value_source {
+          secret_key_ref {
+            secret  = google_secret_manager_secret.wordpress_db_password.secret_id
+            version = "latest"
+          }
+        }
+      }
+
+      env {
+        name  = "WORDPRESS_DB_HOST"
+        value = local.gce_ip
+      }
+
+      env {
+        name = "WORDPRESS_AUTH_KEYS"
+        value_source {
+          secret_key_ref {
+            secret  = google_secret_manager_secret.wordpress_auth_keys.secret_id
+            version = "latest"
+          }
+        }
+      }
+
+      startup_probe {
+        initial_delay_seconds = 2
+        failure_threshold     = 18
+        period_seconds        = 10
+        timeout_seconds       = 10
+        http_get {
+          path = "/startup_gce.php"
+        }
+      }
+
+      liveness_probe {
+        initial_delay_seconds = 5
+        failure_threshold     = 3
+        period_seconds        = 600
+        timeout_seconds       = 5
+        http_get {
+          path = "/healthz.php"
+        }
+      }
+
+      volume_mounts {
+        name       = "zero-wp-uploads"
+        mount_path = "/var/www/html/wp-content/uploads"
+      }
+
+      # リソース制限設定
+      resources {
+        cpu_idle          = true
+        startup_cpu_boost = true
+        limits = {
+          cpu    = "1000m"
+          memory = "512Mi"
+        }
+      }
+    }
+
+    volumes {
+      name = "zero-wp-uploads"
+      gcs {
+        bucket    = google_storage_bucket.zero-wp-uploads.name
+        read_only = false
+      }
+    }
+
+    vpc_access {
+      egress = "PRIVATE_RANGES_ONLY"
+      network_interfaces {
+        network    = "default"
+        subnetwork = "default"
+      }
+    }
+
+    labels = {
+      service = local.service_label_value
+    }
+
+    service_account = google_service_account.zero-wp-run.email
+  }
+
+  traffic {
+    percent = 100
+    type    = "TRAFFIC_TARGET_ALLOCATION_TYPE_LATEST"
+  }
+
+  invoker_iam_disabled = true
+
+  # デプロイ後のイメージ更新は無視する（Cloud Buildで更新される）
+  lifecycle {
+    ignore_changes = [
+      template[0].containers[0].image,
+    ]
+  }
+
+  labels = {
+    service = local.service_label_value
+  }
+
+  depends_on = [google_project_service.services["run.googleapis.com"]]
+}
+
+# import {
+#   to = google_cloud_run_v2_service.zero-wp
+#   id = "projects/${var.project_id}/locations/${var.region}/services/zero-wp"
+# }
