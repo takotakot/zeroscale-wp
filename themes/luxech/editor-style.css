@@ -1,0 +1,16 @@
+/*
+Theme Name: Luxeritas Child Theme
+Description: Used to style the TinyMCE editor.
+*/
+h2 {
+	font-size: 2.4rem;
+}
+h3 {
+	font-size: 2.2rem;
+}
+h4 {
+	font-size: 1.8rem;
+}
+h5, h6 {
+	font-size: 1.6rem;
+}
