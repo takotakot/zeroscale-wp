@@ -53,6 +53,13 @@ resource "google_monitoring_notification_channel" "pubsub_channel_for_cloud_run"
   description = "Notification channel to send alerts to Pub/Sub when Cloud Run instances are zero."
 }
 
+# Monitoring Service Agent に Pub/Sub パブリッシャーの権限を付与
+resource "google_project_iam_member" "monitoring_service_agent_pubsub" {
+  project = var.project_id
+  role    = "roles/pubsub.publisher"
+  member  = "serviceAccount:service-${data.google_project.project.number}@gcp-sa-monitoring-notification.iam.gserviceaccount.com"
+}
+
 # --- Cloud Monitoring アラートポリシーの作成 ---
 resource "google_monitoring_alert_policy" "cloud_run_zero_instances" {
   project      = var.project_id
