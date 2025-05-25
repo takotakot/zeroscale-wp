@@ -294,4 +294,29 @@ resource "google_storage_bucket" "zero-wp-uploads" {
 #   to = google_storage_bucket.zero-wp-uploads
 # }
 
+# --- Cloud Build サービスアカウントの作成 ---
+resource "google_service_account" "zero-wp-cloud-build" {
+  account_id   = "zero-wp-build"
+  display_name = "Zero WP Cloud Build Service Account"
+  project      = var.project_id
+
+  depends_on = [google_project_service.services["cloudbuild.googleapis.com"]]
+}
+
+resource "google_project_iam_member" "cloud_build_service_account" {
+  project = var.project_id
+  role    = "roles/cloudbuild.builds.builder"
+  member  = "serviceAccount:${google_service_account.zero-wp-cloud-build.email}"
+
+  depends_on = [google_project_service.services["cloudbuild.googleapis.com"]]
+}
+
+resource "google_project_iam_member" "cloud_build_service_account_artifact_registry_writer" {
+  project = var.project_id
+  role    = "roles/artifactregistry.writer"
+  member  = "serviceAccount:${google_service_account.zero-wp-cloud-build.email}"
+
+  depends_on = [google_project_service.services["artifactregistry.googleapis.com"]]
+}
+
 # --- Cloud Run サービスの作成 ---
