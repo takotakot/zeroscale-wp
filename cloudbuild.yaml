@@ -10,6 +10,7 @@ steps:
         curl -sS https://getcomposer.org/installer | php
         ( cd structure && php ../composer.phar install )
         ( cp root_files/* root_dir/)
+        ( cp root_files/.htaccess root_dir/)
         ( cd root_dir && php ../composer.phar install )
 
   # 2. テーマインストール
