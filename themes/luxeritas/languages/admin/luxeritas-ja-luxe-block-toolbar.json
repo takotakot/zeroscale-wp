@@ -1,0 +1,111 @@
+{
+	"domain": "messages",
+	"locale_data": {
+		"messages": {
+			"": {
+				"domain": "messages",
+				"plural_forms": "nplurals=2; plural=(n != 1);",
+				"lang": "ja"
+			},
+			"Inline settings": [
+				"インライン設定"
+			],
+			"Font size": [
+				"文字サイズ"
+			],
+			"Font family": [
+				"文字種"
+			],
+			"Sans-serif": [
+				"サンセリフ(ゴシック)"
+			],
+			"Serif": [
+				"セリフ(明朝)"
+			],
+			"Text color": [
+				"文字色"
+			],
+			"Background color": [
+				"背景色"
+			],
+			"Dot ": [
+				"ドット"
+			],
+			"Highlighter": [
+				"蛍光ペン"
+			],
+			"Yellow": [
+				"黄"
+			],
+			"Red": [
+				"赤"
+			],
+			"Blue": [
+				"青"
+			],
+			"Green": [
+				"緑"
+			],
+			"Orange": [
+				"オレンジ"
+			],
+			"Pink": [
+				"ピンク"
+			],
+			"Shortcode": [
+				"ショートコード"
+			],
+			"Emoji": [
+				"絵文字"
+			],
+			"Bold not strong": [
+				"強調 (strong) ではない太字"
+			],
+			"Additional CSS Class": [
+				"追加 CSS クラス"
+			],
+			"Ruby": [
+				"ルビ <ruby>"
+			],
+			"Please enter ruby.": [
+				"ルビを入力してください。"
+			],
+			"Cite": [
+				"引用元 <cite>"
+			],
+			"Inline quotation": [
+				"行内引用 <q>"
+			],
+			"Please enter class name.": [
+				"class 名を入力してください。"
+			],
+			"Frequently Used": [
+				"よく使う絵文字"
+			],
+			"Smileys & People": [
+				"笑顔・人"
+			],
+			"Animals & Nature": [
+				"動物・自然"
+			],
+			"Food & Drink": [
+				"食べ物・飲み物"
+			],
+			"Activity": [
+				"動作"
+			],
+			"Travel & Places": [
+				"旅行・場所"
+			],
+			"Objects": [
+				"物"
+			],
+			"Symbols": [
+				"シンボル"
+			],
+			"Flags": [
+				"旗"
+			],
+		}
+	}
+}

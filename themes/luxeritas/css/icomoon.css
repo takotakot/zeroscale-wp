@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon/fonts/icomoon.eot?f6lcn');
+  src:  url('../fonts/icomoon/fonts/icomoon.eot?f6lcn#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/fonts/icomoon.woff2?f6lcn') format('woff2'),
+    url('../fonts/icomoon/fonts/icomoon.woff?f6lcn') format('woff'),
+    url('../fonts/icomoon/fonts/icomoon.ttf?f6lcn') format('truetype'),
+    url('../fonts/icomoon/fonts/icomoon.svg?f6lcn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon';
+  display: inline-block;	/* required for animation */
+  /*speak: never;*/
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-speech-bubble:before {
+  content: "\e903";
+}
+.ico-external-link-alt:before {
+  content: "\f35d";
+}
+.ico-external-link-square-alt:before {
+  content: "\f360";
+}
+.ico-line:before {
+  content: "\e700";
+}
+.ico-feedly:before {
+  content: "\e600";
+}
+.ico-plus-square:before {
+  content: "\f0fe";
+}
+.ico-minus-square:before {
+  content: "\f146";
+}
+.ico-caret-square-down:before {
+  content: "\f150";
+}
+.ico-search:before {
+  content: "\f002";
+}
+.ico-link:before {
+  content: "\f0c1";
+}
+.ico-caret-right:before {
+  content: "\f0da";
+}
+.ico-spinner:before {
+  content: "\f110";
+}
+.ico-comment:before {
+  content: "\e900";
+}
+.ico-comments:before {
+  content: "\e901";
+}
+.ico-chevron-up:before {
+  content: "\f077";
+}
+.ico-chevron-down:before {
+  content: "\f078";
+}
+.ico-twitter:before {
+  content: "\f099";
+}
+.ico-x-twitter:before {
+  content: "\e902";
+}
+.ico-facebook:before {
+  content: "\f09a";
+}
+.ico-linkedin:before {
+  content: "\f0e1";
+}
+.ico-angle-double-right:before {
+  content: "\f101";
+}
+.ico-chevron-circle-left:before {
+  content: "\f137";
+}
+.ico-chevron-circle-right:before {
+  content: "\f138";
+}
+.ico-youtube-play:before {
+  content: "\f16a";
+}
+.ico-instagram:before {
+  content: "\f16d";
+}
+.ico-pinterest-p:before {
+  content: "\f231";
+}
+.ico-get-pocket:before {
+  content: "\f265";
+}
+
+/* add spin */
+.ico-spin {
+	animation: ico-spin 2s infinite linear;
+}
+@keyframes ico-spin {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

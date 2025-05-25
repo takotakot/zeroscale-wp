@@ -1,0 +1,7137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luxeritas\n"
+"POT-Creation-Date: 2022-03-19 10:48+0900\n"
+"PO-Revision-Date: 2023-05-23 15:31+0800\n"
+"Last-Translator: \n"
+"Language-Team: Thought is Free\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-KeywordsList: __;_e;_x;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../..\n"
+"X-Poedit-SearchPath-1: ../../inc\n"
+
+#: ../../404.php:71 ../../languages/site/translations.php:2
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr "Sorry, but you are looking for something that isn&#8217;t here."
+
+#: ../../breadcrumb.php:137 ../../inc/json-ld.php:373 ../../inc/widget.php:187
+#: ../../languages/site/translations.php:6
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: ../../breadcrumb.php:140 ../../inc/description.php:47
+#: ../../inc/json-ld.php:376 ../../languages/site/translations.php:7
+msgid "F Y"
+msgstr "F Y"
+
+#: ../../breadcrumb.php:143 ../../inc/json-ld.php:379
+#: ../../languages/site/translations.php:8
+msgid "Y"
+msgstr "Y"
+
+#: ../../breadcrumb.php:149 ../../search.php:24 ../../inc/json-ld.php:386
+#: ../../languages/site/translations.php:9
+#, php-format
+msgid "Search results of [%s]"
+msgstr "Search results of [%s]"
+
+#: ../../breadcrumb.php:161 ../../languages/site/translations.php:10
+msgid "Page not found"
+msgstr "未找到页面"
+
+#: ../../comments.php:23 ../../inc/custom.php:1321
+#: ../../languages/site/translations.php:11
+msgid "Discussion"
+msgstr "讨论"
+
+#: ../../comments.php:61 ../../languages/site/translations.php:13
+msgid "says:"
+msgstr "says:"
+
+#: ../../comments.php:67 ../../languages/site/translations.php:14
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#: ../../comments.php:75 ../../languages/site/translations.php:15
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: ../../comments.php:75 ../../languages/site/translations.php:16
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: ../../comments.php:125 ../../comments.php:204
+#: ../../languages/site/translations.php:12
+msgid "New Comments"
+msgstr "新的评论"
+
+#: ../../comments.php:136 ../../languages/site/translations.php:18
+msgid "New Pnigbacks &amp; Trackbacks"
+msgstr "New Pnigbacks &amp; Trackbacks"
+
+#: ../../comments.php:205 ../../languages/site/translations.php:17
+msgid "No comments yet.  Be the first one!"
+msgstr "还没有评论，成为第一个！"
+
+#: ../../comments.php:218 ../../inc/sections/block-editor-color-palette.php:41
+#: ../../inc/sections/block-editor-color-palette.php:65
+#: ../../inc/sections/thumbnail-manage.php:28
+#: ../../languages/site/translations.php:19
+msgid "Name"
+msgstr "名字"
+
+#: ../../comments.php:220 ../../languages/site/translations.php:20
+msgid "Email"
+msgstr "邮箱"
+
+#: ../../comments.php:222 ../../languages/site/translations.php:21
+msgid "Website"
+msgstr "网站"
+
+#: ../../comments.php:290 ../../languages/site/translations.php:22
+msgid "Captcha"
+msgstr "验证码"
+
+#: ../../comments.php:293 ../../languages/site/translations.php:23
+msgid "Enter Captcha"
+msgstr "输入验证码"
+
+#: ../../comments.php:302 ../../languages/site/translations.php:24
+msgid "Leave a Reply"
+msgstr "发表回复"
+
+#: ../../comments.php:303 ../../mobile-buttons.php:72
+#: ../../inc/customize.php:45 ../../languages/site/translations.php:25
+msgid "Comment"
+msgstr "评论"
+
+#: ../../comments.php:311 ../../languages/site/translations.php:26
+msgid "To comment"
+msgstr "去评论"
+
+#: ../../functions.php:190
+msgid "Header Nav (Global Nav)"
+msgstr "页眉导航（全局导航）"
+
+#: ../../functions.php:191 ../../inc/custom.php:3565
+msgid "Header Band Menu"
+msgstr "页眉带菜单"
+
+#: ../../functions.php:192 ../../inc/custom.php:4447 ../../inc/custom.php:4513
+#: ../../inc/custom.php:4525 ../../inc/custom.php:4537
+#: ../../inc/custom.php:4549
+msgid "Footer Nav "
+msgstr "页脚导航 "
+
+#: ../../functions.php:365 ../../languages/site/translations.php:49
+msgid "Connection to the authentication server failed. Please try again later."
+msgstr "与认证服务器的连接失败，请稍后再试。"
+
+#: ../../functions.php:366 ../../languages/site/translations.php:50
+msgid "You have been identified as a bot and could not authenticate."
+msgstr "您已被确认为机器人，无法进行认证。"
+
+#: ../../functions.php:398 ../../languages/site/translations.php:51
+msgid "Please enter image authentication."
+msgstr "请输入图像认证。"
+
+#: ../../functions.php:404 ../../languages/site/translations.php:52
+msgid "Image authentication is incorrect."
+msgstr "图像认证不正确。"
+
+#: ../../head-band.php:78 ../../searchform.php:24
+#: ../../languages/site/translations.php:53
+msgid "Search for"
+msgstr "Search for"
+
+#: ../../head-band.php:79 ../../mobile-buttons.php:78 ../../navi.php:149
+#: ../../searchform.php:26 ../../inc/codemirror.php:100
+#: ../../inc/customize.php:46 ../../inc/theme-editor-script.php:62
+#: ../../languages/site/translations.php:54
+msgid "Search"
+msgstr "Search"
+
+#: ../../head-band.php:148 ../../inc/custom.php:3885 ../../inc/custom.php:3898
+#: ../../inc/custom.php:6014 ../../inc/custom.php:6145 ../../inc/widget.php:620
+#: ../../inc/widget.php:716 ../../languages/site/translations.php:27
+msgid "Hatena Bookmark"
+msgstr "Hatena Bookmark"
+
+#: ../../loop-grid.php:158 ../../loop-normal.php:154 ../../loop.php:152
+#: ../../search.php:50 ../../languages/site/translations.php:32
+msgid "Sorry, the requested post was not found."
+msgstr "对不起，没有找到所需的帖子。"
+
+#: ../../mobile-buttons.php:29 ../../inc/custom.php:1447
+#: ../../inc/defaults.php:72 ../../inc/sections/widget-area.php:28
+#: ../../inc/sections/widget-area.php:50 ../../inc/sections/widget-body.php:36
+#: ../../inc/sections/widget-body.php:58
+#: ../../languages/site/translations.php:5
+msgid "Home"
+msgstr "首页"
+
+#: ../../mobile-buttons.php:34 ../../navi.php:83 ../../navi.php:139
+#: ../../languages/site/translations.php:38
+msgid "Menu"
+msgstr "菜单"
+
+#: ../../mobile-buttons.php:53 ../../navi.php:143
+#: ../../languages/site/translations.php:33
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: ../../mobile-buttons.php:64 ../../languages/site/translations.php:34
+msgid "TOC"
+msgstr "目录"
+
+#: ../../mobile-buttons.php:83 ../../languages/site/translations.php:37
+msgid "Page Top"
+msgstr "页首"
+
+#: ../../navi.php:25
+msgid " Menu"
+msgstr " 菜单"
+
+#: ../../navi.php:87 ../../navi.php:153 ../../inc/widget.php:1711
+#: ../../inc/widget.php:1740 ../../languages/site/translations.php:39
+msgid "Install"
+msgstr "安装"
+
+#: ../../navi.php:147 ../../languages/site/translations.php:36
+msgid " Prev "
+msgstr " 上一页 "
+
+#: ../../navi.php:148 ../../languages/site/translations.php:35
+msgid " Next "
+msgstr " 下一页 "
+
+#: ../../page.php:151 ../../page.php:155 ../../single.php:137
+#: ../../single.php:141 ../../languages/site/translations.php:42
+msgid "Posted by"
+msgstr "发布者"
+
+#: ../../page.php:167 ../../single.php:153 ../../inc/ladmin.php:47
+#: ../../languages/site/translations.php:90
+msgid "Origin"
+msgstr "原作"
+
+#: ../../page.php:168 ../../single.php:154 ../../inc/ladmin.php:57
+#: ../../languages/site/translations.php:93
+msgid "Validate"
+msgstr "验证"
+
+#: ../../page.php:169 ../../single.php:155 ../../inc/customize.php:105
+#: ../../inc/ladmin.php:58 ../../languages/site/translations.php:94
+msgid "Cache"
+msgstr "缓存"
+
+#: ../../page.php:173 ../../page.php:178 ../../single.php:159
+#: ../../single.php:164 ../../inc/ladmin.php:101
+#: ../../languages/site/translations.php:40
+msgid "Edit This"
+msgstr "Edit This"
+
+#: ../../page.php:231 ../../single.php:214
+#: ../../languages/site/translations.php:41
+msgid "No posts yet"
+msgstr "还没有帖子"
+
+#: ../../page.php:265 ../../single.php:247
+#: ../../languages/site/translations.php:43
+msgid "Next"
+msgstr "下一页"
+
+#: ../../page.php:270 ../../page.php:298 ../../single.php:252
+#: ../../single.php:280 ../../languages/site/translations.php:44
+msgid "Home "
+msgstr "首页 "
+
+#: ../../page.php:293 ../../single.php:275
+#: ../../languages/site/translations.php:45
+msgid "Prev"
+msgstr "上一页"
+
+#: ../../page.php:315 ../../single.php:358
+#: ../../languages/site/translations.php:46
+msgid "TrackBack URL"
+msgstr "引用网址"
+
+#: ../../related.php:166 ../../languages/site/translations.php:47
+msgid "No related posts yet."
+msgstr "还没有相关的帖子。"
+
+#: ../../search.php:25 ../../languages/site/translations.php:30
+#, php-format
+msgid " : %s"
+msgstr " : %s"
+
+#: ../../search.php:49 ../../languages/site/translations.php:48
+msgid "No search hits"
+msgstr "没有搜索到"
+
+#: ../../single.php:318 ../../languages/site/translations.php:55
+msgid "Related Posts"
+msgstr "相关帖子"
+
+#: ../../sns-front.php:193 ../../sns-front.php:194 ../../sns.php:223
+#: ../../sns.php:224 ../../languages/site/translations.php:56
+msgid "Send to LINE"
+msgstr "Send to LINE"
+
+#: ../../inc/admin-comments.php:22
+msgid "Show only admins."
+msgstr "只显示管理员。"
+
+#: ../../inc/admin-comments.php:41 ../../inc/wpfunc.php:1443
+#: ../../languages/site/translations.php:57
+msgid "Only administrators can see this comment."
+msgstr "只有管理员可以看到这个评论。"
+
+#: ../../inc/admin-common-func.php:59 ../../inc/post-meta-boxes.php:184
+#: ../../inc/sections/amp.php:100 ../../inc/sections/design-create.php:43
+#: ../../inc/sections/ogp.php:70 ../../inc/sections/seo.php:498
+#: ../../inc/sections/seo.php:540
+msgid "Set image"
+msgstr "设置图像"
+
+#: ../../inc/admin-common-func.php:204 ../../inc/tinymce-settings.php:59
+#: ../../inc/tinymce-settings.php:78
+msgid "Paragraph"
+msgstr "段落"
+
+#: ../../inc/admin-common-func.php:205 ../../inc/phrase-post.php:198
+#: ../../inc/phrase-post.php:284 ../../inc/sections/phrase-list.php:116
+#: ../../inc/sections/phrase-luxeritas.php:37
+#: ../../inc/sections/phrase-sample.php:23
+msgid "HTML pattern"
+msgstr "HTML 模式"
+
+#: ../../inc/admin-common-func.php:206 ../../inc/admin-common-func.php:310
+#: ../../inc/customize.php:76 ../../inc/shortcode-post.php:206
+#: ../../inc/shortcode-post.php:284 ../../inc/sections/shortcode-list.php:66
+#: ../../inc/sections/shortcode-list.php:90
+#: ../../inc/sections/shortcode-list.php:151
+#: ../../inc/sections/shortcode-sample.php:23
+msgid "Shortcode"
+msgstr "短代码"
+
+#: ../../inc/admin-common-func.php:207 ../../inc/admin-common-func.php:311
+#: ../../inc/blogcard-post-func.php:146 ../../inc/blogcard-post-func.php:218
+#: ../../inc/custom.php:5453
+msgid "Blog Card"
+msgstr "Blog Card"
+
+#: ../../inc/admin-common-func.php:208
+msgid "Show blocks"
+msgstr "显示区块"
+
+#: ../../inc/admin-common-func.php:209 ../../inc/sections/search.php:73
+msgid "Bold"
+msgstr "加粗"
+
+#: ../../inc/admin-common-func.php:210
+msgid "Italic"
+msgstr "Italic"
+
+#: ../../inc/admin-common-func.php:211 ../../inc/phrase-sample.php:20
+msgid "Bulleted list"
+msgstr "Bulleted list"
+
+#: ../../inc/admin-common-func.php:212 ../../inc/phrase-sample.php:21
+msgid "Numbered list"
+msgstr "Numbered list"
+
+#: ../../inc/admin-common-func.php:213
+msgid "Blockquote"
+msgstr "Blockquote"
+
+#: ../../inc/admin-common-func.php:214
+msgid "Align left"
+msgstr "Align left"
+
+#: ../../inc/admin-common-func.php:215 ../../inc/custom.php:1997
+#: ../../inc/custom.php:2010 ../../inc/custom.php:4099
+#: ../../inc/widget.php:1140
+msgid "Align center"
+msgstr "Align center"
+
+#: ../../inc/admin-common-func.php:216
+msgid "Align right"
+msgstr "Align right"
+
+#: ../../inc/admin-common-func.php:217
+msgid "Insert/edit link"
+msgstr "Insert/edit link"
+
+#: ../../inc/admin-common-func.php:218
+msgid "Remove link"
+msgstr "Remove link"
+
+#: ../../inc/admin-common-func.php:219
+msgid "Table"
+msgstr "Table"
+
+#: ../../inc/admin-common-func.php:220 ../../inc/tinymce-before-init.php:139
+msgid "Emoji"
+msgstr "Emoji"
+
+#: ../../inc/admin-common-func.php:221
+msgid "Read more..."
+msgstr "Read more..."
+
+#: ../../inc/admin-common-func.php:222
+msgid "Page break"
+msgstr "Page break"
+
+#: ../../inc/admin-common-func.php:236 ../../inc/custom.php:2336
+#: ../../inc/custom.php:4793 ../../inc/sections/securimage.php:48
+msgid "Font size"
+msgstr "Font size"
+
+#: ../../inc/admin-common-func.php:237
+msgid "Font family "
+msgstr "Font family "
+
+#: ../../inc/admin-common-func.php:238
+msgid "Strikethrough"
+msgstr "Strikethrough"
+
+#: ../../inc/admin-common-func.php:239
+msgid "Underline"
+msgstr "Underline"
+
+#: ../../inc/admin-common-func.php:240
+msgid "Horizontal line"
+msgstr "Horizontal line"
+
+#: ../../inc/admin-common-func.php:241 ../../inc/custom.php:1516
+#: ../../inc/custom.php:2752 ../../inc/custom.php:2763
+#: ../../inc/custom.php:2799 ../../inc/custom.php:2835
+#: ../../inc/custom.php:3633 ../../inc/custom.php:3710
+#: ../../inc/custom.php:4230 ../../inc/custom.php:4692
+#: ../../inc/custom.php:5061 ../../inc/custom.php:5097
+#: ../../inc/tinymce-settings.php:45 ../../inc/widget.php:1760
+#: ../../inc/sections/balloon-css.php:35 ../../inc/sections/balloon-css.php:61
+#: ../../inc/sections/securimage.php:64
+msgid "Text color"
+msgstr "Text color"
+
+#: ../../inc/admin-common-func.php:242 ../../inc/custom.php:1528
+#: ../../inc/custom.php:2868 ../../inc/custom.php:2879
+#: ../../inc/custom.php:2904 ../../inc/custom.php:2941
+#: ../../inc/custom.php:2978 ../../inc/custom.php:3015
+#: ../../inc/custom.php:3052 ../../inc/custom.php:3657
+#: ../../inc/custom.php:3722 ../../inc/custom.php:4254
+#: ../../inc/custom.php:4326 ../../inc/custom.php:4537
+#: ../../inc/custom.php:4704 ../../inc/custom.php:5073
+#: ../../inc/custom.php:5109 ../../inc/tinymce-settings.php:49
+#: ../../inc/widget.php:104 ../../inc/widget.php:1458 ../../inc/widget.php:1762
+#: ../../inc/sections/balloon-css.php:39 ../../inc/sections/balloon-css.php:65
+#: ../../inc/sections/pwa-theme.php:42 ../../inc/sections/search.php:98
+#: ../../inc/sections/securimage.php:77
+msgid "Background color"
+msgstr "背景颜色"
+
+#: ../../inc/admin-common-func.php:243
+msgid "Paste as text"
+msgstr "Paste as text"
+
+#: ../../inc/admin-common-func.php:244
+msgid "Clear formatting"
+msgstr "Clear formatting"
+
+#: ../../inc/admin-common-func.php:245
+msgid "Special character"
+msgstr "Special character"
+
+#: ../../inc/admin-common-func.php:246
+msgid "Decrease indent"
+msgstr "Decrease indent"
+
+#: ../../inc/admin-common-func.php:247
+msgid "Increase indent"
+msgstr "Increase indent"
+
+#: ../../inc/admin-common-func.php:248 ../../inc/codemirror.php:98
+#: ../../inc/theme-editor-script.php:71
+msgid "Undo"
+msgstr "Undo"
+
+#: ../../inc/admin-common-func.php:249 ../../inc/codemirror.php:99
+#: ../../inc/theme-editor-script.php:72
+msgid "Redo"
+msgstr "Redo"
+
+#: ../../inc/admin-common-func.php:250
+msgid "Find and replace"
+msgstr "Find and replace"
+
+#: ../../inc/admin-common-func.php:251
+msgid "Keyboard Shortcuts"
+msgstr "Keyboard Shortcuts"
+
+#: ../../inc/admin-common-func.php:261 ../../inc/custom.php:4841
+#: ../../inc/widget.php:1536 ../../inc/widget.php:1576 ../../inc/wpfunc.php:888
+#: ../../languages/site/translations.php:63
+msgid "Table of Contents"
+msgstr "Table of Contents"
+
+#: ../../inc/admin-common-func.php:262
+msgid "Copy"
+msgstr "Copy"
+
+#: ../../inc/admin-common-func.php:263
+msgid "Paste"
+msgstr "Paste"
+
+#: ../../inc/admin-common-func.php:264
+msgid "Cut"
+msgstr "Cut"
+
+#: ../../inc/admin-common-func.php:265
+msgid "Nonbreaking space"
+msgstr "Nonbreaking space"
+
+#: ../../inc/admin-common-func.php:266
+msgid "Anchor"
+msgstr "Anchor"
+
+#: ../../inc/admin-common-func.php:267
+msgid "Insert date/time"
+msgstr "Insert date/time"
+
+#: ../../inc/admin-common-func.php:268
+msgid "Left to right"
+msgstr "Left to right"
+
+#: ../../inc/admin-common-func.php:269
+msgid "Right to left"
+msgstr "Right to left"
+
+#: ../../inc/admin-common-func.php:270
+msgid "Source code"
+msgstr "Source code"
+
+#: ../../inc/admin-common-func.php:271
+msgid "Justify"
+msgstr "Justify"
+
+#: ../../inc/admin-common-func.php:272
+msgid "Show invisible characters"
+msgstr "Show invisible characters"
+
+#: ../../inc/admin-common-func.php:273
+msgid "Superscript"
+msgstr "Superscript"
+
+#: ../../inc/admin-common-func.php:274
+msgid "Subscript"
+msgstr "Subscript"
+
+#: ../../inc/admin-common-func.php:275
+msgid "Insert/edit image"
+msgstr "Insert/edit image"
+
+#: ../../inc/admin-common-func.php:276
+msgid "Insert/edit video"
+msgstr "Insert/edit video"
+
+#: ../../inc/admin-common-func.php:277
+msgid "Print"
+msgstr "Print"
+
+#: ../../inc/admin-common-func.php:278
+msgid "Fullscreen"
+msgstr "Fullscreen"
+
+#: ../../inc/admin-common-func.php:309 ../../inc/customize.php:75
+msgid "HTML patterns"
+msgstr "HTML patterns"
+
+#: ../../inc/admin-common-func.php:312
+msgid "close tags"
+msgstr "close tags"
+
+#: ../../inc/admin-func.php:60
+msgid ""
+"Address (URL) of &quot;Settings -&gt; General&quot; is not set to SSL "
+"(https://). Please check the setting."
+msgstr ""
+"Address (URL) of &quot;Settings -&gt; General&quot; is not set to SSL "
+"(https://). Please check the setting."
+
+#: ../../inc/admin-func.php:72
+msgid "The compression is incomplete because there is a syntax error in CSS."
+msgstr "The compression is incomplete because there is a syntax error in CSS."
+
+#: ../../inc/admin-func.php:166 ../../inc/admin-func.php:176
+msgid "Customizer"
+msgstr "Customizer"
+
+#: ../../inc/admin-func.php:177 ../../inc/admin-func.php:185
+msgid "Customize"
+msgstr "Customize"
+
+#: ../../inc/admin-func.php:185
+msgid "Appearance"
+msgstr "Appearance"
+
+#: ../../inc/admin-func.php:192 ../../inc/admin-func.php:193
+msgid "Management features"
+msgstr "Management features"
+
+#: ../../inc/admin-func.php:210 ../../inc/admin-func.php:211
+msgid "Registration pattern"
+msgstr "Registration pattern"
+
+#: ../../inc/admin-func.php:219 ../../inc/widget.php:1601
+msgid "Reusable Blocks"
+msgstr "Reusable Blocks"
+
+#: ../../inc/admin-func.php:227
+msgid "Design select"
+msgstr "Design select"
+
+#: ../../inc/admin-func.php:234 ../../inc/admin-func.php:235
+#: ../../inc/customize.php:111
+msgid "Speed settings"
+msgstr "Speed settings"
+
+#: ../../inc/admin-func.php:242 ../../inc/admin-func.php:243
+#: ../../inc/customize.php:105
+msgid "Counter"
+msgstr "Counter"
+
+#: ../../inc/admin-func.php:250 ../../inc/admin-func.php:251
+#: ../../inc/customize.php:133
+msgid "Child Theme Editor"
+msgstr "Child Theme Editor"
+
+#: ../../inc/admin-func.php:274 ../../inc/admin-func.php:733
+#: ../../inc/admin-func.php:894 ../../inc/customize.php:200
+#: ../../inc/design-editor.php:88 ../../inc/theme-editor.php:133
+msgid "The theme selected is not the child theme, but the parent theme"
+msgstr "选择的主题不是子主题，而是父主题"
+
+#: ../../inc/admin-func.php:734 ../../inc/admin-func.php:895
+#: ../../inc/customize.php:202 ../../inc/design-editor.php:89
+#: ../../inc/theme-editor.php:134
+msgid "This feature can only be used when the child theme is selected."
+msgstr "这个功能只有在选择子主题时才能使用。"
+
+#: ../../inc/admin-func.php:740
+msgid "Filename is not entered."
+msgstr "没有输入文件名。"
+
+#: ../../inc/admin-func.php:754
+msgid "The filename contains characters that can&apos;t be used."
+msgstr "文件名含有不能使用的字符。"
+
+#: ../../inc/admin-func.php:864 ../../inc/create-javascript.php:1513
+#: ../../inc/design-editor.php:98 ../../inc/theme-editor.php:143
+#: ../../languages/site/translations.php:58
+msgid "This theme is broken."
+msgstr "主题损坏。"
+
+#: ../../inc/admin-func.php:868 ../../inc/block-pattern-regist.php:56
+#: ../../inc/phrase-regist.php:60 ../../inc/restore.php:40
+#: ../../inc/shortcode-regist.php:130 ../../inc/thk-filesystem.php:32
+#: ../../inc/thk-filesystem.php:36
+msgid "Error saving file."
+msgstr "文件保存错误。"
+
+#: ../../inc/admin-func.php:913
+msgid "Changes are properly reflected"
+msgstr "Changes are properly reflected"
+
+#: ../../inc/admin-func.php:932 ../../inc/admin-func.php:946
+#, php-format
+msgid "The %s logo is too large."
+msgstr "The %s logo is too large."
+
+#: ../../inc/admin-func.php:932
+msgid "Site"
+msgstr "Site"
+
+#: ../../inc/admin-func.php:932 ../../inc/admin-func.php:946
+#: ../../inc/sections/amp.php:81 ../../inc/sections/seo.php:484
+msgid "* the image must be within 600px width, height 60px."
+msgstr "*图像必须在600px宽度内，高度为60px。"
+
+#: ../../inc/admin-func.php:971
+msgid "Please delete your browser cache."
+msgstr "请删除你的浏览器缓存。"
+
+#: ../../inc/admin-func.php:972
+#, php-format
+msgid ""
+"WordPress has been upgraded ( %s -&gt; %s ). browser cache may cause a bug."
+msgstr "WordPress已经升级 ( %s -&gt; %s )。浏览器缓存可能导致一个错误。"
+
+#: ../../inc/admin-func.php:1077
+msgid ""
+"File output cannot be &quot;Dynamic&quot; because the permalink setting is "
+"set to &quot;Plain&quot;."
+msgstr "文件输出不能是&quot;动态&quot;，因为固定设置是&quot;普通&quot;。"
+
+#: ../../inc/admin-func.php:1120
+msgid "Jetpack plugin and Luxeritas theme&apos;s Lazy Load function conflict."
+msgstr "Jetpack插件和Luxeritas主题&apos;的 懒加载 功能冲突。"
+
+#: ../../inc/admin-func.php:1124
+msgid "Jetpack plugin and Luxeritas theme&apos;s OGP conflict."
+msgstr "Jetpack插件和Luxeritas主题&apos;的OGP冲突。"
+
+#: ../../inc/admin-func.php:1380 ../../inc/design-create.php:32
+msgid ""
+"Failed to create temporary file with PHP. Check the setting of &quot;"
+"upload_tmp_dir&quot; in PHP."
+msgstr "用 PHP 创建临时文件失败。检查PHP中&quot;upload_tmp_dir&quot;的设置。"
+
+#: ../../inc/admin-func.php:1827 ../../inc/block-pattern-regist.php:63
+#: ../../inc/phrase-regist.php:67 ../../inc/restore.php:46
+#: ../../inc/shortcode-regist.php:137
+msgid "You do not have permission to create and save files."
+msgstr "你没有创建和保存文件的权限。"
+
+#: ../../inc/admin-func.php:1828 ../../inc/block-pattern-regist.php:64
+#: ../../inc/phrase-regist.php:68 ../../inc/restore.php:47
+#: ../../inc/shortcode-regist.php:138
+msgid ""
+"Please check the owner and permissions of the following file or directory."
+msgstr "请检查以下文件或目录的所有者和权限。"
+
+#: ../../inc/admin-func.php:1846
+msgid "Maximum stack depth exceeded."
+msgstr "超过最大堆叠深度。"
+
+#: ../../inc/admin-func.php:1849
+msgid "Underflow or the modes mismatch."
+msgstr "溢出或模式不匹配。"
+
+#: ../../inc/admin-func.php:1852
+msgid "Unexpected control character found."
+msgstr "发现意外的控制字符。"
+
+#: ../../inc/admin-func.php:1855
+msgid "Syntax error, malformed JSON."
+msgstr "语法错误，JSON格式错误。"
+
+#: ../../inc/admin-func.php:1858
+msgid "Malformed UTF-8 characters, possibly incorrectly encoded."
+msgstr "UTF-8字符格式不正确，可能编码错误。"
+
+#: ../../inc/admin-func.php:1864
+msgid "One or more recursive references in the value to be encoded."
+msgstr "要编码的值中的一个或多个递归引用。"
+
+#: ../../inc/admin-func.php:1867
+msgid "One or more NAN or INF values in the value to be encoded."
+msgstr "要编码的值中的一个或多个NAN或INF值。"
+
+#: ../../inc/admin-func.php:1870
+msgid "A value of a type that cannot be encoded was given."
+msgstr "给定了一个无法编码的类型的值。"
+
+#: ../../inc/admin-post-func.php:151
+msgid "There is no active shortcode"
+msgstr "没有活动的短码"
+
+#: ../../inc/admin-post-func.php:323
+msgid "Small"
+msgstr "小型"
+
+#: ../../inc/admin-post-func.php:331
+msgid "Medium"
+msgstr "中型"
+
+#: ../../inc/admin-post-func.php:339
+msgid "Large"
+msgstr "大型"
+
+#: ../../inc/admin-post-func.php:347
+msgid "Huge"
+msgstr "巨大"
+
+#: ../../inc/admin-post-func.php:355
+msgid "Normal"
+msgstr "普通"
+
+#: ../../inc/amp-func.php:523 ../../languages/site/translations.php:59
+msgid "Adsense has a mistake. Some adsense is not displayed properly."
+msgstr "Adsense有一个错误。有些广告不能正常显示。"
+
+#: ../../inc/back-compat.php:26 ../../inc/back-compat.php:27
+#: ../../languages/site/translations.php:62
+#, php-format
+msgid ""
+"Luxeritas requires at least %s version %s. You are running version %s. "
+"Please upgrade and try again."
+msgstr "Luxeritas至少需要 %s version %s.你正在运行 version %s.请升级并重试。"
+
+#: ../../inc/block-pattern-regist.php:34 ../../inc/phrase-regist.php:34
+#: ../../inc/shortcode-regist.php:56
+#, php-format
+msgid "This %s has already been registered."
+msgstr "这个 %s 已经被注册了。"
+
+#: ../../inc/block-pattern-regist.php:34 ../../inc/phrase-regist.php:34
+msgid "label"
+msgstr "label"
+
+#: ../../inc/block-pattern-regist.php:46 ../../inc/phrase-regist.php:46
+#: ../../inc/restore.php:29 ../../inc/shortcode-regist.php:120
+msgid "Could not create directory."
+msgstr "无法创建目录。"
+
+#: ../../inc/blogcard-func.php:134 ../../languages/site/translations.php:60
+msgid "Creating a cache ..."
+msgstr "正在创建缓存。。。"
+
+#: ../../inc/blogcard-func.php:211 ../../inc/filters.php:925
+#: ../../languages/site/translations.php:65
+#, php-format
+msgid "%s Category"
+msgstr "%s Category"
+
+#: ../../inc/blogcard-func.php:901 ../../inc/sns-cache.php:43
+msgid "Could not create cache directory."
+msgstr "无法创建缓存目录。"
+
+#: ../../inc/blogcard-post-func.php:37
+msgid "Insert Blog Card"
+msgstr "插入 Blog Card"
+
+#: ../../inc/blogcard-post-func.php:45 ../../inc/blogcard-post-func.php:94
+msgid "Link Text"
+msgstr "Link Text"
+
+#: ../../inc/blogcard-post-func.php:50 ../../inc/blogcard-post-func.php:99
+msgid "Open link in a new tab"
+msgstr "在新标签中打开链接"
+
+#: ../../inc/blogcard-post-func.php:102
+msgid "Insert"
+msgstr "插入"
+
+#: ../../inc/blogcard-post-func.php:187
+msgid "Add Link"
+msgstr "Add Link"
+
+#: ../../inc/blogcard-post-func.php:205 ../../inc/tinymce-settings.php:146
+#: ../../inc/sections/block-pattern-list.php:219
+#: ../../inc/sections/phrase-list.php:228
+#: ../../inc/sections/shortcode-list.php:293
+msgid "Cancel"
+msgstr "Cancel"
+
+#: ../../inc/codemirror.php:20 ../../inc/tinymce-settings.php:121
+#: ../../inc/sections/block-pattern-list.php:208
+#: ../../inc/sections/editor-t-settings.php:135
+#: ../../inc/sections/editor-v-settings.php:237
+#: ../../inc/sections/phrase-list.php:217
+#: ../../inc/sections/shortcode-list.php:274
+msgid "Save"
+msgstr "Save"
+
+#: ../../inc/codemirror.php:24 ../../inc/codemirror.php:37
+#: ../../inc/customize.php:100 ../../inc/sections/pagination.php:20
+msgid "Settings"
+msgstr "Settings"
+
+#: ../../inc/codemirror.php:25
+msgid "Commands"
+msgstr "命令"
+
+#: ../../inc/codemirror.php:31
+msgid "File editing"
+msgstr "文件编辑"
+
+#: ../../inc/codemirror.php:46
+msgid "Show line numbers"
+msgstr "显示行号"
+
+#: ../../inc/codemirror.php:50
+msgid "Autocomplete"
+msgstr "自动完成"
+
+#: ../../inc/codemirror.php:54
+msgid "Auto indent"
+msgstr "自动缩进"
+
+#: ../../inc/codemirror.php:58
+msgid "Auto close brackets"
+msgstr "自动关闭括号（Auto close brackets）"
+
+#: ../../inc/codemirror.php:62
+msgid "CSS / Javascript grammar check"
+msgstr "CSS/Javascript语法检查"
+
+#: ../../inc/codemirror.php:66
+msgid "Change background color of active line"
+msgstr "改变活动线的背景颜色"
+
+#: ../../inc/codemirror.php:70
+msgid "Wrap at the right end"
+msgstr "Wrap at the right end"
+
+#: ../../inc/codemirror.php:72
+msgid "Indentation character"
+msgstr "缩进字符"
+
+#: ../../inc/codemirror.php:75
+msgid "Tabs"
+msgstr "Tabs"
+
+#: ../../inc/codemirror.php:77
+msgid "Spaces"
+msgstr "空格"
+
+#: ../../inc/codemirror.php:81
+msgid "Indent and tab character width"
+msgstr "缩进和制表符宽度"
+
+#: ../../inc/codemirror.php:82
+msgid "Save settings"
+msgstr "Save settings"
+
+#: ../../inc/codemirror.php:92
+msgid "Commands list"
+msgstr "命令列表"
+
+#: ../../inc/codemirror.php:101 ../../inc/theme-editor-script.php:67
+msgid "Replace"
+msgstr "替换"
+
+#: ../../inc/codemirror.php:102
+msgid "Toggle comment line"
+msgstr "切换注释行"
+
+#: ../../inc/create-javascript.php:235 ../../languages/site/translations.php:28
+msgid "You copied URL."
+msgstr "您复制了URL。"
+
+#: ../../inc/create-javascript.php:239 ../../languages/site/translations.php:29
+msgid "You copied this post title and URL."
+msgstr "您复制了此文章的标题和URL。"
+
+#: ../../inc/create-ladmin-script.php:39
+#: ../../languages/site/translations.php:98
+msgid "Log out ?"
+msgstr "注销？"
+
+#: ../../inc/custom.php:24
+msgid "Site Identity / Site Icon"
+msgstr "站点标识/站点图标"
+
+#: ../../inc/custom.php:32
+msgid "The Entire Layout"
+msgstr "整个布局"
+
+#: ../../inc/custom.php:43
+msgid "The maximum width of the container"
+msgstr "容器的最大宽度"
+
+#: ../../inc/custom.php:44 ../../inc/custom.php:5492
+msgid "* 0 would be full width"
+msgstr "*0将是全宽"
+
+#: ../../inc/custom.php:44 ../../inc/custom.php:3791 ../../inc/custom.php:3818
+#: ../../inc/custom.php:3845 ../../inc/custom.php:3872
+#: ../../inc/custom.php:3899 ../../inc/custom.php:3926
+#: ../../inc/custom.php:3940 ../../inc/custom.php:3967
+#: ../../inc/sections/jquery.php:41 ../../inc/sections/pagination.php:20
+#: ../../inc/sections/speedup-items.php:75
+msgid "* "
+msgstr "* "
+
+#: ../../inc/custom.php:44 ../../inc/custom.php:3470 ../../inc/custom.php:3487
+#: ../../inc/sections/pagination.php:20 ../../inc/sections/pagination.php:30
+#: ../../inc/sections/pagination.php:47 ../../inc/sections/pagination.php:64
+#: ../../inc/sections/pagination.php:81
+msgid "default value"
+msgstr "默认值"
+
+#: ../../inc/custom.php:60
+msgid "The entire image"
+msgstr "整个图像"
+
+#: ../../inc/custom.php:64 ../../inc/custom.php:5154 ../../inc/custom.php:5156
+#: ../../inc/custom.php:5701 ../../inc/custom.php:5703
+#: ../../inc/custom.php:5705 ../../inc/custom.php:5778
+#: ../../inc/custom.php:5780 ../../inc/custom.php:5782
+msgid "White"
+msgstr "白色"
+
+#: ../../inc/custom.php:65
+msgid "Black"
+msgstr "黑色"
+
+#: ../../inc/custom.php:77
+msgid "Display layout of the article list"
+msgstr "文章列表的显示布局"
+
+#: ../../inc/custom.php:81
+msgid "Excerpt + Thumbnail display"
+msgstr "摘录+缩略图显示"
+
+#: ../../inc/custom.php:82
+msgid "Full article display (Until more tag)"
+msgstr "完整的文章显示（直到更多的标签）"
+
+#: ../../inc/custom.php:94
+msgid "Sticky post to show all content"
+msgstr "显示所有内容的贴子"
+
+#: ../../inc/custom.php:95
+msgid ""
+"* Use this feature when you want to show Latest Updates or News as your "
+"first post."
+msgstr "* 当你想显示最新更新或新闻作为你的第一篇文章时，请使用此功能。"
+
+#: ../../inc/custom.php:108
+msgid "Display Pager"
+msgstr "Display Pager"
+
+#: ../../inc/custom.php:117 ../../inc/custom.php:1322 ../../inc/custom.php:4917
+#: ../../inc/customize.php:97 ../../inc/widget.php:860
+#: ../../inc/widget.php:1215 ../../inc/sections/widget-area.php:29
+#: ../../inc/sections/widget-area.php:51 ../../inc/sections/widget-body.php:37
+#: ../../inc/sections/widget-body.php:59
+msgid "Post page"
+msgstr "Post page"
+
+#: ../../inc/custom.php:130
+msgid "Display Related Articles"
+msgstr "显示相关文章"
+
+#: ../../inc/custom.php:143 ../../inc/custom.php:157
+msgid "Display Next / Prev Navigation"
+msgstr "显示下一个/上一个导航"
+
+#: ../../inc/custom.php:144 ../../inc/custom.php:752 ../../inc/custom.php:1347
+#: ../../inc/custom.php:4930 ../../inc/customize.php:98
+#: ../../inc/widget.php:859 ../../inc/widget.php:1216
+#: ../../inc/sections/widget-area.php:30 ../../inc/sections/widget-area.php:52
+#: ../../inc/sections/widget-body.php:38 ../../inc/sections/widget-body.php:60
+msgid "Static page"
+msgstr "静态页面"
+
+#: ../../inc/custom.php:170
+msgid "Display post title of static front page"
+msgstr "显示静态首页的文章标题"
+
+#: ../../inc/custom.php:180 ../../inc/custom.php:1957 ../../inc/custom.php:2023
+msgid "Grid layout"
+msgstr "网格布局"
+
+#: ../../inc/custom.php:191 ../../inc/sections/pagination.php:23
+msgid "Top page of list type"
+msgstr "列表类型的首页"
+
+#: ../../inc/custom.php:195 ../../inc/custom.php:251 ../../inc/custom.php:320
+#: ../../inc/custom.php:416 ../../inc/custom.php:553 ../../inc/custom.php:1881
+#: ../../inc/custom.php:1943
+msgid "Normal style"
+msgstr "普通样式"
+
+#: ../../inc/custom.php:196 ../../inc/custom.php:197 ../../inc/custom.php:198
+#: ../../inc/custom.php:199 ../../inc/custom.php:252 ../../inc/custom.php:253
+#: ../../inc/custom.php:254 ../../inc/custom.php:255 ../../inc/custom.php:321
+#: ../../inc/custom.php:322 ../../inc/custom.php:323 ../../inc/custom.php:324
+#: ../../inc/custom.php:457 ../../inc/custom.php:596 ../../inc/custom.php:1957
+msgid "Tile type"
+msgstr "Tile type"
+
+#: ../../inc/custom.php:196 ../../inc/custom.php:197 ../../inc/custom.php:198
+#: ../../inc/custom.php:199 ../../inc/custom.php:200 ../../inc/custom.php:201
+#: ../../inc/custom.php:202 ../../inc/custom.php:203 ../../inc/custom.php:252
+#: ../../inc/custom.php:253 ../../inc/custom.php:254 ../../inc/custom.php:255
+#: ../../inc/custom.php:256 ../../inc/custom.php:257 ../../inc/custom.php:258
+#: ../../inc/custom.php:259 ../../inc/custom.php:321 ../../inc/custom.php:322
+#: ../../inc/custom.php:323 ../../inc/custom.php:324 ../../inc/custom.php:325
+#: ../../inc/custom.php:326 ../../inc/custom.php:327 ../../inc/custom.php:328
+#, php-format
+msgid "Up to %s cols"
+msgstr "最多 %s 列"
+
+#: ../../inc/custom.php:200 ../../inc/custom.php:201 ../../inc/custom.php:202
+#: ../../inc/custom.php:203 ../../inc/custom.php:256 ../../inc/custom.php:257
+#: ../../inc/custom.php:258 ../../inc/custom.php:259 ../../inc/custom.php:325
+#: ../../inc/custom.php:326 ../../inc/custom.php:327 ../../inc/custom.php:328
+#: ../../inc/custom.php:498 ../../inc/custom.php:639 ../../inc/custom.php:2023
+msgid "Card type"
+msgstr "卡片类型"
+
+#: ../../inc/custom.php:215 ../../inc/custom.php:271 ../../inc/custom.php:340
+msgid "First X post is normal style"
+msgstr "First X post 是正常风格"
+
+#: ../../inc/custom.php:231 ../../inc/custom.php:287 ../../inc/custom.php:356
+msgid "Position of &quot;Middle of Posts List Widget&quot; (Automatic if 0)"
+msgstr "位置“；帖子中间列表小部件“；（如果为0"
+
+#: ../../inc/custom.php:247 ../../inc/custom.php:771 ../../inc/widget.php:510
+#: ../../inc/widget.php:858 ../../inc/widget.php:1213
+#: ../../inc/sections/pagination.php:40 ../../inc/sections/widget-area.php:31
+#: ../../inc/sections/widget-area.php:53 ../../inc/sections/widget-body.php:39
+#: ../../inc/sections/widget-body.php:61
+#: ../../languages/site/translations.php:61 ../../pages/sitemap.php:51
+msgid "Category"
+msgstr "分类"
+
+#: ../../inc/custom.php:303
+msgid "Insert description at beginning of category list (HTML enabled)"
+msgstr "在类别列表的开头插入说明（启用HTML）"
+
+#: ../../inc/custom.php:316 ../../inc/custom.php:771 ../../inc/widget.php:857
+#: ../../inc/widget.php:1214 ../../inc/sections/pagination.php:57
+#: ../../inc/sections/widget-area.php:32 ../../inc/sections/widget-area.php:54
+#: ../../inc/sections/widget-body.php:40 ../../inc/sections/widget-body.php:62
+msgid "Archive"
+msgstr "存档"
+
+#: ../../inc/custom.php:372
+msgid "Middle of Posts List Widget to be full width"
+msgstr "帖子中间列表小部件为全宽"
+
+#: ../../inc/custom.php:385
+msgid "Tile type order"
+msgstr "Tile 类型顺序"
+
+#: ../../inc/custom.php:389 ../../inc/custom.php:390 ../../inc/custom.php:391
+#: ../../inc/custom.php:392 ../../inc/widget.php:513
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: ../../inc/custom.php:389 ../../inc/custom.php:390 ../../inc/custom.php:391
+#: ../../inc/custom.php:392 ../../inc/custom.php:5005
+#: ../../inc/customize.php:36
+msgid "Title"
+msgstr "标题"
+
+#: ../../inc/custom.php:389 ../../inc/custom.php:390 ../../inc/custom.php:391
+#: ../../inc/custom.php:392
+msgid "Meta"
+msgstr "Meta"
+
+#: ../../inc/custom.php:401 ../../inc/custom.php:1823 ../../inc/widget.php:1433
+msgid "Thumbnail (Featured Image)"
+msgstr "缩略图（特色图片）"
+
+#: ../../inc/custom.php:402
+msgid "* Thumbnails can be set with &quot;thumbnail&quot; item."
+msgstr "* 缩略图可以用&quot;thumbnail&quot;项目设置。"
+
+#: ../../inc/custom.php:415
+msgid "Number of characters and color density in excerpt on post list"
+msgstr "帖子列表中摘录的字符数和颜色密度"
+
+#: ../../inc/custom.php:432 ../../inc/custom.php:473 ../../inc/custom.php:514
+msgid "No line break in excerpt"
+msgstr "摘录中没有换行"
+
+#: ../../inc/custom.php:539
+msgid "Excerpt on each post will be prioritized and displayed"
+msgstr "每个帖子上的摘录将被优先考虑和显示"
+
+#: ../../inc/custom.php:540
+msgid ""
+"* Description will always prioritize and display the excerpts from the blog "
+"post."
+msgstr "* 描述将始终优先考虑并显示博文的摘录。"
+
+#: ../../inc/custom.php:548 ../../inc/custom.php:553 ../../inc/custom.php:591
+#: ../../inc/custom.php:596 ../../inc/custom.php:634 ../../inc/custom.php:639
+#: ../../inc/defaults.php:71 ../../languages/site/translations.php:31
+msgid "Read more"
+msgstr "Read more"
+
+#: ../../inc/custom.php:554 ../../inc/custom.php:597 ../../inc/custom.php:640
+msgid "* Can hide the link if kept blank."
+msgstr "* 如果保持空白，可以隐藏该链接。"
+
+#: ../../inc/custom.php:567 ../../inc/custom.php:610 ../../inc/custom.php:653
+msgid "Put a short title to the link of &quot;Read more&quot;"
+msgstr "给链接加上一个简短的标题&quot;阅读更多&quot;"
+
+#: ../../inc/custom.php:580 ../../inc/custom.php:623 ../../inc/custom.php:666
+msgid "Number of characters in the short title"
+msgstr "短标题中的字符数"
+
+#: ../../inc/custom.php:679
+msgid "Column adjustment"
+msgstr "Column adjustment"
+
+#: ../../inc/custom.php:690
+msgid "Number of column"
+msgstr "Number of column"
+
+#: ../../inc/custom.php:691 ../../inc/custom.php:2348 ../../inc/custom.php:2365
+#: ../../inc/custom.php:2382 ../../inc/custom.php:2399
+#: ../../inc/custom.php:2416 ../../inc/custom.php:2433
+#: ../../inc/custom.php:2450 ../../inc/custom.php:2467
+#: ../../inc/custom.php:2484 ../../inc/custom.php:2501
+#: ../../inc/custom.php:2518 ../../inc/custom.php:2535
+#: ../../inc/custom.php:2552 ../../inc/custom.php:2569
+#: ../../inc/custom.php:2586 ../../inc/custom.php:2603
+#: ../../inc/custom.php:2620 ../../inc/custom.php:2637
+#: ../../inc/custom.php:2654 ../../inc/custom.php:2671
+#: ../../inc/custom.php:2688 ../../inc/custom.php:2705
+#: ../../inc/custom.php:2722 ../../inc/custom.php:2739
+msgid "default"
+msgstr "default"
+
+#: ../../inc/custom.php:695 ../../inc/custom.php:696 ../../inc/custom.php:697
+#: ../../inc/custom.php:715 ../../inc/custom.php:716 ../../inc/custom.php:717
+#: ../../inc/custom.php:734 ../../inc/custom.php:735 ../../inc/custom.php:736
+#: ../../inc/custom.php:753 ../../inc/custom.php:754 ../../inc/custom.php:755
+#: ../../inc/custom.php:772 ../../inc/custom.php:773 ../../inc/custom.php:774
+msgid "column"
+msgstr "栏目"
+
+#: ../../inc/custom.php:710
+msgid "Number of columns in each template"
+msgstr "每个模板中的列数"
+
+#: ../../inc/custom.php:714
+msgid "Front page"
+msgstr "首页"
+
+#: ../../inc/custom.php:733
+msgid "Posts page"
+msgstr "Posts page"
+
+#: ../../inc/custom.php:786 ../../inc/custom.php:1268
+msgid "Position of the side bar"
+msgstr "侧边栏的位置"
+
+#: ../../inc/custom.php:787
+msgid "2 column"
+msgstr "2列"
+
+#: ../../inc/custom.php:791 ../../inc/custom.php:809
+msgid "Right sidebar"
+msgstr "右侧边栏"
+
+#: ../../inc/custom.php:792 ../../inc/custom.php:810
+msgid "Left sidebar"
+msgstr "左侧边栏"
+
+#: ../../inc/custom.php:804
+msgid "3 column"
+msgstr "3列"
+
+#: ../../inc/custom.php:808
+msgid "Both sides sidebar"
+msgstr "两侧侧边栏"
+
+#: ../../inc/custom.php:822
+msgid "3 column left and right side bar reversal"
+msgstr "3列左、右侧栏反转"
+
+#: ../../inc/custom.php:835
+msgid "Merge and separate areas"
+msgstr "合并和分离区域"
+
+#: ../../inc/custom.php:836 ../../inc/custom.php:1118
+msgid "Content area"
+msgstr "内容区域"
+
+#: ../../inc/custom.php:840
+msgid "Separate content area for each element"
+msgstr "每个元素都有独立的内容区域"
+
+#: ../../inc/custom.php:841
+msgid "Merge the elements in content area"
+msgstr "合并内容区的元素"
+
+#: ../../inc/custom.php:853 ../../inc/custom.php:2670 ../../inc/custom.php:2687
+#: ../../inc/custom.php:2704 ../../inc/custom.php:2941
+#: ../../inc/custom.php:2953 ../../inc/custom.php:2965
+#: ../../inc/custom.php:3406
+msgid "Sidebar "
+msgstr "侧边栏 "
+
+#: ../../inc/custom.php:857
+msgid "Separate the side bar for each element"
+msgstr "将每个元素的侧栏分开"
+
+#: ../../inc/custom.php:858
+msgid "Merge the elements in side bar"
+msgstr "合并侧边栏中的元素"
+
+#: ../../inc/custom.php:870
+msgid "Merge and separate content area and side bar"
+msgstr "合并和分离内容区和侧栏"
+
+#: ../../inc/custom.php:874
+msgid "Separate content area and side bar"
+msgstr "独立的内容区和侧栏"
+
+#: ../../inc/custom.php:875
+msgid "Merge content area and side bar"
+msgstr "合并内容区和侧栏"
+
+#: ../../inc/custom.php:883
+msgid ""
+"* When they are merged, some configuration of content area will overwrite "
+"the side bar configuration."
+msgstr "* 当它们被合并时，内容区的一些配置将覆盖边栏的配置。"
+
+#: ../../inc/custom.php:893 ../../inc/custom.php:923 ../../inc/custom.php:937
+#: ../../inc/custom.php:953 ../../inc/custom.php:969 ../../inc/custom.php:985
+#: ../../inc/custom.php:2799 ../../inc/custom.php:2811
+#: ../../inc/custom.php:2823 ../../inc/custom.php:2978
+#: ../../inc/custom.php:2990 ../../inc/custom.php:3002
+#: ../../inc/custom.php:3220
+msgid "Header "
+msgstr "Header "
+
+#: ../../inc/custom.php:893 ../../inc/custom.php:2721 ../../inc/custom.php:2738
+#: ../../inc/customize.php:124 ../../inc/theme-editor.php:48
+msgid "Footer"
+msgstr "Footer"
+
+#: ../../inc/custom.php:904
+msgid "Title layout"
+msgstr "标题布局"
+
+#: ../../inc/custom.php:908 ../../inc/custom.php:985 ../../inc/custom.php:1222
+#: ../../inc/custom.php:5719 ../../inc/custom.php:5796
+msgid "left"
+msgstr "left"
+
+#: ../../inc/custom.php:909 ../../inc/custom.php:5720 ../../inc/custom.php:5797
+msgid "center"
+msgstr "center"
+
+#: ../../inc/custom.php:910 ../../inc/custom.php:953 ../../inc/custom.php:1190
+#: ../../inc/custom.php:5721 ../../inc/custom.php:5798
+msgid "right"
+msgstr "right"
+
+#: ../../inc/custom.php:922
+msgid "Header margin"
+msgstr "Header margin"
+
+#: ../../inc/custom.php:923 ../../inc/custom.php:937 ../../inc/custom.php:1174
+msgid "top"
+msgstr "top"
+
+#: ../../inc/custom.php:936
+msgid "Header padding"
+msgstr "Header填充"
+
+#: ../../inc/custom.php:969 ../../inc/custom.php:1206
+msgid "bottom"
+msgstr "底部（bottom）"
+
+#: ../../inc/custom.php:1001
+msgid "Position of the header"
+msgstr " header位置"
+
+#: ../../inc/custom.php:1005 ../../inc/custom.php:1049
+msgid "Inside the Container"
+msgstr "容器内部"
+
+#: ../../inc/custom.php:1006 ../../inc/custom.php:1050
+msgid "Outside the Container"
+msgstr "容器外部"
+
+#: ../../inc/custom.php:1018
+msgid "Surround the header with border"
+msgstr "用边框围住header"
+
+#: ../../inc/custom.php:1031
+msgid "Full width for the header border"
+msgstr "header边框全宽"
+
+#: ../../inc/custom.php:1032
+msgid "(Valid only when outside the container)"
+msgstr "(仅在容器外有效)"
+
+#: ../../inc/custom.php:1045
+msgid "Position of footer"
+msgstr "footer位置"
+
+#: ../../inc/custom.php:1062
+msgid "Surround the footer with border"
+msgstr "用边框围住footer"
+
+#: ../../inc/custom.php:1075
+msgid "Put a line above the copyright area"
+msgstr "在版权区copyright上方放一条线"
+
+#: ../../inc/custom.php:1088 ../../inc/custom.php:1282
+msgid "Hide in mobile or smartphone"
+msgstr "在移动或智能手机中隐藏"
+
+#: ../../inc/custom.php:1101
+msgid "Footer widget area display"
+msgstr "Footer 小部件区域显示"
+
+#: ../../inc/custom.php:1105
+msgid "3 rows (left, center, and right)"
+msgstr "3行（左、中、右）。"
+
+#: ../../inc/custom.php:1106
+msgid "2 rows (left and right)"
+msgstr "2行(左和右)"
+
+#: ../../inc/custom.php:1107
+msgid "Horizontal row (center)"
+msgstr "水平行（中心）。"
+
+#: ../../inc/custom.php:1108 ../../inc/ladmin.php:69
+#: ../../inc/sections/shortcode-list.php:92
+#: ../../inc/sections/shortcode-list.php:119
+#: ../../inc/sections/shortcode-list.php:179
+#: ../../languages/site/translations.php:89
+msgid "Hide"
+msgstr "隐藏"
+
+#: ../../inc/custom.php:1117
+msgid "Content area and side bar"
+msgstr "内容区和侧边栏"
+
+#: ../../inc/custom.php:1129
+msgid "Put border around the content area"
+msgstr "在内容区周围加上边框"
+
+#: ../../inc/custom.php:1142
+msgid "Apply frame border around pagination area"
+msgstr "在分页区域周围应用边框"
+
+#: ../../inc/custom.php:1143
+msgid "* Only when content area is separated"
+msgstr "* 只有当内容区被分开时* 只有当内容区被分开时"
+
+#: ../../inc/custom.php:1156 ../../inc/custom.php:1308
+#: ../../inc/custom.php:1500 ../../inc/custom.php:3540
+#: ../../inc/custom.php:4729 ../../inc/sections/search.php:117
+msgid "Border radius"
+msgstr "Border半径"
+
+#: ../../inc/custom.php:1172
+msgid "Content area padding"
+msgstr "内容区填充"
+
+#: ../../inc/custom.php:1174
+msgid "* The actual width will vary depending on the screen width."
+msgstr "* 实际宽度将根据屏幕宽度而变化。"
+
+#: ../../inc/custom.php:1174 ../../inc/custom.php:1190
+#: ../../inc/custom.php:1206 ../../inc/custom.php:1222
+msgid "Content "
+msgstr "内容 "
+
+#: ../../inc/custom.php:1238
+msgid "Sidebar Widget width"
+msgstr "侧边栏小工具宽度"
+
+#: ../../inc/custom.php:1239
+msgid "Second column"
+msgstr "第二栏"
+
+#: ../../inc/custom.php:1255
+msgid "Third column"
+msgstr "第三栏"
+
+#: ../../inc/custom.php:1269
+msgid "* You can change the side bar position in the Column adjustment menu."
+msgstr "* 你可以在栏目调整菜单中改变侧栏的位置。"
+
+#: ../../inc/custom.php:1295
+msgid "Surround the sidebar with border"
+msgstr "用边框包围侧边栏"
+
+#: ../../inc/custom.php:1333 ../../inc/custom.php:1360
+msgid "Display Comment"
+msgstr "显示评论"
+
+#: ../../inc/custom.php:1346 ../../inc/custom.php:1373
+msgid "Display Trackback URL"
+msgstr "显示 Trackback URL"
+
+#: ../../inc/custom.php:1386
+msgid "Display layout of the comment list"
+msgstr "Display layout of the comment list"
+
+#: ../../inc/custom.php:1390
+msgid "Display comments and pings separated"
+msgstr "分开显示评论和 pings"
+
+#: ../../inc/custom.php:1391
+msgid "Display comments and pings together"
+msgstr "合并显示评论和 pings"
+
+#: ../../inc/custom.php:1392
+msgid "Do not display pingbacks and trackbacks"
+msgstr "不显示pingbacks和trackbacks"
+
+#: ../../inc/custom.php:1404
+msgid "Add reply button to pinback"
+msgstr "添加回复按钮到pinback"
+
+#: ../../inc/custom.php:1414
+msgid "Style Details"
+msgstr "风格细节"
+
+#: ../../inc/custom.php:1425
+msgid "Tagline change on header"
+msgstr "改变标题上的标语"
+
+#: ../../inc/custom.php:1426
+msgid ""
+"* To overwrite the tagline on the header to something other than what is set "
+"on the Wordpress General Settings."
+msgstr "* 将标题上的标语覆盖到Wordpress常规设置以外的内容。"
+
+#: ../../inc/custom.php:1439
+msgid "Tagline display on header"
+msgstr "标题上显示标语"
+
+#: ../../inc/custom.php:1452
+msgid "Text for &quot;Home&quot;"
+msgstr "文本为&quot;Home&quot;"
+
+#: ../../inc/custom.php:1465
+msgid "Text for &quot;PAGE TOP&quot; scroll button"
+msgstr "PAGE TOP&QUOT;滚动按钮的文本"
+
+#: ../../inc/custom.php:1466
+msgid "* Only icon will be displayed if kept blank."
+msgstr "* 如果保持空白，将只显示图标。"
+
+#: ../../inc/custom.php:1479
+msgid "Type of &quot;PAGE TOP&quot; button icon"
+msgstr "“类型”；页面顶部”；按钮图标"
+
+#: ../../inc/custom.php:1537
+msgid "Display of meta information"
+msgstr "元信息meta的显示"
+
+#: ../../inc/custom.php:1538
+msgid "Post and Static page"
+msgstr "文章post和静态页面"
+
+#: ../../inc/custom.php:1538 ../../inc/custom.php:1668
+msgid "What meta information to dsiplay under the article title"
+msgstr "在文章标题下显示哪些元信息"
+
+#: ../../inc/custom.php:1549 ../../inc/custom.php:1615
+#: ../../inc/custom.php:1681 ../../inc/custom.php:1747
+msgid "Published date and time"
+msgstr "发布日期和时间"
+
+#: ../../inc/custom.php:1562 ../../inc/custom.php:1628
+#: ../../inc/custom.php:1694 ../../inc/custom.php:1760
+msgid "Updated date and time"
+msgstr "更新日期和时间"
+
+#: ../../inc/custom.php:1575 ../../inc/custom.php:1641
+#: ../../inc/custom.php:1707 ../../inc/custom.php:1773
+msgid "Category name"
+msgstr "分类名称"
+
+#: ../../inc/custom.php:1588 ../../inc/custom.php:1654
+#: ../../inc/custom.php:1720 ../../inc/custom.php:1786
+msgid "Tag"
+msgstr "Tag"
+
+#: ../../inc/custom.php:1601 ../../inc/custom.php:1667
+#: ../../inc/custom.php:1733 ../../inc/custom.php:1799
+msgid "Taxonomy"
+msgstr "分类方式"
+
+#: ../../inc/custom.php:1602
+msgid "What meta information to dsiplay under article"
+msgstr "在文章下显示哪些元信息"
+
+#: ../../inc/custom.php:1668
+msgid "List type page"
+msgstr "列表类型页面"
+
+#: ../../inc/custom.php:1734
+msgid "Meta information displayed above excerpt"
+msgstr "摘录上面显示的Meta信息"
+
+#: ../../inc/custom.php:1812
+msgid "Number of items displayed for category, tag, taxonomy"
+msgstr "显示分类、标签、分类方式的项目数"
+
+#: ../../inc/custom.php:1824
+msgid "Thumbnail dispay on/off"
+msgstr "开/关缩略图显示"
+
+#: ../../inc/custom.php:1835
+msgid "Display thumbnail"
+msgstr "显示缩略图"
+
+#: ../../inc/custom.php:1848
+msgid "Thumbnail display when No Image"
+msgstr "没有图像时显示缩略图"
+
+#: ../../inc/custom.php:1861
+msgid "Add border"
+msgstr "添加边框"
+
+#: ../../inc/custom.php:1874
+msgid "Where to place the text (excerpt) around the image"
+msgstr "图片周围的文字（摘录）的位置"
+
+#: ../../inc/custom.php:1875
+msgid "* It will always wrap around the image in small devices."
+msgstr "* 在小型设备中，它将始终环绕着图像。"
+
+#: ../../inc/custom.php:1879
+msgid "Text right to image (do not allow the text wrap below the image)"
+msgstr "文字向右到图像（不允许文字包在图像下面）。"
+
+#: ../../inc/custom.php:1880
+msgid "Text right to image (allow the text wrap below the image)"
+msgstr "文本向右到图像（允许文本包在图像下面）。"
+
+#: ../../inc/custom.php:1881
+msgid "Text below the image"
+msgstr "图片下方的文字"
+
+#: ../../inc/custom.php:1942
+msgid "Thumbnail display size"
+msgstr "缩略图显示尺寸"
+
+#: ../../inc/custom.php:1943
+msgid ""
+"* To use thumbnails of your own size, please set user thumbnails on "
+"thumbnail management."
+msgstr "* 要使用你自己大小的缩略图，请在缩略图管理上设置用户缩略图。"
+
+#: ../../inc/custom.php:1971 ../../inc/custom.php:1984
+#: ../../inc/custom.php:2112 ../../inc/custom.php:3257
+msgid "Full width"
+msgstr "全宽"
+
+#: ../../inc/custom.php:1984 ../../inc/custom.php:2010
+msgid "smartphone"
+msgstr "智能手机"
+
+#: ../../inc/custom.php:2034
+msgid "Automatic thumbnail insertion"
+msgstr "自动插入缩略图"
+
+#: ../../inc/custom.php:2047
+msgid "Auto insert into posts"
+msgstr "自动插入到帖子中"
+
+#: ../../inc/custom.php:2060
+msgid "Auto insert into pages"
+msgstr "自动插入到页面中"
+
+#: ../../inc/custom.php:2073
+msgid "Auto insert into front page"
+msgstr "自动插入到首页"
+
+#: ../../inc/custom.php:2086
+msgid "Position to insert thumbnail"
+msgstr "插入缩略图的位置"
+
+#: ../../inc/custom.php:2090
+msgid "Above the post"
+msgstr "帖子上方"
+
+#: ../../inc/custom.php:2091
+msgid "Below the title"
+msgstr "标题下方"
+
+#: ../../inc/custom.php:2092
+msgid "Above the title"
+msgstr "标题上方"
+
+#: ../../inc/custom.php:2093 ../../inc/custom.php:2094
+#: ../../inc/custom.php:2095 ../../inc/custom.php:2096
+msgid "Title background"
+msgstr "标题背景"
+
+#: ../../inc/custom.php:2108 ../../inc/custom.php:5044
+#: ../../inc/widget.php:1442
+msgid "Width"
+msgstr "宽度"
+
+#: ../../inc/custom.php:2113
+msgid "Original size"
+msgstr "原始尺寸"
+
+#: ../../inc/custom.php:2125
+msgid "Limit the height"
+msgstr "限制高度"
+
+#: ../../inc/custom.php:2125
+msgid "* 0 would be no limit"
+msgstr "* 0将是无限制的"
+
+#: ../../inc/custom.php:2138
+msgid "Image preload"
+msgstr "图像预加载"
+
+#: ../../inc/custom.php:2160
+msgid "Post line spacing"
+msgstr "帖子行距"
+
+#: ../../inc/custom.php:2171
+msgid "Paragraph line spacing <p>"
+msgstr "段落行间距 <p>"
+
+#: ../../inc/custom.php:2172 ../../inc/custom.php:2215
+msgid "Margin top"
+msgstr "边缘顶部"
+
+#: ../../inc/custom.php:2186 ../../inc/custom.php:2229
+msgid "Margin bottom"
+msgstr "边缘底部"
+
+#: ../../inc/custom.php:2200
+msgid "Line height"
+msgstr "Line height"
+
+#: ../../inc/custom.php:2214
+msgid "List line spacing <li>"
+msgstr "List line spacing <li>"
+
+#: ../../inc/custom.php:2240
+msgid "Font family"
+msgstr "字体系列"
+
+#: ../../inc/custom.php:2251
+msgid "Loading web fonts asynchronously"
+msgstr "异步加载 web 字体"
+
+#: ../../inc/custom.php:2252
+msgid ""
+"When asynchronous, rendering is faster, but there is a lag in reflecting web "
+"fonts."
+msgstr "异步时，渲染速度更快，但在反映网页字体方面有滞后性。"
+
+#: ../../inc/custom.php:2265
+msgid "Prioritize Latin fonts"
+msgstr "优先考虑拉丁文字体"
+
+#: ../../inc/custom.php:2278
+msgid "Latin fonts"
+msgstr "拉丁文字体"
+
+#: ../../inc/custom.php:2282 ../../inc/custom.php:2310 ../../inc/widget.php:865
+msgid "Not specified"
+msgstr "未指定"
+
+#: ../../inc/custom.php:2283 ../../inc/custom.php:2284
+#: ../../inc/custom.php:2285 ../../inc/custom.php:2286
+#: ../../inc/custom.php:2287 ../../inc/custom.php:2288
+#: ../../inc/custom.php:2289 ../../inc/custom.php:2290
+#: ../../inc/custom.php:2291 ../../inc/custom.php:2311
+#: ../../inc/custom.php:2312 ../../inc/custom.php:2313
+#: ../../inc/custom.php:2314 ../../inc/custom.php:2315
+#: ../../inc/custom.php:2316 ../../inc/custom.php:2317
+#: ../../inc/custom.php:2318
+msgid "[ Web font ]"
+msgstr "[ Web font ]"
+
+#: ../../inc/custom.php:2306
+msgid "Japanese fonts"
+msgstr "日文字体"
+
+#: ../../inc/custom.php:2317
+msgid "Sawarabi Gothic"
+msgstr "Sawarabi Gothic"
+
+#: ../../inc/custom.php:2318
+msgid "Sawarabi Mincho"
+msgstr "Sawarabi Mincho"
+
+#: ../../inc/custom.php:2319 ../../inc/custom.php:2322
+#: ../../inc/custom.php:2325
+msgid "Yu"
+msgstr "Yu"
+
+#: ../../inc/custom.php:2320 ../../inc/custom.php:2323
+#: ../../inc/custom.php:2326
+msgid "Meiryo"
+msgstr "Meiryo"
+
+#: ../../inc/custom.php:2321 ../../inc/custom.php:2324
+#: ../../inc/custom.php:2327
+msgid "MS PGothic"
+msgstr "MS PGothic"
+
+#: ../../inc/custom.php:2322 ../../inc/custom.php:2323
+#: ../../inc/custom.php:2324
+msgid "Hiragino"
+msgstr "Hiragino"
+
+#: ../../inc/custom.php:2347
+msgid "Scale"
+msgstr "Scale"
+
+#: ../../inc/custom.php:2381
+msgid "Site Title"
+msgstr "网站标题"
+
+#: ../../inc/custom.php:2398
+msgid "Catchphrase"
+msgstr "口号Catchphrase"
+
+#: ../../inc/custom.php:2415
+msgid "Post excerpt"
+msgstr "帖子摘录"
+
+#: ../../inc/custom.php:2432
+msgid "Post content"
+msgstr "帖子内容"
+
+#: ../../inc/custom.php:2449
+msgid "Post title"
+msgstr "帖子标题"
+
+#: ../../inc/custom.php:2466 ../../inc/custom.php:2483
+#: ../../inc/custom.php:2500 ../../inc/custom.php:2517
+#: ../../inc/custom.php:2534 ../../inc/custom.php:2551
+#: ../../inc/custom.php:2568 ../../inc/custom.php:2585
+msgid "Post content : "
+msgstr "帖子内容： "
+
+#: ../../inc/custom.php:2602
+msgid "Meta Infomation"
+msgstr "Meta信息"
+
+#: ../../inc/custom.php:2619
+msgid "Breadcrumb menu link"
+msgstr "面包屑菜单链接"
+
+#: ../../inc/custom.php:2636 ../../inc/custom.php:4003
+msgid "Global Nav (Header Nav)"
+msgstr "全局导航（标题导航）"
+
+#: ../../inc/custom.php:2653
+msgid "Comments"
+msgstr "评论"
+
+#: ../../inc/custom.php:2775 ../../inc/custom.php:2811
+#: ../../inc/custom.php:2847 ../../inc/custom.php:4513
+msgid "Link color"
+msgstr "链接颜色"
+
+#: ../../inc/custom.php:2787 ../../inc/custom.php:2823
+#: ../../inc/custom.php:2859 ../../inc/custom.php:3645
+#: ../../inc/custom.php:4266 ../../inc/custom.php:4525
+msgid "Link hover color"
+msgstr "链接悬停的颜色"
+
+#: ../../inc/custom.php:2835 ../../inc/custom.php:2847
+#: ../../inc/custom.php:2859 ../../inc/custom.php:3015
+#: ../../inc/custom.php:3027 ../../inc/custom.php:3039
+msgid "Footer "
+msgstr "Footer "
+
+#: ../../inc/custom.php:2868 ../../inc/custom.php:2916
+#: ../../inc/custom.php:2953 ../../inc/custom.php:2990
+#: ../../inc/custom.php:3027 ../../inc/custom.php:3064
+#: ../../inc/custom.php:4549 ../../inc/custom.php:5085
+#: ../../inc/widget.php:1764
+msgid "Border color"
+msgstr "边框颜色"
+
+#: ../../inc/custom.php:2891 ../../inc/custom.php:2928
+#: ../../inc/custom.php:2965 ../../inc/custom.php:3002
+#: ../../inc/custom.php:3039 ../../inc/custom.php:3734
+#: ../../inc/custom.php:4716
+msgid "Background transparent"
+msgstr "背景透明"
+
+#: ../../inc/custom.php:2904 ../../inc/custom.php:2916
+#: ../../inc/custom.php:2928
+msgid "Content area "
+msgstr "内容区域 "
+
+#: ../../inc/custom.php:3052 ../../inc/custom.php:3064
+msgid "Copyright area "
+msgstr "版权区域 "
+
+#: ../../inc/custom.php:3073
+msgid "Images (Background / Title / Logo)"
+msgstr "图片（背景/标题/标志）"
+
+#: ../../inc/custom.php:3084
+msgid "Use image as title"
+msgstr "使用图像作为标题"
+
+#: ../../inc/custom.php:3096
+msgid "One point logo image"
+msgstr "单点徽标图像"
+
+#: ../../inc/custom.php:3097
+msgid "* Display one point image to the left of the site title."
+msgstr "*在网站标题左侧显示单点图像。"
+
+#: ../../inc/custom.php:3109 ../../inc/custom.php:3220
+#: ../../inc/custom.php:3406
+msgid "Background image"
+msgstr "背景图片"
+
+#: ../../inc/custom.php:3121
+msgid "Background image transparent"
+msgstr "背景图片透明"
+
+#: ../../inc/custom.php:3134
+msgid "Fixed background"
+msgstr "固定背景"
+
+#: ../../inc/custom.php:3147
+msgid "Background image layout"
+msgstr "背景图片布局"
+
+#: ../../inc/custom.php:3151 ../../inc/custom.php:3337
+msgid "Top"
+msgstr "Top"
+
+#: ../../inc/custom.php:3152 ../../inc/custom.php:3338
+msgid "Middle"
+msgstr "Middle"
+
+#: ../../inc/custom.php:3153 ../../inc/custom.php:3339
+msgid "Bottom"
+msgstr "Bottom"
+
+#: ../../inc/custom.php:3168 ../../inc/custom.php:3354
+#: ../../inc/custom.php:5542 ../../inc/phrase-sample.php:26
+#: ../../inc/shortcode-sample.php:21 ../../inc/widget.php:99
+#: ../../inc/sections/balloon-css.php:35 ../../inc/sections/balloon-css.php:39
+#: ../../inc/sections/balloon-css.php:43 ../../inc/sections/balloon-css.php:56
+#: ../../inc/sections/phrase-luxeritas.php:44
+#: ../../inc/sections/shortcode-balloon.php:47
+msgid "Left"
+msgstr "Left"
+
+#: ../../inc/custom.php:3169 ../../inc/custom.php:3355 ../../inc/widget.php:100
+msgid "Center"
+msgstr "Center"
+
+#: ../../inc/custom.php:3170 ../../inc/custom.php:3356
+#: ../../inc/custom.php:5541 ../../inc/phrase-sample.php:27
+#: ../../inc/shortcode-sample.php:22 ../../inc/widget.php:101
+#: ../../inc/sections/balloon-css.php:61 ../../inc/sections/balloon-css.php:65
+#: ../../inc/sections/balloon-css.php:69 ../../inc/sections/balloon-css.php:82
+#: ../../inc/sections/phrase-luxeritas.php:49
+#: ../../inc/sections/shortcode-balloon.php:98
+msgid "Right"
+msgstr "Right"
+
+#: ../../inc/custom.php:3185 ../../inc/custom.php:3371
+msgid "repeat"
+msgstr "重复"
+
+#: ../../inc/custom.php:3186 ../../inc/custom.php:3372
+msgid "repeat-x"
+msgstr "重复-x"
+
+#: ../../inc/custom.php:3187 ../../inc/custom.php:3373
+msgid "repeat-y"
+msgstr "重复-y"
+
+#: ../../inc/custom.php:3188 ../../inc/custom.php:3374
+msgid "no-repeat"
+msgstr "不-重复"
+
+#: ../../inc/custom.php:3203 ../../inc/custom.php:3389
+msgid "auto"
+msgstr "自动"
+
+#: ../../inc/custom.php:3204 ../../inc/custom.php:3390
+msgid "contain"
+msgstr "包含"
+
+#: ../../inc/custom.php:3205 ../../inc/custom.php:3391
+msgid "cover"
+msgstr "覆盖"
+
+#: ../../inc/custom.php:3206 ../../inc/custom.php:3392
+msgid "width: 100%,  height: auto"
+msgstr "宽度：100%，高度：自动"
+
+#: ../../inc/custom.php:3207 ../../inc/custom.php:3393
+msgid "width: auto,  height: 100%"
+msgstr "宽度: 自动, 高度: 100%"
+
+#: ../../inc/custom.php:3208 ../../inc/custom.php:3394
+msgid "width: 100%,  height: 100%"
+msgstr "宽度: 100%, 高度: 100%"
+
+#: ../../inc/custom.php:3221 ../../inc/custom.php:3233
+#: ../../inc/custom.php:3245
+msgid "screen width"
+msgstr "屏幕宽度"
+
+#: ../../inc/custom.php:3233
+msgid "mobile"
+msgstr "手机"
+
+#: ../../inc/custom.php:3233 ../../inc/custom.php:3245
+msgid ""
+"* If an image isn&apos;t selected, it&apos;ll be the same as the above "
+"image. ( You need an header BG image for PC )"
+msgstr "* 如果没有选择图像，它将与上述图像相同。(你需要一个用于PC的标题BG图像)"
+
+#: ../../inc/custom.php:3245
+msgid "cell"
+msgstr "cell"
+
+#: ../../inc/custom.php:3270
+msgid "Adjust height automatically to fit image"
+msgstr "自动调整高度以适应图像"
+
+#: ../../inc/custom.php:3283
+msgid "Maximum height when height is automatically adjusted"
+msgstr "自动调整高度时的最大高度"
+
+#: ../../inc/custom.php:3300
+msgid "Minimum height when height is automatically adjusted"
+msgstr "自动调整高度时的最小高度"
+
+#: ../../inc/custom.php:3332
+msgid "Header background image layout"
+msgstr "页眉背景图片布局"
+
+#: ../../inc/custom.php:3418
+msgid "Logo image"
+msgstr "Logo image"
+
+#: ../../inc/custom.php:3430
+msgid "On top of the global navigation"
+msgstr "在全局导航的基础上"
+
+#: ../../inc/custom.php:3440
+msgid "Breadcrumb link"
+msgstr "面包屑链接"
+
+#: ../../inc/custom.php:3451
+msgid "Position of breadcrumb link"
+msgstr "面包屑链接的位置"
+
+#: ../../inc/custom.php:3455
+msgid "Outside of the content area"
+msgstr "在内容领域之外"
+
+#: ../../inc/custom.php:3456
+msgid "Inside of the content area"
+msgstr "内容区的内部"
+
+#: ../../inc/custom.php:3457
+msgid "Do not show"
+msgstr "不要显示"
+
+#: ../../inc/custom.php:3469
+msgid "Padding of breadcrumb menu for above and below"
+msgstr "上面和下面的面包屑菜单的填充物"
+
+#: ../../inc/custom.php:3486
+msgid "Padding of breadcrumb menu for left and right"
+msgstr "左右面包屑菜单的填充物"
+
+#: ../../inc/custom.php:3503
+msgid "Breadcrumb menu link color"
+msgstr "面包屑菜单链接颜色"
+
+#: ../../inc/custom.php:3515
+msgid "Breadcrumb menu background color"
+msgstr "面包屑菜单的背景颜色"
+
+#: ../../inc/custom.php:3527
+msgid "Surround the breadcrumb menu with border"
+msgstr "用边框包围面包屑菜单"
+
+#: ../../inc/custom.php:3556
+msgid "Breadcrumb menu border color"
+msgstr "面包屑菜单边框颜色"
+
+#: ../../inc/custom.php:3566
+msgid ""
+"* Menu settings is under &quot;Appearance -&gt; Menus&quot;.  Please create "
+"and save your desired menu,and make sure to select for the location &quot;"
+"Header Band Menu&quot;."
+msgstr ""
+"* 菜单设置在&quot;外观-&gt;菜单&quot;下。 请创建并保存你所需要的菜单，并确保"
+"为位置选择&quot;Header Band Menu&quot;。"
+
+#: ../../inc/custom.php:3577
+msgid "Display the band menu above the header"
+msgstr "在页眉上方显示带状菜单"
+
+#: ../../inc/custom.php:3590
+msgid "Band menu to be full width"
+msgstr "带状菜单应是全宽的"
+
+#: ../../inc/custom.php:3603
+msgid "Make band menu sticky"
+msgstr "让带状菜单带有粘性"
+
+#: ../../inc/custom.php:3616
+msgid "Appearance of band menu"
+msgstr "带状菜单的外观"
+
+#: ../../inc/custom.php:3617
+msgid "Height of band menu"
+msgstr "带状菜单的高度"
+
+#: ../../inc/custom.php:3633 ../../inc/custom.php:3645
+#: ../../inc/custom.php:3657
+msgid "Band menu "
+msgstr "Band menu "
+
+#: ../../inc/custom.php:3669
+msgid "Color of the line bottom of the band menu"
+msgstr "带状菜单的线底颜色"
+
+#: ../../inc/custom.php:3681
+msgid "Thickness of the line bottom of the band menu"
+msgstr "带状菜单的线底的厚度"
+
+#: ../../inc/custom.php:3697
+msgid "Display Search Box"
+msgstr "显示搜索框"
+
+#: ../../inc/custom.php:3710 ../../inc/custom.php:3722
+#: ../../inc/custom.php:3734
+msgid "Search Box "
+msgstr "搜索框 "
+
+#: ../../inc/custom.php:3747
+msgid "Display style of social buttons"
+msgstr "社交按钮的显示风格"
+
+#: ../../inc/custom.php:3751 ../../inc/widget.php:746
+msgid "Icon only"
+msgstr "只有图标"
+
+#: ../../inc/custom.php:3752 ../../inc/widget.php:748
+msgid "Icon + SNS name"
+msgstr "图标+SNS名称"
+
+#: ../../inc/custom.php:3764
+msgid "Apply color on the follow buttons"
+msgstr "在跟随按钮上应用颜色"
+
+#: ../../inc/custom.php:3777 ../../inc/custom.php:3804
+#: ../../inc/custom.php:3831 ../../inc/custom.php:3858
+#: ../../inc/custom.php:3885 ../../inc/custom.php:3912
+#: ../../inc/custom.php:3953 ../../inc/widget.php:757
+msgid "follow button display"
+msgstr "跟随按钮显示"
+
+#: ../../inc/custom.php:3791 ../../inc/custom.php:3818
+#: ../../inc/custom.php:3845 ../../inc/custom.php:3872
+#: ../../inc/custom.php:3899 ../../inc/custom.php:3926
+#: ../../inc/custom.php:3940 ../../inc/custom.php:3967
+msgid "&nbsp;&nbsp;&nbsp;Enter the XXXXX part"
+msgstr "&nbsp;&nbsp;&nbsp;输入XXXX部分"
+
+#: ../../inc/custom.php:3980 ../../inc/custom.php:3993
+msgid "button display"
+msgstr "按钮显示"
+
+#: ../../inc/custom.php:4004 ../../inc/custom.php:5267
+msgid "Global Nav"
+msgstr "全局导航"
+
+#: ../../inc/custom.php:4015
+msgid "Display Global Navigation"
+msgstr "显示全局导航"
+
+#: ../../inc/custom.php:4028
+msgid "The position of the Global Nav"
+msgstr "全局导航位置"
+
+#: ../../inc/custom.php:4032
+msgid "Below header  ( Normal )"
+msgstr "头部以下 ( 正常 )"
+
+#: ../../inc/custom.php:4033
+msgid "Above header"
+msgstr "上面的标题"
+
+#: ../../inc/custom.php:4045
+msgid "Type of mobile menu"
+msgstr "移动菜单的类型"
+
+#: ../../inc/custom.php:4049 ../../inc/custom.php:4051
+msgid "Luxury version"
+msgstr "Luxury version"
+
+#: ../../inc/custom.php:4050 ../../inc/custom.php:4052
+msgid "Global menu only"
+msgstr "只有全局菜单"
+
+#: ../../inc/custom.php:4064
+msgid "How to open and close the mobile menu"
+msgstr "如何打开和关闭手机菜单"
+
+#: ../../inc/custom.php:4068
+msgid "Individually opening and closing the parent and child"
+msgstr "单独打开和关闭 the parent and child"
+
+#: ../../inc/custom.php:4069
+msgid "All opening and closing"
+msgstr "所有打开和关闭"
+
+#: ../../inc/custom.php:4081
+msgid "Size of width"
+msgstr "宽度的大小"
+
+#: ../../inc/custom.php:4085 ../../inc/custom.php:4086
+msgid "Automatically resize the width"
+msgstr "自动调整宽度"
+
+#: ../../inc/custom.php:4086
+msgid "full width"
+msgstr "全宽"
+
+#: ../../inc/custom.php:4087
+msgid "All the same width"
+msgstr "都是一样的宽度"
+
+#: ../../inc/custom.php:4112
+msgid "Separator line"
+msgstr "分隔线"
+
+#: ../../inc/custom.php:4116 ../../inc/custom.php:4501 ../../inc/widget.php:883
+#: ../../inc/widget.php:1241 ../../inc/widget.php:1247
+#: ../../inc/widget.php:1252 ../../inc/widget.php:1648
+#: ../../inc/sections/highlighter-css.php:22 ../../inc/sections/lazyload.php:30
+#: ../../inc/sections/speedup-items.php:141
+msgid "None"
+msgstr "None"
+
+#: ../../inc/custom.php:4117
+msgid "Add separator line"
+msgstr "添加分隔线"
+
+#: ../../inc/custom.php:4118
+msgid "Add separator line including both ends"
+msgstr "添加包括两端在内的分隔线"
+
+#: ../../inc/custom.php:4130 ../../inc/custom.php:4135
+#: ../../inc/custom.php:4159
+msgid "Make it sticky"
+msgstr "让它变得有粘性"
+
+#: ../../inc/custom.php:4134
+msgid "Not make it sticky"
+msgstr "让他没有粘性"
+
+#: ../../inc/custom.php:4136
+msgid "Make it sticky on small devices"
+msgstr "让它在小型设备上具有粘性"
+
+#: ../../inc/custom.php:4137
+msgid "Make it sticky on PC"
+msgstr "让它在PC上有粘性"
+
+#: ../../inc/custom.php:4149
+msgid "Sticky options"
+msgstr "粘性选项"
+
+#: ../../inc/custom.php:4150
+msgid "Shadow density when sticky"
+msgstr "粘性时的阴影密度"
+
+#: ../../inc/custom.php:4164
+msgid "Semi transparent when sticky"
+msgstr "粘性时半透明"
+
+#: ../../inc/custom.php:4177
+msgid "Sticky only when scrolling up"
+msgstr "只有在向上滚动时才有粘性"
+
+#: ../../inc/custom.php:4187
+msgid "Scroll progress bar"
+msgstr "滚动进度条"
+
+#: ../../inc/custom.php:4199
+msgid "Display scroll progress bar on underline"
+msgstr "在下划线上显示滚动进度条"
+
+#: ../../inc/custom.php:4200
+msgid "* Require sticky"
+msgstr "* 要求有粘性"
+
+#: ../../inc/custom.php:4213
+msgid "Scroll progress rate"
+msgstr "滚动进展率"
+
+#: ../../inc/custom.php:4217
+msgid "Bottom of page is 100%"
+msgstr "页面底部是100%"
+
+#: ../../inc/custom.php:4218
+msgid "Bottom of post is 100%"
+msgstr "帖子的底部是100%"
+
+#: ../../inc/custom.php:4230 ../../inc/custom.php:4242
+#: ../../inc/custom.php:4254 ../../inc/custom.php:4266
+#: ../../inc/custom.php:4278 ../../inc/custom.php:4290
+#: ../../inc/custom.php:4302 ../../inc/custom.php:4314
+msgid "Nav item: "
+msgstr "Nav item: "
+
+#: ../../inc/custom.php:4242
+msgid "Description text color"
+msgstr "说明文字的颜色"
+
+#: ../../inc/custom.php:4278
+msgid "Link hover background color"
+msgstr "链接悬停的背景颜色"
+
+#: ../../inc/custom.php:4290
+msgid "Current color"
+msgstr "当前颜色"
+
+#: ../../inc/custom.php:4302
+msgid "Current item description text color"
+msgstr "当前项目描述文本的颜色"
+
+#: ../../inc/custom.php:4314
+msgid "Current background color"
+msgstr "当前的背景颜色"
+
+#: ../../inc/custom.php:4326 ../../inc/custom.php:4338
+#: ../../inc/custom.php:4350 ../../inc/custom.php:4362
+#: ../../inc/custom.php:4374
+msgid "Nav bar: "
+msgstr "Nav bar: "
+
+#: ../../inc/custom.php:4338
+msgid "Color of the lines above the Nav"
+msgstr "导航上方线条的颜色"
+
+#: ../../inc/custom.php:4350
+msgid "Color of the line bottom to the Nav"
+msgstr "线条底部到导航的颜色"
+
+#: ../../inc/custom.php:4362
+msgid "Color of the progress bar"
+msgstr "进度条的颜色"
+
+#: ../../inc/custom.php:4374
+msgid "Color of the separator line"
+msgstr "分隔线的颜色"
+
+#: ../../inc/custom.php:4386
+msgid "Thickness of the line above the Nav"
+msgstr "导航上面的线的厚度"
+
+#: ../../inc/custom.php:4402
+msgid "Thickness of the line bottom to the Nav"
+msgstr "导航下面的线的厚度"
+
+#: ../../inc/custom.php:4418
+msgid "Padding of Nav for above and below"
+msgstr "上面和下面的导航的填充"
+
+#: ../../inc/custom.php:4434
+msgid "Padding of Navigation bar for above and below"
+msgstr "导航栏的上方和下方的填充物"
+
+#: ../../inc/custom.php:4448
+msgid ""
+"* Menu settings is under &quot;Appearance -&gt; Menus&quot;.  Please create "
+"and save your desired menu,and make sure to select for the location &quot;"
+"Footer nav&quot;."
+msgstr ""
+"* 菜单设置在&quot;外观-&gt;菜单&quot;下。 请创建并保存你想要的菜单，并确保选"
+"择位置&quot;页脚导航&quot;。"
+
+#: ../../inc/custom.php:4459
+msgid "Footer nav position"
+msgstr "页脚导航位置"
+
+#: ../../inc/custom.php:4463
+msgid "Above footer widget"
+msgstr "页脚小部件上方"
+
+#: ../../inc/custom.php:4464
+msgid "Below footer widget"
+msgstr "页脚小部件下方"
+
+#: ../../inc/custom.php:4476
+msgid "alignment of nav items by device"
+msgstr "按设备排列的导航项目"
+
+#: ../../inc/custom.php:4480
+msgid "Always line up nav items horizontal."
+msgstr "始终将导航项目横向排列。"
+
+#: ../../inc/custom.php:4481
+msgid "For smartphone size or smaller, line up nav items vertically."
+msgstr "对于智能手机尺寸或更小的尺寸，垂直排列导航项目。"
+
+#: ../../inc/custom.php:4482
+msgid "For mobile device size or smaller, line up nav items vertically."
+msgstr "对于移动设备尺寸或更小的尺寸，垂直排列导航项目。"
+
+#: ../../inc/custom.php:4494
+msgid "Footer nav separator"
+msgstr "页脚导航分离器"
+
+#: ../../inc/custom.php:4498 ../../inc/sections/title.php:23
+msgid "The pipe symbol"
+msgstr "管道符"
+
+#: ../../inc/custom.php:4499
+msgid "The slash symbol"
+msgstr "斜线符"
+
+#: ../../inc/custom.php:4500 ../../inc/sections/title.php:27
+msgid "The hyphen symbol"
+msgstr "连接符"
+
+#: ../../inc/custom.php:4558
+msgid "Mobile Nav buttons"
+msgstr "移动导航按钮"
+
+#: ../../inc/custom.php:4559
+msgid ""
+"If these items are checked, mobile navigation button is displayed at the "
+"bottom of the screen."
+msgstr "如果这些项目被选中，移动导航按钮将显示在屏幕的底部。"
+
+#: ../../inc/custom.php:4570
+msgid "Home button"
+msgstr "主页按钮"
+
+#: ../../inc/custom.php:4571
+msgid "* This button is not displayed on the top page."
+msgstr "* 这个按钮不显示在首页。"
+
+#: ../../inc/custom.php:4584
+msgid "Global Nav button"
+msgstr "全局导航按钮"
+
+#: ../../inc/custom.php:4597
+msgid "SNS button"
+msgstr "SNS button"
+
+#: ../../inc/custom.php:4598
+msgid ""
+"* This button is displayed only when there are SNS buttons other than normal "
+"buttons on the page."
+msgstr "* 这个按钮只有在页面上有普通按钮以外的SNS按钮时才会显示。"
+
+#: ../../inc/custom.php:4611
+msgid "Sidebar button"
+msgstr "侧边栏按钮"
+
+#: ../../inc/custom.php:4624
+msgid "Table of contents button"
+msgstr "目录按钮"
+
+#: ../../inc/custom.php:4625
+msgid ""
+"* This button is displayed only when there are table of contents on the page."
+msgstr "* 这个按钮只有在页面上有目录时才会显示。"
+
+#: ../../inc/custom.php:4638
+msgid "Comment button"
+msgstr "评论按钮"
+
+#: ../../inc/custom.php:4639
+msgid "* Scroll to the comment field."
+msgstr "* 滚动到评论区。"
+
+#: ../../inc/custom.php:4652
+msgid "Search button"
+msgstr "搜索按钮"
+
+#: ../../inc/custom.php:4665
+msgid "Page top button"
+msgstr "页首按钮"
+
+#: ../../inc/custom.php:4678
+msgid "Hide button when scrolling down"
+msgstr "向下滚动时隐藏按钮"
+
+#: ../../inc/custom.php:4691
+msgid "Appearance of mobile buttons"
+msgstr "移动按钮的外观"
+
+#: ../../inc/custom.php:4746
+msgid "Spacing between buttons"
+msgstr "按钮之间的间距"
+
+#: ../../inc/custom.php:4763
+msgid "Hide button names (only icons)"
+msgstr "隐藏按钮名称（只有图标）。"
+
+#: ../../inc/custom.php:4776
+msgid "Icon and text arrangement"
+msgstr "图标和文字安排"
+
+#: ../../inc/custom.php:4780
+msgid "Vertical arrangement"
+msgstr "纵向排列"
+
+#: ../../inc/custom.php:4781
+msgid "Horizontal arrangement"
+msgstr "横向排列"
+
+#: ../../inc/custom.php:4810
+msgid "Button min width"
+msgstr "按钮最小宽度"
+
+#: ../../inc/custom.php:4810
+msgid "Automatic at 0"
+msgstr "为 0 时自动"
+
+#: ../../inc/custom.php:4827
+msgid "If it does not fit on the screen"
+msgstr "如果它不适合在屏幕上显示"
+
+#: ../../inc/custom.php:4831
+msgid "Horizontal scroll"
+msgstr "横向滚动"
+
+#: ../../inc/custom.php:4832
+msgid "Wrap"
+msgstr "包裹"
+
+#: ../../inc/custom.php:4842
+msgid "Create the table of contents based on the heading tag in the post."
+msgstr "根据帖子中的标题标签创建目录."
+
+#: ../../inc/custom.php:4853
+msgid "Automatically insert the TOC"
+msgstr "自动插入目录"
+
+#: ../../inc/custom.php:4866
+msgid "Apply style"
+msgstr "应用风格"
+
+#: ../../inc/custom.php:4879
+msgid "Automatically insert the TOC also in AMP page"
+msgstr "在AMP页面中也自动插入目录"
+
+#: ../../inc/custom.php:4892
+msgid "Show when: (number of headings)"
+msgstr "显示时： (标题的数量)"
+
+#: ../../inc/custom.php:4904
+msgid "Post type to display"
+msgstr "要显示的帖子类型"
+
+#: ../../inc/custom.php:4943
+msgid "Heading hierarchy to display"
+msgstr "要显示的标题层次结构"
+
+#: ../../inc/custom.php:4963
+msgid "Position of jump destination (Height)"
+msgstr "跳跃目的地的位置（高度）。"
+
+#: ../../inc/custom.php:4975
+msgid "Items below this do not apply to widgets"
+msgstr "下面的项目不适用于小工具"
+
+#: ../../inc/custom.php:4988
+msgid "Start status"
+msgstr "Start status"
+
+#: ../../inc/custom.php:4992
+msgid "Open state"
+msgstr "Open state"
+
+#: ../../inc/custom.php:4993
+msgid "Closed state"
+msgstr "Closed state"
+
+#: ../../inc/custom.php:5018
+msgid "Show button"
+msgstr "Show button"
+
+#: ../../inc/custom.php:5031
+msgid "Hide button"
+msgstr "Hide button"
+
+#: ../../inc/custom.php:5048
+msgid "Auto"
+msgstr "Auto"
+
+#: ../../inc/custom.php:5097 ../../inc/custom.php:5109
+msgid "Button"
+msgstr "Button"
+
+#: ../../inc/custom.php:5118
+msgid "Animation"
+msgstr "动画"
+
+#: ../../inc/custom.php:5119
+msgid "Enable animation effects"
+msgstr "启用动画效果"
+
+#: ../../inc/custom.php:5130
+msgid "Header parallax scroll"
+msgstr "标题的视差滚动"
+
+#: ../../inc/custom.php:5131
+msgid "( default value 0 )"
+msgstr "( 默认值为0 )"
+
+#: ../../inc/custom.php:5148
+msgid "Opening animation"
+msgstr "开场动画"
+
+#: ../../inc/custom.php:5152 ../../inc/custom.php:5216
+#: ../../inc/custom.php:5234 ../../inc/custom.php:5252
+#: ../../inc/custom.php:5271
+msgid "Without animation effect"
+msgstr "没有动画效果"
+
+#: ../../inc/custom.php:5153 ../../inc/custom.php:5154
+msgid "Curtain"
+msgstr "Curtain"
+
+#: ../../inc/custom.php:5153 ../../inc/custom.php:5155
+msgid "Dark"
+msgstr "黑暗"
+
+#: ../../inc/custom.php:5155 ../../inc/custom.php:5156
+msgid "Shutter"
+msgstr "Shutter"
+
+#: ../../inc/custom.php:5157
+msgid "Stretch sideways"
+msgstr "侧向拉伸"
+
+#: ../../inc/custom.php:5158
+msgid "Stretch vertically"
+msgstr "纵向拉伸"
+
+#: ../../inc/custom.php:5159
+msgid "Rotate title"
+msgstr "旋转标题"
+
+#: ../../inc/custom.php:5160
+msgid "FadeIn"
+msgstr "淡入"
+
+#: ../../inc/custom.php:5171
+msgid "Scope"
+msgstr "范围"
+
+#: ../../inc/custom.php:5175
+msgid "Apply to all pages"
+msgstr "适用于所有页面"
+
+#: ../../inc/custom.php:5176
+msgid "Apply to the top page only"
+msgstr "仅适用于顶层页"
+
+#: ../../inc/custom.php:5187
+msgid "Applies to external access only"
+msgstr "仅适用于外部访问"
+
+#: ../../inc/custom.php:5199
+msgid "Always applied to the top page"
+msgstr "始终适用于顶层页面"
+
+#: ../../inc/custom.php:5212 ../../inc/sections/title.php:34
+#: ../../inc/sections/title.php:38 ../../inc/sections/title.php:45
+#: ../../inc/sections/title.php:49 ../../inc/sections/title.php:53
+#: ../../inc/sections/title.php:57 ../../inc/sections/title.php:68
+#: ../../inc/sections/title.php:72
+msgid "Site name"
+msgstr "网站名称"
+
+#: ../../inc/custom.php:5217 ../../inc/custom.php:5235
+#: ../../inc/custom.php:5254
+msgid "Zoom in"
+msgstr "放大"
+
+#: ../../inc/custom.php:5218 ../../inc/custom.php:5236
+#: ../../inc/custom.php:5255
+msgid "Zoom out"
+msgstr "缩小"
+
+#: ../../inc/custom.php:5230
+msgid "Posts List thumbnail"
+msgstr "帖子列表缩略图"
+
+#: ../../inc/custom.php:5248 ../../inc/custom.php:5616
+#: ../../inc/custom.php:5950
+msgid "SNS share buttons"
+msgstr "SNS share buttons"
+
+#: ../../inc/custom.php:5253 ../../inc/custom.php:5272
+msgid "Upward movement"
+msgstr "向上移动"
+
+#: ../../inc/custom.php:5281
+msgid "Image gallery"
+msgstr "Image gallery"
+
+#: ../../inc/custom.php:5292
+msgid "Script for image popup"
+msgstr "图像弹出脚本"
+
+#: ../../inc/custom.php:5296
+msgid "Do not use"
+msgstr "请勿使用"
+
+#: ../../inc/custom.php:5305
+msgid "Cannot coexist with &quot;Lazy Load&quot;"
+msgstr "不能与&quot;Lazy Load&quot;共存；"
+
+#: ../../inc/custom.php:5314
+msgid "External link"
+msgstr "外部链接"
+
+#: ../../inc/custom.php:5325 ../../inc/custom.php:5338
+#: ../../inc/custom.php:5380 ../../inc/custom.php:5393
+#, php-format
+msgid "Add %s in the external links of the article"
+msgstr "在文章的外部链接中添加%s"
+
+#: ../../inc/custom.php:5338
+msgid " icon "
+msgstr " icon "
+
+#: ../../inc/custom.php:5351
+msgid "Type of external link icon"
+msgstr "外部链接图标的类型"
+
+#: ../../inc/custom.php:5368
+msgid "The color of external link icon"
+msgstr "外部链接图标的颜色"
+
+#: ../../inc/custom.php:5394
+msgid ""
+"* Not recommended! (such nofollow link in your articles could be a breach in "
+"manners.)"
+msgstr ""
+"*不推荐! (在你的文章中出现这样的nofollow链接可能是一种违反礼仪的行为。)"
+
+#: ../../inc/custom.php:5404
+msgid "Author (post contributor)"
+msgstr "作者（帖子贡献者）"
+
+#: ../../inc/custom.php:5414
+msgid "Display author (post contributor)"
+msgstr "显示作者（帖子贡献者）"
+
+#: ../../inc/custom.php:5415
+msgid "* If you hide the author, a structured data error will result.."
+msgstr "* 如果你隐藏了作者，将导致结构化数据错误。"
+
+#: ../../inc/custom.php:5427
+msgid "URL spanned the author"
+msgstr "作者的URL跨度"
+
+#: ../../inc/custom.php:5431
+msgid "Link to the contributor archive page"
+msgstr "链接到贡献者档案页"
+
+#: ../../inc/custom.php:5432
+msgid "Link to the URL you desire"
+msgstr "链接到你想要的URL"
+
+#: ../../inc/custom.php:5443
+msgid "The URL you desire!"
+msgstr "你想要的网址!"
+
+#: ../../inc/custom.php:5464
+msgid "Eanable Blog Card"
+msgstr "Eanable Blog Card"
+
+#: ../../inc/custom.php:5477
+msgid "Make embedded URL a blog card"
+msgstr "让嵌入的URL成为 blog card"
+
+#: ../../inc/custom.php:5478
+msgid ""
+"* If you check this, Some oEmbed features of WordPress will not be usable."
+msgstr "* 如果你勾选了这个，WordPress的一些oEmbed功能将无法使用。"
+
+#: ../../inc/custom.php:5491
+msgid "The maximum width of the blog card"
+msgstr "博客卡的最大宽度"
+
+#: ../../inc/custom.php:5492
+msgid "* default value 540"
+msgstr "* 默认值540"
+
+#: ../../inc/custom.php:5508
+msgid "Border radius of Card"
+msgstr "卡片的边界半径"
+
+#: ../../inc/custom.php:5524
+msgid "Shadow on the card"
+msgstr "卡片上的阴影"
+
+#: ../../inc/custom.php:5537
+msgid "Image position"
+msgstr "图像位置"
+
+#: ../../inc/custom.php:5554
+msgid "Surround the image with border"
+msgstr "用边框包围图像"
+
+#: ../../inc/custom.php:5567
+msgid "Shadow on the image"
+msgstr "图像上的阴影"
+
+#: ../../inc/custom.php:5580
+msgid "Border radius of image"
+msgstr "图像的边界半径"
+
+#: ../../inc/custom.php:5596
+msgid "Cache expiration time"
+msgstr "缓存过期时间"
+
+#: ../../inc/custom.php:5600 ../../inc/custom.php:5601
+#: ../../inc/custom.php:5665 ../../inc/sections/sns-cache-setting.php:39
+#: ../../inc/sections/speedup-items.php:169
+#, php-format
+msgid "%s day"
+msgstr "%s day"
+
+#: ../../inc/custom.php:5602 ../../inc/custom.php:5603
+#, php-format
+msgid "%s week"
+msgstr "%s week"
+
+#: ../../inc/custom.php:5604 ../../inc/custom.php:5605
+#: ../../inc/custom.php:5606
+#, php-format
+msgid "%s month"
+msgstr "%s month"
+
+#: ../../inc/custom.php:5607
+msgid "half year"
+msgstr "半年"
+
+#: ../../inc/custom.php:5627 ../../inc/sections/sns-cache-setting.php:21
+#: ../../inc/sections/speedup-items.php:156
+msgid "Eanable cache for SNS counter"
+msgstr "可用于SNS计数器的高速缓存"
+
+#: ../../inc/custom.php:5627 ../../inc/sections/jquery.php:24
+#: ../../inc/sections/sns-cache-setting.php:21
+#: ../../inc/sections/speedup-items.php:66
+msgid "Recommend"
+msgstr "推荐"
+
+#: ../../inc/custom.php:5628 ../../inc/sections/sns-cache-setting.php:22
+#: ../../inc/sections/speedup-items.php:157
+msgid "* will not function if normal SNS button is selected."
+msgstr "如果选择正常的SNS按钮，*将不发挥作用。"
+
+#: ../../inc/custom.php:5628 ../../inc/sections/sns-cache-setting.php:23
+msgid ""
+"* by enabling cache, the SNS counter will work even on WAF enabled servers."
+msgstr "*通过启用缓存，即使在启用WAF的服务器上，SNS计数器也能发挥作用。"
+
+#: ../../inc/custom.php:5641 ../../inc/sections/sns-cache-setting.php:27
+msgid "Count and cache the SNS counts even NO display is selected."
+msgstr "即使没有选择显示，也会对SNS的计数进行计数和缓存。"
+
+#: ../../inc/custom.php:5654 ../../inc/sections/sns-cache-setting.php:30
+#: ../../inc/sections/speedup-items.php:160
+msgid "Interval for cache restructure"
+msgstr "缓存重建的时间间隔"
+
+#: ../../inc/custom.php:5658 ../../inc/sections/sns-cache-setting.php:32
+#: ../../inc/sections/speedup-items.php:162
+#, php-format
+msgid "%s seconds"
+msgstr "%s seconds"
+
+#: ../../inc/custom.php:5659 ../../inc/custom.php:5660
+#: ../../inc/sections/sns-cache-setting.php:33
+#: ../../inc/sections/sns-cache-setting.php:34
+#: ../../inc/sections/speedup-items.php:163
+#: ../../inc/sections/speedup-items.php:164
+#, php-format
+msgid "%s minutes"
+msgstr "%s minutes"
+
+#: ../../inc/custom.php:5661 ../../inc/sections/sns-cache-setting.php:35
+#: ../../inc/sections/speedup-items.php:165
+#, php-format
+msgid "%s hour"
+msgstr "%s hour"
+
+#: ../../inc/custom.php:5662 ../../inc/custom.php:5663
+#: ../../inc/custom.php:5664 ../../inc/sections/sns-cache-setting.php:36
+#: ../../inc/sections/sns-cache-setting.php:37
+#: ../../inc/sections/sns-cache-setting.php:38
+#: ../../inc/sections/speedup-items.php:166
+#: ../../inc/sections/speedup-items.php:167
+#: ../../inc/sections/speedup-items.php:168
+#, php-format
+msgid "%s hours"
+msgstr "%s hours"
+
+#: ../../inc/custom.php:5677 ../../inc/sections/sns-cache-setting.php:43
+msgid "Weekly cache cleaning"
+msgstr "每周清理缓存"
+
+#: ../../inc/custom.php:5681 ../../inc/sections/sns-cache-setting.php:45
+msgid "Delete trash considered cache"
+msgstr "删除垃圾缓存"
+
+#: ../../inc/custom.php:5682 ../../inc/sections/sns-cache-setting.php:46
+msgid "Delete all cache"
+msgstr "删除所有缓存"
+
+#: ../../inc/custom.php:5683 ../../inc/sections/recaptcha.php:66
+#: ../../inc/sections/sns-cache-setting.php:47
+msgid "Do nothing"
+msgstr "什么都不做"
+
+#: ../../inc/custom.php:5695
+msgid "SNS button above article type and layout"
+msgstr "文章类型和布局上面的SNS按钮"
+
+#: ../../inc/custom.php:5699 ../../inc/custom.php:5776
+msgid "Normal button"
+msgstr "Normal button"
+
+#: ../../inc/custom.php:5700 ../../inc/custom.php:5701
+#: ../../inc/custom.php:5777 ../../inc/custom.php:5778
+msgid "Variable width flat type"
+msgstr "可变宽度的平面型"
+
+#: ../../inc/custom.php:5700 ../../inc/custom.php:5702
+#: ../../inc/custom.php:5704 ../../inc/custom.php:5777
+#: ../../inc/custom.php:5779 ../../inc/custom.php:5781
+#: ../../inc/widget.php:1481
+#: ../../inc/sections/block-editor-color-palette.php:40
+#: ../../inc/sections/block-editor-color-palette.php:64
+msgid "Color"
+msgstr "Color"
+
+#: ../../inc/custom.php:5702 ../../inc/custom.php:5703
+#: ../../inc/custom.php:5779 ../../inc/custom.php:5780
+msgid "Nameless icon type"
+msgstr "Nameless icon type"
+
+#: ../../inc/custom.php:5704 ../../inc/custom.php:5705
+#: ../../inc/custom.php:5781 ../../inc/custom.php:5782
+msgid "Fixed width type"
+msgstr "固定宽度类型"
+
+#: ../../inc/custom.php:5732
+msgid "Display SNS button above the articles"
+msgstr "在文章上方显示SNS按钮"
+
+#: ../../inc/custom.php:5744
+msgid "Show the counts on SNS buttons(above)"
+msgstr "在SNS按钮上显示计数(以上)"
+
+#: ../../inc/custom.php:5772
+msgid "SNS button beneath article type and layout"
+msgstr "文章类型和布局下面的SNS按钮"
+
+#: ../../inc/custom.php:5809
+msgid "Display SNS button below the articles"
+msgstr "在文章下方显示SNS按钮"
+
+#: ../../inc/custom.php:5821
+msgid "Show the counts on SNS buttons (below article)"
+msgstr "在SNS按钮上显示计数（文章下方）。"
+
+#: ../../inc/custom.php:5844 ../../inc/defaults.php:70
+#: ../../languages/site/translations.php:64
+msgid "Please share this if you liked it!"
+msgstr "如果你喜欢它，请分享它!"
+
+#: ../../inc/custom.php:5849
+msgid "Tagline for the SNS buttons under articles"
+msgstr "文章下的SNS按钮的标语"
+
+#: ../../inc/custom.php:5861
+msgid "Dispplay SNS button at the bottom of top page list"
+msgstr "显示首页列表底部的SNS按钮"
+
+#: ../../inc/custom.php:5873
+msgid "Display SNS button on static pages"
+msgstr "在静态页面上显示SNS按钮"
+
+#: ../../inc/custom.php:5885
+msgid "Display Save button of Pinterest at image hover"
+msgstr "在图片悬停时显示Pinterest的“保存”按钮"
+
+#: ../../inc/custom.php:5898
+msgid "Copy target of copy button"
+msgstr "复制按钮的复制目标"
+
+#: ../../inc/custom.php:5902
+msgid "Post title and URL"
+msgstr "帖子的标题和网址"
+
+#: ../../inc/custom.php:5915
+msgid "Facebook settings"
+msgstr "Facebook settings"
+
+#: ../../inc/custom.php:5916
+msgid "* Required to display Facebook share count."
+msgstr "* 需要显示Facebook的分享数。"
+
+#: ../../inc/custom.php:5951
+msgid "Display / non-display SNS button above articles"
+msgstr "在文章上方显示/不显示SNS按钮"
+
+#: ../../inc/custom.php:5962 ../../inc/custom.php:5975
+#: ../../inc/custom.php:5988 ../../inc/custom.php:6001
+#: ../../inc/custom.php:6014 ../../inc/custom.php:6027
+#: ../../inc/custom.php:6040 ../../inc/custom.php:6053
+#: ../../inc/custom.php:6066 ../../inc/custom.php:6079
+#: ../../inc/custom.php:6093 ../../inc/custom.php:6106
+#: ../../inc/custom.php:6119 ../../inc/custom.php:6132
+#: ../../inc/custom.php:6145 ../../inc/custom.php:6158
+#: ../../inc/custom.php:6171 ../../inc/custom.php:6184
+#: ../../inc/custom.php:6197 ../../inc/custom.php:6210 ../../inc/widget.php:776
+#: ../../inc/widget.php:779
+#, php-format
+msgid "%s button display"
+msgstr "%s button display"
+
+#: ../../inc/custom.php:6079 ../../inc/custom.php:6210
+msgid "Copy "
+msgstr "Copy "
+
+#: ../../inc/custom.php:6080
+msgid "Display / non-display SNS button below articles"
+msgstr "显示/不显示文章下面的SNS按钮"
+
+#: ../../inc/customize.php:37
+msgid "Pagination"
+msgstr "分页"
+
+#: ../../inc/customize.php:40 ../../inc/sections/speedup-items.php:22
+msgid "Compression and optimization"
+msgstr "压缩和优化"
+
+#: ../../inc/customize.php:44 ../../inc/sections/speedup-items.php:78
+msgid "Icon fonts"
+msgstr "图标字体"
+
+#: ../../inc/customize.php:47
+msgid "Copyright"
+msgstr "版权声明"
+
+#: ../../inc/customize.php:48 ../../inc/customize.php:311
+#: ../../inc/customize.php:368 ../../inc/sections/script.php:20
+#: ../../inc/sections/shortcode-sample.php:41
+#: ../../inc/sections/speedup-items.php:146
+msgid "Others"
+msgstr "其他"
+
+#: ../../inc/customize.php:49 ../../inc/customize.php:65
+msgid "Version"
+msgstr "版本"
+
+#: ../../inc/customize.php:58
+msgid "Block editor settings"
+msgstr "区块编辑设置"
+
+#: ../../inc/customize.php:59
+msgid "Classic block &amp; Old editor settings"
+msgstr "经典区块 &amp; 旧编辑器设置"
+
+#: ../../inc/customize.php:60
+msgid "Widget management"
+msgstr "小工具管理"
+
+#: ../../inc/customize.php:61 ../../inc/customize.php:389
+msgid "Thumbnail management"
+msgstr "缩略图管理"
+
+#: ../../inc/customize.php:62
+msgid "Thumbnail regenerate"
+msgstr "缩略图重新生成"
+
+#: ../../inc/customize.php:63 ../../inc/sections/backup-child.php:29
+msgid "Backup"
+msgstr "备份"
+
+#: ../../inc/customize.php:64 ../../inc/sections/design-select.php:129
+msgid "Reset"
+msgstr "重置"
+
+#: ../../inc/customize.php:74
+msgid "Block patterns"
+msgstr "块状模式"
+
+#: ../../inc/customize.php:85
+msgid "Design Select"
+msgstr "设计选"
+
+#: ../../inc/customize.php:86
+msgid "Design file creation support"
+msgstr "支持设计文件的创建"
+
+#: ../../inc/customize.php:91
+msgid "Design File Manager"
+msgstr "设计文件管理器"
+
+#: ../../inc/customize.php:99 ../../inc/widget.php:861
+#: ../../inc/widget.php:1212
+msgid "Top page"
+msgstr "返回顶部"
+
+#: ../../inc/customize.php:102
+msgid "All caches restructure"
+msgstr "所有缓存重建"
+
+#: ../../inc/customize.php:105
+msgid "Control"
+msgstr "控制"
+
+#: ../../inc/customize.php:112
+msgid "htaccess for speed boost &amp; security improvement"
+msgstr "htaccess的速度提升&amp；安全改进"
+
+#: ../../inc/customize.php:121 ../../inc/design-editor.php:33
+#: ../../inc/theme-editor.php:33
+msgid "Stylesheet"
+msgstr "样式表"
+
+#: ../../inc/customize.php:123 ../../inc/customize.php:315
+#: ../../inc/theme-editor.php:43
+msgid "tag"
+msgstr "tag"
+
+#: ../../inc/customize.php:125 ../../inc/customize.php:126
+msgid "Access Analytics"
+msgstr "访问分析"
+
+#: ../../inc/customize.php:129
+msgid "AMP style"
+msgstr "AMP style"
+
+#: ../../inc/customize.php:130
+msgid "Editor style"
+msgstr "Editor style"
+
+#: ../../inc/customize.php:308
+msgid "Mobile Theme"
+msgstr "移动主题"
+
+#: ../../inc/customize.php:310
+msgid "Manifest"
+msgstr "表现形式"
+
+#: ../../inc/customize.php:315 ../../inc/customize.php:348
+#: ../../inc/customize.php:349 ../../inc/customize.php:353
+#: ../../inc/customize.php:358 ../../inc/customize.php:359
+#: ../../inc/customize.php:360 ../../inc/customize.php:368
+#: ../../inc/customize.php:453 ../../inc/sections/amp.php:20
+#: ../../inc/sections/amp.php:71 ../../inc/sections/design-create.php:38
+#: ../../inc/sections/ogp.php:20 ../../inc/sections/ogp.php:27
+#: ../../inc/sections/ogp.php:36 ../../inc/sections/ogp.php:54
+#: ../../inc/sections/others.php:146 ../../inc/sections/pwa.php:32
+#: ../../inc/sections/recaptcha.php:30 ../../inc/sections/recaptcha.php:74
+#: ../../inc/sections/seo.php:51 ../../inc/sections/seo.php:558
+#, php-format
+msgid "Setting of %s"
+msgstr "Setting of %s"
+
+#: ../../inc/customize.php:319 ../../inc/sections/pagination.php:20
+msgid "Blog pages show at most"
+msgstr "博客页面最多只能显示"
+
+#: ../../inc/customize.php:323
+msgid "Compression of HTML"
+msgstr "压缩HTML"
+
+#: ../../inc/customize.php:324
+msgid "Optimization of CSS"
+msgstr "优化CSS"
+
+#: ../../inc/customize.php:325
+msgid "Optimization of Javascript"
+msgstr "优化Javascript"
+
+#: ../../inc/customize.php:329
+msgid "Mode select"
+msgstr "模式选择"
+
+#: ../../inc/customize.php:330
+msgid "Direct output of external CSS"
+msgstr "直接输出外部CSS"
+
+#: ../../inc/customize.php:331
+msgid "CSS of child theme"
+msgstr "子主题的CSS"
+
+#: ../../inc/customize.php:332
+msgid "CSS of syntax highlighter"
+msgstr "语法高亮的CSS"
+
+#: ../../inc/customize.php:333
+msgid "CSS of widgets"
+msgstr "小工具的CSS"
+
+#: ../../inc/customize.php:338
+msgid "Plugins"
+msgstr "插件"
+
+#: ../../inc/customize.php:339
+msgid "Other setting of Javascript"
+msgstr "Javascript的其他设置"
+
+#: ../../inc/customize.php:343 ../../inc/sections/speedup-items.php:92
+msgid "Lazy loading of image"
+msgstr "懒加载图像"
+
+#: ../../inc/customize.php:348
+msgid "icon fonts"
+msgstr "图标字体"
+
+#: ../../inc/customize.php:353
+msgid "Search Widget"
+msgstr "搜索工具"
+
+#: ../../inc/customize.php:357
+msgid "Comment posting setting"
+msgstr "评论发布设置"
+
+#: ../../inc/customize.php:358
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: ../../inc/customize.php:364
+msgid "Format of copyright"
+msgstr "版权格式"
+
+#: ../../inc/customize.php:372 ../../inc/sections/block-editor-off.php:21
+msgid "Disable Block Editor"
+msgstr "禁用区块编辑"
+
+#: ../../inc/customize.php:373
+msgid "Features specific to Luxeritas"
+msgstr "Luxeritas的特色功能"
+
+#: ../../inc/customize.php:374
+msgid "Color palette for block editor"
+msgstr "区块编辑器的调色板"
+
+#: ../../inc/customize.php:378
+msgid "Visual Editor"
+msgstr "可视化编辑"
+
+#: ../../inc/customize.php:379
+msgid "Text Editor"
+msgstr "文字编辑器"
+
+#: ../../inc/customize.php:383 ../../inc/sections/others.php:166
+msgid "Block-based Widgets Editor"
+msgstr "基于区块的小工具编辑"
+
+#: ../../inc/customize.php:384 ../../inc/sections/widget-area.php:27
+#: ../../inc/sections/widget-body.php:35 ../../inc/sections/widget-css.php:26
+msgid "Widget"
+msgstr "小工具"
+
+#: ../../inc/customize.php:385
+msgid "Widget Area"
+msgstr "小工具区域"
+
+#: ../../inc/customize.php:393
+msgid "Regenerate all thumbnails"
+msgstr "重新生成所有缩略图"
+
+#: ../../inc/customize.php:397
+msgid "Back up or restore Luxeritas all settings"
+msgstr "备份或恢复Luxeritas所有设置"
+
+#: ../../inc/customize.php:399
+msgid "Back up or restore Luxeritas appearance settings"
+msgstr "备份或恢复Luxeritas外观设置"
+
+#: ../../inc/customize.php:400
+msgid "Back up Child Theme"
+msgstr "备份子主题"
+
+#: ../../inc/customize.php:404
+msgid "RESET all the customizations of Luxeritas"
+msgstr "重置Luxeritas的所有自定义设置"
+
+#: ../../inc/customize.php:405 ../../inc/customize.php:454
+msgid "Clean up of SNS count cache"
+msgstr "清理SNS计数缓存"
+
+#: ../../inc/customize.php:406
+msgid "Clean up of Blog Card cache"
+msgstr "清理博客卡的缓存"
+
+#: ../../inc/customize.php:410
+msgid "htaccess for apache web server"
+msgstr "apache web server 的 htaccess"
+
+#: ../../inc/customize.php:425
+msgid "Block pattern list"
+msgstr "区块模式清单"
+
+#: ../../inc/customize.php:429
+msgid "HTML pattern list"
+msgstr "HTML模式列表"
+
+#: ../../inc/customize.php:433
+msgid "Shortcode list"
+msgstr "短码列表"
+
+#: ../../inc/customize.php:441 ../../inc/sections/design-create.php:50
+msgid "Create Zip file"
+msgstr "创建Zip压缩文件"
+
+#: ../../inc/customize.php:453
+msgid "cache"
+msgstr "缓存"
+
+#: ../../inc/customize.php:458
+msgid "Download CSV"
+msgstr "下载CSV"
+
+#: ../../inc/customize.php:462
+msgid "Restructure of all SNS count caches"
+msgstr "重建所有SNS计数缓存"
+
+#: ../../inc/customize.php:480
+msgid "Setting selection"
+msgstr "设置选项"
+
+#: ../../inc/customize.php:481
+msgid "Setting items"
+msgstr "设置项"
+
+#: ../../inc/defaults.php:862 ../../inc/defaults.php:863
+#: ../../inc/defaults.php:864
+msgid "User thumbnail"
+msgstr "用户缩略图"
+
+#: ../../inc/design-editor.php:38 ../../inc/theme-editor.php:84
+msgid "Stylesheet for AMP"
+msgstr "AMP的样式表"
+
+#: ../../inc/design-editor.php:46 ../../inc/theme-editor.php:97
+msgid "You do not have sufficient permissions to edit templates for this site."
+msgstr "你没有足够的权限来编辑这个网站的模板。"
+
+#: ../../inc/design-editor.php:49 ../../inc/design-editor.php:52
+#: ../../inc/theme-editor.php:100 ../../inc/theme-editor.php:103
+msgid "The requested theme does not exist."
+msgstr "请求的主题不存在。"
+
+#: ../../inc/design-editor.php:83
+msgid "An editable design file is not activated"
+msgstr "可编辑的设计文件没有被激活"
+
+#: ../../inc/design-editor.php:84
+msgid "Please select design."
+msgstr "请选择设计方案。"
+
+#: ../../inc/design-editor.php:102 ../../inc/theme-editor.php:147
+msgid "Oops, no such file exists! Double check the name and try again, merci."
+msgstr "哎呀，不存在这样的文件! 仔细检查名称，再试一次，谢谢。"
+
+#: ../../inc/design-upload.php:49
+msgid "Invalid file"
+msgstr "无效文件"
+
+#: ../../inc/design-upload.php:66
+msgid "Stylesheets were not included"
+msgstr "没有包括样式表"
+
+#: ../../inc/design-upload.php:71
+msgid "File for customization were not included"
+msgstr "没有包括用于定制的文件"
+
+#: ../../inc/design-upload.php:114
+msgid "Directory with the same name already exists."
+msgstr "同名的目录已经存在。"
+
+#: ../../inc/design-upload.php:127
+msgid "Installation suspended because a suspicious file was found."
+msgstr "因发现可疑文件而暂停安装。"
+
+#: ../../inc/filters.php:884 ../../languages/site/translations.php:87
+#: ../../pages/sitemap.php:42
+msgid "Pages"
+msgstr "Pages"
+
+#: ../../inc/filters.php:940
+#, php-format
+msgid "%s Tag"
+msgstr "%s Tag"
+
+#: ../../inc/ladmin.php:52 ../../inc/ladmin.php:74 ../../inc/respond.php:228
+#: ../../inc/respond.php:233 ../../languages/site/translations.php:91
+msgid "Tablet"
+msgstr "Tablet"
+
+#: ../../inc/ladmin.php:53 ../../inc/ladmin.php:75 ../../inc/respond.php:240
+#: ../../inc/respond.php:245 ../../languages/site/translations.php:92
+msgid "Mobile"
+msgstr "Mobile"
+
+#: ../../inc/ladmin.php:67 ../../languages/site/translations.php:88
+msgid "Show"
+msgstr "Show"
+
+#: ../../inc/ladmin.php:85 ../../inc/widget.php:1165
+#: ../../languages/site/translations.php:96
+msgid "Structured data"
+msgstr "结构化数据"
+
+#: ../../inc/ladmin.php:94 ../../languages/site/translations.php:97
+msgid "Log out"
+msgstr "登出"
+
+#: ../../inc/luxe-amp-mu.php:130
+#, php-format
+msgid "File deletion failed. Please remove <code>%s</code>."
+msgstr "文件删除失败。请删除<code>%s</code>."
+
+#: ../../inc/phrase-post.php:57
+msgid "Insert HTML pattern"
+msgstr "插入HTML模式"
+
+#: ../../inc/phrase-post.php:75 ../../inc/phrase-post.php:129
+msgid "There is no HTML pattern registered."
+msgstr "没有注册HTML模式。"
+
+#: ../../inc/phrase-post.php:170
+msgid "Text not selected."
+msgstr "没有选择的文本。"
+
+#: ../../inc/phrase-post.php:270 ../../inc/sections/block-pattern-list.php:300
+#: ../../inc/sections/phrase-list.php:323
+#: ../../inc/sections/shortcode-list.php:405
+msgid "Failed to read."
+msgstr "未能读取。"
+
+#: ../../inc/phrase-sample.php:18
+msgid "Quote"
+msgstr "Quote"
+
+#: ../../inc/phrase-sample.php:19
+msgid "Preformatted text"
+msgstr "预格式化文本"
+
+#: ../../inc/phrase-sample.php:22
+msgid "Heading 2"
+msgstr "Heading 2"
+
+#: ../../inc/phrase-sample.php:23
+msgid "Heading 3"
+msgstr "Heading 3"
+
+#: ../../inc/phrase-sample.php:24
+msgid "Heading 4"
+msgstr "Heading 4"
+
+#: ../../inc/phrase-sample.php:26 ../../inc/phrase-sample.php:27
+#: ../../inc/shortcode-sample.php:21 ../../inc/shortcode-sample.php:22
+#: ../../inc/sections/phrase-luxeritas.php:41
+#: ../../inc/sections/phrase-luxeritas.php:44
+#: ../../inc/sections/phrase-luxeritas.php:49
+#: ../../inc/sections/shortcode-balloon.php:43
+#: ../../inc/sections/shortcode-balloon.php:47
+#: ../../inc/sections/shortcode-balloon.php:98
+msgid "Speech balloon"
+msgstr "Speech balloon"
+
+#: ../../inc/post-meta-boxes.php:60
+msgid ""
+"* If you would like to add &lt;style&gt;, &lt;javascript&gt;, &lt;meta&gt;, "
+"&lt;link&gt; and other tags in the head tag in post, please write it here."
+msgstr ""
+"* 如果你想在帖子的头部标签中添加&lt;style&gt;, &lt;javascript&gt;, &lt;"
+"meta&gt;, &lt;link&gt;和其他标签，请在这里写。"
+
+#: ../../inc/post-meta-boxes.php:61
+msgid ""
+"* You can change the title by describing &lt;title&gt; ~ &lt;/title&gt;."
+msgstr "* 你可以通过描述&lt;title&gt; ~ &lt;/title&gt;来改变标题。"
+
+#: ../../inc/post-meta-boxes.php:80
+msgid ""
+"* If you would like to change the meta description, please write it here."
+msgstr "* 如果你想改变元描述，请写在这里."
+
+#: ../../inc/post-meta-boxes.php:99
+msgid ""
+"* If there are meta keywords you want to add other than category names and "
+"tags, please write them here (comma separated)."
+msgstr ""
+"* 如果除了类别名称和标签之外，还有你想添加的元关键词，请在这里写出来（用逗号"
+"分隔）。"
+
+#: ../../inc/post-meta-boxes.php:126
+msgid "* If you would like to change the canonical url, please write it here."
+msgstr "* 如果你想改变规范的网址，请写在这里。"
+
+#: ../../inc/post-meta-boxes.php:127
+msgid "* If you want to return to the initial value, save it blank."
+msgstr "* 如果你想回到初始值，请将其保存为空白。"
+
+#: ../../inc/post-meta-boxes.php:146
+msgid ""
+"* If you would like to add CSS for AMP in post, please write it here. ( No "
+"&lt;style&gt; tag required )"
+msgstr ""
+"* 如果你想在帖子中为AMP添加CSS，请在这里写上。( 不需要&lt;style&gt; 标签 )"
+
+#: ../../inc/post-meta-boxes.php:185 ../../inc/sections/amp.php:101
+#: ../../inc/sections/design-create.php:44 ../../inc/sections/ogp.php:71
+#: ../../inc/sections/seo.php:499 ../../inc/sections/seo.php:541
+msgid "Delete image"
+msgstr "Delete image"
+
+#: ../../inc/post-meta-boxes.php:215
+msgid "Additional AMP styles"
+msgstr "额外的AMP样式"
+
+#: ../../inc/post-meta-boxes.php:218
+msgid "Change canonical url"
+msgstr "更改规范的网址"
+
+#: ../../inc/post-meta-boxes.php:220
+msgid "Add keywords"
+msgstr "添加关键词"
+
+#: ../../inc/post-meta-boxes.php:222
+msgid "Change description"
+msgstr "改变描述"
+
+#: ../../inc/post-meta-boxes.php:224
+msgid "Additional headers"
+msgstr "额外的headers"
+
+#: ../../inc/post-meta-boxes.php:228
+#: ../../inc/sections/shortcode-balloon.php:54
+#: ../../inc/sections/shortcode-balloon.php:105
+msgid "Image"
+msgstr "Image"
+
+#: ../../inc/post-side-boxes.php:23
+msgid "Update method"
+msgstr "更新方式"
+
+#: ../../inc/post-side-boxes.php:44
+msgid "Normal update"
+msgstr "正常更新"
+
+#: ../../inc/post-side-boxes.php:45
+msgid "Quick fix (No change to modify date)"
+msgstr "快速修复 (修改日期不变)"
+
+#: ../../inc/post-side-boxes.php:46
+msgid "Erase modify date (Publish date and modify date becomes the same)"
+msgstr "删除修改日期（发布日期和修改日期相同）"
+
+#: ../../inc/post-side-boxes.php:47
+msgid "Set the modify date manually"
+msgstr "手动设置修改日期"
+
+#: ../../inc/post-side-boxes.php:50 ../../inc/post-side-boxes.php:53
+msgid "Modified on:"
+msgstr "修改日期："
+
+#: ../../inc/post-side-boxes.php:50
+msgid "M j, Y @ H:i"
+msgstr "M j, Y @ H:i"
+
+#: ../../inc/post-side-boxes.php:53
+msgid "Not updated"
+msgstr "未更新"
+
+#: ../../inc/post-side-boxes.php:84 ../../inc/post-side-boxes.php:86
+msgid "Year"
+msgstr "Year"
+
+#: ../../inc/post-side-boxes.php:88 ../../inc/post-side-boxes.php:97
+msgid "Month"
+msgstr "Month"
+
+#: ../../inc/post-side-boxes.php:99 ../../inc/post-side-boxes.php:101
+msgid "Day"
+msgstr "Day"
+
+#: ../../inc/post-side-boxes.php:102
+msgid "Hour"
+msgstr "Hour"
+
+#: ../../inc/post-side-boxes.php:105
+msgid "Minute"
+msgstr "Minute"
+
+#: ../../inc/post-side-boxes.php:170 ../../inc/post-side-boxes.php:171
+msgid "Search Engine Visibility"
+msgstr "搜索引擎可见性"
+
+#: ../../inc/post-side-boxes.php:206
+msgid "Noindex tells search engines not to index."
+msgstr "Noindex告诉搜索引擎不要索引。"
+
+#: ../../inc/post-side-boxes.php:212
+msgid "Nofollow tells search engines not to follow the links."
+msgstr "Nofollow告诉搜索引擎不要关注链接。"
+
+#: ../../inc/post-side-boxes.php:218
+msgid "Noarchive tells search engines not to store a cache."
+msgstr "Noarchive告诉搜索引擎不要存储缓存。"
+
+#: ../../inc/post-side-boxes.php:224
+msgid "Noimageindex tells search engines not to index images on this page."
+msgstr "Noimageindex告诉搜索引擎不要对这个页面的图像进行索引。"
+
+#: ../../inc/post-side-boxes.php:238 ../../inc/post-side-boxes.php:239
+msgid "Disable jQuery Asynchronous"
+msgstr "禁用jQuery的异步功能"
+
+#: ../../inc/post-side-boxes.php:255
+msgid "Disable jQuery Asynchronous on this page"
+msgstr "在此页面上禁用jQuery异步"
+
+#: ../../inc/post-side-boxes.php:270 ../../inc/post-side-boxes.php:271
+msgid "Disable AMP"
+msgstr "禁用AMP"
+
+#: ../../inc/post-side-boxes.php:287
+msgid "Disable AMP on this page"
+msgstr "在此页面上禁用AMP"
+
+#: ../../inc/post-side-boxes.php:301 ../../inc/post-side-boxes.php:302
+msgid "Hide TOC"
+msgstr "隐藏目录"
+
+#: ../../inc/post-side-boxes.php:318
+msgid "Hide TOC on this page"
+msgstr "在此页面上隐藏目录"
+
+#: ../../inc/regenerate-thumbnail.php:57 ../../inc/sns-cache-all-get.php:53
+msgid "Processing started."
+msgstr "处理开始。"
+
+#: ../../inc/regenerate-thumbnail.php:65 ../../inc/sns-cache-all-get.php:61
+msgid "Processing is completed"
+msgstr "处理完毕"
+
+#: ../../inc/respond.php:256 ../../languages/site/translations.php:95
+msgid "Rotate"
+msgstr "旋转"
+
+#: ../../inc/restore.php:147
+#, php-format
+msgid "Restored %s settings"
+msgstr "已恢复 %s 设置"
+
+#: ../../inc/restore.php:150
+msgid "Restore failed"
+msgstr "还原失败"
+
+#: ../../inc/restore.php:154
+msgid "Not file selected"
+msgstr "未选择文件"
+
+#: ../../inc/shortcode-post.php:56
+msgid "Insert Shortcode"
+msgstr "插入短代码"
+
+#: ../../inc/shortcode-post.php:80 ../../inc/shortcode-post.php:143
+msgid "There is no active shortcode."
+msgstr "没有活动的短代码。"
+
+#: ../../inc/shortcode-regist.php:32 ../../inc/shortcode-regist.php:38
+#: ../../inc/sections/shortcode-list.php:280
+#: ../../inc/sections/shortcode-list.php:286
+msgid "This shortcode name is not available in WordPress"
+msgstr "这个短码名称在WordPress中是不可用的"
+
+#: ../../inc/shortcode-regist.php:56
+msgid "shortcode"
+msgstr "短代码"
+
+#: ../../inc/shortcode-sample.php:18 ../../inc/sections/shortcode-sample.php:30
+msgid "Sample that simply displays a character string"
+msgstr "简单显示字符串的示例"
+
+#: ../../inc/shortcode-sample.php:19 ../../inc/sections/shortcode-sample.php:34
+msgid "Sample using enclosing shortcode"
+msgstr "使用封闭短代码的示例"
+
+#: ../../inc/shortcode-sample.php:20 ../../inc/sections/shortcode-sample.php:38
+msgid "Sample to display argument given to shortcode"
+msgstr "显示给短代码的参数的样本"
+
+#: ../../inc/sns-cache.php:61
+msgid "Could not create cache file."
+msgstr "无法创建缓存文件。"
+
+#: ../../inc/sns-count-view.php:74
+msgid "Published date"
+msgstr "发布日期"
+
+#: ../../inc/sns-count-view.php:204
+msgid "Not cached"
+msgstr "未缓存"
+
+#: ../../inc/theme-editor-script.php:70
+msgid "Svae"
+msgstr "Svae"
+
+#: ../../inc/theme-editor-script.php:73
+msgid "Jump"
+msgstr "Jump"
+
+#: ../../inc/theme-editor-script.php:78
+msgid "RegEx"
+msgstr "RegEx"
+
+#: ../../inc/theme-editor-script.php:84
+msgid "Replace All"
+msgstr "全部替换"
+
+#: ../../inc/theme-editor.php:34
+msgid ""
+"* Deleting the original comment may malfunction to have the theme not work "
+"as the child theme."
+msgstr "* 删除原始评论可能会出现故障，使主题不能作为子主题工作。"
+
+#: ../../inc/theme-editor.php:44
+msgid ""
+"* Write here the Sytle or Javascript which wants to be placed in the head "
+"tag."
+msgstr "* 在这里写下希望放在head标签中的Sytle或Javascript。"
+
+#: ../../inc/theme-editor.php:49
+msgid ""
+"* Write here the Sytle or Javascript which wants to be placed in the footer."
+msgstr "* 在这里写下希望放在页脚的Sytle或Javascript。"
+
+#: ../../inc/theme-editor.php:54
+msgid ""
+"* When inserting the tracking code in &lt;head&gt; tag, please write it here."
+msgstr "* 在 &lt;head&gt; 标签中插入跟踪代码时，请写在这里。"
+
+#: ../../inc/theme-editor.php:55
+msgid ""
+"* Recommended to add Google Analytics code (gtag.js) and other tracking code "
+"here."
+msgstr "* 建议在此添加谷歌分析代码（gtag.js）和其他跟踪代码。"
+
+#: ../../inc/theme-editor.php:60
+msgid ""
+"* When inserting the tracking code in &lt;body&gt; tag, please write it here."
+msgstr "* 在&lt;body&gt;标签中插入跟踪代码时，请写在这里。"
+
+#: ../../inc/theme-editor.php:62
+msgid "Tracking code position"
+msgstr "追踪代码位置"
+
+#: ../../inc/theme-editor.php:63 ../../inc/theme-editor.php:78
+#, php-format
+msgid "Top of %s"
+msgstr "Top of %s"
+
+#: ../../inc/theme-editor.php:64 ../../inc/theme-editor.php:79
+#, php-format
+msgid "Bottom of %s"
+msgstr "Bottom of %s"
+
+#: ../../inc/theme-editor.php:69
+msgid "Child Theme Functions"
+msgstr "子主题功能"
+
+#: ../../inc/theme-editor.php:70
+msgid ""
+"* Miss writing the functions.php may lead to malfunctin of Wordpress, so be "
+"careful!!!"
+msgstr "* 漏写function.php可能会导致Wordpress的故障，所以要小心！!"
+
+#: ../../inc/theme-editor.php:75
+msgid "* Please insert amp-auto-ads tag here when using Auto ads for AMP."
+msgstr "* 在为AMP使用自动广告时，请在此插入amp-auto-ads标签。"
+
+#: ../../inc/theme-editor.php:75
+msgid ""
+"The head tag of amp-auto-ads is unnecessary as it is automatically loaded."
+msgstr "amp-auto-ads的head标签是不必要的，因为它是自动加载的。"
+
+#: ../../inc/theme-editor.php:77
+msgid "Insertion position"
+msgstr "插入位置"
+
+#: ../../inc/theme-editor.php:89
+msgid "Stylesheet for post editor"
+msgstr "帖子编辑器的样式表"
+
+#: ../../inc/thk-zip.php:27
+msgid "In the PHP environment you are using, ZipArchive could not be handled."
+msgstr "在你所使用的PHP环境中，无法处理ZipArchive。"
+
+#: ../../inc/thk-zip.php:40
+msgid "Temporary file creation failed."
+msgstr "临时文件创建失败。"
+
+#: ../../inc/thumbnail-images.php:48
+msgid "Micro thumbnail"
+msgstr "微型缩略图"
+
+#: ../../inc/thumbnail-images.php:55
+msgid "Small thumbnail"
+msgstr "小型缩略图"
+
+#: ../../inc/thumbnail-images.php:62
+msgid "Horizontal thumbnail"
+msgstr "横向缩略图"
+
+#: ../../inc/thumbnail-images.php:69 ../../inc/thumbnail-images.php:76
+msgid "Small size"
+msgstr "小尺寸"
+
+#: ../../inc/thumbnail-images.php:69 ../../inc/thumbnail-images.php:83
+msgid "Side bar with 336 px"
+msgstr "Side bar with 336 px"
+
+#: ../../inc/thumbnail-images.php:76 ../../inc/thumbnail-images.php:90
+msgid "Side bar with 300 px"
+msgstr "Side bar with 300 px"
+
+#: ../../inc/thumbnail-images.php:83 ../../inc/thumbnail-images.php:90
+msgid "Large size"
+msgstr "大尺寸"
+
+#: ../../inc/tinymce-before-init.php:147
+msgid "Paragraph <p>"
+msgstr "Paragraph <p>"
+
+#: ../../inc/tinymce-before-init.php:148
+msgid "Block <div>"
+msgstr "Block <div>"
+
+#: ../../inc/tinymce-before-init.php:149
+msgid "Heading 2 <h2>"
+msgstr "Heading 2 <h2>"
+
+#: ../../inc/tinymce-before-init.php:150
+msgid "Heading 3 <h3>"
+msgstr "Heading 3 <h3>"
+
+#: ../../inc/tinymce-before-init.php:151
+msgid "Heading 4 <h4>"
+msgstr "Heading 4 <h4>"
+
+#: ../../inc/tinymce-before-init.php:152
+msgid "Heading 5 <h5>"
+msgstr "Heading 5 <h5>"
+
+#: ../../inc/tinymce-before-init.php:153
+msgid "Heading 6 <h6>"
+msgstr "Heading 6 <h6>"
+
+#: ../../inc/tinymce-before-init.php:154
+msgid "Blockquote <blockquote>"
+msgstr "Blockquote <blockquote>"
+
+#: ../../inc/tinymce-before-init.php:155
+msgid "Preformatted <pre>"
+msgstr "Preformatted <pre>"
+
+#: ../../inc/tinymce-before-init.php:156
+msgid "Address <address>"
+msgstr "地址 <address>"
+
+#: ../../inc/tinymce-before-init.php:164
+msgid "Sans-serif"
+msgstr "无衬线"
+
+#: ../../inc/tinymce-before-init.php:165
+msgid "serif"
+msgstr "衬线"
+
+#: ../../inc/tinymce-before-init.php:166
+msgid "Monospaced font"
+msgstr "等宽字体"
+
+#: ../../inc/tinymce-before-init.php:167
+msgid "Yu Gothic"
+msgstr "Yu Gothic"
+
+#: ../../inc/tinymce-before-init.php:168
+msgid "Yu Mincho"
+msgstr "Yu Mincho"
+
+#: ../../inc/tinymce-settings.php:37
+msgid "* These settings will be activated after reloading the screen."
+msgstr "* 这些设置将在重新加载屏幕后被激活。"
+
+#: ../../inc/tinymce-settings.php:41 ../../inc/sections/balloon-css.php:87
+msgid "Max width"
+msgstr "最大宽度"
+
+#: ../../inc/tinymce-settings.php:42 ../../inc/sections/balloon-css.php:88
+msgid "When input is 0, 100%"
+msgstr "当输入为0时，100%"
+
+#: ../../inc/tinymce-settings.php:53
+msgid "Behavior of enter key"
+msgstr "回车键的行为"
+
+#: ../../inc/tinymce-settings.php:62 ../../inc/tinymce-settings.php:75
+msgid "Newline"
+msgstr "换行"
+
+#: ../../inc/tinymce-settings.php:85
+msgid "Show Menu bar"
+msgstr "显示菜单栏"
+
+#: ../../inc/tinymce-settings.php:89
+msgid "Auto reload after saving"
+msgstr "保存后自动重新加载"
+
+#: ../../inc/widget.php:23 ../../inc/widget.php:24 ../../inc/widget.php:34
+#: ../../inc/widget.php:87 ../../inc/sections/widget-css.php:41
+#: ../../languages/site/translations.php:66
+msgid "QR Code"
+msgstr "二维码"
+
+#: ../../inc/widget.php:24 ../../inc/widget.php:119 ../../inc/widget.php:241
+#: ../../inc/widget.php:558 ../../inc/widget.php:792 ../../inc/widget.php:847
+#: ../../inc/widget.php:1206 ../../inc/widget.php:1536
+#: ../../inc/widget.php:1601 ../../inc/widget.php:1671
+#: ../../inc/sections/widget-css.php:36 ../../inc/sections/widget-css.php:37
+#: ../../inc/sections/widget-css.php:38 ../../inc/sections/widget-css.php:41
+#: ../../inc/sections/widget-css.php:42
+msgid "by Luxeritas"
+msgstr "by Luxeritas"
+
+#: ../../inc/widget.php:93 ../../inc/widget.php:225 ../../inc/widget.php:507
+#: ../../inc/widget.php:741 ../../inc/widget.php:825 ../../inc/widget.php:1119
+#: ../../inc/widget.php:1403 ../../inc/widget.php:1581
+#: ../../inc/widget.php:1635 ../../inc/widget.php:1754
+#: ../../languages/site/translations.php:67
+msgid "Title:"
+msgstr "Title:"
+
+#: ../../inc/widget.php:94 ../../inc/sections/recaptcha.php:82
+msgid "Size"
+msgstr "Size"
+
+#: ../../inc/widget.php:95
+msgid "Margin:"
+msgstr "Margin:"
+
+#: ../../inc/widget.php:97
+msgid "Alignment:"
+msgstr "Alignment:"
+
+#: ../../inc/widget.php:118 ../../inc/widget.php:119
+#: ../../inc/sections/widget-css.php:38
+#: ../../languages/site/translations.php:68
+msgid "Recent Comments"
+msgstr "最近的评论"
+
+#: ../../inc/widget.php:159 ../../languages/site/translations.php:72
+msgid "Anonymous"
+msgstr "匿名"
+
+#: ../../inc/widget.php:168 ../../inc/widget.php:171
+#: ../../languages/site/translations.php:69
+#, php-format
+msgid "%s&apos; website"
+msgstr "%s&apos; website"
+
+#: ../../inc/widget.php:191 ../../languages/site/translations.php:70
+msgid "Post of this comment"
+msgstr "发表此评论"
+
+#: ../../inc/widget.php:222 ../../languages/site/translations.php:71
+msgid "The latest comments to all posts"
+msgstr "所有帖子的最新评论"
+
+#: ../../inc/widget.php:227
+msgid "Number of comments to show:"
+msgstr "要显示的评论数量："
+
+#: ../../inc/widget.php:240 ../../inc/widget.php:241 ../../inc/widget.php:497
+#: ../../inc/sections/widget-css.php:36
+#: ../../languages/site/translations.php:73
+msgid "Recent posts"
+msgstr "最近的帖子"
+
+#: ../../inc/widget.php:471 ../../languages/site/translations.php:74
+msgid "No new posts"
+msgstr "没有新帖子"
+
+#: ../../inc/widget.php:511
+msgid "All Categories"
+msgstr "所有分类"
+
+#: ../../inc/widget.php:515
+msgid "Small square thumbnail"
+msgstr "小型方形缩略图"
+
+#: ../../inc/widget.php:516
+msgid "Wide thumbnail"
+msgstr "宽缩略图"
+
+#: ../../inc/widget.php:520
+msgid "Sort"
+msgstr "分类"
+
+#: ../../inc/widget.php:523 ../../inc/sections/seo.php:571
+msgid "publish date"
+msgstr "发布日期"
+
+#: ../../inc/widget.php:524 ../../inc/sections/seo.php:572
+msgid "updated date"
+msgstr "更新日期"
+
+#: ../../inc/widget.php:528
+msgid "Number of posts to show:"
+msgstr "要显示的帖子数量："
+
+#: ../../inc/widget.php:531
+msgid "Category or tag display:"
+msgstr "分类或标签显示："
+
+#: ../../inc/widget.php:534
+msgid "Display category preferentially"
+msgstr "优先显示分类"
+
+#: ../../inc/widget.php:536
+msgid "Display tag preferentially"
+msgstr "优先显示标签"
+
+#: ../../inc/widget.php:538
+msgid "Do not display"
+msgstr "请勿显示"
+
+#: ../../inc/widget.php:541
+msgid "No date"
+msgstr "没有日期"
+
+#: ../../inc/widget.php:543
+msgid "No excerpt"
+msgstr "没有摘录"
+
+#: ../../inc/widget.php:545
+msgid "No thumbnail"
+msgstr "没有缩略图"
+
+#: ../../inc/widget.php:557 ../../inc/widget.php:558
+msgid "SNS Follow Button"
+msgstr "SNS关注按钮"
+
+#: ../../inc/widget.php:684 ../../languages/site/translations.php:75
+msgid "Follow me!"
+msgstr "Follow me!"
+
+#: ../../inc/widget.php:744
+msgid "Button appearance:"
+msgstr "按钮外观："
+
+#: ../../inc/widget.php:791 ../../inc/widget.php:792
+msgid "RSS / Feedly Button"
+msgstr "RSS / Feedly 按钮"
+
+#: ../../inc/widget.php:823 ../../languages/site/translations.php:76
+msgid "Subscribe to this blog"
+msgstr "订阅本博客"
+
+#: ../../inc/widget.php:844
+msgid ""
+"It&#x27;s mainly for adsense, but you can write whatever you like text, "
+"HTML, shortcode etc."
+msgstr "它主要用于广告，但你可以写任何你喜欢的文本、HTML、短码等。"
+
+#: ../../inc/widget.php:845
+msgid ""
+"This widget can be switched between &quot;show / hide&quot; on the specified "
+"page."
+msgstr "这个小组件可以在指定的页面上在&quot;显示/隐藏&quot;之间进行切换。"
+
+#: ../../inc/widget.php:847
+msgid "Advertising / Adsense"
+msgstr "广告 / Adsense"
+
+#: ../../inc/widget.php:853
+msgid "Preview page"
+msgstr "预览页面"
+
+#: ../../inc/widget.php:854
+msgid "Customize preview page"
+msgstr "自定义预览页面"
+
+#: ../../inc/widget.php:855
+msgid "404 Not Found page"
+msgstr "404 Not Found page"
+
+#: ../../inc/widget.php:856 ../../inc/sections/pagination.php:74
+#: ../../inc/sections/widget-area.php:33 ../../inc/sections/widget-area.php:55
+#: ../../inc/sections/widget-body.php:41 ../../inc/sections/widget-body.php:63
+msgid "Search result page"
+msgstr "搜索结果页"
+
+#: ../../inc/widget.php:862 ../../inc/widget.php:1223
+msgid "Specified page"
+msgstr "指定的页面"
+
+#: ../../inc/widget.php:862 ../../inc/widget.php:1223
+msgid "Specify post IDs separated by commas or line feeds"
+msgstr "指定由逗号或换行符分隔的帖子ID"
+
+#: ../../inc/widget.php:877 ../../inc/widget.php:879
+msgid "Dual Ad horizon"
+msgstr "双重广告范围"
+
+#: ../../inc/widget.php:878 ../../inc/widget.php:880
+msgid "Dual Ad vertical"
+msgstr "垂直双广告"
+
+#: ../../inc/widget.php:884 ../../inc/widget.php:963
+#: ../../languages/site/translations.php:3
+msgid "Sponsored Links"
+msgstr "赞助链接"
+
+#: ../../inc/widget.php:885 ../../inc/widget.php:960
+#: ../../languages/site/translations.php:4
+msgid "Advertisement"
+msgstr "广告"
+
+#: ../../inc/widget.php:1121
+msgid "Content:"
+msgstr "内容："
+
+#: ../../inc/widget.php:1123
+msgid "* Google Adsense please paste responsive ads."
+msgstr "* Google Adsense请粘贴响应式广告。"
+
+#: ../../inc/widget.php:1124
+msgid ""
+"* In addition to advertisements, you can write whatever you like text, HTML, "
+"shortcode etc."
+msgstr "* 除了广告，你可以写任何你喜欢的文字、HTML、短码等。"
+
+#: ../../inc/widget.php:1127
+msgid "Adsense Size"
+msgstr "广告尺寸"
+
+#: ../../inc/widget.php:1152 ../../inc/sections/block-pattern-list.php:119
+#: ../../inc/sections/block-pattern-list.php:160
+#: ../../inc/sections/phrase-list.php:70 ../../inc/sections/phrase-list.php:112
+#: ../../inc/sections/shortcode-list.php:90
+#: ../../inc/sections/shortcode-list.php:147
+msgid "Label"
+msgstr "标签"
+
+#: ../../inc/widget.php:1162
+msgid "Center the label"
+msgstr "标签居中"
+
+#: ../../inc/widget.php:1167
+msgid "Add structured data representing advertisements"
+msgstr "添加代表广告的结构化数据"
+
+#: ../../inc/widget.php:1169
+msgid "Surrounded by &lt;aside&gt; tag"
+msgstr "Surrounded by &lt;aside&gt; tag"
+
+#: ../../inc/widget.php:1172
+msgid "Pages not to display this widget:"
+msgstr "不显示此小部件的页面："
+
+#: ../../inc/widget.php:1204
+msgid "High feature carousel slider. This widget is not displayed in AMP."
+msgstr "高功能转盘滑块。此小部件不显示在AMP中。"
+
+#: ../../inc/widget.php:1206
+msgid "Carousel Slider"
+msgstr "旋转滑块"
+
+#: ../../inc/widget.php:1219
+msgid "Latest list of categories to belong"
+msgstr "所属类别的最新列表"
+
+#: ../../inc/widget.php:1220
+msgid "Latest list of tags to belong"
+msgstr "所属标签的最新列表"
+
+#: ../../inc/widget.php:1221
+msgid "Latest list of all posts"
+msgstr "所有帖子的最新列表"
+
+#: ../../inc/widget.php:1222
+msgid "Latest list of static pages"
+msgstr "最新的静态页面列表"
+
+#: ../../inc/widget.php:1242
+msgid "Bullets"
+msgstr "项目符号"
+
+#: ../../inc/widget.php:1243
+msgid "Fraction"
+msgstr "Fraction"
+
+#: ../../inc/widget.php:1244
+msgid "Progress bar"
+msgstr "进度条"
+
+#: ../../inc/widget.php:1248
+msgid "Always display"
+msgstr "始终显示"
+
+#: ../../inc/widget.php:1249
+msgid "Displayed only when mouse hover"
+msgstr "仅在鼠标悬停时显示"
+
+#: ../../inc/widget.php:1253
+msgid "3D animation"
+msgstr "3D 动画"
+
+#: ../../inc/widget.php:1254
+msgid "Rotate on mouse over"
+msgstr "鼠标悬停时旋转"
+
+#: ../../inc/widget.php:1255
+msgid "Display active slide a little larger"
+msgstr "将活动幻灯片显示得大一点"
+
+#: ../../inc/widget.php:1258
+msgid "Display the displayed post in the center"
+msgstr "在中间显示所显示的帖子"
+
+#: ../../inc/widget.php:1259
+msgid "Display the latest post in the center"
+msgstr "在中间显示最新的帖子"
+
+#: ../../inc/widget.php:1260
+msgid "Display in order of posting date / time"
+msgstr "按照发布日期/时间的顺序显示"
+
+#: ../../inc/widget.php:1405
+msgid "Page display this widget"
+msgstr "页面显示这个小工具"
+
+#: ../../inc/widget.php:1415
+msgid "Item type and number of display items"
+msgstr "项目类型和展示项目的数量"
+
+#: ../../inc/widget.php:1427
+msgid ""
+" : Maximum display number ( * a number smaller than the number of items )"
+msgstr " : 最大显示数（*比项目数小的数字）。"
+
+#: ../../inc/widget.php:1430
+msgid " : Maximum number of items"
+msgstr " : 最大项目数"
+
+#: ../../inc/widget.php:1445
+msgid "Automatic width"
+msgstr "自动宽度"
+
+#: ../../inc/widget.php:1447
+msgid "Stretch the image to full-width"
+msgstr "将图像拉伸至全宽"
+
+#: ../../inc/widget.php:1449
+msgid "Height"
+msgstr "高度"
+
+#: ../../inc/widget.php:1452
+msgid "Automatic height"
+msgstr "自动高度"
+
+#: ../../inc/widget.php:1452
+msgid "It will be the height of the largest thumbnail size"
+msgstr "它将是最大的缩略图尺寸的高度"
+
+#: ../../inc/widget.php:1454
+msgid "Stretch the image to full height"
+msgstr "将图像拉伸至全高"
+
+#: ../../inc/widget.php:1456
+msgid "Fixed height"
+msgstr "固定高度"
+
+#: ../../inc/widget.php:1458
+msgid "Margin color"
+msgstr "边框颜色"
+
+#: ../../inc/widget.php:1462
+msgid "Navigation"
+msgstr "导航"
+
+#: ../../inc/widget.php:1485
+msgid "Efects"
+msgstr "影响"
+
+#: ../../inc/widget.php:1497
+msgid "Display non-active slides dark"
+msgstr "将非活动的幻灯片显示为暗色"
+
+#: ../../inc/widget.php:1500
+msgid "Options"
+msgstr "选择"
+
+#: ../../inc/widget.php:1511
+msgid "Autoplay"
+msgstr "自动播放"
+
+#: ../../inc/widget.php:1512
+msgid "sec"
+msgstr "秘密"
+
+#: ../../inc/widget.php:1515
+msgid "Display post title "
+msgstr "显示帖子标题 "
+
+#: ../../inc/widget.php:1518
+msgid "Disable Lazy Load"
+msgstr "禁用延迟加载"
+
+#: ../../inc/widget.php:1534
+msgid "Insert table of contents."
+msgstr "插入目录。"
+
+#: ../../inc/widget.php:1583
+msgid ""
+"The setting of this widget is in &quot;Table of Contents&quot; of appearance "
+"customization."
+msgstr "这个小部件的设置在“；目录；外观定制。"
+
+#: ../../inc/widget.php:1585
+msgid "Hide widgets when there is no item"
+msgstr "在没有项目时隐藏小工具"
+
+#: ../../inc/widget.php:1599
+msgid "Display selected reusable block."
+msgstr "显示所选的可重复使用的块。"
+
+#: ../../inc/widget.php:1618
+msgid "This content cannot be displayed in widgets."
+msgstr "这些内容不能在小部件中显示。"
+
+#: ../../inc/widget.php:1637
+msgid "Reusable Blocks:"
+msgstr "可重复使用区块："
+
+#: ../../inc/widget.php:1657 ../../inc/sections/block-pattern-list.php:54
+msgid "No reusable block available to select."
+msgstr "没有可重复使用的区块可供选择。"
+
+#: ../../inc/widget.php:1670 ../../inc/widget.php:1671
+#: ../../inc/sections/widget-css.php:42
+msgid "PWA install button"
+msgstr "PWA安装按钮"
+
+#: ../../inc/widget.php:1756
+msgid "Button name"
+msgstr "按钮名称"
+
+#: ../../inc/widget.php:1758
+msgid "Button description"
+msgstr "按钮描述"
+
+#: ../../inc/widget.php:1767
+msgid "Display only when mobile device."
+msgstr "只在移动设备上显示。"
+
+#: ../../inc/widget.php:1933 ../../inc/widget.php:1942
+msgid "General-purpose sidebar"
+msgstr "通用侧边栏"
+
+#: ../../inc/widget.php:1933 ../../inc/widget.php:1942
+#: ../../inc/widget.php:1951 ../../inc/widget.php:1960
+#: ../../inc/widget.php:1969 ../../inc/widget.php:1978
+#: ../../inc/widget.php:2203 ../../inc/widget.php:2212
+#, php-format
+msgid "title %s type"
+msgstr "title %s type"
+
+#: ../../inc/widget.php:1934 ../../inc/widget.php:1943
+#: ../../inc/widget.php:1952 ../../inc/widget.php:1961
+#: ../../inc/widget.php:1970 ../../inc/widget.php:1979
+#: ../../inc/widget.php:2204 ../../inc/widget.php:2213
+#, php-format
+msgid "If you want the title to have %s tag."
+msgstr "如果您希望标题具有%s标记。"
+
+#: ../../inc/widget.php:1951 ../../inc/widget.php:1960
+msgid "Front page sidebar"
+msgstr "首页侧边栏"
+
+#: ../../inc/widget.php:1952 ../../inc/widget.php:1961
+msgid "Front page dedicated."
+msgstr "首页专用。"
+
+#: ../../inc/widget.php:1969 ../../inc/widget.php:1978
+msgid "Other than the front page sidebar"
+msgstr "除了首页侧边栏"
+
+#: ../../inc/widget.php:1970 ../../inc/widget.php:1979
+msgid "Pages other than the front page."
+msgstr "首页以外的页面。"
+
+#: ../../inc/widget.php:1987
+msgid "Scroll follow sidebar (H4 type)"
+msgstr "滚动跟随侧边栏（H4类型）"
+
+#: ../../inc/widget.php:1988
+msgid "Widget to follow the scroll. The title is only h4."
+msgstr "小工具跟随滚动。标题只有h4。"
+
+#: ../../inc/widget.php:1996
+msgid "AMP sidebar (H4 type)"
+msgstr "AMP侧边栏（H4型）"
+
+#: ../../inc/widget.php:1997
+msgid "AMP dedicated. The title is only h4."
+msgstr "AMP专用。标题只有h4。"
+
+#: ../../inc/widget.php:2005 ../../inc/widget.php:2014
+msgid "Under Header Widget"
+msgstr "标题下方小部件"
+
+#: ../../inc/widget.php:2006 ../../inc/widget.php:2015
+msgid "Place the widget just below the header."
+msgstr "将小部件放在标题的正下方。"
+
+#: ../../inc/widget.php:2014 ../../inc/widget.php:2032
+#: ../../inc/widget.php:2050 ../../inc/widget.php:2068
+#: ../../inc/widget.php:2086 ../../inc/widget.php:2104
+#: ../../inc/widget.php:2176 ../../inc/widget.php:2194
+msgid "for AMP"
+msgstr "用于AMP"
+
+#: ../../inc/widget.php:2023 ../../inc/widget.php:2032
+msgid "Above Post Title Widget"
+msgstr "帖子标题上面的小工具"
+
+#: ../../inc/widget.php:2024 ../../inc/widget.php:2033
+msgid "Place the widget above the post title."
+msgstr "将小部件放在文章标题上方。"
+
+#: ../../inc/widget.php:2041 ../../inc/widget.php:2050
+msgid "Under Post Title Widget"
+msgstr "帖子标题下的小工具"
+
+#: ../../inc/widget.php:2042 ../../inc/widget.php:2051
+msgid "Place the widget under the post title."
+msgstr "将小部件放在文章标题下。"
+
+#: ../../inc/widget.php:2059 ../../inc/widget.php:2068
+msgid "Above the first H2 tag in the post"
+msgstr "帖子内容第一个H2标签上方"
+
+#: ../../inc/widget.php:2060 ../../inc/widget.php:2069
+msgid "Place the widget above first H2 tag in the post."
+msgstr "将小部件放置在帖子中的第一个H2标签上方。"
+
+#: ../../inc/widget.php:2077 ../../inc/widget.php:2086
+msgid "Above Related Posts Widget"
+msgstr "相关帖子上方小工具"
+
+#: ../../inc/widget.php:2078 ../../inc/widget.php:2087
+msgid "Place the widget above the related posts."
+msgstr "将小部件放在相关帖子的上方。"
+
+#: ../../inc/widget.php:2095 ../../inc/widget.php:2104
+msgid "Under Related Posts Widget"
+msgstr "相关帖子下方小工具"
+
+#: ../../inc/widget.php:2096 ../../inc/widget.php:2105
+msgid "Place the widget under the related posts."
+msgstr "将小部件放在相关帖子的下面。"
+
+#: ../../inc/widget.php:2113
+msgid "Above Posts List Widget"
+msgstr "帖子列表上方小工具"
+
+#: ../../inc/widget.php:2114
+msgid "Place the widget above the posts list."
+msgstr "将小部件放在帖子列表的上方。"
+
+#: ../../inc/widget.php:2122
+msgid "Middle of Posts List Widget"
+msgstr "帖子列表中间小工具"
+
+#: ../../inc/widget.php:2123
+msgid "Place the widget middle of the posts list."
+msgstr "将小部件放在帖子列表的中间。"
+
+#: ../../inc/widget.php:2131
+msgid "Under Posts List Widget"
+msgstr "帖子列表下方小工具"
+
+#: ../../inc/widget.php:2132
+msgid "Place the widget under the posts list."
+msgstr "将小部件放在帖子列表的下方。"
+
+#: ../../inc/widget.php:2140
+msgid "Footer left"
+msgstr "左侧页脚"
+
+#: ../../inc/widget.php:2140 ../../inc/widget.php:2149
+#: ../../inc/widget.php:2158
+msgid "Title H4"
+msgstr "Title H4"
+
+#: ../../inc/widget.php:2141 ../../inc/widget.php:2150
+#: ../../inc/widget.php:2159
+msgid "When the sidebar is offscreen, it will be not shown."
+msgstr "当侧边栏在屏幕外时，它将不会显示。"
+
+#: ../../inc/widget.php:2149
+msgid "Footer center"
+msgstr "页脚中心"
+
+#: ../../inc/widget.php:2158
+msgid "Footer right"
+msgstr "页脚右侧"
+
+#: ../../inc/widget.php:2167 ../../inc/widget.php:2176
+msgid "Under Post Widget"
+msgstr "帖子下面的小工具"
+
+#: ../../inc/widget.php:2168 ../../inc/widget.php:2177
+msgid "Place the widget under the post."
+msgstr "将小部件放在帖子下面。"
+
+#: ../../inc/widget.php:2185 ../../inc/widget.php:2194
+msgid "Further below &quot;Under Post Widget&quot;"
+msgstr "进一步在下面；在Post Widget下"
+
+#: ../../inc/widget.php:2186 ../../inc/widget.php:2195
+msgid "Place the widget further below &quot;Under Post Widget&quot;."
+msgstr "将小部件放在“帖子小部件下”下方。"
+
+#: ../../inc/widget.php:2203 ../../inc/widget.php:2212
+msgid "3 Column Left Sidebar"
+msgstr "3栏式左侧边栏"
+
+#: ../../inc/wpfunc.php:1558 ../../inc/wpfunc.php:1561
+#: ../../inc/wpfunc.php:1622 ../../languages/site/translations.php:85
+msgid "Could not delete cache directory."
+msgstr "无法删除缓存目录。"
+
+#: ../../inc/sections/all_clear.php:21
+msgid "RESET all the customizations"
+msgstr "重置所有的自定义设置"
+
+#: ../../inc/sections/all_clear.php:22
+msgid "* This will reset all customizations of luxe."
+msgstr "* 这将重置 luxe 的所有定制。"
+
+#: ../../inc/sections/amp.php:23 ../../inc/sections/pwa.php:35
+#, php-format
+msgid "Enable %s"
+msgstr "Enable %s"
+
+#: ../../inc/sections/amp.php:29
+msgid "Do not show comment list"
+msgstr "不显示评论列表"
+
+#: ../../inc/sections/amp.php:33
+msgid "Plug-in to be activated with AMP"
+msgstr "要使用AMP激活的插件"
+
+#: ../../inc/sections/amp.php:34
+msgid ""
+"* If you activate a plugin that inserts elements forbidden by AMP, an AMP "
+"error occurs."
+msgstr "* 如果激活AMP禁止插入的元素的插件，则会发生AMP错误。"
+
+#: ../../inc/sections/amp.php:35
+msgid ""
+"* It is not necessary to activate the plugin which is necessary only in the "
+"management screen."
+msgstr "*不需要激活仅在后台管理页面中需要的插件。"
+
+#: ../../inc/sections/amp.php:71
+msgid "AMP Logo image"
+msgstr "AMP标志图片"
+
+#: ../../inc/sections/amp.php:74
+msgid "Same as the site logo"
+msgstr "与网站标志相同"
+
+#: ../../inc/sections/amp.php:78
+msgid "Set the AMP logo separately"
+msgstr "单独设置AMP标志"
+
+#: ../../inc/sections/backup-appearance.php:24
+msgid ""
+"* Will only back up customized data for the appearance design. (Image, "
+"various ID etc excluded)"
+msgstr "* 将只备份外观设计的定制数据。(图像、各种ID等不包括在内)"
+
+#: ../../inc/sections/backup-appearance.php:25
+#: ../../inc/sections/backup-child.php:25 ../../inc/sections/backup.php:25
+#, php-format
+msgid "* File will be saved in %s format."
+msgstr "* 文件将被保存为 %s 格式。"
+
+#: ../../inc/sections/backup-appearance.php:28
+#: ../../inc/sections/design-select.php:37
+msgid "Appearance Backup"
+msgstr "外观备份"
+
+#: ../../inc/sections/backup-appearance.php:41
+msgid ""
+"* Will restore Luxeritas appearance customized setting from JSON backed up "
+"file."
+msgstr "* 将从JSON备份的文件中恢复Luxeritas外观定制设置。"
+
+#: ../../inc/sections/backup-appearance.php:42
+#: ../../inc/sections/backup-appearance.php:47
+#: ../../inc/sections/design-select.php:47
+#: ../../inc/sections/design-select.php:52
+msgid "Appearance Restore"
+msgstr "外观恢复"
+
+#: ../../inc/sections/backup-child.php:24
+msgid "* Will create backup file of child theme."
+msgstr "* 将创建子主题的备份文件。"
+
+#: ../../inc/sections/backup-child.php:26
+msgid "* If the filename contains multibyte characters, it may be skipped."
+msgstr "* 如果文件名包含多字节字符，可能会被跳过。"
+
+#: ../../inc/sections/backup.php:24
+msgid "* Will create the back up for all the Luxeritas customized data."
+msgstr "* 将为所有Luxeritas的定制数据创建备份。"
+
+#: ../../inc/sections/backup.php:28
+msgid "All Backup"
+msgstr "全部备份"
+
+#: ../../inc/sections/backup.php:41
+msgid "* Will restore Luxeritas customized setting from JSON backed up file."
+msgstr "* 将从JSON备份的文件中恢复Luxeritas的自定义设置。"
+
+#: ../../inc/sections/backup.php:42
+msgid "All Restore"
+msgstr "全部恢复"
+
+#: ../../inc/sections/balloon-css.php:31
+msgid "Load CSS for speech balloon"
+msgstr "为 speech balloon 加载CSS"
+
+#: ../../inc/sections/balloon-css.php:31
+msgid "If speech balloon shortcode is registered, it will be sure to loaded."
+msgstr "如果 speech balloon 的短码被注册了，它将被加载。"
+
+#: ../../inc/sections/balloon-css.php:43 ../../inc/sections/balloon-css.php:69
+msgid "Border"
+msgstr "边缘"
+
+#: ../../inc/sections/balloon-css.php:56 ../../inc/sections/balloon-css.php:82
+msgid "Shadow"
+msgstr "阴影"
+
+#: ../../inc/sections/block-based-widgets-enable.php:21
+#: ../../inc/sections/others.php:168
+msgid "Enable Block-based Widgets Editor"
+msgstr "启用基于块的小工具编辑器"
+
+#: ../../inc/sections/block-editor-color-palette.php:42
+#: ../../inc/sections/block-editor-color-palette.php:66
+#: ../../inc/sections/thumbnail-manage.php:29
+msgid "Slug"
+msgstr "Slug"
+
+#: ../../inc/sections/block-editor-color-palette.php:79
+msgid "(Addition)"
+msgstr "(增加)"
+
+#: ../../inc/sections/block-editor-color-palette.php:86
+#: ../../inc/sections/speedup-set.php:26
+msgid "Initial settings"
+msgstr "初始设置"
+
+#: ../../inc/sections/block-editor-luxe-off.php:22
+msgid "Turn off Luxeritas block toolbar"
+msgstr "关掉Luxeritas 区块工具条"
+
+#: ../../inc/sections/block-editor-luxe-off.php:28
+msgid "Turn off Luxeritas Blocks"
+msgstr "关掉Luxeritas区块"
+
+#: ../../inc/sections/block-editor-off.php:22
+msgid "* Disable block editor and revert to the old one."
+msgstr "* 禁用块状编辑器，并恢复到旧的编辑器。"
+
+#: ../../inc/sections/block-pattern-list.php:26
+#: ../../inc/sections/design-select.php:25
+#: ../../inc/sections/phrase-list.php:24
+#: ../../inc/sections/shortcode-list.php:24
+msgid "Add New"
+msgstr "Add New"
+
+#: ../../inc/sections/block-pattern-list.php:27
+#: ../../inc/sections/phrase-list.php:25
+#: ../../inc/sections/shortcode-list.php:25
+msgid "Import"
+msgstr "Import"
+
+#: ../../inc/sections/block-pattern-list.php:31
+msgid ""
+"* If you create a new block pattern, we recommend that you create a block in "
+"a reusable block and then add it to the block patterns."
+msgstr ""
+"* 如果你创建一个新的区块模式，我们建议你在一个可重复使用的区块中创建一个区"
+"块，然后将其添加到区块模式中。"
+
+#: ../../inc/sections/block-pattern-list.php:36
+msgid "Create a pattern from the reusable block."
+msgstr "从可重复使用的块创建一个模式。"
+
+#: ../../inc/sections/block-pattern-list.php:36 ../../inc/sections/ogp.php:32
+msgid "Recommended"
+msgstr "建议"
+
+#: ../../inc/sections/block-pattern-list.php:46
+msgid "Please select a reusable block."
+msgstr "请选择一个可重复使用的块。"
+
+#: ../../inc/sections/block-pattern-list.php:58
+#: ../../inc/sections/block-pattern-list.php:79
+#: ../../inc/sections/block-pattern-list.php:351
+#: ../../inc/sections/block-pattern-list.php:355
+#: ../../inc/sections/block-pattern-list.php:368
+#: ../../inc/sections/block-pattern-list.php:372
+msgid "Add"
+msgstr "Add"
+
+#: ../../inc/sections/block-pattern-list.php:64
+msgid "Create a pattern from the HTML pattern."
+msgstr "从HTML模式创建一个模式。"
+
+#: ../../inc/sections/block-pattern-list.php:67
+msgid "Please select a HTML pattern."
+msgstr "请选择一个HTML模式。"
+
+#: ../../inc/sections/block-pattern-list.php:134
+#: ../../inc/sections/phrase-list.php:87
+#: ../../inc/sections/shortcode-list.php:113
+#: ../../inc/sections/shortcode-list.php:123
+msgid "Edit"
+msgstr "Edit"
+
+#: ../../inc/sections/block-pattern-list.php:135
+#: ../../inc/sections/design-select.php:136
+#: ../../inc/sections/design-select.php:190
+#: ../../inc/sections/phrase-list.php:88
+#: ../../inc/sections/shortcode-list.php:114
+#: ../../inc/sections/shortcode-list.php:124
+msgid "Delete"
+msgstr "Delete"
+
+#: ../../inc/sections/block-pattern-list.php:136
+msgid "Add to Reusable blocks"
+msgstr "添加到可重用块"
+
+#: ../../inc/sections/block-pattern-list.php:137
+#: ../../inc/sections/phrase-list.php:89
+#: ../../inc/sections/shortcode-list.php:115
+#: ../../inc/sections/shortcode-list.php:125
+msgid "Export"
+msgstr "Export"
+
+#: ../../inc/sections/block-pattern-list.php:154
+msgid "Block pattern Edit"
+msgstr "区块图案编辑"
+
+#: ../../inc/sections/block-pattern-list.php:160
+#: ../../inc/sections/phrase-list.php:112
+#: ../../inc/sections/shortcode-list.php:151
+msgid "required"
+msgstr "需求"
+
+#: ../../inc/sections/block-pattern-list.php:164
+msgid "Block pattern"
+msgstr "Block pattern"
+
+#: ../../inc/sections/block-pattern-list.php:213
+#: ../../inc/sections/phrase-list.php:222
+msgid "Required items are not entered"
+msgstr "未输入所需项目"
+
+#: ../../inc/sections/block-pattern-list.php:240
+msgid "You are about to delete the selected item. Is it OK ?"
+msgstr "您即将删除所选项目。要这样做吗？"
+
+#: ../../inc/sections/block-pattern-list.php:251
+msgid "Add this pattern to the reuse block. Is it OK ?"
+msgstr "把这个模式添加到重用块中。要这样做吗？"
+
+#: ../../inc/sections/block-pattern-list.php:270
+#: ../../inc/sections/phrase-list.php:279
+#: ../../inc/sections/shortcode-list.php:346
+msgid "Loding..."
+msgstr "Loding..."
+
+#: ../../inc/sections/block-pattern-list.php:270
+#: ../../inc/sections/phrase-list.php:279
+#: ../../inc/sections/shortcode-list.php:346
+msgid "Please wait a little while."
+msgstr "请稍等片刻。"
+
+#: ../../inc/sections/block-pattern-list.php:347
+#: ../../inc/sections/block-pattern-list.php:364
+msgid "Already registered"
+msgstr "已经注册"
+
+#: ../../inc/sections/blogcard-cache-cleanup.php:21
+msgid "Clear all Blog Card cache"
+msgstr "清除所有博客卡的缓存"
+
+#: ../../inc/sections/blogcard-cache-cleanup.php:22
+msgid ""
+"* This will delete the whole cache directory including cache expiration time "
+"infomation."
+msgstr "* 这将删除整个缓存目录，包括缓存过期时间信息。"
+
+#: ../../inc/sections/blogcard-cache-cleanup.php:26
+msgid "Clear only the cache expiration time information of Blog Card"
+msgstr "只清除博客卡的缓存过期时间信息"
+
+#: ../../inc/sections/blogcard-cache-cleanup.php:27
+msgid "* This will delete only the cache expiration time information."
+msgstr "*这将只删除缓存过期时间信息。"
+
+#: ../../inc/sections/bootstrap.php:20
+msgid "How to load bootstrap.js"
+msgstr "如何加载bootstrap.js"
+
+#: ../../inc/sections/bootstrap.php:22 ../../inc/sections/bootstrap.php:23
+#: ../../inc/sections/bootstrap.php:24 ../../inc/sections/css-to-style.php:32
+#: ../../inc/sections/icon-font.php:41 ../../inc/sections/icon-font.php:61
+#: ../../inc/sections/speedup-items.php:55
+#: ../../inc/sections/speedup-items.php:82
+#: ../../inc/sections/speedup-items.php:87
+msgid "Asynchronous"
+msgstr "异步"
+
+#: ../../inc/sections/bootstrap.php:25 ../../inc/sections/icon-font.php:42
+#: ../../inc/sections/icon-font.php:62 ../../inc/sections/speedup-items.php:81
+#: ../../inc/sections/speedup-items.php:86
+msgid "Synchronism"
+msgstr "同步"
+
+#: ../../inc/sections/bootstrap.php:26 ../../inc/sections/css-to-style.php:33
+#: ../../inc/sections/optimize-script.php:26
+#: ../../inc/sections/speedup-items.php:43
+#: ../../inc/sections/speedup-items.php:56
+msgid "Not required (no load)"
+msgstr "不需要（无负载）"
+
+#: ../../inc/sections/bootstrap.php:28
+msgid "* It is necessary only when using Bootstrap components, plugins, etc."
+msgstr "*只有在使用Bootstrap组件、插件等时才有必要。"
+
+#: ../../inc/sections/bootstrap.php:29
+msgid ""
+"* Even if Bootstrap mode is selected, bootstrap.js is not always necessary."
+msgstr "* 即使选择了Bootstrap模式，bootstrap.js也不一定需要。"
+
+#: ../../inc/sections/captcha.php:20
+msgid "Image authentication type for comments"
+msgstr "评论的图像验证类型"
+
+#: ../../inc/sections/captcha.php:23 ../../inc/sections/captcha.php:27
+#, php-format
+msgid "Enable Google reCAPTCHA %s"
+msgstr "启用Google reCAPTCHA %s"
+
+#: ../../inc/sections/captcha.php:31
+msgid "Enable Securimage PHP CAPTCHA"
+msgstr "启用 Securimage PHP CAPTCHA"
+
+#: ../../inc/sections/captcha.php:35
+msgid "Do not use image authentication"
+msgstr "不使用图像验证"
+
+#: ../../inc/sections/child-css.php:21
+msgid "Load the child theme CSS"
+msgstr "加载子主题的CSS"
+
+#: ../../inc/sections/comment.php:20
+msgid "HTML tags replacement or removal"
+msgstr "替换或删除HTML标签"
+
+#: ../../inc/sections/comment.php:23
+msgid "Remove not allowed HTML tags. ( WordPress Default Settings )"
+msgstr "删除不允许的HTML标签。（WordPress默认设置）"
+
+#: ../../inc/sections/comment.php:27
+msgid "Replace not allowed HTML tags with entities."
+msgstr "用实体取代不允许的HTML标签。"
+
+#: ../../inc/sections/comment.php:31
+msgid "Replace all HTML tags with entities."
+msgstr "用实体取代所有HTML标签。"
+
+#: ../../inc/sections/comment.php:51
+msgid "* Allowed HTML tags : "
+msgstr "* 允许的HTML标签： "
+
+#: ../../inc/sections/comment.php:56 ../../inc/sections/others.php:103
+msgid "Prevent automatic conversion to link"
+msgstr "防止自动转换为链接"
+
+#: ../../inc/sections/comment.php:59 ../../inc/sections/others.php:118
+msgid "Prevent URLs written in comments turning into links."
+msgstr "防止写在评论中的URL变成链接。"
+
+#: ../../inc/sections/copyright.php:20
+msgid "Web site start year"
+msgstr "网站起始年份"
+
+#: ../../inc/sections/copyright.php:24
+msgid "Author name"
+msgstr "作者姓名"
+
+#: ../../inc/sections/copyright.php:28
+msgid "Format"
+msgstr "格式"
+
+#: ../../inc/sections/copyright.php:67 ../../inc/sections/copyright.php:71
+msgid "Free Format"
+msgstr "自由格式"
+
+#: ../../inc/sections/css-to-style.php:20
+msgid "Theme&apos;s CSS"
+msgstr "主题的 CSS"
+
+#: ../../inc/sections/css-to-style.php:23
+#: ../../inc/sections/speedup-items.php:50
+msgid "Include theme&apos;s CSS in HTML"
+msgstr "在HTML中包含主题CSS"
+
+#: ../../inc/sections/css-to-style.php:23
+#: ../../inc/sections/css-to-style.php:41
+msgid "Accelerate"
+msgstr "加速"
+
+#: ../../inc/sections/css-to-style.php:25
+msgid ""
+"* It will include the style.css code directly in the HTML file. You can "
+"reduce HTTP requests."
+msgstr "* 它将直接在HTML文件中包含 style.css 代码。这可以减少HTTP请求。"
+
+#: ../../inc/sections/css-to-style.php:26
+msgid ""
+"* Since the CSS will not be cached in the browser, if you have many visitors "
+"circulating within your site, it may end up counterproductive."
+msgstr ""
+"*由于 CSS 不会缓存在浏览器中，如果你的网站中有很多访问者，那么结果可能会适得"
+"其反。"
+
+#: ../../inc/sections/css-to-style.php:29
+#: ../../inc/sections/speedup-items.php:52
+msgid "CSS for WordPress block library"
+msgstr "WordPress 的 CSS 块库"
+
+#: ../../inc/sections/css-to-style.php:31
+#: ../../inc/sections/speedup-items.php:54
+msgid "Include CSS in HTML"
+msgstr "在 HTML 中包含 CSS"
+
+#: ../../inc/sections/css-to-style.php:32 ../../inc/sections/icon-font.php:41
+#: ../../inc/sections/icon-font.php:61 ../../inc/sections/speedup-items.php:55
+#: ../../inc/sections/speedup-items.php:82
+#: ../../inc/sections/speedup-items.php:87
+msgid "High rendering speed"
+msgstr "高渲染速度"
+
+#: ../../inc/sections/css-to-style.php:34
+#: ../../inc/sections/speedup-items.php:57
+msgid "Leave initial setting of WordPress"
+msgstr "保留 WordPress 的初始设置"
+
+#: ../../inc/sections/css-to-style.php:38
+msgid "The WordPress duotone filters for image blocks in block editor"
+msgstr "块编辑器中图像块的WordPress双色调过滤器"
+
+#: ../../inc/sections/css-to-style.php:41
+msgid "Disable duotone filters for image blocks in block editor."
+msgstr "在块编辑器中禁用图像块的双色调过滤器。"
+
+#: ../../inc/sections/design-create.php:25
+msgid "Create a design file based on the following contents."
+msgstr "根据以下内容创建一个设计文件。"
+
+#: ../../inc/sections/design-create.php:27
+msgid "Customize (Appearance) settings (Image, various ID etc excluded)"
+msgstr "自定义（外观）设置（图像、各种ID等除外）。"
+
+#: ../../inc/sections/design-create.php:28
+msgid "Stylesheet of currently selected design file"
+msgstr "当前选定的设计文件的样式表"
+
+#: ../../inc/sections/design-create.php:29
+msgid "Child theme&apos;s stylesheet"
+msgstr "子主题&apos;的样式表"
+
+#: ../../inc/sections/design-create.php:31
+msgid ""
+"* Images set in &quot;Customize (Appearance)&quot; are copied to the images "
+"directory, but they are not applicable in the style sheet. If necessary, "
+"please append later."
+msgstr ""
+"* 在&quot;自定义（外观）&quot;中设置的图片被复制到图片目录，但它们在样式表中"
+"不适用。如果有必要，请稍后追加。"
+
+#: ../../inc/sections/design-create.php:32
+msgid ""
+"* In order to use this feature, the server must be compatible with "
+"ZipArchive."
+msgstr "* 为了使用这一功能，服务器必须与ZipArchive兼容。"
+
+#: ../../inc/sections/design-create.php:33
+msgid "Design file name"
+msgstr "设计文件名称"
+
+#: ../../inc/sections/design-create.php:34
+msgid ""
+"* 20 characters or less. The characters that can be used are alphanumeric "
+"and - (hyphen) and _ (underscore)."
+msgstr ""
+"* 20个字符或更少。可以使用的字符是字母数字和 -（连接符）和 _（下划线）。"
+
+#: ../../inc/sections/design-create.php:38
+msgid "Screenshot"
+msgstr "屏幕截图"
+
+#: ../../inc/sections/design-create.php:39
+msgid ""
+"* Aspect ratio 4: 3 recommended ( e.g. 600 x 450 px, 720 x 540 px, 800 x 600 "
+"px, 1200 x 900 px )"
+msgstr ""
+"* 纵横比建议为 4：3（如600 x 450 px，720 x 540 px，800 x 600 px，1200 x 900 "
+"px）。"
+
+#: ../../inc/sections/design-select.php:70
+msgid ""
+"(Caution) Settings of appearance customization will be rewritten to the "
+"value specified in the design file. (Image, various ID etc excluded)"
+msgstr ""
+"(注意）外观定制的设置将被改写为设计文件中指定的值。(图像、各种ID等除外)"
+
+#: ../../inc/sections/design-select.php:71
+msgid "Recommend that you backup appearance customization before changing."
+msgstr "建议你在改变之前备份外观定制。"
+
+#: ../../inc/sections/design-select.php:153
+msgid "Initialization of appearance"
+msgstr "初始化外观"
+
+#: ../../inc/sections/design-select.php:160
+#: ../../inc/sections/design-select.php:185
+#: ../../inc/sections/shortcode-list.php:91
+#: ../../inc/sections/shortcode-list.php:118
+#: ../../inc/sections/shortcode-list.php:182
+msgid "Activate"
+msgstr "激活"
+
+#: ../../inc/sections/design-select.php:198
+msgid "Rewrite the setting of appearance customization. Is it OK?"
+msgstr "重写外观定制的设置。要这样做吗？"
+
+#: ../../inc/sections/design-select.php:204
+msgid "You are about to delete the design file. Is it OK?"
+msgstr "你准备删除设计文件。要这样做吗？"
+
+#: ../../inc/sections/design-select.php:210
+msgid "Reset stylesheet of the design file.. Is it OK?"
+msgstr "重置设计文件的样式表... 要这样做吗？"
+
+#: ../../inc/sections/editor-t-settings.php:108
+msgid ""
+"* You can set display / non-display of button with drag &amp; drop. ( Sort "
+"is not possible )"
+msgstr "* 你可以用拖放的方式设置按钮的显示/不显示。(不可能进行排序)"
+
+#: ../../inc/sections/editor-t-settings.php:120
+#: ../../inc/sections/editor-v-settings.php:221
+msgid "Trash can"
+msgstr "垃圾桶"
+
+#: ../../inc/sections/editor-t-settings.php:132
+#: ../../inc/sections/editor-v-settings.php:234
+msgid "Saved"
+msgstr "保存的"
+
+#: ../../inc/sections/editor-t-settings.php:136
+#: ../../inc/sections/editor-v-settings.php:238
+msgid "Restore initial settings"
+msgstr "恢复初始设置"
+
+#: ../../inc/sections/editor-v-settings.php:194
+msgid "* You can set display / hide / sort of buttons by drag & drop."
+msgstr "* 你可以通过拖放来设置按钮的显示/隐藏/排序。"
+
+#: ../../inc/sections/fontawesome-load.php:22
+msgid "How to load icon"
+msgstr "如何加载图标"
+
+#: ../../inc/sections/fontawesome-load.php:25
+msgid "Web Fonts with CSS"
+msgstr "使用 CSS 的 Web 字体"
+
+#: ../../inc/sections/fontawesome-load.php:29
+msgid "SVG with JavaScript"
+msgstr "使用JavaScript的SVG"
+
+#: ../../inc/sections/fontawesome-load.php:35
+msgid "Backward compatibility"
+msgstr "向后兼容"
+
+#: ../../inc/sections/fontawesome-load.php:38
+msgid "Font Awesome 4 compatibility support"
+msgstr "支持Font Awesome 4兼容性"
+
+#: ../../inc/sections/htaccess.php:35
+msgid "For apache web server."
+msgstr "对于 apache web server."
+
+#: ../../inc/sections/htaccess.php:36
+msgid ""
+"By adding the below lines on your .htaccess, it will enable Gzip compression "
+"and browser cache and will boost rendering speed."
+msgstr ""
+"通过在你的.htaccess中添加以下几行，它将启用Gzip压缩和浏览器缓存，并将提高渲染"
+"速度。"
+
+#: ../../inc/sections/htaccess.php:37
+msgid ""
+"* <span class=\"bold\">Do not overwrite/replace with your .htaccess, but ADD "
+"these lines !</span>"
+msgstr ""
+"* <span class=\"bold\">不要用你的.htaccess覆盖/替换，但要增加这些行！</span>"
+
+#: ../../inc/sections/htaccess.php:38
+msgid ""
+"* <span class=\"bold\"><span style=\"color:red\">Red letters</span> are for "
+"SSL (HTTPS connection). If your site is HTTP, remove this letters.</span>"
+msgstr ""
+"* <span class=“bold”><span style=“color:red”>红字</span>用于SSL（HTTPS连"
+"接）。如果您的网站是HTTP，请删除这些字符</span>"
+
+#: ../../inc/sections/icon-font.php:22
+msgid "Select icon fonts to load"
+msgstr "选择要加载的图标字体"
+
+#: ../../inc/sections/icon-font.php:25 ../../inc/sections/icon-font.php:53
+#: ../../inc/sections/icon-font.php:57
+msgid "Icons list"
+msgstr "图标列表"
+
+#: ../../inc/sections/icon-font.php:42 ../../inc/sections/icon-font.php:62
+#: ../../inc/sections/speedup-items.php:81
+#: ../../inc/sections/speedup-items.php:86
+msgid "No delays in icon font"
+msgstr "图标字体没有延迟"
+
+#: ../../inc/sections/intersection-observer.php:20
+#, php-format
+msgid "* This feature uses %s."
+msgstr "* 该功能使用 %s。"
+
+#: ../../inc/sections/intersection-observer.php:23
+#: ../../inc/sections/speedup-items.php:106
+msgid "Enable Lazy Load for various thumbnail images"
+msgstr "启用各种缩略图的懒加载功能"
+
+#: ../../inc/sections/intersection-observer.php:27
+#: ../../inc/sections/speedup-items.php:110
+msgid "Enable Lazy Load for post contents"
+msgstr "启用帖子内容的懒加载"
+
+#: ../../inc/sections/intersection-observer.php:31
+#: ../../inc/sections/speedup-items.php:114
+msgid "Enable Lazy Load for sidebar"
+msgstr "启用侧边栏的懒加载"
+
+#: ../../inc/sections/intersection-observer.php:33
+#: ../../inc/sections/speedup-items.php:116
+msgid "* The scroll follow sidebar may become strange movement."
+msgstr "*滚动跟随侧边栏可能会变成奇怪的运动。"
+
+#: ../../inc/sections/intersection-observer.php:36
+#: ../../inc/sections/speedup-items.php:119
+msgid "Enable Lazy Load for footer"
+msgstr "为页脚启用 \"懒加载 \"功能"
+
+#: ../../inc/sections/intersection-observer.php:40
+#: ../../inc/sections/speedup-items.php:123
+msgid "Enable Lazy Load for Gravatar"
+msgstr "启用Gravatar的懒加载"
+
+#: ../../inc/sections/intersection-observer.php:48
+#: ../../inc/sections/others.php:69 ../../inc/sections/speedup-items.php:131
+msgid "Disable Jetpack&apos;s Lazy Load"
+msgstr "禁用Jetpack&apos;的懒加载功能"
+
+#: ../../inc/sections/intersection-observer.php:57
+msgid "Option"
+msgstr "选项"
+
+#: ../../inc/sections/intersection-observer.php:60
+msgid "Display images even if Javascript is disabled"
+msgstr "即使Javascript被禁用，也能显示图像"
+
+#: ../../inc/sections/intersection-observer.php:65
+msgid "Effect"
+msgstr "效果"
+
+#: ../../inc/sections/intersection-observer.php:68
+msgid "Fade-in"
+msgstr "Fade-in"
+
+#: ../../inc/sections/intersection-observer.php:72
+msgid "Show (No effect)"
+msgstr "显示（无效果）"
+
+#: ../../inc/sections/jquery.php:20 ../../inc/sections/speedup-items.php:62
+msgid "How to load jQuery"
+msgstr "如何加载jQuery"
+
+#: ../../inc/sections/jquery.php:22 ../../inc/sections/speedup-items.php:64
+msgid "Stable"
+msgstr "稳定"
+
+#: ../../inc/sections/jquery.php:23 ../../inc/sections/jquery.php:24
+#: ../../inc/sections/jquery.php:26 ../../inc/sections/speedup-items.php:65
+#: ../../inc/sections/speedup-items.php:66
+#: ../../inc/sections/speedup-items.php:68
+msgid "High speed"
+msgstr "高速"
+
+#: ../../inc/sections/jquery.php:23 ../../inc/sections/jquery.php:24
+#: ../../inc/sections/speedup-items.php:65
+#: ../../inc/sections/speedup-items.php:66
+msgid "Not supported before IE8"
+msgstr "IE8 之前不支持"
+
+#: ../../inc/sections/jquery.php:25 ../../inc/sections/jquery.php:26
+#: ../../inc/sections/speedup-items.php:67
+#: ../../inc/sections/speedup-items.php:68
+msgid "WordPress Built In jQuery"
+msgstr "WordPress内置的jQuery"
+
+#: ../../inc/sections/jquery.php:25 ../../inc/sections/speedup-items.php:67
+msgid "Most stable"
+msgstr "最稳定"
+
+#: ../../inc/sections/jquery.php:25 ../../inc/sections/speedup-items.php:67
+msgid "Default behavior of WordPress."
+msgstr "WordPress的默认行为。"
+
+#: ../../inc/sections/jquery.php:26 ../../inc/sections/speedup-items.php:68
+msgid "Combine jQuery and Luxeritas's script"
+msgstr "结合jQuery和Luxeritas的脚本"
+
+#: ../../inc/sections/jquery.php:26 ../../inc/sections/speedup-items.php:68
+msgid "More stable"
+msgstr "更加稳定"
+
+#: ../../inc/sections/jquery.php:27 ../../inc/sections/speedup-items.php:69
+msgid "Not load jQuery"
+msgstr "不加载 jQuery"
+
+#: ../../inc/sections/jquery.php:29
+msgid "* JQuery loading from CDN is not designed to avoid conflicts."
+msgstr "* 从 CDN 加载 JQuery 并非为了避免冲突。"
+
+#: ../../inc/sections/jquery.php:33
+msgid "Load jQuery-Migrate"
+msgstr "加载 jQuery-Migrate"
+
+#: ../../inc/sections/jquery.php:34
+msgid "* Older plugins that have not been updated may require jQuery-Migrate."
+msgstr "* 尚未更新的旧插件可能需要 jQuery-Migrate 。"
+
+#: ../../inc/sections/jquery.php:38 ../../inc/sections/speedup-items.php:74
+msgid ""
+"Make jQuery asynchronous ( It will boost speed, be careful when using this. )"
+msgstr "使jQuery异步（这将提高速度，使用时要小心。）"
+
+#: ../../inc/sections/jquery.php:39
+msgid ""
+"* When you are combining jQuery and other scripts, Will add &quot;"
+"async&quot; property for jQuery and add &quot;defer&quot; property for "
+"external script plugin files."
+msgstr ""
+"* 当你组合 jQuery 和其他脚本时，将为 jQuery 添加 “async” 属性，并为外部脚本插"
+"件文件添加 “defer” 属性。"
+
+#: ../../inc/sections/jquery.php:40
+msgid ""
+"* Otherwise, Will add &quot;defer&quot; property for jQuery and external "
+"script plugin files. ( &quot;async&quot; property will not be added )"
+msgstr ""
+"* 否则，将为 jQuery 和外部脚本插件文件添加 “defer” 属性。（不会添加 &quot;"
+"async&quot;  属性）"
+
+#: ../../inc/sections/jquery.php:41 ../../inc/sections/speedup-items.php:75
+msgid "Please do not check if you do not have knowledge."
+msgstr "如果您没有相关知识，请不要设置。"
+
+#: ../../inc/sections/jquery.php:41 ../../inc/sections/speedup-items.php:75
+msgid "Some plugin may not work correctly when this option is enabled."
+msgstr "启用该选项后，一些插件可能无法正常工作。"
+
+#: ../../inc/sections/mode-select.php:20
+msgid ""
+"* Both has the same design layout but Luxeritas mode is faster and lighter.  "
+"Bootstrap mode should be chosen if you want to use the functions or classes "
+"of Bootstrap."
+msgstr ""
+"*两者都有相同的设计布局，但Luxeritas模式更快、更轻。 如果你想使用Bootstrap的"
+"功能或类，就应该选择Bootstrap模式。"
+
+#: ../../inc/sections/ogp-jetpack.php:23
+msgid "Disable Jetpack&apos;s OGP"
+msgstr "禁用Jetpack&apos;的OGP"
+
+#: ../../inc/sections/ogp.php:23 ../../inc/sections/ogp.php:39
+#: ../../inc/sections/seo.php:23 ../../inc/sections/seo.php:29
+#: ../../inc/sections/seo.php:35 ../../inc/sections/seo.php:41
+#, php-format
+msgid "Add %s"
+msgstr "Add %s"
+
+#: ../../inc/sections/ogp.php:28
+msgid "Depreciated: Unnecessary if app_id exists"
+msgstr "已弃用：如果app_id存在，则不必要"
+
+#: ../../inc/sections/ogp.php:36 ../../inc/sections/ogp.php:39
+#: ../../inc/sections/ogp.php:43
+msgid "Twitter Card"
+msgstr "Twitter Card"
+
+#: ../../inc/sections/ogp.php:43
+#, php-format
+msgid "Type of %s"
+msgstr "Type of %s"
+
+#: ../../inc/sections/ogp.php:45
+msgid "summary"
+msgstr "摘要"
+
+#: ../../inc/sections/ogp.php:46
+msgid "summary_large_image"
+msgstr "摘要_大图片"
+
+#: ../../inc/sections/ogp.php:50
+msgid "No need"
+msgstr "不需要"
+
+#: ../../inc/sections/ogp.php:54
+msgid "default OGP image"
+msgstr "默认的OGP图像"
+
+#: ../../inc/sections/ogp.php:55
+msgid ""
+"* When OGP image is not set in the post, the default image set here will be "
+"applied."
+msgstr "* 当OGP图像没有在帖子中设置时，这里设置的默认图像将被应用。"
+
+#: ../../inc/sections/ogp.php:84
+msgid "* The above image is a reduced version."
+msgstr "* 上面的图片是缩小版。"
+
+#: ../../inc/sections/optimize-css.php:20
+#: ../../inc/sections/speedup-items.php:31
+msgid "CSS compression of child theme"
+msgstr "子主题的CSS压缩"
+
+#: ../../inc/sections/optimize-css.php:21
+msgid ""
+"* If other than &quot;do not compress&quot; is selected, it will compress "
+"&amp; combine and create a file named style.min.css."
+msgstr ""
+"*  If other than &quot;do not compress&quot; is selected, it will compress "
+"&amp; combine and create a file named style.min.css. \n"
+"  译：如果选择了“不要压缩”以外的选项，它将压缩组合并创建一个名为 style.min."
+"css 的文件。"
+
+#: ../../inc/sections/optimize-css.php:22
+msgid ""
+"* If other than &quot;do not compress&quot; is selected, it will load the "
+"style.min.css."
+msgstr ""
+"* If other than &quot;do not compress&quot; is selected, it will load the "
+"style.min.css.\n"
+"  译：如果选择了“不要压缩”以外的选项，它将加载 style.min.css 。"
+
+#: ../../inc/sections/optimize-css.php:23
+msgid ""
+"* If you merged with Parent Theme, it will no longer load Parent Theme CSS."
+msgstr ""
+"* If you merged with Parent Theme, it will no longer load Parent Theme CSS.\n"
+"  译：如果您选择与父主题合并，它将不再加载父主题的 CSS 。"
+
+#: ../../inc/sections/optimize-css.php:24
+msgid "* CSS of parent theme will always be compressed."
+msgstr ""
+"* CSS of parent theme will always be compressed.\n"
+"  译：父主题的 CSS 将始终被压缩。"
+
+#: ../../inc/sections/optimize-css.php:26
+#: ../../inc/sections/optimize-html.php:23
+#: ../../inc/sections/optimize-script.php:24
+#: ../../inc/sections/speedup-items.php:25
+#: ../../inc/sections/speedup-items.php:33
+#: ../../inc/sections/speedup-items.php:41
+msgid "Do not compress"
+msgstr "不要压缩"
+
+#: ../../inc/sections/optimize-css.php:27
+#: ../../inc/sections/speedup-items.php:34
+msgid "Compress only the child theme CSS"
+msgstr "只压缩子主题的CSS"
+
+#: ../../inc/sections/optimize-css.php:28
+#: ../../inc/sections/speedup-items.php:35
+msgid "Compression after combining CSS of parent and child"
+msgstr "合并父、子CSS后进行压缩"
+
+#: ../../inc/sections/optimize-html.php:20
+#: ../../inc/sections/speedup-items.php:23
+msgid "Compression ratio of HTML"
+msgstr "HTML的压缩比率"
+
+#: ../../inc/sections/optimize-html.php:21
+msgid ""
+"* &quot;Compression rate high&quot;, is the compression level which is still "
+"readable, and will not compress to the limit."
+msgstr "*  ” 压缩速率高 ”，是仍然可读的压缩级别，不会压缩到极限。"
+
+#: ../../inc/sections/optimize-html.php:24
+#: ../../inc/sections/speedup-items.php:26
+msgid "Compression rate low"
+msgstr "压缩率低"
+
+#: ../../inc/sections/optimize-html.php:25
+#: ../../inc/sections/speedup-items.php:27
+msgid "Compression rate high"
+msgstr "压缩率高"
+
+#: ../../inc/sections/optimize-script.php:20
+#: ../../inc/sections/speedup-items.php:39
+msgid "Javascript compression of child theme"
+msgstr "子主题的 Javascript 压缩"
+
+#: ../../inc/sections/optimize-script.php:21
+msgid ""
+"* It will compress the file luxech.js in the child theme folder and create a "
+"new file of luxech.min.js."
+msgstr ""
+"* 它将压缩子主题文件夹中的 luxech.js 文件，并创建一个 luxech.min.js 的新文"
+"件。"
+
+#: ../../inc/sections/optimize-script.php:22
+msgid ""
+"* If you select the &quot;compress&quot;, it will automatically load the "
+"luxech.min.js."
+msgstr "* 如果你选择了&quot; 压缩 &quot;，它将自动加载 luxech.min.js 。"
+
+#: ../../inc/sections/optimize-script.php:25
+msgid "Compress (you can also compress with combined additional files)"
+msgstr "压缩（你也可以用组合的附加文件进行压缩）。"
+
+#: ../../inc/sections/optimize-script.php:30
+msgid "Additional Javascript file names to combine &amp; compress"
+msgstr "额外的 Javascript 文件名合并 &amp; 压缩"
+
+#: ../../inc/sections/optimize-script.php:31
+msgid ""
+"* In addition to luxech.js, it can be combine and compress any three files "
+"directly under the child theme folder."
+msgstr ""
+"* 除了 luxech.js 之外，它还可以直接在子主题文件夹下组合和压缩任何三个文件。"
+
+#: ../../inc/sections/optimize-script.php:32
+msgid ""
+"* The extension must be &quot;.js&quot;  (Please do not input the extension "
+"in the below boxes)."
+msgstr "* 扩展名必须是&quot; .js &quot;（请不要在下面的方框中输入扩展名）。"
+
+#: ../../inc/sections/others.php:21
+msgid "404 Not Found Page"
+msgstr "404 Not Found Page"
+
+#: ../../inc/sections/others.php:26
+msgid "Default"
+msgstr "Default"
+
+#: ../../inc/sections/others.php:34 ../../inc/sections/pwa-manifest.php:40
+#: ../../inc/sections/pwa.php:70
+msgid "No pages available to select."
+msgstr "没有可供选择的页面。"
+
+#: ../../inc/sections/others.php:40
+msgid "Site display settings"
+msgstr "网站显示设置"
+
+#: ../../inc/sections/others.php:43 ../../inc/sections/speedup-items.php:149
+msgid "To enable the sequential output of buffering"
+msgstr "启用缓存的顺序输出"
+
+#: ../../inc/sections/others.php:45
+msgid "* It will improve the speed if you check this."
+msgstr "* 如果你检查这个，会提高速度。"
+
+#: ../../inc/sections/others.php:46 ../../inc/sections/speedup-items.php:151
+msgid "* If you use cache related plugins, it may conflict one another."
+msgstr "* 如果你使用与缓存相关的插件，它可能会相互冲突。"
+
+#: ../../inc/sections/others.php:49
+msgid "Add the role attribute for a barrier-free"
+msgstr "添加无障碍角色属性"
+
+#: ../../inc/sections/others.php:56
+msgid "Remove hentry class"
+msgstr "移除hentry类"
+
+#: ../../inc/sections/others.php:58
+msgid ""
+"* Checking this will avoid getting hetnry errors from Google Webmasters even "
+"if you have the post dates, update dates, and author information not "
+"displayed."
+msgstr ""
+"* 检查此选项将避免收到Google网站管理员的错误，即使您没有显示发布日期，更新日"
+"期和作者信息。"
+
+#: ../../inc/sections/others.php:61
+msgid "Allow multi byte characters for slugs"
+msgstr "允许 slugs 使用多字节字符"
+
+#: ../../inc/sections/others.php:61 ../../inc/sections/others.php:126
+msgid "Not recommended"
+msgstr "不建议"
+
+#: ../../inc/sections/others.php:106
+msgid "Prevent detected phone numbers turning into links."
+msgstr "防止检测到的电话号码变成链接。"
+
+#: ../../inc/sections/others.php:106 ../../inc/sections/others.php:110
+#: ../../inc/sections/others.php:114
+#, php-format
+msgid "Mainly %s"
+msgstr "Mainly %s"
+
+#: ../../inc/sections/others.php:106 ../../inc/sections/others.php:110
+#: ../../inc/sections/others.php:114
+msgid "Smartphone"
+msgstr "智能手机"
+
+#: ../../inc/sections/others.php:110
+msgid "Prevent detected email address turning into links."
+msgstr "防止检测到的电子邮件地址变成链接。"
+
+#: ../../inc/sections/others.php:114
+msgid "Prevent detected address turning into links."
+msgstr "防止检测到的地址变成链接。"
+
+#: ../../inc/sections/others.php:123
+msgid "Pingback settings"
+msgstr "Pingback设置"
+
+#: ../../inc/sections/others.php:126
+msgid "Allow self-pingback"
+msgstr "允许  self-pingback"
+
+#: ../../inc/sections/others.php:131
+msgid "Smooth scroll settings"
+msgstr "平滑滚动设置"
+
+#: ../../inc/sections/others.php:134
+msgid "Turn off the smooth scroll of the anchor link."
+msgstr "关闭锚点链接的平滑滚动。"
+
+#: ../../inc/sections/others.php:141
+msgid "Leave the URL hash / fragment after scrolling."
+msgstr "滚动后留下URL哈希/片段。"
+
+#: ../../inc/sections/others.php:158
+msgid "Admin bar at the bottom left of the blog screen"
+msgstr "博客屏幕左下方的管理栏"
+
+#: ../../inc/sections/others.php:161
+msgid "Hide Admin bar at the bottom left"
+msgstr "隐藏左下方的管理栏"
+
+#: ../../inc/sections/others.php:172
+#, php-format
+msgid "Setting for %s"
+msgstr "Setting for %s"
+
+#: ../../inc/sections/others.php:172
+msgid "design purpose"
+msgstr "设计目的"
+
+#: ../../inc/sections/others.php:175
+msgid ""
+"Place the number of posts inside the &lt;a&gt; tag in the category widget"
+msgstr "将帖子数量放在类别小部件的 <a> 标签内"
+
+#: ../../inc/sections/others.php:182
+msgid ""
+"Place the number of posts inside the &lt;a&gt; tag in the archive widget"
+msgstr "将帖子数量放在 archive 小部件的 <a> 标签内"
+
+#: ../../inc/sections/others.php:189
+msgid "Non-compression for Parent Theme (for debugging)"
+msgstr "父主题不压缩（用于调试）。"
+
+#: ../../inc/sections/others.php:194
+msgid "Measures to be taken when the widget cannot be saved"
+msgstr "当小组件无法保存时应采取的措施"
+
+#: ../../inc/sections/others.php:195
+msgid "* It may be worth a try if you can not save with WAF or plug-ins."
+msgstr "* 如果你不能用WAF或插件保存，这可能值得一试。"
+
+#: ../../inc/sections/others.php:198
+msgid ""
+"Measures to be taken when the widget save button cannot be saved by spinning "
+"around."
+msgstr "当无法通过旋转来保存小部件保存按钮时要采取的措施。"
+
+#: ../../inc/sections/pagination.php:20
+msgid "Reading Settings"
+msgstr "阅读设置"
+
+#: ../../inc/sections/pagination.php:35 ../../inc/sections/pagination.php:52
+#: ../../inc/sections/pagination.php:69 ../../inc/sections/pagination.php:86
+msgid "posts"
+msgstr "posts"
+
+#: ../../inc/sections/phrase-list.php:31 ../../inc/sections/phrase-list.php:187
+#: ../../inc/sections/shortcode-list.php:31
+#: ../../inc/sections/shortcode-list.php:245
+msgid "Sample registration"
+msgstr "Sample registration"
+
+#: ../../inc/sections/phrase-list.php:71 ../../inc/sections/phrase-list.php:125
+msgid "Enclosing"
+msgstr "Enclosing"
+
+#: ../../inc/sections/phrase-list.php:85
+#: ../../inc/sections/shortcode-list.php:94
+#: ../../inc/sections/shortcode-list.php:121
+#: ../../inc/sections/shortcode-list.php:173
+msgid "Enclose"
+msgstr "Enclose"
+
+#: ../../inc/sections/phrase-list.php:106
+msgid "HTML pattern Edit"
+msgstr "HTML模式编辑"
+
+#: ../../inc/sections/phrase-list.php:249
+#: ../../inc/sections/shortcode-list.php:314
+msgid "You are about to delete the selected item. Is it OK?"
+msgstr "你即将删除所选项目。要这样做吗？"
+
+#: ../../inc/sections/phrase-luxeritas.php:37
+#: ../../inc/sections/shortcode-balloon.php:39
+msgid " for luxeritas only"
+msgstr " for luxeritas only"
+
+#: ../../inc/sections/phrase-luxeritas.php:42
+msgid ""
+"* After registration, please rewrite URL and Caption of the image from the "
+"HTML pattern edit screen as necessary."
+msgstr "*注册后，请根据需要从HTML模式编辑屏幕重写图像的URL和标题。"
+
+#: ../../inc/sections/phrase-luxeritas.php:54
+#: ../../inc/sections/shortcode-balloon.php:147
+msgid "CSS settings for speech balloon"
+msgstr "speech balloon 的CSS设置"
+
+#: ../../inc/sections/phrase-luxeritas.php:55
+msgid "* This item is CSS settings for speech balloon shortcode and shared."
+msgstr "* 这一项是 speech balloon 短码的CSS设置，并共享。"
+
+#: ../../inc/sections/phrase-sample.php:23
+#: ../../inc/sections/shortcode-sample.php:23
+msgid " sample"
+msgstr " sample"
+
+#: ../../inc/sections/phrase-sample.php:31
+#: ../../inc/sections/shortcode-sample.php:44
+msgid "Please edit contents after registration."
+msgstr "请在注册后修改内容。"
+
+#: ../../inc/sections/pwa-manifest.php:23
+msgid "Even if PWA is invalid, create and load manifest"
+msgstr "即使PWA是无效的，也要创建并加载清单"
+
+#: ../../inc/sections/pwa-manifest.php:27
+msgid "Start Page"
+msgstr "起始页"
+
+#: ../../inc/sections/pwa-manifest.php:32
+msgid "Top Page"
+msgstr "Top Page"
+
+#: ../../inc/sections/pwa-manifest.php:43
+msgid "* It is the first page displayed when the application is launched."
+msgstr "* 它是应用程序启动时显示的第一个页面。"
+
+#: ../../inc/sections/pwa-manifest.php:46
+msgid "Application name"
+msgstr "应用名称"
+
+#: ../../inc/sections/pwa-manifest.php:50
+msgid "Application short name"
+msgstr "应用程序的简称"
+
+#: ../../inc/sections/pwa-manifest.php:52
+msgid ""
+"* <code class=\"normal-family\">12 characters or less</code>. Used when "
+"there is insufficient space to display the full name of the application."
+msgstr ""
+"* <code class=\"normal-family\">12个字符或更少</code>。当没有足够的空间显示应"
+"用程序的全名时使用。"
+
+#: ../../inc/sections/pwa-manifest.php:55
+msgid "Description"
+msgstr "描述"
+
+#: ../../inc/sections/pwa-manifest.php:59
+msgid "Application and Splash screen icon"
+msgstr "应用程序和启动屏幕图标"
+
+#: ../../inc/sections/pwa-manifest.php:60
+msgid "Please set from &quot;Site icon&quot; of appearance customization."
+msgstr "请从外观设置的&quot;网站图标&quot;中设置。"
+
+#: ../../inc/sections/pwa-manifest.php:63
+msgid "Display mode"
+msgstr "显示模式"
+
+#: ../../inc/sections/pwa-manifest.php:65
+msgid "No UI"
+msgstr "No UI"
+
+#: ../../inc/sections/pwa-manifest.php:66
+msgid "Minimal UI"
+msgstr "极简的用户界面"
+
+#: ../../inc/sections/pwa-manifest.php:67
+msgid "Same UI as browser"
+msgstr "与浏览器一样的用户界面"
+
+#: ../../inc/sections/pwa-manifest.php:71
+msgid "Orientation of screen"
+msgstr "屏幕方向"
+
+#: ../../inc/sections/pwa-manifest.php:73
+msgid "Allow rotation"
+msgstr "允许旋转"
+
+#: ../../inc/sections/pwa-manifest.php:74
+msgid "Fixed in portrait"
+msgstr "纵向固定"
+
+#: ../../inc/sections/pwa-manifest.php:75
+msgid "Fixed in landscape"
+msgstr "横向固定"
+
+#: ../../inc/sections/pwa-others.php:21
+msgid "How to output Service Worker and Manifest files."
+msgstr "如何输出 Service Worker 和 Manifest 文件。"
+
+#: ../../inc/sections/pwa-others.php:24
+msgid "Dynamic"
+msgstr "Dynamic"
+
+#: ../../inc/sections/pwa-others.php:26
+msgid ""
+"* If the root directory does not have write permission, please check dynamic."
+msgstr "* 如果根目录没有写入权限，请检查Dynamic。"
+
+#: ../../inc/sections/pwa-others.php:29
+msgid "Cahce control"
+msgstr "Cahce control"
+
+#: ../../inc/sections/pwa-others.php:32
+msgid ""
+"When you login to Administration Screens, delete the PWA cache in the "
+"browser."
+msgstr "当你登录到管理屏幕时，删除浏览器中的PWA缓存。"
+
+#: ../../inc/sections/pwa-theme.php:34
+msgid "* Set the color of mobile browser."
+msgstr "* 设置手机浏览器的颜色。"
+
+#: ../../inc/sections/pwa-theme.php:38
+msgid "Theme color"
+msgstr "主题色调"
+
+#: ../../inc/sections/pwa.php:25
+msgid "Your website is not served over SSL"
+msgstr "你的网站没有通过SSL提供服务"
+
+#: ../../inc/sections/pwa.php:28
+msgid "Your website is served over SSL"
+msgstr "你的网站是通过SSL提供的"
+
+#: ../../inc/sections/pwa.php:51
+msgid "Offline page"
+msgstr "离线页面"
+
+#: ../../inc/sections/pwa.php:54
+msgid "Allow browsing offline by caching"
+msgstr "允许通过缓存进行离线浏览"
+
+#: ../../inc/sections/pwa.php:73
+msgid ""
+"* Offline page is displayed when the device is offline and the requested "
+"page is not already cached."
+msgstr "* 当设备处于离线状态，且请求的页面尚未被缓存时，将显示离线页面。"
+
+#: ../../inc/sections/pwa.php:78
+msgid "Install button"
+msgstr "安装按钮"
+
+#: ../../inc/sections/pwa.php:81
+msgid "Display application install button on mobile global nav."
+msgstr "在手机全局导航上显示应用程序安装按钮。"
+
+#: ../../inc/sections/pwa.php:87
+msgid "Arrange the install button using widget."
+msgstr "使用小部件排列安装按钮。"
+
+#: ../../inc/sections/recaptcha.php:26
+msgid ""
+"* To use Google reCAPCHA, you will need Site Key and Secrect Key. Please go "
+"to <a href=\"https://www.google.com/recaptcha\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">Google reCAPTCHA</a> page and get yours."
+msgstr ""
+"* 要使用谷歌reCAPCHA，你将需要 Site Key 和 Secrect Key 。 请到 <a "
+"href=\"https://www.google.com/recaptcha\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Google reCAPTCHA</a>  页面获取。"
+
+#: ../../inc/sections/recaptcha.php:27
+msgid ""
+"* It might take some time till you are abel to use the feature after getting "
+"your keys."
+msgstr "* 在你拿到密钥后，可能需要一些时间才能使用。"
+
+#: ../../inc/sections/recaptcha.php:33
+msgid "Disable login users"
+msgstr "禁用登录用户"
+
+#: ../../inc/sections/recaptcha.php:35
+msgid "Reliable score threshold ( Google recommended value: 0.5 )"
+msgstr "可靠的分数阈值（谷歌推荐值：0.5）"
+
+#: ../../inc/sections/recaptcha.php:64
+msgid "Position of reCAPTCHA badge and Page Top button"
+msgstr "reCAPTCHA 标识和 Page Top 按钮的位置"
+
+#: ../../inc/sections/recaptcha.php:67
+msgid ""
+"Display a link to Privacy &amp; Terms above the comment submission button"
+msgstr "在评论提交按钮上方显示指向隐私政策和服务条款的链接"
+
+#: ../../inc/sections/recaptcha.php:68
+msgid "Slide the Page Top button to the left"
+msgstr "将 Page Top 按钮向左滑动"
+
+#: ../../inc/sections/recaptcha.php:69
+msgid "Slide the Page Top button up"
+msgstr "将 Page Top 按钮向上滑动"
+
+#: ../../inc/sections/recaptcha.php:71
+msgid "* Hiding Privacy &amp; Terms violates the terms."
+msgstr "* Hiding Privacy &amp; Terms violates the terms."
+
+#: ../../inc/sections/recaptcha.php:75
+msgid "Theme"
+msgstr "主题"
+
+#: ../../inc/sections/recaptcha.php:77
+msgid "light"
+msgstr "light"
+
+#: ../../inc/sections/recaptcha.php:78
+msgid "dark"
+msgstr "dark"
+
+#: ../../inc/sections/recaptcha.php:84
+msgid "normal"
+msgstr "正常"
+
+#: ../../inc/sections/recaptcha.php:85
+msgid "compact"
+msgstr "紧凑型"
+
+#: ../../inc/sections/recaptcha.php:89
+msgid "Type of authentication"
+msgstr "验证类型"
+
+#: ../../inc/sections/recaptcha.php:91
+msgid "image"
+msgstr "image"
+
+#: ../../inc/sections/recaptcha.php:92
+msgid "audio"
+msgstr "音频"
+
+#: ../../inc/sections/regenerate-thumbnail.php:25
+msgid "* Regenerate all thumbnails being used."
+msgstr "* 重新生成所有正在使用的缩略图。"
+
+#: ../../inc/sections/regenerate-thumbnail.php:26
+msgid ""
+"* Processing takes time. Please do not move to another page during "
+"processing."
+msgstr "* 处理需要时间。在处理过程中，请不要移动到其他页面。"
+
+#: ../../inc/sections/regenerate-thumbnail.php:27
+#: ../../inc/sections/sns-cache-all-get.php:26
+msgid ""
+"* Do not use this function consecutively because this function is burdens "
+"the server."
+msgstr "* 不要连续使用这个功能，因为这个功能会给服务器带来负担。"
+
+#: ../../inc/sections/regenerate-thumbnail.php:30
+msgid "Regenerate started"
+msgstr "重新开始生成"
+
+#: ../../inc/sections/regenerate-thumbnail.php:33
+#: ../../inc/sections/sns-cache-all-get.php:33
+msgid "Stop"
+msgstr "停止"
+
+#: ../../inc/sections/regenerate-thumbnail.php:36
+msgid ""
+"Delete thumbnails that are not checked in &quot;Thumbnail Management&quot;"
+msgstr "在&quot;缩略图管理&quot;中删除未被选中的缩略图&quot;"
+
+#: ../../inc/sections/regenerate-thumbnail.php:55
+#: ../../inc/sections/sns-cache-all-get.php:44
+msgid "Count"
+msgstr "计数"
+
+#: ../../inc/sections/script.php:23
+msgid "Do not load javascript of child theme ( luxech.js )"
+msgstr "不加载子主题的 JavaScript  ( luxech.js )"
+
+#: ../../inc/sections/script.php:25
+msgid ""
+"* If you are not going to customly add anything on the luxech.js, enabling "
+"this will streamline the page resource."
+msgstr ""
+"* 如果你不打算在 luxech.js 上自定义添加任何内容，启用这个功能将精简页面资源。"
+
+#: ../../inc/sections/script.php:30
+msgid "Do not load the emoji script for WordPress"
+msgstr "不要为WordPress加载表情符号脚本"
+
+#: ../../inc/sections/script.php:32
+msgid "* If you do not use emoji, not loading it will make things faster !"
+msgstr "* 如果你不使用表情符号，不加载它将使页面变得更快！"
+
+#: ../../inc/sections/script.php:37
+msgid "Turn OFF the WordPress Embed function"
+msgstr "关闭WordPress嵌入功能"
+
+#: ../../inc/sections/script.php:39
+msgid ""
+"* If you do not use emded functions, this will also make things faster !"
+msgstr "* 如果你不使用emded函数，这也会使页面变得更快！"
+
+#: ../../inc/sections/search.php:20
+msgid "Layout of search result"
+msgstr "搜索结果的布局"
+
+#: ../../inc/sections/search.php:23
+msgid "Show excerpt based on word matching"
+msgstr "显示基于单词匹配的摘要"
+
+#: ../../inc/sections/search.php:27
+msgid "Show normal excerpts"
+msgstr "显示正常摘要"
+
+#: ../../inc/sections/search.php:32
+msgid "Number of letters when #1 is chosen"
+msgstr "选择 #1 时的字符数"
+
+#: ../../inc/sections/search.php:33
+msgid ""
+"When #2 is chosen, the number of letters set in &quot;Customizing "
+"(Appearance)  -&gt; Style Details&quot; will apply."
+msgstr "当选择 #2 时，在 “自定义（外观）“ 中设置的字符数将会应用。"
+
+#: ../../inc/sections/search.php:36
+msgid "Two-byte and One-byte character distinction"
+msgstr "双字节和单字节字符区分"
+
+#: ../../inc/sections/search.php:39
+msgid "Apply the WordPress&apos;s MySQL / Maria DB setting"
+msgstr "应用 WordPress &apos;的 MySQL / Maria DB 设置"
+
+#: ../../inc/sections/search.php:43
+msgid "Do not distinguish Two/One-Byte and search"
+msgstr "不要区分双字节和单字节搜索"
+
+#: ../../inc/sections/search.php:47
+msgid "Distinguish Two/One-Byte and search"
+msgstr "区分双字节和单字节搜索"
+
+#: ../../inc/sections/search.php:51
+msgid "Extended Function"
+msgstr "扩展功能"
+
+#: ../../inc/sections/search.php:54
+msgid "Include Comments as search results"
+msgstr "将评论作为搜索结果包括在内"
+
+#: ../../inc/sections/search.php:60
+msgid "Use search string autocomplete function"
+msgstr "使用搜索字符串自动完成功能"
+
+#: ../../inc/sections/search.php:60
+msgid "* It can not be used with smartphones etc."
+msgstr "* 它不能与智能手机等一起使用。"
+
+#: ../../inc/sections/search.php:66
+msgid "Highlight the searched words"
+msgstr "突出显示搜索到的单词"
+
+#: ../../inc/sections/search.php:70
+msgid "Highlight decoration style"
+msgstr "突出样式风格"
+
+#: ../../inc/sections/search.php:77
+msgid "Oblique"
+msgstr "倾斜"
+
+#: ../../inc/sections/search.php:81
+msgid "Apply background color"
+msgstr "应用背景颜色"
+
+#: ../../inc/sections/securimage.php:24
+msgid "Image Size (Width : Height)"
+msgstr "图像大小（宽度：高度）"
+
+#: ../../inc/sections/securimage.php:30
+msgid "Number of characters (Min - Max)"
+msgstr "字符数（最小-最大）"
+
+#: ../../inc/sections/securimage.php:36
+msgid "Character Set"
+msgstr "字符集"
+
+#: ../../inc/sections/securimage.php:38
+msgid "Number"
+msgstr "数字"
+
+#: ../../inc/sections/securimage.php:39 ../../inc/sections/securimage.php:40
+#: ../../inc/sections/securimage.php:41
+msgid "Alphabet"
+msgstr "字母"
+
+#: ../../inc/sections/securimage.php:40 ../../inc/sections/securimage.php:43
+msgid "upper"
+msgstr "upper"
+
+#: ../../inc/sections/securimage.php:41 ../../inc/sections/securimage.php:44
+msgid "lower"
+msgstr "lower"
+
+#: ../../inc/sections/securimage.php:42 ../../inc/sections/securimage.php:43
+#: ../../inc/sections/securimage.php:44
+msgid "Alphanumeric"
+msgstr "字母数字"
+
+#: ../../inc/sections/securimage.php:52
+msgid "Image color"
+msgstr "图像颜色"
+
+#: ../../inc/sections/securimage.php:81
+msgid "Character distortion"
+msgstr "字符失真"
+
+#: ../../inc/sections/securimage.php:85
+msgid "Background noise"
+msgstr "背景噪点"
+
+#: ../../inc/sections/securimage.php:100
+msgid "Noise color"
+msgstr "噪点颜色"
+
+#: ../../inc/sections/securimage.php:104
+msgid "Number of lines above the image to make it obscure"
+msgstr "图像上方的行数，使其不明显"
+
+#: ../../inc/sections/securimage.php:118
+msgid "Line color"
+msgstr "线条颜色"
+
+#: ../../inc/sections/seo.php:20
+msgid "To add tags"
+msgstr "要添加的标签"
+
+#: ../../inc/sections/seo.php:45
+msgid "The front page meta description"
+msgstr "首页meta描述"
+
+#: ../../inc/sections/seo.php:47
+msgid ""
+"* You can change meta description of each post by writing it in &quot;"
+"Excerpt&quot; on New Post / Edit Post page."
+msgstr "* 你可以在新帖/编辑帖页面的&quot;摘录&quot;中改变每个帖子的元描述。"
+
+#: ../../inc/sections/seo.php:48
+msgid ""
+"* You can change meta description of category and tag page by writing it in "
+"&quot;Description&quot; on Edit Categories or Tags page."
+msgstr ""
+"* 你可以通过在编辑类别或标签页面的&quot;描述&quot;中写入类别和标签页面的元描"
+"述来改变它。"
+
+#: ../../inc/sections/seo.php:51
+msgid "Structured data "
+msgstr "结构化数据 "
+
+#: ../../inc/sections/seo.php:52
+msgid "Types of site names recognized by the search engine"
+msgstr "搜索引擎识别的网站名称类型"
+
+#: ../../inc/sections/seo.php:55
+msgid "Web site name"
+msgstr "网站名称"
+
+#: ../../inc/sections/seo.php:59
+msgid "Organization name"
+msgstr "组织名称"
+
+#: ../../inc/sections/seo.php:62
+msgid "Organization"
+msgstr "Organization"
+
+#: ../../inc/sections/seo.php:66
+msgid "Airline"
+msgstr "Airline"
+
+#: ../../inc/sections/seo.php:67
+msgid "Corporation"
+msgstr "Corporation"
+
+#: ../../inc/sections/seo.php:68
+msgid "EducationalOrganization"
+msgstr "EducationalOrganization"
+
+#: ../../inc/sections/seo.php:77
+msgid "CollegeOrUniversity"
+msgstr "CollegeOrUniversity"
+
+#: ../../inc/sections/seo.php:78
+msgid "ElementarySchool"
+msgstr "ElementarySchool"
+
+#: ../../inc/sections/seo.php:79
+msgid "HighSchool"
+msgstr "HighSchool"
+
+#: ../../inc/sections/seo.php:80
+msgid "MiddleSchool"
+msgstr "MiddleSchool"
+
+#: ../../inc/sections/seo.php:81
+msgid "Preschool"
+msgstr "Preschool"
+
+#: ../../inc/sections/seo.php:82
+msgid "School"
+msgstr "School"
+
+#: ../../inc/sections/seo.php:91
+msgid "GovernmentOrganization"
+msgstr "GovernmentOrganization"
+
+#: ../../inc/sections/seo.php:92
+msgid "LocalBusiness"
+msgstr "LocalBusiness"
+
+#: ../../inc/sections/seo.php:101
+msgid "AnimalShelter"
+msgstr "AnimalShelter"
+
+#: ../../inc/sections/seo.php:102
+msgid "AutomotiveBusiness"
+msgstr "AutomotiveBusiness"
+
+#: ../../inc/sections/seo.php:111
+msgid "AutoBodyShop"
+msgstr "AutoBodyShop"
+
+#: ../../inc/sections/seo.php:112
+msgid "AutoDealer"
+msgstr "AutoDealer"
+
+#: ../../inc/sections/seo.php:113
+msgid "AutoPartsStore"
+msgstr "AutoPartsStore"
+
+#: ../../inc/sections/seo.php:114
+msgid "AutoRental"
+msgstr "AutoRental"
+
+#: ../../inc/sections/seo.php:115
+msgid "AutoRepair"
+msgstr "AutoRepair"
+
+#: ../../inc/sections/seo.php:116
+msgid "AutoWash"
+msgstr "AutoWash"
+
+#: ../../inc/sections/seo.php:117
+msgid "GasStation"
+msgstr "GasStation"
+
+#: ../../inc/sections/seo.php:118
+msgid "MotorcycleDealer"
+msgstr "MotorcycleDealer"
+
+#: ../../inc/sections/seo.php:119
+msgid "MotorcycleRepair"
+msgstr "MotorcycleRepair"
+
+#: ../../inc/sections/seo.php:128
+msgid "ChildCare"
+msgstr "ChildCare"
+
+#: ../../inc/sections/seo.php:129
+msgid "DryCleaningOrLaundry"
+msgstr "DryCleaningOrLaundry"
+
+#: ../../inc/sections/seo.php:130
+msgid "EmergencyService"
+msgstr "EmergencyService"
+
+#: ../../inc/sections/seo.php:139
+msgid "FireStation"
+msgstr "FireStation"
+
+#: ../../inc/sections/seo.php:140
+msgid "PoliceStation"
+msgstr "PoliceStation"
+
+#: ../../inc/sections/seo.php:149
+msgid "EmploymentAgency"
+msgstr "EmploymentAgency"
+
+#: ../../inc/sections/seo.php:150
+msgid "EntertainmentBusiness"
+msgstr "EntertainmentBusiness"
+
+#: ../../inc/sections/seo.php:159
+msgid "AdultEntertainment"
+msgstr "AdultEntertainment"
+
+#: ../../inc/sections/seo.php:160
+msgid "AmusementPark"
+msgstr "AmusementPark"
+
+#: ../../inc/sections/seo.php:161
+msgid "ArtGallery"
+msgstr "ArtGallery"
+
+#: ../../inc/sections/seo.php:162
+msgid "Casino"
+msgstr "Casino"
+
+#: ../../inc/sections/seo.php:163
+msgid "ComedyClub"
+msgstr "ComedyClub"
+
+#: ../../inc/sections/seo.php:164
+msgid "MovieTheater"
+msgstr "MovieTheater"
+
+#: ../../inc/sections/seo.php:165
+msgid "NightClub"
+msgstr "NightClub"
+
+#: ../../inc/sections/seo.php:174
+msgid "FinancialService"
+msgstr "FinancialService"
+
+#: ../../inc/sections/seo.php:183
+msgid "AccountingService"
+msgstr "AccountingService"
+
+#: ../../inc/sections/seo.php:184
+msgid "AutomatedTeller"
+msgstr "AutomatedTeller"
+
+#: ../../inc/sections/seo.php:185
+msgid "BankOrCreditUnion"
+msgstr "BankOrCreditUnion"
+
+#: ../../inc/sections/seo.php:186
+msgid "InsuranceAgency"
+msgstr "InsuranceAgency"
+
+#: ../../inc/sections/seo.php:195
+msgid "FoodEstablishment"
+msgstr "FoodEstablishment"
+
+#: ../../inc/sections/seo.php:204
+msgid "Bakery"
+msgstr "Bakery"
+
+#: ../../inc/sections/seo.php:205
+msgid "BarOrPub"
+msgstr "BarOrPub"
+
+#: ../../inc/sections/seo.php:206
+msgid "Brewery"
+msgstr "Brewery"
+
+#: ../../inc/sections/seo.php:207
+msgid "CafeOrCoffeeShop"
+msgstr "CafeOrCoffeeShop"
+
+#: ../../inc/sections/seo.php:208
+msgid "FastFoodRestaurant"
+msgstr "FastFoodRestaurant"
+
+#: ../../inc/sections/seo.php:209
+msgid "IceCreamShop"
+msgstr "IceCreamShop"
+
+#: ../../inc/sections/seo.php:210
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: ../../inc/sections/seo.php:211
+msgid "Winery"
+msgstr "Winery"
+
+#: ../../inc/sections/seo.php:220
+msgid "GovernmentOffice"
+msgstr "GovernmentOffice"
+
+#: ../../inc/sections/seo.php:229
+msgid "PostOffice"
+msgstr "PostOffice"
+
+#: ../../inc/sections/seo.php:238
+msgid "HealthAndBeautyBusiness"
+msgstr "HealthAndBeautyBusiness"
+
+#: ../../inc/sections/seo.php:247
+msgid "BeautySalon"
+msgstr "BeautySalon"
+
+#: ../../inc/sections/seo.php:248
+msgid "DaySpa"
+msgstr "DaySpa"
+
+#: ../../inc/sections/seo.php:249
+msgid "HairSalon"
+msgstr "HairSalon"
+
+#: ../../inc/sections/seo.php:250 ../../inc/sections/seo.php:348
+msgid "HealthClub"
+msgstr "HealthClub"
+
+#: ../../inc/sections/seo.php:251
+msgid "NailSalon"
+msgstr "NailSalon"
+
+#: ../../inc/sections/seo.php:252
+msgid "TattooParlor"
+msgstr "TattooParlor"
+
+#: ../../inc/sections/seo.php:261
+msgid "HomeAndConstructionBusiness"
+msgstr "HomeAndConstructionBusiness"
+
+#: ../../inc/sections/seo.php:270
+msgid "Electrician"
+msgstr "Electrician"
+
+#: ../../inc/sections/seo.php:271
+msgid "GeneralContractor"
+msgstr "GeneralContractor"
+
+#: ../../inc/sections/seo.php:272
+msgid "HVACBusiness"
+msgstr "HVACBusiness"
+
+#: ../../inc/sections/seo.php:273
+msgid "HousePainter"
+msgstr "HousePainter"
+
+#: ../../inc/sections/seo.php:274
+msgid "Locksmith"
+msgstr "Locksmith"
+
+#: ../../inc/sections/seo.php:275
+msgid "MovingCompany"
+msgstr "MovingCompany"
+
+#: ../../inc/sections/seo.php:276
+msgid "Plumber"
+msgstr "Plumber"
+
+#: ../../inc/sections/seo.php:277
+msgid "RoofingContractor"
+msgstr "RoofingContractor"
+
+#: ../../inc/sections/seo.php:286
+msgid "InternetCafe"
+msgstr "InternetCafe"
+
+#: ../../inc/sections/seo.php:287
+msgid "LegalService"
+msgstr "LegalService"
+
+#: ../../inc/sections/seo.php:296
+msgid "Attorney"
+msgstr "Attorney"
+
+#: ../../inc/sections/seo.php:297
+msgid "Notary"
+msgstr "Notary"
+
+#: ../../inc/sections/seo.php:306
+msgid "Library"
+msgstr "Library"
+
+#: ../../inc/sections/seo.php:307
+msgid "LodgingBusiness"
+msgstr "LodgingBusiness"
+
+#: ../../inc/sections/seo.php:316
+msgid "BedAndBreakfast"
+msgstr "BedAndBreakfast"
+
+#: ../../inc/sections/seo.php:317
+msgid "Campground"
+msgstr "Campground"
+
+#: ../../inc/sections/seo.php:318
+msgid "Hostel"
+msgstr "Hostel"
+
+#: ../../inc/sections/seo.php:319
+msgid "Hotel"
+msgstr "Hotel"
+
+#: ../../inc/sections/seo.php:320
+msgid "Motel"
+msgstr "Motel"
+
+#: ../../inc/sections/seo.php:321
+msgid "Resort"
+msgstr "Resort"
+
+#: ../../inc/sections/seo.php:330
+msgid "ProfessionalService"
+msgstr "ProfessionalService"
+
+#: ../../inc/sections/seo.php:331
+msgid "RadioStation"
+msgstr "RadioStation"
+
+#: ../../inc/sections/seo.php:332
+msgid "RealEstateAgent"
+msgstr "RealEstateAgent"
+
+#: ../../inc/sections/seo.php:333
+msgid "RecyclingCenter"
+msgstr "RecyclingCenter"
+
+#: ../../inc/sections/seo.php:334
+msgid "SelfStorage"
+msgstr "SelfStorage"
+
+#: ../../inc/sections/seo.php:335
+msgid "ShoppingCenter"
+msgstr "ShoppingCenter"
+
+#: ../../inc/sections/seo.php:336
+msgid "SportsActivityLocation"
+msgstr "SportsActivityLocation"
+
+#: ../../inc/sections/seo.php:345
+msgid "BowlingAlley"
+msgstr "BowlingAlley"
+
+#: ../../inc/sections/seo.php:346
+msgid "ExerciseGym"
+msgstr "ExerciseGym"
+
+#: ../../inc/sections/seo.php:347
+msgid "GolfCourse"
+msgstr "GolfCourse"
+
+#: ../../inc/sections/seo.php:349
+msgid "PublicSwimmingPool"
+msgstr "PublicSwimmingPool"
+
+#: ../../inc/sections/seo.php:350
+msgid "SkiResort"
+msgstr "SkiResort"
+
+#: ../../inc/sections/seo.php:351
+msgid "SportsClub"
+msgstr "SportsClub"
+
+#: ../../inc/sections/seo.php:352
+msgid "StadiumOrArena"
+msgstr "StadiumOrArena"
+
+#: ../../inc/sections/seo.php:353
+msgid "TennisComplex"
+msgstr "TennisComplex"
+
+#: ../../inc/sections/seo.php:362
+msgid "Store"
+msgstr "Store"
+
+#: ../../inc/sections/seo.php:371
+msgid "BikeStore"
+msgstr "BikeStore"
+
+#: ../../inc/sections/seo.php:372
+msgid "BookStore"
+msgstr "BookStore"
+
+#: ../../inc/sections/seo.php:373
+msgid "ClothingStore"
+msgstr "ClothingStore"
+
+#: ../../inc/sections/seo.php:374
+msgid "ComputerStore"
+msgstr "ComputerStore"
+
+#: ../../inc/sections/seo.php:375
+msgid "ConvenienceStore"
+msgstr "ConvenienceStore"
+
+#: ../../inc/sections/seo.php:376
+msgid "DepartmentStore"
+msgstr "DepartmentStore"
+
+#: ../../inc/sections/seo.php:377
+msgid "ElectronicsStore"
+msgstr "ElectronicsStore"
+
+#: ../../inc/sections/seo.php:378
+msgid "Florist"
+msgstr "Florist"
+
+#: ../../inc/sections/seo.php:379
+msgid "FurnitureStore"
+msgstr "FurnitureStore"
+
+#: ../../inc/sections/seo.php:380
+msgid "GardenStore"
+msgstr "GardenStore"
+
+#: ../../inc/sections/seo.php:381
+msgid "GroceryStore"
+msgstr "GroceryStore"
+
+#: ../../inc/sections/seo.php:382
+msgid "HardwareStore"
+msgstr "HardwareStore"
+
+#: ../../inc/sections/seo.php:383
+msgid "HobbyShop"
+msgstr "HobbyShop"
+
+#: ../../inc/sections/seo.php:384
+msgid "HomeGoodsStore"
+msgstr "HomeGoodsStore"
+
+#: ../../inc/sections/seo.php:385
+msgid "JewelryStore"
+msgstr "JewelryStore"
+
+#: ../../inc/sections/seo.php:386
+msgid "LiquorStore"
+msgstr "LiquorStore"
+
+#: ../../inc/sections/seo.php:387
+msgid "MensClothingStore"
+msgstr "MensClothingStore"
+
+#: ../../inc/sections/seo.php:388
+msgid "MobilePhoneStore"
+msgstr "MobilePhoneStore"
+
+#: ../../inc/sections/seo.php:389
+msgid "MovieRentalStore"
+msgstr "MovieRentalStore"
+
+#: ../../inc/sections/seo.php:390
+msgid "MusicStore"
+msgstr "MusicStore"
+
+#: ../../inc/sections/seo.php:391
+msgid "OfficeEquipmentStore"
+msgstr "OfficeEquipmentStore"
+
+#: ../../inc/sections/seo.php:392
+msgid "OutletStore"
+msgstr "OutletStore"
+
+#: ../../inc/sections/seo.php:393
+msgid "PawnShop"
+msgstr "PawnShop"
+
+#: ../../inc/sections/seo.php:394
+msgid "PetStore"
+msgstr "PetStore"
+
+#: ../../inc/sections/seo.php:395
+msgid "ShoeStore"
+msgstr "ShoeStore"
+
+#: ../../inc/sections/seo.php:396
+msgid "SportingGoodsStore"
+msgstr "SportingGoodsStore"
+
+#: ../../inc/sections/seo.php:397
+msgid "TireShop"
+msgstr "TireShop"
+
+#: ../../inc/sections/seo.php:398
+msgid "ToyStore"
+msgstr "ToyStore"
+
+#: ../../inc/sections/seo.php:399
+msgid "WholesaleStore"
+msgstr "WholesaleStore"
+
+#: ../../inc/sections/seo.php:408
+msgid "TelevisionStation"
+msgstr "TelevisionStation"
+
+#: ../../inc/sections/seo.php:409
+msgid "TouristInformationCenter"
+msgstr "TouristInformationCenter"
+
+#: ../../inc/sections/seo.php:410
+msgid "TravelAgency"
+msgstr "TravelAgency"
+
+#: ../../inc/sections/seo.php:419
+msgid "MedicalOrganization"
+msgstr "MedicalOrganization"
+
+#: ../../inc/sections/seo.php:428
+msgid "Dentist"
+msgstr "Dentist"
+
+#: ../../inc/sections/seo.php:429
+msgid "Hospital"
+msgstr "Hospital"
+
+#: ../../inc/sections/seo.php:430
+msgid "Pharmacy"
+msgstr "Pharmacy"
+
+#: ../../inc/sections/seo.php:431
+msgid "Physician"
+msgstr "Physician"
+
+#: ../../inc/sections/seo.php:440
+msgid "NGO"
+msgstr "NGO"
+
+#: ../../inc/sections/seo.php:441
+msgid "PerformingGroup"
+msgstr "PerformingGroup"
+
+#: ../../inc/sections/seo.php:450
+msgid "DanceGroup"
+msgstr "DanceGroup"
+
+#: ../../inc/sections/seo.php:451
+msgid "MusicGroup"
+msgstr "MusicGroup"
+
+#: ../../inc/sections/seo.php:452
+msgid "TheaterGroup"
+msgstr "TheaterGroup"
+
+#: ../../inc/sections/seo.php:461
+msgid "SportsOrganization"
+msgstr "SportsOrganization"
+
+#: ../../inc/sections/seo.php:470
+msgid "SportsTeam"
+msgstr "SportsTeam"
+
+#: ../../inc/sections/seo.php:483
+msgid "Site logo"
+msgstr "网站 logo"
+
+#: ../../inc/sections/seo.php:516
+msgid "Organization logo"
+msgstr "组织 logo"
+
+#: ../../inc/sections/seo.php:516
+msgid ""
+"Only when &quoValid only when &quot;Organization name&quot; is selected as "
+"the type of site name"
+msgstr "只有当&quot;组织名称&quot;被选定为网站名称类型时才有效"
+
+#: ../../inc/sections/seo.php:517
+msgid "* Required depending on the selected organization"
+msgstr "* 需要，取决于所选组织"
+
+#: ../../inc/sections/seo.php:520
+msgid "There is no organization logo. Or don&apos;t need such a setting"
+msgstr "没有组织标志。或者不需要这样的设置"
+
+#: ../../inc/sections/seo.php:524
+msgid ""
+"Make the search engine recognize the following image as &quot;Organization "
+"logo&quot;"
+msgstr "让搜索引擎识别以下图片为&quot;组织标志&quot;"
+
+#: ../../inc/sections/seo.php:526
+msgid "* The image must be at least 112 px wide and at least 112 px high."
+msgstr "* 图片必须至少为112px宽，至少为112px高。"
+
+#: ../../inc/sections/seo.php:561
+msgid "Put tags and category names into meta keywords"
+msgstr "将 标签 和 分类 放入 meta keywords 中"
+
+#: ../../inc/sections/seo.php:565
+msgid "Do not need any meta keywords!"
+msgstr "不需要任何meta keywords!"
+
+#: ../../inc/sections/seo.php:569
+msgid "Date to display in Google search results"
+msgstr "在谷歌搜索结果中显示的日期"
+
+#: ../../inc/sections/seo.php:574
+msgid ""
+"* It is a setting of the date to display in Google search results when there "
+"is both a publish date and an update date."
+msgstr ""
+"* 它是在同时有发布日期和更新日期的情况下，在谷歌搜索结果中显示日期的设置（建"
+"议设置为更新日期）。"
+
+#: ../../inc/sections/seo.php:577
+msgid "category and tag pages"
+msgstr "类别和标签页"
+
+#: ../../inc/sections/seo.php:578
+msgid "* For SEO reasons, you can only select either category or tag page."
+msgstr "* 由于SEO的原因，你只能选择类别或标签页。"
+
+#: ../../inc/sections/seo.php:581
+msgid "Index category page."
+msgstr "索引类别页。"
+
+#: ../../inc/sections/seo.php:581 ../../inc/sections/seo.php:585
+msgid "Only the first page"
+msgstr "只有第一页"
+
+#: ../../inc/sections/seo.php:585
+msgid "Index tag page."
+msgstr "索引标签页。"
+
+#: ../../inc/sections/seo.php:589
+msgid "Prohibit crawlers to index either"
+msgstr "禁止爬虫对上面两类页面进行索引"
+
+#: ../../inc/sections/seo.php:593
+msgid "Splitting Content for blog posts and pages"
+msgstr "分割博客文章和页面的内容"
+
+#: ../../inc/sections/seo.php:596
+msgid ""
+"Prohibit crawlers to index second page onward when contents are split using "
+"&lt;!--nextpage--&gt; tag."
+msgstr ""
+"当使用 &lt;!--nextpage--&gt; tag分割内容时，禁止爬虫对第二页以后的内容进行索"
+"引。"
+
+#: ../../inc/sections/shortcode-balloon.php:39
+msgid "Speech balloon shortcode"
+msgstr "balloon shortcode短码"
+
+#: ../../inc/sections/shortcode-balloon.php:44
+msgid ""
+"* If speech balloon shortcode is registered, CSS for speech balloon will be "
+"automatically loaded."
+msgstr "* 如果注册了speech balloon短码，speech balloon的CSS将被自动加载。"
+
+#: ../../inc/sections/shortcode-balloon.php:59
+#: ../../inc/sections/shortcode-balloon.php:82
+#: ../../inc/sections/shortcode-balloon.php:110
+#: ../../inc/sections/shortcode-balloon.php:133
+msgid "Registered"
+msgstr "注册"
+
+#: ../../inc/sections/shortcode-balloon.php:68
+#: ../../inc/sections/shortcode-balloon.php:119
+msgid "Select image"
+msgstr "选择图像"
+
+#: ../../inc/sections/shortcode-balloon.php:69
+#: ../../inc/sections/shortcode-balloon.php:120
+#, php-format
+msgid "Width %s recommended"
+msgstr "建议宽度为 %s"
+
+#: ../../inc/sections/shortcode-balloon.php:77
+#: ../../inc/sections/shortcode-balloon.php:128
+msgid "Caption"
+msgstr "标题"
+
+#: ../../inc/sections/shortcode-balloon.php:87
+msgid "Left caption"
+msgstr "Left caption"
+
+#: ../../inc/sections/shortcode-balloon.php:138
+msgid "Right caption"
+msgstr "Right caption"
+
+#: ../../inc/sections/shortcode-balloon.php:148
+msgid "* This item can be changed even after shortcode registration."
+msgstr "* 这个项目即使在短码注册后也可以改变。"
+
+#: ../../inc/sections/shortcode-list.php:66
+#, php-format
+msgid "* %s names with the same name can not be registered."
+msgstr "* 同名的%s名字不能被注册。"
+
+#: ../../inc/sections/shortcode-list.php:67
+msgid ""
+"* Import is self responsible, please import only from the trustworthy file."
+msgstr "* 导入是自己负责的，请只从值得信赖的文件中导入。"
+
+#: ../../inc/sections/shortcode-list.php:68
+msgid "* Shortcode is stored in shortcodes directory of the child theme."
+msgstr "* 短码存储在子主题的短码目录中。"
+
+#: ../../inc/sections/shortcode-list.php:69
+msgid ""
+"* Except for Luxeritas special shortcode, you can use it for other themes by "
+"porting the contents stored in the shortcodes directory to functions.php."
+msgstr ""
+"* 除了Luxeritas的特殊短码，你可以通过移植存储在短码目录下的内容到function.php"
+"来使用它，用于其他主题。"
+
+#: ../../inc/sections/shortcode-list.php:140
+msgid "Shortcode Edit"
+msgstr "短码编辑"
+
+#: ../../inc/sections/shortcode-sample.php:27
+msgid "Tutorial"
+msgstr "教程"
+
+#: ../../inc/sections/sns-cache-all-get.php:24
+msgid ""
+"* It will retrieve the SNS count number of all posts and restructure the "
+"cache."
+msgstr "* 它将检索所有帖子的SNS计数，并重组缓存。"
+
+#: ../../inc/sections/sns-cache-all-get.php:25
+msgid "* Normally you do not need to use this function."
+msgstr "* 通常情况下，你不需要使用这个功能。"
+
+#: ../../inc/sections/sns-cache-all-get.php:30
+msgid "Restructure started"
+msgstr "结构调整开始"
+
+#: ../../inc/sections/sns-cache-cleanup.php:21
+msgid "Clear all SNS count cache"
+msgstr "清除所有SNS计数缓存"
+
+#: ../../inc/sections/sns-cache-cleanup.php:22
+msgid "* This will delete the whole cache directory including cache settings."
+msgstr "* 这将删除整个缓存目录，包括缓存设置。"
+
+#: ../../inc/sections/sns-cache-csv.php:24
+msgid "* Download the list of SNS count caches in CSV format."
+msgstr "* 下载CSV格式的SNS计数缓存列表。"
+
+#: ../../inc/sections/sns-cache-csv.php:27
+msgid "Download"
+msgstr "下载"
+
+#: ../../inc/sections/speedup-items.php:42
+msgid "Compress"
+msgstr "压缩"
+
+#: ../../inc/sections/speedup-items.php:79
+#: ../../inc/sections/speedup-items.php:84
+#, php-format
+msgid "How to Load CSS of %s"
+msgstr "How to Load CSS of %s"
+
+#: ../../inc/sections/speedup-items.php:154
+msgid "SNS count cache"
+msgstr "SNS 统计缓存"
+
+#: ../../inc/sections/speedup-items.php:174
+#: ../../inc/sections/speedup-items.php:178
+msgid "* Please setting this item yourself."
+msgstr "* 请自行设定此项目。"
+
+#: ../../inc/sections/speedup-set.php:21
+msgid "* Using cache plugin with Luxeritas may be rather slow."
+msgstr "* 使用Luxeritas的缓存插件可能相当慢。"
+
+#: ../../inc/sections/speedup-set.php:22
+msgid "* Red letters set are not basically recommended."
+msgstr "* 红字集基本上不推荐使用。"
+
+#: ../../inc/sections/speedup-set.php:23
+msgid "Recommended settings"
+msgstr "建议设置"
+
+#: ../../inc/sections/speedup-set.php:24
+msgid ""
+"Faster settings <span style=\"color:red\">( But lags in rendering ! )</span>"
+msgstr "更快的设置 <span style=\"color:red\">(但在渲染方面有滞后！ )</span>"
+
+#: ../../inc/sections/speedup-set.php:25
+msgid "Extreme settings"
+msgstr "极端设置"
+
+#: ../../inc/sections/speedup-set.php:25
+msgid "Caution"
+msgstr "注意事项"
+
+#: ../../inc/sections/speedup-set.php:27
+msgid "You selected the item."
+msgstr "你选择了这个项目。"
+
+#: ../../inc/sections/speedup-set.php:27
+msgid "Please press save button"
+msgstr "请按保存按钮"
+
+#: ../../inc/sections/thumbnail-manage.php:19
+msgid ""
+"* For checked size, thumbnails will be created when uploading images on the "
+"Media Library."
+msgstr "* 对于检查过的尺寸，在媒体库上上传图片时将会创建缩略图。"
+
+#: ../../inc/sections/thumbnail-manage.php:20
+msgid ""
+"* Crop = When the aspect ratio does not match, the protruding part is cut "
+"away."
+msgstr "* 裁剪 = 当长宽比不一致时，突出的部分被裁掉。"
+
+#: ../../inc/sections/thumbnail-manage.php:21
+msgid ""
+"* Selectable = On post, you can select &quot;ATTACHMENT DISPLAY "
+"SETTINGS&quot; in the Media Library."
+msgstr ""
+"* Selectable = On post, you can select &quot;ATTACHMENT DISPLAY "
+"SETTINGS&quot; in the Media Library."
+
+#: ../../inc/sections/thumbnail-manage.php:26
+msgid "Generate"
+msgstr "生成"
+
+#: ../../inc/sections/thumbnail-manage.php:27
+msgid "Max size"
+msgstr "Max size"
+
+#: ../../inc/sections/thumbnail-manage.php:132
+msgid ""
+"* To use user thumbnails with existing images, you need to regenerate "
+"thumbnails."
+msgstr "* 要用现有的图片使用用户缩略图，你需要重新生成缩略图。"
+
+#: ../../inc/sections/title.php:20
+msgid "Separator of title"
+msgstr "标题分隔符"
+
+#: ../../inc/sections/title.php:31
+msgid "Page title when Front Page is post pages"
+msgstr "当前页为帖子页面时的页面标题"
+
+#: ../../inc/sections/title.php:38 ../../inc/sections/title.php:49
+#: ../../inc/sections/title.php:76
+msgid "Tagline"
+msgstr "标签"
+
+#: ../../inc/sections/title.php:42
+msgid "Page title when Front Page is static pages"
+msgstr "当Front Page为静态页面时的页面标题"
+
+#: ../../inc/sections/title.php:53 ../../inc/sections/title.php:57
+#: ../../inc/sections/title.php:64 ../../inc/sections/title.php:68
+#: ../../inc/sections/title.php:72 ../../inc/sections/title.php:76
+msgid "Page title"
+msgstr "页面标题"
+
+#: ../../inc/sections/title.php:61
+msgid "Other page title"
+msgstr "其他页面标题"
+
+#: ../../inc/sections/version.php:58
+msgid "Current Theme"
+msgstr "当前主题"
+
+#: ../../inc/sections/version.php:59 ../../inc/sections/version.php:65
+#, php-format
+msgid "Version: %s"
+msgstr "Version: %s"
+
+#: ../../inc/sections/version.php:62
+#, php-format
+msgid "This is a child theme of %s."
+msgstr "This is a child theme of %s."
+
+#: ../../inc/sections/version.php:64
+msgid "Parent Theme"
+msgstr "父主题"
+
+#: ../../inc/sections/version.php:69
+#, php-format
+msgid "By %s"
+msgstr "By %s"
+
+#: ../../inc/sections/version.php:73
+msgid "Tags"
+msgstr "标签"
+
+#: ../../inc/sections/widget-area.php:21
+msgid "* When checked, hide the widget area."
+msgstr "* 选中后，隐藏小部件区域。"
+
+#: ../../inc/sections/widget-area.php:34 ../../inc/sections/widget-area.php:56
+#: ../../inc/sections/widget-body.php:42 ../../inc/sections/widget-body.php:64
+msgid "Preview"
+msgstr "预览"
+
+#: ../../inc/sections/widget-body.php:29
+msgid "* When checked, hides the widget."
+msgstr "* 当被选中时，隐藏小部件。"
+
+#: ../../inc/sections/widget-css.php:20
+msgid "Load CSS for widgets"
+msgstr "为小部件加载CSS"
+
+#: ../../inc/sections/widget-css.php:21
+msgid ""
+"* If you are not using CSS for widgets, disabling its load will decrease the "
+"total filze size of the page and can make your page render faster."
+msgstr ""
+"* 如果您没有将 CSS 用于小部件，禁用其加载将减少页面的文件总大小，并可以使页面"
+"呈现速度更快。"
+
+#: ../../inc/sections/widget-css.php:31
+msgid "Search Form Widget"
+msgstr "搜索表格小工具"
+
+#: ../../inc/sections/widget-css.php:32
+msgid "Categories &amp; Archive Widget"
+msgstr "分类 & 归档小工具"
+
+#: ../../inc/sections/widget-css.php:33
+msgid "Categories &amp; Archive DropDown Widget"
+msgstr "分类&amp; 档案下拉小工具"
+
+#: ../../inc/sections/widget-css.php:34
+msgid "Calendar Widget"
+msgstr "日历小工具"
+
+#: ../../inc/sections/widget-css.php:35
+msgid "Tag cloud Widget"
+msgstr "标签云小工具"
+
+#: ../../inc/sections/widget-css.php:37
+msgid "Adsense Widget"
+msgstr "Adsense小工具"
+
+#: ../../inc/sections/widget-css.php:39
+msgid "SNS Follow Button (by Luxeritas)"
+msgstr "SNS Follow Button (by Luxeritas)"
+
+#: ../../inc/sections/widget-css.php:40
+msgid "RSS / Feedly Button (by Luxeritas)"
+msgstr "RSS / Feedly Button (by Luxeritas)"
+
+#: ../../languages/site/translations.php:77
+#, php-format
+msgid "Category: %s"
+msgstr "Category: %s"
+
+#: ../../languages/site/translations.php:78
+#, php-format
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: ../../languages/site/translations.php:79
+#, php-format
+msgid "Author: %s"
+msgstr "Author: %s"
+
+#: ../../languages/site/translations.php:80
+#, php-format
+msgid "Year: %s"
+msgstr "Year: %s"
+
+#: ../../languages/site/translations.php:81
+#, php-format
+msgid "Month: %s"
+msgstr "Month: %s"
+
+#: ../../languages/site/translations.php:82
+#, php-format
+msgid "Day: %s"
+msgstr "Day: %s"
+
+#: ../../languages/site/translations.php:83
+#, php-format
+msgid "Archives: %s"
+msgstr "Archives: %s"
+
+#: ../../languages/site/translations.php:84
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: ../../languages/site/translations.php:86 ../../pages/sitemap.php:23
+#: ../../pages/sitemap.php:24 ../../pages/sitemap.php:36
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: ../../pages/wrapper-menu.php:15 ../../pages/wrapper-menu.php:16
+msgid "Custom global nav"
+msgstr "自定义全局导航"

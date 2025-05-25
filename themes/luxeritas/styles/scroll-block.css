@@ -1,0 +1,61 @@
+/*! Luxeritas WordPress Theme - free/libre wordpress platform
+ *
+ * @copyright Copyright (C) 2015 Thought is free.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+ * @author LunaNuko
+ * @link https://thk.kanzae.net/
+ * @translators rakeem( http://rakeem.jp/ )
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ */
+
+/**
+ * ----------------------------------------------------------------------------
+ * Scroll block
+ * ----------------------------------------------------------------------------
+ */
+.luxe-scrl {
+	margin: 10px 0 40px 0;
+}
+div.luxe-scrl * {
+	white-space: nowrap;
+}
+div.luxe-scrl pre, div.luxe-scrl div.code-toolbar,
+div.luxe-scrl pre *, div.luxe-scrl div.code-toolbar * {
+	white-space: pre;
+}
+div.luxe-scrl img {
+	margin: 0;
+	width: auto;
+	height: auto;
+	max-width: none;
+}
+div.luxe-scrl table {
+	margin-bottom: 0;
+}
+div.luxe-scrl pre,
+div.luxe-scrl figure {
+	overflow: auto;
+	scrollbar-color: #c0c0c0 #f1f1f1;
+	scrollbar-width: thin;
+}
+.luxe-scrl *::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+.luxe-scrl *::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	border-radius: 30px;
+}
+.luxe-scrl *::-webkit-scrollbar-thumb {
+	border-radius: 30px;
+　　	background: #000;
+	box-shadow: inset 0 0 0 6px #c0c0c0;
+}
+.dragscroll {
+	cursor: grab;
+}

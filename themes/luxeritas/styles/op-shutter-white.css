@@ -1,0 +1,55 @@
+/* Luxeritas WordPress Theme - free/libre wordpress platform
+ *
+ * @copyright Copyright (C) 2015 Thought is free.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+ * @author LunaNuko
+ * @link https://thk.kanzae.net/
+ * @translators rakeem( http://rakeem.jp/ )
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ */
+
+/* Opening - White shutter */
+
+#header::after,
+#header::before {
+	content: '';
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	background: #fafafa;
+}
+#header::after {
+	bottom: 0;
+}
+#header::before {
+	top: 0;
+}
+#header::after,
+#header::before {
+	animation: shutterOpen 1.2s forwards;
+}
+@keyframes shutterOpen {
+	0% {
+		height: 100vh;
+		opacity: 1;
+		z-index: 32767;
+	}
+	20% {
+		height: 50vh;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		height: 0;
+		opacity: 0;
+		z-index: -1;
+		display: none;
+	}
+}

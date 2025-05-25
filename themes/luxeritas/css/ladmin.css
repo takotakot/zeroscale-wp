@@ -1,0 +1,129 @@
+/* Luxeritas WordPress Theme - free/libre wordpress platform
+ *
+ * @copyright Copyright (C) 2015 Thought is free.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+ * @author LunaNuko
+ * @link https://thk.kanzae.net/
+ * @translators rakeem( http://rakeem.jp/ )
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+*/
+
+#ladmin {
+	position: relative;
+	line-height: 0;
+	border-radius: 4px;
+	z-index: 2147483647;
+}
+#ladmin * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+	white-space: nowrap;
+}
+#ladmin-o {
+	padding: 16px 0;
+}
+#ladmin ul {
+	display: table;
+	position: fixed;
+	bottom: 16px;
+	padding: 10px;
+	color: #fff;
+	background: rgba(0,0,0,.65);
+	border: 1px solid #fff;
+}
+#ladmin li {
+	display: table-cell;
+	padding: 0 6px;
+}
+ul#ladmin-v  {
+	padding: 0;
+	border-left: 0;
+}
+ul#ladmin-v li {
+	padding: 15px 0;
+}
+#ladmin-b {
+	/*margin-left: -450px;*/
+	transition: left .6s;
+	left: -600px;
+}
+#ladmin,
+#ladmin-b a {
+	vertical-align: middle;
+	color: #fff;
+}
+#ladmin-v,
+#ladmin-v a {
+	padding: 15px 2px;
+	transition: left .6s;
+	vertical-align: middle;
+	color: #4496d3;
+	left: 0;
+}
+#ladmin-b span:hover,
+#ladmin-b a:hover,
+#ladmin-v a:hover {
+	color: #4cb5e8;
+}
+#ladmin i::before {
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 20px/20px dashicons;
+	vertical-align: middle;
+}
+#ladmin-v i.collapse-sidebar-arrow {
+	color: #fff;
+	border-radius: 4px;
+}
+#ladmin-v i.collapse-sidebar-arrow::before {
+	content: "\f139";
+	margin: 0;
+	font: normal 20px/20px dashicons;
+}
+#ladmin-b i.collapse-sidebar-arrow::before {
+	content: "\f148";
+	font: normal 30px/30px dashicons;
+}
+#ladmin-b i.preview-desktop::before {
+	content: "\f472";
+}
+#ladmin-b i.preview-tablet::before {
+	content: "\f471";
+}
+#ladmin-b i.preview-mobile::before {
+	content: "\f470";
+}
+#ladmin-b i.structured::before {
+	content: "\f11f";
+	font-size: 18px;
+	padding-top: 1px;
+}
+#ladmin-b i.logout::before {
+	content: "\f310";
+	font-size: 24px;
+	transform: scale(-1, 1);
+}
+#ladmin-b i.edit::before {
+	content: "\f464";
+	font-size: 22px;
+}
+#ladmin-l {
+	position: relative;
+}
+
+@media (max-width: 575px) {
+	#ladmin .pc-only {
+		display: none;
+	}
+}
+@media (max-width: 420px) {
+	#ladmin .item_name {
+		display: none;
+	}
+}

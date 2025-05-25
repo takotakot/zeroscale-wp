@@ -1,0 +1,65 @@
+/* Luxeritas WordPress Theme - free/libre wordpress platform
+ *
+ * @copyright Copyright (C) 2015 Thought is free.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+ * @author LunaNuko
+ * @link https://thk.kanzae.net/
+ * @translators rakeem( http://rakeem.jp/ )
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+*/
+
+.has-wrap-menu {
+	transition: all .4s;
+}
+.has-wrap-menu > a {
+	cursor: default;
+}
+.has-wrap-menu > a:active {
+	pointer-events: none;
+}
+.gnavi-wrap-menu {
+	max-height: 0;
+	transform: scale(.5, 0);
+	transition: all .4s;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+.gnavi-wrap-container {
+	background: #fff;
+}
+@media (min-width: 992px){
+	.gnavi-wrap-container {
+		overflow: auto;
+		max-height: 80vh;
+		border-top: 1px solid #ddd;
+	}
+	#gnavi li.has-wrap-menu:hover {
+		position: static;
+	}
+	#gnavi li.has-wrap-menu:hover {
+		position: static;
+	}
+	.has-wrap-menu:hover .gnavi-wrap-menu {
+		max-height: 100vh;
+		transform: scale(1);
+		white-space: normal; /* 992px 以上で常時 normal にしておくと閉じる時のアニメに問題が出るので hover 時だけ normal にする */
+		z-index: 1;
+	}
+}
+@media (max-width: 991px){
+	.gnavi-wrap-menu {
+		white-space: normal;
+	}
+	.has-wrap-menu {
+		cursor: pointer;
+	}
+	.has-wrap-menu > a {
+		pointer-events: none;
+	}
+}

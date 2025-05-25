@@ -1,0 +1,180 @@
+/* Luxeritas WordPress Theme - free/libre wordpress platform
+ *
+ * @copyright Copyright (C) 2015 Thought is free.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+ * @author LunaNuko
+ * @link https://thk.kanzae.net/
+ * @translators rakeem( http://rakeem.jp/ )
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+*/
+
+div[class*="snsf-"] {
+	margin: 2px 0 0 0;
+	padding: 0;
+}
+div[class*="snsf-"] .clearfix {
+	padding: 0;
+}
+div[class*="snsf-"] i,
+div[class*="snsf-"] svg {
+	max-width: 16px;
+}
+.snsname, .cpname {
+	margin-left: 5px;
+}
+.snsfb {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.snsf-c li,
+.snsf-w li {
+	flex: 1 1 auto;
+	list-style: none;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+	padding: 1px 2px;
+	margin-bottom: 2px;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.snsf-c .snsfb li [aria-label],
+.snsf-w .snsfb li [aria-label] {
+	padding: 9px 0 10px;
+}
+
+.snsf-c [aria-label],
+.snsf-w [aria-label],
+.snsf-c .snsfcnt,
+.snsf-w .snsfcnt {
+	display: block;
+	font-family: Verdana, Arial, Helvetica, Roboto;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	border-radius: 2px;
+}
+.snsf-c .ico-hatena,
+.snsf-w .ico-hatena {
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, Roboto;
+}
+.snsf-c [aria-label], .snsf-c [aria-label]:hover,
+.snsf-w [aria-label], .snsf-w [aria-label]:hover {
+	position: relative;
+	line-height: 1.0;
+	padding: 10px 0;
+	color: #fff;
+}
+.snsf-c .snsfb li [aria-label],
+.snsf-w .snsfb li [aria-label] {
+	font-family: Verdana, Arial, Helvetica, Roboto;
+	font-size: 1.3rem;
+	letter-spacing: -1px;
+}
+.snsf-c .snsfb li [aria-label] {
+	height: 32px;
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+}
+.snsf-w .snsfb li [aria-label] {
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+}
+.snsf-w .snsfcnt {
+}
+.snsf-c .snsfb li [aria-label]:hover {
+	opacity: 0.6;
+}
+.snsf-w .snsfb li [aria-label]:hover {
+	background: #f8f8f8;
+	opacity: 0.7;
+}
+.snsf-c .snsfb i,
+.snsf-w .snsfb i {
+	margin-right: 3px;
+}
+.snsfcnt {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: -18px;
+	padding: 3px 0;
+	font-size: 1.1rem;
+	background: #fffefd;
+}
+.snsf-c .snsfcnt {
+	color: #333;
+	border: 2px solid #ddd;
+}
+.snsf-w .snsfcnt {
+	box-sizing: content-box;
+	top: -18px;
+	left: -1px;
+	border: 1px solid #ddd;
+	border-radius: 2px 2px 0 0;
+	color: #333;
+}
+.snsfcnt i {
+	margin: 0 !important;
+}
+div[class$=-w] ul[class*=sns] li a,
+div[class$=-w] ul[class*=sns] li.cp-button [aria-label] {
+	background: #fbfbfb;
+}
+/*.snsf-c .twitter a { background: #1c9be2; }*/
+.snsf-c .twitter a { background: #010101; }
+.snsf-c .facebook a { background: #3b5998; }
+.snsf-c .linkedin a { background: #0479b4; }
+.snsf-c .pinit a  { background: #bd081c; }
+.snsf-c .hatena a { background: #3875C4; }
+.snsf-c .pocket a { background: #ee4257; }
+.snsf-c .line a   { background: #00c300; }
+.snsf-c .rss a    { background: #f86300; }
+.snsf-c .feedly a { background: #2bb24c; }
+.snsf-c .cp-button [aria-label] { background: #56350d; }
+
+/*.snsf-c .twitter .snsfcnt { border-color: #1c9be2; }*/
+.snsf-c .twitter .snsfcnt { border-color: #010101; }
+.snsf-c .facebook .snsfcnt { border-color: #3b5998; }
+.snsf-c .linkedin .snsfcnt { border-color: #0479b4; }
+.snsf-c .pinit .snsfcnt  { border-color: #bd081c; }
+.snsf-c .hatena .snsfcnt { border-color: #3875C4; }
+.snsf-c .pocket .snsfcnt { border-color: #ee4257; }
+.snsf-c .line .snsfcnt   { border-color: #00c300; }
+.snsf-c .rss .snsfcnt    { border-color: #f86300; }
+.snsf-c .feedly .snsfcnt { border-color: #2bb24c; }
+.snsf-c .cp-button .snsfcnt { border-color: #56350d; }
+
+/*.snsf-w .snsfb .twitter a { color: #1c9be2; }*/
+.snsf-w .snsfb .twitter a { color: #010101; }
+.snsf-w .snsfb .facebook a { color: #3b5998; }
+.snsf-w .snsfb .linkedin a { color: #0479b4; }
+.snsf-w .snsfb .pinit a  { color: #bd081c; }
+.snsf-w .snsfb .hatena a { color: #3875C4; }
+.snsf-w .snsfb .pocket a { color: #ee4257; }
+.snsf-w .snsfb .line a   { color: #00c300; }
+.snsf-w .snsfb .rss a    { color: #f86300; }
+.snsf-w .snsfb .feedly a { color: #2bb24c; }
+.snsf-w .snsfb .cp-button [aria-label] { color: #56350d; }
+
+@media screen and (max-width: 765px) {
+	div[class*="snsf-"] .snsname {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.snsfb li.line-sm {
+		display: none !important;
+	}
+}
+@media screen and (max-width: 991px) {
+	.snsfb li.line-pc {
+		display: none !important;
+	}
+}
