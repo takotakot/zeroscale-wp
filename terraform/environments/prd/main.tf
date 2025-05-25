@@ -200,4 +200,98 @@ import {
   to = google_artifact_registry_repository.gcr
 }
 
+# --- Cloud Storage バケットの作成 ---
+# zero-wp-admin-bucket
+resource "google_storage_bucket" "zero-wp-admin-bucket" {
+  name     = "zero-wp-admin-bucket"
+  location = "US-WEST1"
+
+  uniform_bucket_level_access = true
+  force_destroy               = false
+
+  labels = {
+    service = local.service_label_value
+  }
+
+  lifecycle_rule {
+    action {
+      type = "Delete"
+    }
+    condition {
+      age                = 0
+      num_newer_versions = 2
+      with_state         = "ARCHIVED"
+    }
+  }
+
+  lifecycle_rule {
+    action {
+      type = "Delete"
+    }
+    condition {
+      days_since_noncurrent_time = 7
+      matches_prefix             = []
+      matches_storage_class      = []
+      matches_suffix             = []
+    }
+  }
+
+  versioning {
+    enabled = true
+  }
+
+  depends_on = [google_project_service.services["storage.googleapis.com"]]
+}
+
+# import {
+#   id = "zero-wp-admin-bucket"
+#   to = google_storage_bucket.zero-wp-admin-bucket
+# }
+
+resource "google_storage_bucket" "zero-wp-uploads" {
+  name     = "zero-wp-uploads"
+  location = "US-WEST1"
+
+  uniform_bucket_level_access = true
+  force_destroy               = false
+
+  labels = {
+    service = local.service_label_value
+  }
+
+  lifecycle_rule {
+    action {
+      type = "Delete"
+    }
+    condition {
+      age                = 0
+      num_newer_versions = 2
+      with_state         = "ARCHIVED"
+    }
+  }
+
+  lifecycle_rule {
+    action {
+      type = "Delete"
+    }
+    condition {
+      days_since_noncurrent_time = 7
+      matches_prefix             = []
+      matches_storage_class      = []
+      matches_suffix             = []
+    }
+  }
+
+  versioning {
+    enabled = true
+  }
+
+  depends_on = [google_project_service.services["storage.googleapis.com"]]
+}
+
+# import {
+#   id = "zero-wp-uploads"
+#   to = google_storage_bucket.zero-wp-uploads
+# }
+
 # --- Cloud Run サービスの作成 ---
