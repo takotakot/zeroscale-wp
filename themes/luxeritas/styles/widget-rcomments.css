@@ -1,0 +1,75 @@
+/* Luxeritas WordPress Theme - free/libre wordpress platform
+ *
+ * @copyright Copyright (C) 2015 Thought is free.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+ * @author LunaNuko
+ * @link https://thk.kanzae.net/
+ * @translators rakeem( http://rakeem.jp/ )
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ */
+
+/* Widget Recentcomments Comments*/
+div#thk-rcomments {
+	margin-top: -5px;
+	margin-left: 5px;
+}
+#thk-rcomments .recentcomments,
+#thk-rcomments .recentcomments a {
+	background: none;
+	font-size: 1.2rem;
+}
+#thk-rcomments .recentcomments {
+	margin: 0;
+	border-bottom: 1px dotted #ddd;
+}
+#thk-rcomments .recentcomments a {
+	text-decoration: underline;
+}
+#thk-rcomments .recentcomments:last-child {
+	border-bottom: none;
+}
+#thk-rcomments .comment_post {
+	margin-left: 10px;
+}
+#thk-rcomments .widget_comment_author,
+#thk-rcomments .widget_comment_author a {
+	margin: 15px 0;
+	min-height: 40px;
+	color: #767574;
+	font-size: 1.2rem;
+	font-weight: bold;
+	line-height: 1.5;
+	overflow: hidden;
+}
+#thk-rcomments .widget_comment_author img,
+#thk-rcomments .widget_comment_author amp-img {
+	float: left;
+	vertical-align: middle;
+	margin: 0 5px 0 0;
+}
+#thk-rcomments .widget_comment_author span {
+	display: block;
+	margin: auto 0;
+	overflow: hidden;
+}
+#thk-rcomments [class*="ico-comment"] {
+	margin-right: 6px;
+	color: #ff0000;
+}
+#thk-rcomments .ico-angle-double-right {
+	margin-right: 6px;
+}
+#thk-rcomments .comment_excerpt {
+	margin: 14px 0 14px 10px;
+	font-size: 1.2rem;
+	line-height: 1.8;
+}
+#thk-rcomments .comment_post {
+	display: block;
+	margin: 0 0 14px 12px;
+}

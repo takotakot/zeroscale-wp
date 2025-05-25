@@ -1,0 +1,60 @@
+/* Luxeritas WordPress Theme - free/libre wordpress platform
+ *
+ * @copyright Copyright (C) 2015 Thought is free.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+ * @author LunaNuko
+ * @link https://thk.kanzae.net/
+ * @translators rakeem( http://rakeem.jp/ )
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ */
+
+/**
+ * ----------------------------------------------------------------------------
+ * Overlay
+ * ----------------------------------------------------------------------------
+ */
+[class*=luxe-overlay-],
+[class*=luxe-overlay-] * {
+	position: relative;
+}
+[class*=luxe-overlay-]::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: inherit;
+}
+.luxe-overlay-10::before {
+	opacity: .1;
+}
+.luxe-overlay-20::before {
+	opacity: .2;
+}
+.luxe-overlay-30::before {
+	opacity: .3;
+}
+.luxe-overlay-40::before {
+	opacity: .4;
+}
+.luxe-overlay-50::before {
+	opacity: .5;
+}
+.luxe-overlay-60::before {
+	opacity: .6;
+}
+.luxe-overlay-70::before {
+	opacity: .7;
+}
+.luxe-overlay-80::before {
+	opacity: .8;
+}
+.luxe-overlay-90::before {
+	opacity: .9;
+}

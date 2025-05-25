@@ -1,0 +1,431 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luxeritas\n"
+"POT-Creation-Date: 2021-04-19 09:20+0900\n"
+"PO-Revision-Date: 2022-11-29 23:11-0300\n"
+"Last-Translator: \n"
+"Language-Team: Thought is Free\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-KeywordsList: __;_e;_x;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: translations.php:2
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr "Desculpe, mas você está à procura de algo que não está aqui."
+
+#: translations.php:3
+msgid "Sponsored Links"
+msgstr "Links patrocinados"
+
+#: translations.php:4
+msgid "Advertisement"
+msgstr "Publicidade"
+
+#: translations.php:5
+msgid "Home"
+msgstr "Início"
+
+#: translations.php:6
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: translations.php:7
+msgid "F Y"
+msgstr "F Y"
+
+#: translations.php:8
+msgid "Y"
+msgstr "Y"
+
+#: translations.php:9
+#, php-format
+msgid "Search results of [%s]"
+msgstr "Resultados da pesquisa de [%s]"
+
+#: translations.php:10
+msgid "Page not found"
+msgstr "Página não encontrada"
+
+#: translations.php:11
+msgid "Discussion"
+msgstr "Discussão"
+
+#: translations.php:12
+msgid "New Comments"
+msgstr "Novos comentários"
+
+#: translations.php:13
+msgid "says:"
+msgstr "disse:"
+
+#: translations.php:14
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário aguarda moderação."
+
+#: translations.php:15
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s em %2$s"
+
+#: translations.php:16
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: translations.php:17
+msgid "No comments yet.  Be the first one!"
+msgstr "Nenhum comentário ainda.  Seja o primeiro!"
+
+#: translations.php:18
+msgid "New Pnigbacks &amp; Trackbacks"
+msgstr "Novos Pingbacks &amp; Trackbacks"
+
+#: translations.php:19
+msgid "Name"
+msgstr "Nome"
+
+#: translations.php:20
+msgid "Email"
+msgstr "E-mail"
+
+#: translations.php:21
+msgid "Website"
+msgstr "Site"
+
+#: translations.php:22
+msgid "Captcha"
+msgstr "Captcha"
+
+#: translations.php:23
+msgid "Enter Captcha"
+msgstr "Digite o Captcha"
+
+#: translations.php:24
+msgid "Leave a Reply"
+msgstr "Deixe um Comentário"
+
+#: translations.php:25
+msgid "Comment"
+msgstr "Comentário"
+
+#: translations.php:26
+msgid "To comment"
+msgstr "Para comentar"
+
+#: translations.php:27
+msgid "Hatena Bookmark"
+msgstr "Hatena Bookmark"
+
+#: translations.php:28
+msgid "You copied URL."
+msgstr "Você copiou o URL."
+
+#: translations.php:29
+msgid "You copied this post title and URL."
+msgstr "Você copiou este título e URL do post."
+
+#: translations.php:30
+#, php-format
+msgid " : %s"
+msgstr " : %s"
+
+#: translations.php:31
+msgid "Read more"
+msgstr "Leia mais"
+
+#: translations.php:32
+msgid "Sorry, the requested post was not found."
+msgstr "Desculpe, o post solicitado não foi encontrado."
+
+#: translations.php:33
+msgid "Sidebar"
+msgstr "Barra Lateral"
+
+#: translations.php:34
+msgid "TOC"
+msgstr "TOC"
+
+#: translations.php:35
+msgid " Next "
+msgstr " Próximo "
+
+#: translations.php:36
+msgid " Prev "
+msgstr " Anterior "
+
+#: translations.php:37
+msgid "Page Top"
+msgstr "Topo da página"
+
+#: translations.php:38
+msgid "Menu"
+msgstr "Menu"
+
+#: translations.php:39
+msgid "Install"
+msgstr "Instalar"
+
+#: translations.php:40
+msgid "Edit This"
+msgstr "Editar"
+
+#: translations.php:41
+msgid "No posts yet"
+msgstr "Sem posts de momento"
+
+#: translations.php:42
+msgid "Posted by"
+msgstr "Postado por"
+
+#: translations.php:43
+msgid "Next"
+msgstr "Próximo"
+
+#: translations.php:44
+msgid "Home "
+msgstr "Início "
+
+#: translations.php:45
+msgid "Prev"
+msgstr "Anterior"
+
+#: translations.php:46
+msgid "TrackBack URL"
+msgstr "URL TrackBack"
+
+#: translations.php:47
+msgid "No related posts yet."
+msgstr "Nenhum post relacionado ainda."
+
+#: translations.php:48
+msgid "No search hits"
+msgstr "Nenhum resultado da pesquisa"
+
+#: translations.php:49
+msgid "Connection to the authentication server failed. Please try again later."
+msgstr ""
+"A conexão com o servidor de autenticação falhou. Por favor, tente novamente "
+"mais tarde."
+
+#: translations.php:50
+msgid "You have been identified as a bot and could not authenticate."
+msgstr "Você foi identificado como um bot e não pôde autenticar."
+
+#: translations.php:51
+msgid "Please enter image authentication."
+msgstr "Por favor, digite a autenticação da imagem."
+
+#: translations.php:52
+msgid "Image authentication is incorrect."
+msgstr "A autenticação da imagem está incorreta."
+
+#: translations.php:53
+msgid "Search for"
+msgstr "Pesquisar por"
+
+#: translations.php:54
+msgid "Search"
+msgstr "Pesquisar"
+
+#: translations.php:55
+msgid "Related Posts"
+msgstr "Posts Relacionados"
+
+#: translations.php:56
+msgid "Send to LINE"
+msgstr "Enviar para LINE"
+
+#: translations.php:57
+msgid "Only administrators can see this comment."
+msgstr "Somente os administradores podem ver este comentário."
+
+#: translations.php:58
+msgid "This theme is broken."
+msgstr "Este tema está quebrado."
+
+#: translations.php:59
+msgid "Adsense has a mistake. Some adsense is not displayed properly."
+msgstr "Adsense tem um erro. Alguns adsense não são exibidos corretamente."
+
+#: translations.php:60
+msgid "Creating a cache ..."
+msgstr "Criando um cache ..."
+
+#: translations.php:61
+msgid "Category"
+msgstr "Categoria"
+
+#: translations.php:62
+#, php-format
+msgid ""
+"Luxeritas requires at least %s version %s. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+"Luxeritas requer pelo menos %s versão %s. Você está executando a versão %s. "
+"Por favor, atualize e tente novamente."
+
+#: translations.php:63
+msgid "Table of Contents"
+msgstr "Tabela de Conteúdos"
+
+#: translations.php:64
+msgid "Please share this if you liked it!"
+msgstr "Por favor, compartilhe isto se você gostou!"
+
+#: translations.php:65
+#, php-format
+msgid "%s Category"
+msgstr "%s Categoria"
+
+#: translations.php:66
+msgid "QR Code"
+msgstr "QR Code"
+
+#: translations.php:67
+msgid "Title:"
+msgstr "Título:"
+
+#: translations.php:68
+msgid "Recent Comments"
+msgstr "Comentários Recentes"
+
+#: translations.php:69
+#, php-format
+msgid "%s&apos; website"
+msgstr "%s' site"
+
+#: translations.php:70
+msgid "Post of this comment"
+msgstr "Publicação deste comentário"
+
+#: translations.php:71
+msgid "The latest comments to all posts"
+msgstr "Os últimos comentários a todos os posts"
+
+#: translations.php:72
+msgid "Anonymous"
+msgstr "Anônimo"
+
+#: translations.php:73
+msgid "Recent posts"
+msgstr "Posts recentes"
+
+#: translations.php:74
+msgid "No new posts"
+msgstr "Sem novos posts"
+
+#: translations.php:75
+msgid "Follow me!"
+msgstr "Sigam-me!"
+
+#: translations.php:76
+msgid "Subscribe to this blog"
+msgstr "Assinar este blog"
+
+#: translations.php:77
+#, php-format
+msgid "Category: %s"
+msgstr "Categoria: %s"
+
+#: translations.php:78
+#, php-format
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: translations.php:79
+#, php-format
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: translations.php:80
+#, php-format
+msgid "Year: %s"
+msgstr "Ano: %s"
+
+#: translations.php:81
+#, php-format
+msgid "Month: %s"
+msgstr "Mês: %s"
+
+#: translations.php:82
+#, php-format
+msgid "Day: %s"
+msgstr "Dia: %s"
+
+#: translations.php:83
+#, php-format
+msgid "Archives: %s"
+msgstr "Arquivos:%s"
+
+#: translations.php:84
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: translations.php:85
+msgid "Could not delete cache directory."
+msgstr "Não foi possível excluir o diretório do cache."
+
+#: translations.php:86
+msgid "Sitemap"
+msgstr "Mapa do Site"
+
+#: translations.php:87
+msgid "Pages"
+msgstr "Páginas"
+
+#: translations.php:88
+msgid "Show"
+msgstr "Exibir"
+
+#: translations.php:89
+msgid "Hide"
+msgstr "Ocultar"
+
+#: translations.php:90
+msgid "Origin"
+msgstr "Origem"
+
+#: translations.php:91
+msgid "Tablet"
+msgstr "Tablet"
+
+#: translations.php:92
+msgid "Mobile"
+msgstr "Celular"
+
+#: translations.php:93
+msgid "Validate"
+msgstr "Validar"
+
+#: translations.php:94
+msgid "Cache"
+msgstr "Cache"
+
+#: translations.php:95
+msgid "Rotate"
+msgstr "Rotacionar"
+
+#: translations.php:96
+msgid "Structured data"
+msgstr "Dados estruturados"
+
+#: translations.php:97
+msgid "Log out"
+msgstr "Sair"
+
+#: translations.php:98
+msgid "Log out ?"
+msgstr "Sair ?"
+
+msgid " Menu"
+msgstr " メニュー"
+
+msgid "Authentication is not valid."
+msgstr "A autenticação não é válida."

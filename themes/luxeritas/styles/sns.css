@@ -1,0 +1,198 @@
+/* Luxeritas WordPress Theme - free/libre wordpress platform
+ *
+ * @copyright Copyright (C) 2015 Thought is free.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+ * @author LunaNuko
+ * @link https://thk.kanzae.net/
+ * @translators rakeem( http://rakeem.jp/ )
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+*/
+
+div[class*="sns-"] {
+	margin: 0;
+	padding: 0;
+}
+div[class*="sns-"] li {
+	margin: 5px 0 ;
+	list-style-type: none;
+	cursor: pointer;
+}
+div[class*="sns-"] .clearfix {
+	padding: 0;
+}
+div[class*="sns-"] i {
+	max-width: 16px;
+}
+.snsb {
+	display: flex;
+	flex-wrap: wrap;
+	padding:  0;
+	margin: 0;
+	letter-spacing: -.4em;
+}
+
+.snsb li {
+	margin-bottom: 2px;
+	letter-spacing: normal;
+	white-space: nowrap;
+	list-style-type: none;
+	vertical-align: top;
+}
+.sns-c .snsb li,
+.sns-w .snsb li {
+	position: relative;
+	max-width: 94px;
+	padding: 1px;
+	height: 32px;
+}
+.sns-c .snsb li [aria-label],
+.sns-w .snsb li [aria-label] {
+	display: block;
+	position: relative;
+	margin: auto;
+	padding: 9px 3px 0 3px;
+	height: 32px;
+	width: 82px;
+	line-height: 1.0;
+	font-family: Verdana, Arial, Helvetica, Roboto;
+	font-size: 1.3rem;
+	letter-spacing: -1px;
+	text-decoration: none;
+	border-radius: 3px;
+}
+.sns-c .snsb li [aria-label] {
+	color: #fff;
+	background: #000;
+	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.3);
+}
+
+.sns-c .snsb li [aria-label]:hover {
+	color: #fff;
+	opacity: 0.6;
+}
+.sns-w .snsb li [aria-label]:hover {
+	background: #f8f8f8;
+	opacity: 0.7;
+}
+
+.sns-c .snsb li,
+.sns-w .snsb li {
+	margin: 3px 2px 0 0;
+}
+.sns-n .snsb li:last-child {
+	margin-right: 0;
+}
+
+.sns-c .ico-hatena,
+.sns-w .ico-hatena {
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, Roboto;
+}
+
+.sns-c .snsb [aria-label],
+.sns-w .snsb [aria-label] {
+	text-align: center;
+}
+.sns-c .snsb i,
+.sns-w .snsb i {
+	margin-right: 5px;
+}
+div[class$=-w] ul[class*=sns] li a,
+div[class$=-w] ul[class*=sns] li.cp-button [aria-label] {
+	color: #666;
+	background: #fbfbfb;
+	border: 1px solid #ccc;
+}
+
+/*.sns-c .snsb .twitter a  { background: #1c9be2; }*/
+.sns-c .snsb .twitter a  { background: #010101; }
+.sns-c .snsb .facebook a { background: #3b5998; }
+.sns-c .snsb .linkedin a { background: #0479b4; }
+.sns-c .snsb .pinit a    { background: #bd081c; }
+.sns-c .snsb .hatena a   { background: #3875C4; }
+.sns-c .snsb .pocket a   { background: #ee4257; }
+.sns-c .snsb .line a     { background: #00c300; }
+.sns-c .snsb .rss a      { background: #f86300; }
+.sns-c .snsb .feedly a   { background: #2bb24c; }
+.sns-c .snsb .cp-button [aria-label] { background: #56350d; }
+
+/*.sns-w .snsb .twitter a  { color: #1c9be2; }*/
+.sns-w .snsb .twitter a  { color: #010101; }
+.sns-w .snsb .facebook a { color: #3b5998; }
+.sns-w .snsb .linkedin a { color: #0479b4; }
+.sns-w .snsb .pinit a    { color: #bd081c; }
+.sns-w .snsb .hatena a   { color: #3875C4; }
+.sns-w .snsb .pocket a   { color: #ee4257; }
+.sns-w .snsb .line a     { color: #00c300; }
+.sns-w .snsb .rss a      { color: #f86300; }
+.sns-w .snsb .feedly a   { color: #2bb24c; }
+.sns-w .snsb .cp-button [aria-label] { color: #56350d; }
+
+.snscnt {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: -25px;
+	width: 82px;
+	padding: 3px 0;
+	font-size: 1.1rem;
+	border: 1px solid #bbb;
+	border-radius: 3px;
+	background: #fdfdfd;
+	color: #333;
+}
+.sns-w .snscnt {
+	right: -1px;
+}
+.snscnt i {
+	margin: 0 !important;
+}
+
+.snscnt:after,
+.snscnt:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+}
+
+.snscnt:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #fff;
+	border-width: 2px;
+	margin-left: -2px;
+}
+.snscnt:before {
+	border-color: rgba(153, 153, 153, 0);
+	border-top-color: #bbb;
+	border-width: 4px;
+	margin-left: -4px;
+}
+
+@media screen and (max-width: 765px) {
+	.sns-c .snsb li a,
+	.sns-w .snsb li a {
+		min-width: 30px;
+	}
+	div[class*="sns-"] .snsname {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.snsb li.line-sm {
+		display: none !important;
+	}
+}
+@media screen and (max-width: 991px) {
+	.snsb li.line-pc {
+		display: none !important;
+	}
+}

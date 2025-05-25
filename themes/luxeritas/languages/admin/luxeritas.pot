@@ -1,0 +1,7086 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luxeritas\n"
+"POT-Creation-Date: 2022-03-19 10:48+0900\n"
+"PO-Revision-Date: 2022-03-19 10:55+0900\n"
+"Last-Translator: \n"
+"Language-Team: Thought is Free\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_x;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: ../..\n"
+"X-Poedit-SearchPath-1: ../../inc\n"
+
+#: ../../404.php:71 ../../languages/site/translations.php:2
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr ""
+
+#: ../../breadcrumb.php:137 ../../inc/json-ld.php:373 ../../inc/widget.php:187
+#: ../../languages/site/translations.php:6
+msgid "F j, Y"
+msgstr ""
+
+#: ../../breadcrumb.php:140 ../../inc/description.php:47
+#: ../../inc/json-ld.php:376 ../../languages/site/translations.php:7
+msgid "F Y"
+msgstr ""
+
+#: ../../breadcrumb.php:143 ../../inc/json-ld.php:379
+#: ../../languages/site/translations.php:8
+msgid "Y"
+msgstr ""
+
+#: ../../breadcrumb.php:149 ../../search.php:24 ../../inc/json-ld.php:386
+#: ../../languages/site/translations.php:9
+#, php-format
+msgid "Search results of [%s]"
+msgstr ""
+
+#: ../../breadcrumb.php:161 ../../languages/site/translations.php:10
+msgid "Page not found"
+msgstr ""
+
+#: ../../comments.php:23 ../../inc/custom.php:1321
+#: ../../languages/site/translations.php:11
+msgid "Discussion"
+msgstr ""
+
+#: ../../comments.php:61 ../../languages/site/translations.php:13
+msgid "says:"
+msgstr ""
+
+#: ../../comments.php:67 ../../languages/site/translations.php:14
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../../comments.php:75 ../../languages/site/translations.php:15
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../../comments.php:75 ../../languages/site/translations.php:16
+msgid "(Edit)"
+msgstr ""
+
+#: ../../comments.php:125 ../../comments.php:204
+#: ../../languages/site/translations.php:12
+msgid "New Comments"
+msgstr ""
+
+#: ../../comments.php:136 ../../languages/site/translations.php:18
+msgid "New Pnigbacks &amp; Trackbacks"
+msgstr ""
+
+#: ../../comments.php:205 ../../languages/site/translations.php:17
+msgid "No comments yet.  Be the first one!"
+msgstr ""
+
+#: ../../comments.php:218 ../../inc/sections/block-editor-color-palette.php:41
+#: ../../inc/sections/block-editor-color-palette.php:65
+#: ../../inc/sections/thumbnail-manage.php:28
+#: ../../languages/site/translations.php:19
+msgid "Name"
+msgstr ""
+
+#: ../../comments.php:220 ../../languages/site/translations.php:20
+msgid "Email"
+msgstr ""
+
+#: ../../comments.php:222 ../../languages/site/translations.php:21
+msgid "Website"
+msgstr ""
+
+#: ../../comments.php:290 ../../languages/site/translations.php:22
+msgid "Captcha"
+msgstr ""
+
+#: ../../comments.php:293 ../../languages/site/translations.php:23
+msgid "Enter Captcha"
+msgstr ""
+
+#: ../../comments.php:302 ../../languages/site/translations.php:24
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../../comments.php:303 ../../mobile-buttons.php:72
+#: ../../inc/customize.php:45 ../../languages/site/translations.php:25
+msgid "Comment"
+msgstr ""
+
+#: ../../comments.php:311 ../../languages/site/translations.php:26
+msgid "To comment"
+msgstr ""
+
+#: ../../functions.php:190
+msgid "Header Nav (Global Nav)"
+msgstr ""
+
+#: ../../functions.php:191 ../../inc/custom.php:3565
+msgid "Header Band Menu"
+msgstr ""
+
+#: ../../functions.php:192 ../../inc/custom.php:4447 ../../inc/custom.php:4513
+#: ../../inc/custom.php:4525 ../../inc/custom.php:4537
+#: ../../inc/custom.php:4549
+msgid "Footer Nav "
+msgstr ""
+
+#: ../../functions.php:365 ../../languages/site/translations.php:49
+msgid "Connection to the authentication server failed. Please try again later."
+msgstr ""
+
+#: ../../functions.php:366 ../../languages/site/translations.php:50
+msgid "You have been identified as a bot and could not authenticate."
+msgstr ""
+
+#: ../../functions.php:398 ../../languages/site/translations.php:51
+msgid "Please enter image authentication."
+msgstr ""
+
+#: ../../functions.php:404 ../../languages/site/translations.php:52
+msgid "Image authentication is incorrect."
+msgstr ""
+
+#: ../../head-band.php:78 ../../searchform.php:24
+#: ../../languages/site/translations.php:53
+msgid "Search for"
+msgstr ""
+
+#: ../../head-band.php:79 ../../mobile-buttons.php:78 ../../navi.php:149
+#: ../../searchform.php:26 ../../inc/codemirror.php:100
+#: ../../inc/customize.php:46 ../../inc/theme-editor-script.php:62
+#: ../../languages/site/translations.php:54
+msgid "Search"
+msgstr ""
+
+#: ../../head-band.php:148 ../../inc/custom.php:3885 ../../inc/custom.php:3898
+#: ../../inc/custom.php:6014 ../../inc/custom.php:6145
+#: ../../inc/widget.php:620 ../../inc/widget.php:716
+#: ../../languages/site/translations.php:27
+msgid "Hatena Bookmark"
+msgstr ""
+
+#: ../../loop-grid.php:158 ../../loop-normal.php:154 ../../loop.php:152
+#: ../../search.php:50 ../../languages/site/translations.php:32
+msgid "Sorry, the requested post was not found."
+msgstr ""
+
+#: ../../mobile-buttons.php:29 ../../inc/custom.php:1447
+#: ../../inc/defaults.php:72 ../../inc/sections/widget-area.php:28
+#: ../../inc/sections/widget-area.php:50 ../../inc/sections/widget-body.php:36
+#: ../../inc/sections/widget-body.php:58
+#: ../../languages/site/translations.php:5
+msgid "Home"
+msgstr ""
+
+#: ../../mobile-buttons.php:34 ../../navi.php:83 ../../navi.php:139
+#: ../../languages/site/translations.php:38
+msgid "Menu"
+msgstr ""
+
+#: ../../mobile-buttons.php:53 ../../navi.php:143
+#: ../../languages/site/translations.php:33
+msgid "Sidebar"
+msgstr ""
+
+#: ../../mobile-buttons.php:64 ../../languages/site/translations.php:34
+msgid "TOC"
+msgstr ""
+
+#: ../../mobile-buttons.php:83 ../../languages/site/translations.php:37
+msgid "Page Top"
+msgstr ""
+
+#: ../../navi.php:25
+msgid " Menu"
+msgstr ""
+
+#: ../../navi.php:87 ../../navi.php:153 ../../inc/widget.php:1711
+#: ../../inc/widget.php:1740 ../../languages/site/translations.php:39
+msgid "Install"
+msgstr ""
+
+#: ../../navi.php:147 ../../languages/site/translations.php:36
+msgid " Prev "
+msgstr ""
+
+#: ../../navi.php:148 ../../languages/site/translations.php:35
+msgid " Next "
+msgstr ""
+
+#: ../../page.php:151 ../../page.php:155 ../../single.php:137
+#: ../../single.php:141 ../../languages/site/translations.php:42
+msgid "Posted by"
+msgstr ""
+
+#: ../../page.php:167 ../../single.php:153 ../../inc/ladmin.php:47
+#: ../../languages/site/translations.php:90
+msgid "Origin"
+msgstr ""
+
+#: ../../page.php:168 ../../single.php:154 ../../inc/ladmin.php:57
+#: ../../languages/site/translations.php:93
+msgid "Validate"
+msgstr ""
+
+#: ../../page.php:169 ../../single.php:155 ../../inc/customize.php:105
+#: ../../inc/ladmin.php:58 ../../languages/site/translations.php:94
+msgid "Cache"
+msgstr ""
+
+#: ../../page.php:173 ../../page.php:178 ../../single.php:159
+#: ../../single.php:164 ../../inc/ladmin.php:101
+#: ../../languages/site/translations.php:40
+msgid "Edit This"
+msgstr ""
+
+#: ../../page.php:231 ../../single.php:214
+#: ../../languages/site/translations.php:41
+msgid "No posts yet"
+msgstr ""
+
+#: ../../page.php:265 ../../single.php:247
+#: ../../languages/site/translations.php:43
+msgid "Next"
+msgstr ""
+
+#: ../../page.php:270 ../../page.php:298 ../../single.php:252
+#: ../../single.php:280 ../../languages/site/translations.php:44
+msgid "Home "
+msgstr ""
+
+#: ../../page.php:293 ../../single.php:275
+#: ../../languages/site/translations.php:45
+msgid "Prev"
+msgstr ""
+
+#: ../../page.php:315 ../../single.php:358
+#: ../../languages/site/translations.php:46
+msgid "TrackBack URL"
+msgstr ""
+
+#: ../../related.php:166 ../../languages/site/translations.php:47
+msgid "No related posts yet."
+msgstr ""
+
+#: ../../search.php:25 ../../languages/site/translations.php:30
+#, php-format
+msgid " : %s"
+msgstr ""
+
+#: ../../search.php:49 ../../languages/site/translations.php:48
+msgid "No search hits"
+msgstr ""
+
+#: ../../single.php:318 ../../languages/site/translations.php:55
+msgid "Related Posts"
+msgstr ""
+
+#: ../../sns-front.php:193 ../../sns-front.php:194 ../../sns.php:223
+#: ../../sns.php:224 ../../languages/site/translations.php:56
+msgid "Send to LINE"
+msgstr ""
+
+#: ../../inc/admin-comments.php:22
+msgid "Show only admins."
+msgstr ""
+
+#: ../../inc/admin-comments.php:41 ../../inc/wpfunc.php:1443
+#: ../../languages/site/translations.php:57
+msgid "Only administrators can see this comment."
+msgstr ""
+
+#: ../../inc/admin-common-func.php:59 ../../inc/post-meta-boxes.php:184
+#: ../../inc/sections/amp.php:100 ../../inc/sections/design-create.php:43
+#: ../../inc/sections/ogp.php:70 ../../inc/sections/seo.php:498
+#: ../../inc/sections/seo.php:540
+msgid "Set image"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:204 ../../inc/tinymce-settings.php:59
+#: ../../inc/tinymce-settings.php:78
+msgid "Paragraph"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:205 ../../inc/phrase-post.php:198
+#: ../../inc/phrase-post.php:284 ../../inc/sections/phrase-list.php:116
+#: ../../inc/sections/phrase-luxeritas.php:37
+#: ../../inc/sections/phrase-sample.php:23
+msgid "HTML pattern"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:206 ../../inc/admin-common-func.php:310
+#: ../../inc/customize.php:76 ../../inc/shortcode-post.php:206
+#: ../../inc/shortcode-post.php:284 ../../inc/sections/shortcode-list.php:66
+#: ../../inc/sections/shortcode-list.php:90
+#: ../../inc/sections/shortcode-list.php:151
+#: ../../inc/sections/shortcode-sample.php:23
+msgid "Shortcode"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:207 ../../inc/admin-common-func.php:311
+#: ../../inc/blogcard-post-func.php:146 ../../inc/blogcard-post-func.php:218
+#: ../../inc/custom.php:5453
+msgid "Blog Card"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:208
+msgid "Show blocks"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:209 ../../inc/sections/search.php:73
+msgid "Bold"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:210
+msgid "Italic"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:211 ../../inc/phrase-sample.php:20
+msgid "Bulleted list"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:212 ../../inc/phrase-sample.php:21
+msgid "Numbered list"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:213
+msgid "Blockquote"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:214
+msgid "Align left"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:215 ../../inc/custom.php:1997
+#: ../../inc/custom.php:2010 ../../inc/custom.php:4099
+#: ../../inc/widget.php:1140
+msgid "Align center"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:216
+msgid "Align right"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:217
+msgid "Insert/edit link"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:218
+msgid "Remove link"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:219
+msgid "Table"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:220 ../../inc/tinymce-before-init.php:139
+msgid "Emoji"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:221
+msgid "Read more..."
+msgstr ""
+
+#: ../../inc/admin-common-func.php:222
+msgid "Page break"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:236 ../../inc/custom.php:2336
+#: ../../inc/custom.php:4793 ../../inc/sections/securimage.php:48
+msgid "Font size"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:237
+msgid "Font family "
+msgstr ""
+
+#: ../../inc/admin-common-func.php:238
+msgid "Strikethrough"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:239
+msgid "Underline"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:240
+msgid "Horizontal line"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:241 ../../inc/custom.php:1516
+#: ../../inc/custom.php:2752 ../../inc/custom.php:2763
+#: ../../inc/custom.php:2799 ../../inc/custom.php:2835
+#: ../../inc/custom.php:3633 ../../inc/custom.php:3710
+#: ../../inc/custom.php:4230 ../../inc/custom.php:4692
+#: ../../inc/custom.php:5061 ../../inc/custom.php:5097
+#: ../../inc/tinymce-settings.php:45 ../../inc/widget.php:1760
+#: ../../inc/sections/balloon-css.php:35 ../../inc/sections/balloon-css.php:61
+#: ../../inc/sections/securimage.php:64
+msgid "Text color"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:242 ../../inc/custom.php:1528
+#: ../../inc/custom.php:2868 ../../inc/custom.php:2879
+#: ../../inc/custom.php:2904 ../../inc/custom.php:2941
+#: ../../inc/custom.php:2978 ../../inc/custom.php:3015
+#: ../../inc/custom.php:3052 ../../inc/custom.php:3657
+#: ../../inc/custom.php:3722 ../../inc/custom.php:4254
+#: ../../inc/custom.php:4326 ../../inc/custom.php:4537
+#: ../../inc/custom.php:4704 ../../inc/custom.php:5073
+#: ../../inc/custom.php:5109 ../../inc/tinymce-settings.php:49
+#: ../../inc/widget.php:104 ../../inc/widget.php:1458
+#: ../../inc/widget.php:1762 ../../inc/sections/balloon-css.php:39
+#: ../../inc/sections/balloon-css.php:65 ../../inc/sections/pwa-theme.php:42
+#: ../../inc/sections/search.php:98 ../../inc/sections/securimage.php:77
+msgid "Background color"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:243
+msgid "Paste as text"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:244
+msgid "Clear formatting"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:245
+msgid "Special character"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:246
+msgid "Decrease indent"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:247
+msgid "Increase indent"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:248 ../../inc/codemirror.php:98
+#: ../../inc/theme-editor-script.php:71
+msgid "Undo"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:249 ../../inc/codemirror.php:99
+#: ../../inc/theme-editor-script.php:72
+msgid "Redo"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:250
+msgid "Find and replace"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:251
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:261 ../../inc/custom.php:4841
+#: ../../inc/widget.php:1536 ../../inc/widget.php:1576
+#: ../../inc/wpfunc.php:888 ../../languages/site/translations.php:63
+msgid "Table of Contents"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:262
+msgid "Copy"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:263
+msgid "Paste"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:264
+msgid "Cut"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:265
+msgid "Nonbreaking space"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:266
+msgid "Anchor"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:267
+msgid "Insert date/time"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:268
+msgid "Left to right"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:269
+msgid "Right to left"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:270
+msgid "Source code"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:271
+msgid "Justify"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:272
+msgid "Show invisible characters"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:273
+msgid "Superscript"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:274
+msgid "Subscript"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:275
+msgid "Insert/edit image"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:276
+msgid "Insert/edit video"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:277
+msgid "Print"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:278
+msgid "Fullscreen"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:309 ../../inc/customize.php:75
+msgid "HTML patterns"
+msgstr ""
+
+#: ../../inc/admin-common-func.php:312
+msgid "close tags"
+msgstr ""
+
+#: ../../inc/admin-func.php:60
+msgid ""
+"Address (URL) of &quot;Settings -&gt; General&quot; is not set to SSL "
+"(https://). Please check the setting."
+msgstr ""
+
+#: ../../inc/admin-func.php:72
+msgid "The compression is incomplete because there is a syntax error in CSS."
+msgstr ""
+
+#: ../../inc/admin-func.php:166 ../../inc/admin-func.php:176
+msgid "Customizer"
+msgstr ""
+
+#: ../../inc/admin-func.php:177 ../../inc/admin-func.php:185
+msgid "Customize"
+msgstr ""
+
+#: ../../inc/admin-func.php:185
+msgid "Appearance"
+msgstr ""
+
+#: ../../inc/admin-func.php:192 ../../inc/admin-func.php:193
+msgid "Management features"
+msgstr ""
+
+#: ../../inc/admin-func.php:210 ../../inc/admin-func.php:211
+msgid "Registration pattern"
+msgstr ""
+
+#: ../../inc/admin-func.php:219 ../../inc/widget.php:1601
+msgid "Reusable Blocks"
+msgstr ""
+
+#: ../../inc/admin-func.php:227
+msgid "Design select"
+msgstr ""
+
+#: ../../inc/admin-func.php:234 ../../inc/admin-func.php:235
+#: ../../inc/customize.php:111
+msgid "Speed settings"
+msgstr ""
+
+#: ../../inc/admin-func.php:242 ../../inc/admin-func.php:243
+#: ../../inc/customize.php:105
+msgid "Counter"
+msgstr ""
+
+#: ../../inc/admin-func.php:250 ../../inc/admin-func.php:251
+#: ../../inc/customize.php:133
+msgid "Child Theme Editor"
+msgstr ""
+
+#: ../../inc/admin-func.php:274 ../../inc/admin-func.php:733
+#: ../../inc/admin-func.php:894 ../../inc/customize.php:200
+#: ../../inc/design-editor.php:88 ../../inc/theme-editor.php:133
+msgid "The theme selected is not the child theme, but the parent theme"
+msgstr ""
+
+#: ../../inc/admin-func.php:734 ../../inc/admin-func.php:895
+#: ../../inc/customize.php:202 ../../inc/design-editor.php:89
+#: ../../inc/theme-editor.php:134
+msgid "This feature can only be used when the child theme is selected."
+msgstr ""
+
+#: ../../inc/admin-func.php:740
+msgid "Filename is not entered."
+msgstr ""
+
+#: ../../inc/admin-func.php:754
+msgid "The filename contains characters that can&apos;t be used."
+msgstr ""
+
+#: ../../inc/admin-func.php:864 ../../inc/create-javascript.php:1513
+#: ../../inc/design-editor.php:98 ../../inc/theme-editor.php:143
+#: ../../languages/site/translations.php:58
+msgid "This theme is broken."
+msgstr ""
+
+#: ../../inc/admin-func.php:868 ../../inc/block-pattern-regist.php:56
+#: ../../inc/phrase-regist.php:60 ../../inc/restore.php:40
+#: ../../inc/shortcode-regist.php:130 ../../inc/thk-filesystem.php:32
+#: ../../inc/thk-filesystem.php:36
+msgid "Error saving file."
+msgstr ""
+
+#: ../../inc/admin-func.php:913
+msgid "Changes are properly reflected"
+msgstr ""
+
+#: ../../inc/admin-func.php:932 ../../inc/admin-func.php:946
+#, php-format
+msgid "The %s logo is too large."
+msgstr ""
+
+#: ../../inc/admin-func.php:932
+msgid "Site"
+msgstr ""
+
+#: ../../inc/admin-func.php:932 ../../inc/admin-func.php:946
+#: ../../inc/sections/amp.php:81 ../../inc/sections/seo.php:484
+msgid "* the image must be within 600px width, height 60px."
+msgstr ""
+
+#: ../../inc/admin-func.php:971
+msgid "Please delete your browser cache."
+msgstr ""
+
+#: ../../inc/admin-func.php:972
+#, php-format
+msgid ""
+"WordPress has been upgraded ( %s -&gt; %s ). browser cache may cause a bug."
+msgstr ""
+
+#: ../../inc/admin-func.php:1077
+msgid ""
+"File output cannot be &quot;Dynamic&quot; because the permalink setting is "
+"set to &quot;Plain&quot;."
+msgstr ""
+
+#: ../../inc/admin-func.php:1120
+msgid "Jetpack plugin and Luxeritas theme&apos;s Lazy Load function conflict."
+msgstr ""
+
+#: ../../inc/admin-func.php:1124
+msgid "Jetpack plugin and Luxeritas theme&apos;s OGP conflict."
+msgstr ""
+
+#: ../../inc/admin-func.php:1380 ../../inc/design-create.php:32
+msgid ""
+"Failed to create temporary file with PHP. Check the setting of &quot;"
+"upload_tmp_dir&quot; in PHP."
+msgstr ""
+
+#: ../../inc/admin-func.php:1827 ../../inc/block-pattern-regist.php:63
+#: ../../inc/phrase-regist.php:67 ../../inc/restore.php:46
+#: ../../inc/shortcode-regist.php:137
+msgid "You do not have permission to create and save files."
+msgstr ""
+
+#: ../../inc/admin-func.php:1828 ../../inc/block-pattern-regist.php:64
+#: ../../inc/phrase-regist.php:68 ../../inc/restore.php:47
+#: ../../inc/shortcode-regist.php:138
+msgid ""
+"Please check the owner and permissions of the following file or directory."
+msgstr ""
+
+#: ../../inc/admin-func.php:1846
+msgid "Maximum stack depth exceeded."
+msgstr ""
+
+#: ../../inc/admin-func.php:1849
+msgid "Underflow or the modes mismatch."
+msgstr ""
+
+#: ../../inc/admin-func.php:1852
+msgid "Unexpected control character found."
+msgstr ""
+
+#: ../../inc/admin-func.php:1855
+msgid "Syntax error, malformed JSON."
+msgstr ""
+
+#: ../../inc/admin-func.php:1858
+msgid "Malformed UTF-8 characters, possibly incorrectly encoded."
+msgstr ""
+
+#: ../../inc/admin-func.php:1864
+msgid "One or more recursive references in the value to be encoded."
+msgstr ""
+
+#: ../../inc/admin-func.php:1867
+msgid "One or more NAN or INF values in the value to be encoded."
+msgstr ""
+
+#: ../../inc/admin-func.php:1870
+msgid "A value of a type that cannot be encoded was given."
+msgstr ""
+
+#: ../../inc/admin-post-func.php:151
+msgid "There is no active shortcode"
+msgstr ""
+
+#: ../../inc/admin-post-func.php:323
+msgid "Small"
+msgstr ""
+
+#: ../../inc/admin-post-func.php:331
+msgid "Medium"
+msgstr ""
+
+#: ../../inc/admin-post-func.php:339
+msgid "Large"
+msgstr ""
+
+#: ../../inc/admin-post-func.php:347
+msgid "Huge"
+msgstr ""
+
+#: ../../inc/admin-post-func.php:355
+msgid "Normal"
+msgstr ""
+
+#: ../../inc/amp-func.php:523 ../../languages/site/translations.php:59
+msgid "Adsense has a mistake. Some adsense is not displayed properly."
+msgstr ""
+
+#: ../../inc/back-compat.php:26 ../../inc/back-compat.php:27
+#: ../../languages/site/translations.php:62
+#, php-format
+msgid ""
+"Luxeritas requires at least %s version %s. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: ../../inc/block-pattern-regist.php:34 ../../inc/phrase-regist.php:34
+#: ../../inc/shortcode-regist.php:56
+#, php-format
+msgid "This %s has already been registered."
+msgstr ""
+
+#: ../../inc/block-pattern-regist.php:34 ../../inc/phrase-regist.php:34
+msgid "label"
+msgstr ""
+
+#: ../../inc/block-pattern-regist.php:46 ../../inc/phrase-regist.php:46
+#: ../../inc/restore.php:29 ../../inc/shortcode-regist.php:120
+msgid "Could not create directory."
+msgstr ""
+
+#: ../../inc/blogcard-func.php:134 ../../languages/site/translations.php:60
+msgid "Creating a cache ..."
+msgstr ""
+
+#: ../../inc/blogcard-func.php:211 ../../inc/filters.php:925
+#: ../../languages/site/translations.php:65
+#, php-format
+msgid "%s Category"
+msgstr ""
+
+#: ../../inc/blogcard-func.php:901 ../../inc/sns-cache.php:43
+msgid "Could not create cache directory."
+msgstr ""
+
+#: ../../inc/blogcard-post-func.php:37
+msgid "Insert Blog Card"
+msgstr ""
+
+#: ../../inc/blogcard-post-func.php:45 ../../inc/blogcard-post-func.php:94
+msgid "Link Text"
+msgstr ""
+
+#: ../../inc/blogcard-post-func.php:50 ../../inc/blogcard-post-func.php:99
+msgid "Open link in a new tab"
+msgstr ""
+
+#: ../../inc/blogcard-post-func.php:102
+msgid "Insert"
+msgstr ""
+
+#: ../../inc/blogcard-post-func.php:187
+msgid "Add Link"
+msgstr ""
+
+#: ../../inc/blogcard-post-func.php:205 ../../inc/tinymce-settings.php:146
+#: ../../inc/sections/block-pattern-list.php:219
+#: ../../inc/sections/phrase-list.php:228
+#: ../../inc/sections/shortcode-list.php:293
+msgid "Cancel"
+msgstr ""
+
+#: ../../inc/codemirror.php:20 ../../inc/tinymce-settings.php:121
+#: ../../inc/sections/block-pattern-list.php:208
+#: ../../inc/sections/editor-t-settings.php:135
+#: ../../inc/sections/editor-v-settings.php:237
+#: ../../inc/sections/phrase-list.php:217
+#: ../../inc/sections/shortcode-list.php:274
+msgid "Save"
+msgstr ""
+
+#: ../../inc/codemirror.php:24 ../../inc/codemirror.php:37
+#: ../../inc/customize.php:100 ../../inc/sections/pagination.php:20
+msgid "Settings"
+msgstr ""
+
+#: ../../inc/codemirror.php:25
+msgid "Commands"
+msgstr ""
+
+#: ../../inc/codemirror.php:31
+msgid "File editing"
+msgstr ""
+
+#: ../../inc/codemirror.php:46
+msgid "Show line numbers"
+msgstr ""
+
+#: ../../inc/codemirror.php:50
+msgid "Autocomplete"
+msgstr ""
+
+#: ../../inc/codemirror.php:54
+msgid "Auto indent"
+msgstr ""
+
+#: ../../inc/codemirror.php:58
+msgid "Auto close brackets"
+msgstr ""
+
+#: ../../inc/codemirror.php:62
+msgid "CSS / Javascript grammar check"
+msgstr ""
+
+#: ../../inc/codemirror.php:66
+msgid "Change background color of active line"
+msgstr ""
+
+#: ../../inc/codemirror.php:70
+msgid "Wrap at the right end"
+msgstr ""
+
+#: ../../inc/codemirror.php:72
+msgid "Indentation character"
+msgstr ""
+
+#: ../../inc/codemirror.php:75
+msgid "Tabs"
+msgstr ""
+
+#: ../../inc/codemirror.php:77
+msgid "Spaces"
+msgstr ""
+
+#: ../../inc/codemirror.php:81
+msgid "Indent and tab character width"
+msgstr ""
+
+#: ../../inc/codemirror.php:82
+msgid "Save settings"
+msgstr ""
+
+#: ../../inc/codemirror.php:92
+msgid "Commands list"
+msgstr ""
+
+#: ../../inc/codemirror.php:101 ../../inc/theme-editor-script.php:67
+msgid "Replace"
+msgstr ""
+
+#: ../../inc/codemirror.php:102
+msgid "Toggle comment line"
+msgstr ""
+
+#: ../../inc/create-javascript.php:235
+#: ../../languages/site/translations.php:28
+msgid "You copied URL."
+msgstr ""
+
+#: ../../inc/create-javascript.php:239
+#: ../../languages/site/translations.php:29
+msgid "You copied this post title and URL."
+msgstr ""
+
+#: ../../inc/create-ladmin-script.php:39
+#: ../../languages/site/translations.php:98
+msgid "Log out ?"
+msgstr ""
+
+#: ../../inc/custom.php:24
+msgid "Site Identity / Site Icon"
+msgstr ""
+
+#: ../../inc/custom.php:32
+msgid "The Entire Layout"
+msgstr ""
+
+#: ../../inc/custom.php:43
+msgid "The maximum width of the container"
+msgstr ""
+
+#: ../../inc/custom.php:44 ../../inc/custom.php:5492
+msgid "* 0 would be full width"
+msgstr ""
+
+#: ../../inc/custom.php:44 ../../inc/custom.php:3791 ../../inc/custom.php:3818
+#: ../../inc/custom.php:3845 ../../inc/custom.php:3872
+#: ../../inc/custom.php:3899 ../../inc/custom.php:3926
+#: ../../inc/custom.php:3940 ../../inc/custom.php:3967
+#: ../../inc/sections/jquery.php:41 ../../inc/sections/pagination.php:20
+#: ../../inc/sections/speedup-items.php:75
+msgid "* "
+msgstr ""
+
+#: ../../inc/custom.php:44 ../../inc/custom.php:3470 ../../inc/custom.php:3487
+#: ../../inc/sections/pagination.php:20 ../../inc/sections/pagination.php:30
+#: ../../inc/sections/pagination.php:47 ../../inc/sections/pagination.php:64
+#: ../../inc/sections/pagination.php:81
+msgid "default value"
+msgstr ""
+
+#: ../../inc/custom.php:60
+msgid "The entire image"
+msgstr ""
+
+#: ../../inc/custom.php:64 ../../inc/custom.php:5154 ../../inc/custom.php:5156
+#: ../../inc/custom.php:5701 ../../inc/custom.php:5703
+#: ../../inc/custom.php:5705 ../../inc/custom.php:5778
+#: ../../inc/custom.php:5780 ../../inc/custom.php:5782
+msgid "White"
+msgstr ""
+
+#: ../../inc/custom.php:65
+msgid "Black"
+msgstr ""
+
+#: ../../inc/custom.php:77
+msgid "Display layout of the article list"
+msgstr ""
+
+#: ../../inc/custom.php:81
+msgid "Excerpt + Thumbnail display"
+msgstr ""
+
+#: ../../inc/custom.php:82
+msgid "Full article display (Until more tag)"
+msgstr ""
+
+#: ../../inc/custom.php:94
+msgid "Sticky post to show all content"
+msgstr ""
+
+#: ../../inc/custom.php:95
+msgid ""
+"* Use this feature when you want to show Latest Updates or News as your "
+"first post."
+msgstr ""
+
+#: ../../inc/custom.php:108
+msgid "Display Pager"
+msgstr ""
+
+#: ../../inc/custom.php:117 ../../inc/custom.php:1322
+#: ../../inc/custom.php:4917 ../../inc/customize.php:97
+#: ../../inc/widget.php:860 ../../inc/widget.php:1215
+#: ../../inc/sections/widget-area.php:29 ../../inc/sections/widget-area.php:51
+#: ../../inc/sections/widget-body.php:37 ../../inc/sections/widget-body.php:59
+msgid "Post page"
+msgstr ""
+
+#: ../../inc/custom.php:130
+msgid "Display Related Articles"
+msgstr ""
+
+#: ../../inc/custom.php:143 ../../inc/custom.php:157
+msgid "Display Next / Prev Navigation"
+msgstr ""
+
+#: ../../inc/custom.php:144 ../../inc/custom.php:752 ../../inc/custom.php:1347
+#: ../../inc/custom.php:4930 ../../inc/customize.php:98
+#: ../../inc/widget.php:859 ../../inc/widget.php:1216
+#: ../../inc/sections/widget-area.php:30 ../../inc/sections/widget-area.php:52
+#: ../../inc/sections/widget-body.php:38 ../../inc/sections/widget-body.php:60
+msgid "Static page"
+msgstr ""
+
+#: ../../inc/custom.php:170
+msgid "Display post title of static front page"
+msgstr ""
+
+#: ../../inc/custom.php:180 ../../inc/custom.php:1957
+#: ../../inc/custom.php:2023
+msgid "Grid layout"
+msgstr ""
+
+#: ../../inc/custom.php:191 ../../inc/sections/pagination.php:23
+msgid "Top page of list type"
+msgstr ""
+
+#: ../../inc/custom.php:195 ../../inc/custom.php:251 ../../inc/custom.php:320
+#: ../../inc/custom.php:416 ../../inc/custom.php:553 ../../inc/custom.php:1881
+#: ../../inc/custom.php:1943
+msgid "Normal style"
+msgstr ""
+
+#: ../../inc/custom.php:196 ../../inc/custom.php:197 ../../inc/custom.php:198
+#: ../../inc/custom.php:199 ../../inc/custom.php:252 ../../inc/custom.php:253
+#: ../../inc/custom.php:254 ../../inc/custom.php:255 ../../inc/custom.php:321
+#: ../../inc/custom.php:322 ../../inc/custom.php:323 ../../inc/custom.php:324
+#: ../../inc/custom.php:457 ../../inc/custom.php:596 ../../inc/custom.php:1957
+msgid "Tile type"
+msgstr ""
+
+#: ../../inc/custom.php:196 ../../inc/custom.php:197 ../../inc/custom.php:198
+#: ../../inc/custom.php:199 ../../inc/custom.php:200 ../../inc/custom.php:201
+#: ../../inc/custom.php:202 ../../inc/custom.php:203 ../../inc/custom.php:252
+#: ../../inc/custom.php:253 ../../inc/custom.php:254 ../../inc/custom.php:255
+#: ../../inc/custom.php:256 ../../inc/custom.php:257 ../../inc/custom.php:258
+#: ../../inc/custom.php:259 ../../inc/custom.php:321 ../../inc/custom.php:322
+#: ../../inc/custom.php:323 ../../inc/custom.php:324 ../../inc/custom.php:325
+#: ../../inc/custom.php:326 ../../inc/custom.php:327 ../../inc/custom.php:328
+#, php-format
+msgid "Up to %s cols"
+msgstr ""
+
+#: ../../inc/custom.php:200 ../../inc/custom.php:201 ../../inc/custom.php:202
+#: ../../inc/custom.php:203 ../../inc/custom.php:256 ../../inc/custom.php:257
+#: ../../inc/custom.php:258 ../../inc/custom.php:259 ../../inc/custom.php:325
+#: ../../inc/custom.php:326 ../../inc/custom.php:327 ../../inc/custom.php:328
+#: ../../inc/custom.php:498 ../../inc/custom.php:639 ../../inc/custom.php:2023
+msgid "Card type"
+msgstr ""
+
+#: ../../inc/custom.php:215 ../../inc/custom.php:271 ../../inc/custom.php:340
+msgid "First X post is normal style"
+msgstr ""
+
+#: ../../inc/custom.php:231 ../../inc/custom.php:287 ../../inc/custom.php:356
+msgid "Position of &quot;Middle of Posts List Widget&quot; (Automatic if 0)"
+msgstr ""
+
+#: ../../inc/custom.php:247 ../../inc/custom.php:771 ../../inc/widget.php:510
+#: ../../inc/widget.php:858 ../../inc/widget.php:1213
+#: ../../inc/sections/pagination.php:40 ../../inc/sections/widget-area.php:31
+#: ../../inc/sections/widget-area.php:53 ../../inc/sections/widget-body.php:39
+#: ../../inc/sections/widget-body.php:61
+#: ../../languages/site/translations.php:61 ../../pages/sitemap.php:51
+msgid "Category"
+msgstr ""
+
+#: ../../inc/custom.php:303
+msgid "Insert description at beginning of category list (HTML enabled)"
+msgstr ""
+
+#: ../../inc/custom.php:316 ../../inc/custom.php:771 ../../inc/widget.php:857
+#: ../../inc/widget.php:1214 ../../inc/sections/pagination.php:57
+#: ../../inc/sections/widget-area.php:32 ../../inc/sections/widget-area.php:54
+#: ../../inc/sections/widget-body.php:40 ../../inc/sections/widget-body.php:62
+msgid "Archive"
+msgstr ""
+
+#: ../../inc/custom.php:372
+msgid "Middle of Posts List Widget to be full width"
+msgstr ""
+
+#: ../../inc/custom.php:385
+msgid "Tile type order"
+msgstr ""
+
+#: ../../inc/custom.php:389 ../../inc/custom.php:390 ../../inc/custom.php:391
+#: ../../inc/custom.php:392 ../../inc/widget.php:513
+msgid "Thumbnail"
+msgstr ""
+
+#: ../../inc/custom.php:389 ../../inc/custom.php:390 ../../inc/custom.php:391
+#: ../../inc/custom.php:392 ../../inc/custom.php:5005
+#: ../../inc/customize.php:36
+msgid "Title"
+msgstr ""
+
+#: ../../inc/custom.php:389 ../../inc/custom.php:390 ../../inc/custom.php:391
+#: ../../inc/custom.php:392
+msgid "Meta"
+msgstr ""
+
+#: ../../inc/custom.php:401 ../../inc/custom.php:1823
+#: ../../inc/widget.php:1433
+msgid "Thumbnail (Featured Image)"
+msgstr ""
+
+#: ../../inc/custom.php:402
+msgid "* Thumbnails can be set with &quot;thumbnail&quot; item."
+msgstr ""
+
+#: ../../inc/custom.php:415
+msgid "Number of characters and color density in excerpt on post list"
+msgstr ""
+
+#: ../../inc/custom.php:432 ../../inc/custom.php:473 ../../inc/custom.php:514
+msgid "No line break in excerpt"
+msgstr ""
+
+#: ../../inc/custom.php:539
+msgid "Excerpt on each post will be prioritized and displayed"
+msgstr ""
+
+#: ../../inc/custom.php:540
+msgid ""
+"* Description will always prioritize and display the excerpts from the blog "
+"post."
+msgstr ""
+
+#: ../../inc/custom.php:548 ../../inc/custom.php:553 ../../inc/custom.php:591
+#: ../../inc/custom.php:596 ../../inc/custom.php:634 ../../inc/custom.php:639
+#: ../../inc/defaults.php:71 ../../languages/site/translations.php:31
+msgid "Read more"
+msgstr ""
+
+#: ../../inc/custom.php:554 ../../inc/custom.php:597 ../../inc/custom.php:640
+msgid "* Can hide the link if kept blank."
+msgstr ""
+
+#: ../../inc/custom.php:567 ../../inc/custom.php:610 ../../inc/custom.php:653
+msgid "Put a short title to the link of &quot;Read more&quot;"
+msgstr ""
+
+#: ../../inc/custom.php:580 ../../inc/custom.php:623 ../../inc/custom.php:666
+msgid "Number of characters in the short title"
+msgstr ""
+
+#: ../../inc/custom.php:679
+msgid "Column adjustment"
+msgstr ""
+
+#: ../../inc/custom.php:690
+msgid "Number of column"
+msgstr ""
+
+#: ../../inc/custom.php:691 ../../inc/custom.php:2348
+#: ../../inc/custom.php:2365 ../../inc/custom.php:2382
+#: ../../inc/custom.php:2399 ../../inc/custom.php:2416
+#: ../../inc/custom.php:2433 ../../inc/custom.php:2450
+#: ../../inc/custom.php:2467 ../../inc/custom.php:2484
+#: ../../inc/custom.php:2501 ../../inc/custom.php:2518
+#: ../../inc/custom.php:2535 ../../inc/custom.php:2552
+#: ../../inc/custom.php:2569 ../../inc/custom.php:2586
+#: ../../inc/custom.php:2603 ../../inc/custom.php:2620
+#: ../../inc/custom.php:2637 ../../inc/custom.php:2654
+#: ../../inc/custom.php:2671 ../../inc/custom.php:2688
+#: ../../inc/custom.php:2705 ../../inc/custom.php:2722
+#: ../../inc/custom.php:2739
+msgid "default"
+msgstr ""
+
+#: ../../inc/custom.php:695 ../../inc/custom.php:696 ../../inc/custom.php:697
+#: ../../inc/custom.php:715 ../../inc/custom.php:716 ../../inc/custom.php:717
+#: ../../inc/custom.php:734 ../../inc/custom.php:735 ../../inc/custom.php:736
+#: ../../inc/custom.php:753 ../../inc/custom.php:754 ../../inc/custom.php:755
+#: ../../inc/custom.php:772 ../../inc/custom.php:773 ../../inc/custom.php:774
+msgid "column"
+msgstr ""
+
+#: ../../inc/custom.php:710
+msgid "Number of columns in each template"
+msgstr ""
+
+#: ../../inc/custom.php:714
+msgid "Front page"
+msgstr ""
+
+#: ../../inc/custom.php:733
+msgid "Posts page"
+msgstr ""
+
+#: ../../inc/custom.php:786 ../../inc/custom.php:1268
+msgid "Position of the side bar"
+msgstr ""
+
+#: ../../inc/custom.php:787
+msgid "2 column"
+msgstr ""
+
+#: ../../inc/custom.php:791 ../../inc/custom.php:809
+msgid "Right sidebar"
+msgstr ""
+
+#: ../../inc/custom.php:792 ../../inc/custom.php:810
+msgid "Left sidebar"
+msgstr ""
+
+#: ../../inc/custom.php:804
+msgid "3 column"
+msgstr ""
+
+#: ../../inc/custom.php:808
+msgid "Both sides sidebar"
+msgstr ""
+
+#: ../../inc/custom.php:822
+msgid "3 column left and right side bar reversal"
+msgstr ""
+
+#: ../../inc/custom.php:835
+msgid "Merge and separate areas"
+msgstr ""
+
+#: ../../inc/custom.php:836 ../../inc/custom.php:1118
+msgid "Content area"
+msgstr ""
+
+#: ../../inc/custom.php:840
+msgid "Separate content area for each element"
+msgstr ""
+
+#: ../../inc/custom.php:841
+msgid "Merge the elements in content area"
+msgstr ""
+
+#: ../../inc/custom.php:853 ../../inc/custom.php:2670
+#: ../../inc/custom.php:2687 ../../inc/custom.php:2704
+#: ../../inc/custom.php:2941 ../../inc/custom.php:2953
+#: ../../inc/custom.php:2965 ../../inc/custom.php:3406
+msgid "Sidebar "
+msgstr ""
+
+#: ../../inc/custom.php:857
+msgid "Separate the side bar for each element"
+msgstr ""
+
+#: ../../inc/custom.php:858
+msgid "Merge the elements in side bar"
+msgstr ""
+
+#: ../../inc/custom.php:870
+msgid "Merge and separate content area and side bar"
+msgstr ""
+
+#: ../../inc/custom.php:874
+msgid "Separate content area and side bar"
+msgstr ""
+
+#: ../../inc/custom.php:875
+msgid "Merge content area and side bar"
+msgstr ""
+
+#: ../../inc/custom.php:883
+msgid ""
+"* When they are merged, some configuration of content area will overwrite "
+"the side bar configuration."
+msgstr ""
+
+#: ../../inc/custom.php:893 ../../inc/custom.php:923 ../../inc/custom.php:937
+#: ../../inc/custom.php:953 ../../inc/custom.php:969 ../../inc/custom.php:985
+#: ../../inc/custom.php:2799 ../../inc/custom.php:2811
+#: ../../inc/custom.php:2823 ../../inc/custom.php:2978
+#: ../../inc/custom.php:2990 ../../inc/custom.php:3002
+#: ../../inc/custom.php:3220
+msgid "Header "
+msgstr ""
+
+#: ../../inc/custom.php:893 ../../inc/custom.php:2721
+#: ../../inc/custom.php:2738 ../../inc/customize.php:124
+#: ../../inc/theme-editor.php:48
+msgid "Footer"
+msgstr ""
+
+#: ../../inc/custom.php:904
+msgid "Title layout"
+msgstr ""
+
+#: ../../inc/custom.php:908 ../../inc/custom.php:985 ../../inc/custom.php:1222
+#: ../../inc/custom.php:5719 ../../inc/custom.php:5796
+msgid "left"
+msgstr ""
+
+#: ../../inc/custom.php:909 ../../inc/custom.php:5720
+#: ../../inc/custom.php:5797
+msgid "center"
+msgstr ""
+
+#: ../../inc/custom.php:910 ../../inc/custom.php:953 ../../inc/custom.php:1190
+#: ../../inc/custom.php:5721 ../../inc/custom.php:5798
+msgid "right"
+msgstr ""
+
+#: ../../inc/custom.php:922
+msgid "Header margin"
+msgstr ""
+
+#: ../../inc/custom.php:923 ../../inc/custom.php:937 ../../inc/custom.php:1174
+msgid "top"
+msgstr ""
+
+#: ../../inc/custom.php:936
+msgid "Header padding"
+msgstr ""
+
+#: ../../inc/custom.php:969 ../../inc/custom.php:1206
+msgid "bottom"
+msgstr ""
+
+#: ../../inc/custom.php:1001
+msgid "Position of the header"
+msgstr ""
+
+#: ../../inc/custom.php:1005 ../../inc/custom.php:1049
+msgid "Inside the Container"
+msgstr ""
+
+#: ../../inc/custom.php:1006 ../../inc/custom.php:1050
+msgid "Outside the Container"
+msgstr ""
+
+#: ../../inc/custom.php:1018
+msgid "Surround the header with border"
+msgstr ""
+
+#: ../../inc/custom.php:1031
+msgid "Full width for the header border"
+msgstr ""
+
+#: ../../inc/custom.php:1032
+msgid "(Valid only when outside the container)"
+msgstr ""
+
+#: ../../inc/custom.php:1045
+msgid "Position of footer"
+msgstr ""
+
+#: ../../inc/custom.php:1062
+msgid "Surround the footer with border"
+msgstr ""
+
+#: ../../inc/custom.php:1075
+msgid "Put a line above the copyright area"
+msgstr ""
+
+#: ../../inc/custom.php:1088 ../../inc/custom.php:1282
+msgid "Hide in mobile or smartphone"
+msgstr ""
+
+#: ../../inc/custom.php:1101
+msgid "Footer widget area display"
+msgstr ""
+
+#: ../../inc/custom.php:1105
+msgid "3 rows (left, center, and right)"
+msgstr ""
+
+#: ../../inc/custom.php:1106
+msgid "2 rows (left and right)"
+msgstr ""
+
+#: ../../inc/custom.php:1107
+msgid "Horizontal row (center)"
+msgstr ""
+
+#: ../../inc/custom.php:1108 ../../inc/ladmin.php:69
+#: ../../inc/sections/shortcode-list.php:92
+#: ../../inc/sections/shortcode-list.php:119
+#: ../../inc/sections/shortcode-list.php:179
+#: ../../languages/site/translations.php:89
+msgid "Hide"
+msgstr ""
+
+#: ../../inc/custom.php:1117
+msgid "Content area and side bar"
+msgstr ""
+
+#: ../../inc/custom.php:1129
+msgid "Put border around the content area"
+msgstr ""
+
+#: ../../inc/custom.php:1142
+msgid "Apply frame border around pagination area"
+msgstr ""
+
+#: ../../inc/custom.php:1143
+msgid "* Only when content area is separated"
+msgstr ""
+
+#: ../../inc/custom.php:1156 ../../inc/custom.php:1308
+#: ../../inc/custom.php:1500 ../../inc/custom.php:3540
+#: ../../inc/custom.php:4729 ../../inc/sections/search.php:117
+msgid "Border radius"
+msgstr ""
+
+#: ../../inc/custom.php:1172
+msgid "Content area padding"
+msgstr ""
+
+#: ../../inc/custom.php:1174
+msgid "* The actual width will vary depending on the screen width."
+msgstr ""
+
+#: ../../inc/custom.php:1174 ../../inc/custom.php:1190
+#: ../../inc/custom.php:1206 ../../inc/custom.php:1222
+msgid "Content "
+msgstr ""
+
+#: ../../inc/custom.php:1238
+msgid "Sidebar Widget width"
+msgstr ""
+
+#: ../../inc/custom.php:1239
+msgid "Second column"
+msgstr ""
+
+#: ../../inc/custom.php:1255
+msgid "Third column"
+msgstr ""
+
+#: ../../inc/custom.php:1269
+msgid "* You can change the side bar position in the Column adjustment menu."
+msgstr ""
+
+#: ../../inc/custom.php:1295
+msgid "Surround the sidebar with border"
+msgstr ""
+
+#: ../../inc/custom.php:1333 ../../inc/custom.php:1360
+msgid "Display Comment"
+msgstr ""
+
+#: ../../inc/custom.php:1346 ../../inc/custom.php:1373
+msgid "Display Trackback URL"
+msgstr ""
+
+#: ../../inc/custom.php:1386
+msgid "Display layout of the comment list"
+msgstr ""
+
+#: ../../inc/custom.php:1390
+msgid "Display comments and pings separated"
+msgstr ""
+
+#: ../../inc/custom.php:1391
+msgid "Display comments and pings together"
+msgstr ""
+
+#: ../../inc/custom.php:1392
+msgid "Do not display pingbacks and trackbacks"
+msgstr ""
+
+#: ../../inc/custom.php:1404
+msgid "Add reply button to pinback"
+msgstr ""
+
+#: ../../inc/custom.php:1414
+msgid "Style Details"
+msgstr ""
+
+#: ../../inc/custom.php:1425
+msgid "Tagline change on header"
+msgstr ""
+
+#: ../../inc/custom.php:1426
+msgid ""
+"* To overwrite the tagline on the header to something other than what is set "
+"on the Wordpress General Settings."
+msgstr ""
+
+#: ../../inc/custom.php:1439
+msgid "Tagline display on header"
+msgstr ""
+
+#: ../../inc/custom.php:1452
+msgid "Text for &quot;Home&quot;"
+msgstr ""
+
+#: ../../inc/custom.php:1465
+msgid "Text for &quot;PAGE TOP&quot; scroll button"
+msgstr ""
+
+#: ../../inc/custom.php:1466
+msgid "* Only icon will be displayed if kept blank."
+msgstr ""
+
+#: ../../inc/custom.php:1479
+msgid "Type of &quot;PAGE TOP&quot; button icon"
+msgstr ""
+
+#: ../../inc/custom.php:1537
+msgid "Display of meta information"
+msgstr ""
+
+#: ../../inc/custom.php:1538
+msgid "Post and Static page"
+msgstr ""
+
+#: ../../inc/custom.php:1538 ../../inc/custom.php:1668
+msgid "What meta information to dsiplay under the article title"
+msgstr ""
+
+#: ../../inc/custom.php:1549 ../../inc/custom.php:1615
+#: ../../inc/custom.php:1681 ../../inc/custom.php:1747
+msgid "Published date and time"
+msgstr ""
+
+#: ../../inc/custom.php:1562 ../../inc/custom.php:1628
+#: ../../inc/custom.php:1694 ../../inc/custom.php:1760
+msgid "Updated date and time"
+msgstr ""
+
+#: ../../inc/custom.php:1575 ../../inc/custom.php:1641
+#: ../../inc/custom.php:1707 ../../inc/custom.php:1773
+msgid "Category name"
+msgstr ""
+
+#: ../../inc/custom.php:1588 ../../inc/custom.php:1654
+#: ../../inc/custom.php:1720 ../../inc/custom.php:1786
+msgid "Tag"
+msgstr ""
+
+#: ../../inc/custom.php:1601 ../../inc/custom.php:1667
+#: ../../inc/custom.php:1733 ../../inc/custom.php:1799
+msgid "Taxonomy"
+msgstr ""
+
+#: ../../inc/custom.php:1602
+msgid "What meta information to dsiplay under article"
+msgstr ""
+
+#: ../../inc/custom.php:1668
+msgid "List type page"
+msgstr ""
+
+#: ../../inc/custom.php:1734
+msgid "Meta information displayed above excerpt"
+msgstr ""
+
+#: ../../inc/custom.php:1812
+msgid "Number of items displayed for category, tag, taxonomy"
+msgstr ""
+
+#: ../../inc/custom.php:1824
+msgid "Thumbnail dispay on/off"
+msgstr ""
+
+#: ../../inc/custom.php:1835
+msgid "Display thumbnail"
+msgstr ""
+
+#: ../../inc/custom.php:1848
+msgid "Thumbnail display when No Image"
+msgstr ""
+
+#: ../../inc/custom.php:1861
+msgid "Add border"
+msgstr ""
+
+#: ../../inc/custom.php:1874
+msgid "Where to place the text (excerpt) around the image"
+msgstr ""
+
+#: ../../inc/custom.php:1875
+msgid "* It will always wrap around the image in small devices."
+msgstr ""
+
+#: ../../inc/custom.php:1879
+msgid "Text right to image (do not allow the text wrap below the image)"
+msgstr ""
+
+#: ../../inc/custom.php:1880
+msgid "Text right to image (allow the text wrap below the image)"
+msgstr ""
+
+#: ../../inc/custom.php:1881
+msgid "Text below the image"
+msgstr ""
+
+#: ../../inc/custom.php:1942
+msgid "Thumbnail display size"
+msgstr ""
+
+#: ../../inc/custom.php:1943
+msgid ""
+"* To use thumbnails of your own size, please set user thumbnails on "
+"thumbnail management."
+msgstr ""
+
+#: ../../inc/custom.php:1971 ../../inc/custom.php:1984
+#: ../../inc/custom.php:2112 ../../inc/custom.php:3257
+msgid "Full width"
+msgstr ""
+
+#: ../../inc/custom.php:1984 ../../inc/custom.php:2010
+msgid "smartphone"
+msgstr ""
+
+#: ../../inc/custom.php:2034
+msgid "Automatic thumbnail insertion"
+msgstr ""
+
+#: ../../inc/custom.php:2047
+msgid "Auto insert into posts"
+msgstr ""
+
+#: ../../inc/custom.php:2060
+msgid "Auto insert into pages"
+msgstr ""
+
+#: ../../inc/custom.php:2073
+msgid "Auto insert into front page"
+msgstr ""
+
+#: ../../inc/custom.php:2086
+msgid "Position to insert thumbnail"
+msgstr ""
+
+#: ../../inc/custom.php:2090
+msgid "Above the post"
+msgstr ""
+
+#: ../../inc/custom.php:2091
+msgid "Below the title"
+msgstr ""
+
+#: ../../inc/custom.php:2092
+msgid "Above the title"
+msgstr ""
+
+#: ../../inc/custom.php:2093 ../../inc/custom.php:2094
+#: ../../inc/custom.php:2095 ../../inc/custom.php:2096
+msgid "Title background"
+msgstr ""
+
+#: ../../inc/custom.php:2108 ../../inc/custom.php:5044
+#: ../../inc/widget.php:1442
+msgid "Width"
+msgstr ""
+
+#: ../../inc/custom.php:2113
+msgid "Original size"
+msgstr ""
+
+#: ../../inc/custom.php:2125
+msgid "Limit the height"
+msgstr ""
+
+#: ../../inc/custom.php:2125
+msgid "* 0 would be no limit"
+msgstr ""
+
+#: ../../inc/custom.php:2138
+msgid "Image preload"
+msgstr ""
+
+#: ../../inc/custom.php:2160
+msgid "Post line spacing"
+msgstr ""
+
+#: ../../inc/custom.php:2171
+msgid "Paragraph line spacing <p>"
+msgstr ""
+
+#: ../../inc/custom.php:2172 ../../inc/custom.php:2215
+msgid "Margin top"
+msgstr ""
+
+#: ../../inc/custom.php:2186 ../../inc/custom.php:2229
+msgid "Margin bottom"
+msgstr ""
+
+#: ../../inc/custom.php:2200
+msgid "Line height"
+msgstr ""
+
+#: ../../inc/custom.php:2214
+msgid "List line spacing <li>"
+msgstr ""
+
+#: ../../inc/custom.php:2240
+msgid "Font family"
+msgstr ""
+
+#: ../../inc/custom.php:2251
+msgid "Loading web fonts asynchronously"
+msgstr ""
+
+#: ../../inc/custom.php:2252
+msgid ""
+"When asynchronous, rendering is faster, but there is a lag in reflecting web "
+"fonts."
+msgstr ""
+
+#: ../../inc/custom.php:2265
+msgid "Prioritize Latin fonts"
+msgstr ""
+
+#: ../../inc/custom.php:2278
+msgid "Latin fonts"
+msgstr ""
+
+#: ../../inc/custom.php:2282 ../../inc/custom.php:2310
+#: ../../inc/widget.php:865
+msgid "Not specified"
+msgstr ""
+
+#: ../../inc/custom.php:2283 ../../inc/custom.php:2284
+#: ../../inc/custom.php:2285 ../../inc/custom.php:2286
+#: ../../inc/custom.php:2287 ../../inc/custom.php:2288
+#: ../../inc/custom.php:2289 ../../inc/custom.php:2290
+#: ../../inc/custom.php:2291 ../../inc/custom.php:2311
+#: ../../inc/custom.php:2312 ../../inc/custom.php:2313
+#: ../../inc/custom.php:2314 ../../inc/custom.php:2315
+#: ../../inc/custom.php:2316 ../../inc/custom.php:2317
+#: ../../inc/custom.php:2318
+msgid "[ Web font ]"
+msgstr ""
+
+#: ../../inc/custom.php:2306
+msgid "Japanese fonts"
+msgstr ""
+
+#: ../../inc/custom.php:2317
+msgid "Sawarabi Gothic"
+msgstr ""
+
+#: ../../inc/custom.php:2318
+msgid "Sawarabi Mincho"
+msgstr ""
+
+#: ../../inc/custom.php:2319 ../../inc/custom.php:2322
+#: ../../inc/custom.php:2325
+msgid "Yu"
+msgstr ""
+
+#: ../../inc/custom.php:2320 ../../inc/custom.php:2323
+#: ../../inc/custom.php:2326
+msgid "Meiryo"
+msgstr ""
+
+#: ../../inc/custom.php:2321 ../../inc/custom.php:2324
+#: ../../inc/custom.php:2327
+msgid "MS PGothic"
+msgstr ""
+
+#: ../../inc/custom.php:2322 ../../inc/custom.php:2323
+#: ../../inc/custom.php:2324
+msgid "Hiragino"
+msgstr ""
+
+#: ../../inc/custom.php:2347
+msgid "Scale"
+msgstr ""
+
+#: ../../inc/custom.php:2381
+msgid "Site Title"
+msgstr ""
+
+#: ../../inc/custom.php:2398
+msgid "Catchphrase"
+msgstr ""
+
+#: ../../inc/custom.php:2415
+msgid "Post excerpt"
+msgstr ""
+
+#: ../../inc/custom.php:2432
+msgid "Post content"
+msgstr ""
+
+#: ../../inc/custom.php:2449
+msgid "Post title"
+msgstr ""
+
+#: ../../inc/custom.php:2466 ../../inc/custom.php:2483
+#: ../../inc/custom.php:2500 ../../inc/custom.php:2517
+#: ../../inc/custom.php:2534 ../../inc/custom.php:2551
+#: ../../inc/custom.php:2568 ../../inc/custom.php:2585
+msgid "Post content : "
+msgstr ""
+
+#: ../../inc/custom.php:2602
+msgid "Meta Infomation"
+msgstr ""
+
+#: ../../inc/custom.php:2619
+msgid "Breadcrumb menu link"
+msgstr ""
+
+#: ../../inc/custom.php:2636 ../../inc/custom.php:4003
+msgid "Global Nav (Header Nav)"
+msgstr ""
+
+#: ../../inc/custom.php:2653
+msgid "Comments"
+msgstr ""
+
+#: ../../inc/custom.php:2775 ../../inc/custom.php:2811
+#: ../../inc/custom.php:2847 ../../inc/custom.php:4513
+msgid "Link color"
+msgstr ""
+
+#: ../../inc/custom.php:2787 ../../inc/custom.php:2823
+#: ../../inc/custom.php:2859 ../../inc/custom.php:3645
+#: ../../inc/custom.php:4266 ../../inc/custom.php:4525
+msgid "Link hover color"
+msgstr ""
+
+#: ../../inc/custom.php:2835 ../../inc/custom.php:2847
+#: ../../inc/custom.php:2859 ../../inc/custom.php:3015
+#: ../../inc/custom.php:3027 ../../inc/custom.php:3039
+msgid "Footer "
+msgstr ""
+
+#: ../../inc/custom.php:2868 ../../inc/custom.php:2916
+#: ../../inc/custom.php:2953 ../../inc/custom.php:2990
+#: ../../inc/custom.php:3027 ../../inc/custom.php:3064
+#: ../../inc/custom.php:4549 ../../inc/custom.php:5085
+#: ../../inc/widget.php:1764
+msgid "Border color"
+msgstr ""
+
+#: ../../inc/custom.php:2891 ../../inc/custom.php:2928
+#: ../../inc/custom.php:2965 ../../inc/custom.php:3002
+#: ../../inc/custom.php:3039 ../../inc/custom.php:3734
+#: ../../inc/custom.php:4716
+msgid "Background transparent"
+msgstr ""
+
+#: ../../inc/custom.php:2904 ../../inc/custom.php:2916
+#: ../../inc/custom.php:2928
+msgid "Content area "
+msgstr ""
+
+#: ../../inc/custom.php:3052 ../../inc/custom.php:3064
+msgid "Copyright area "
+msgstr ""
+
+#: ../../inc/custom.php:3073
+msgid "Images (Background / Title / Logo)"
+msgstr ""
+
+#: ../../inc/custom.php:3084
+msgid "Use image as title"
+msgstr ""
+
+#: ../../inc/custom.php:3096
+msgid "One point logo image"
+msgstr ""
+
+#: ../../inc/custom.php:3097
+msgid "* Display one point image to the left of the site title."
+msgstr ""
+
+#: ../../inc/custom.php:3109 ../../inc/custom.php:3220
+#: ../../inc/custom.php:3406
+msgid "Background image"
+msgstr ""
+
+#: ../../inc/custom.php:3121
+msgid "Background image transparent"
+msgstr ""
+
+#: ../../inc/custom.php:3134
+msgid "Fixed background"
+msgstr ""
+
+#: ../../inc/custom.php:3147
+msgid "Background image layout"
+msgstr ""
+
+#: ../../inc/custom.php:3151 ../../inc/custom.php:3337
+msgid "Top"
+msgstr ""
+
+#: ../../inc/custom.php:3152 ../../inc/custom.php:3338
+msgid "Middle"
+msgstr ""
+
+#: ../../inc/custom.php:3153 ../../inc/custom.php:3339
+msgid "Bottom"
+msgstr ""
+
+#: ../../inc/custom.php:3168 ../../inc/custom.php:3354
+#: ../../inc/custom.php:5542 ../../inc/phrase-sample.php:26
+#: ../../inc/shortcode-sample.php:21 ../../inc/widget.php:99
+#: ../../inc/sections/balloon-css.php:35 ../../inc/sections/balloon-css.php:39
+#: ../../inc/sections/balloon-css.php:43 ../../inc/sections/balloon-css.php:56
+#: ../../inc/sections/phrase-luxeritas.php:44
+#: ../../inc/sections/shortcode-balloon.php:47
+msgid "Left"
+msgstr ""
+
+#: ../../inc/custom.php:3169 ../../inc/custom.php:3355
+#: ../../inc/widget.php:100
+msgid "Center"
+msgstr ""
+
+#: ../../inc/custom.php:3170 ../../inc/custom.php:3356
+#: ../../inc/custom.php:5541 ../../inc/phrase-sample.php:27
+#: ../../inc/shortcode-sample.php:22 ../../inc/widget.php:101
+#: ../../inc/sections/balloon-css.php:61 ../../inc/sections/balloon-css.php:65
+#: ../../inc/sections/balloon-css.php:69 ../../inc/sections/balloon-css.php:82
+#: ../../inc/sections/phrase-luxeritas.php:49
+#: ../../inc/sections/shortcode-balloon.php:98
+msgid "Right"
+msgstr ""
+
+#: ../../inc/custom.php:3185 ../../inc/custom.php:3371
+msgid "repeat"
+msgstr ""
+
+#: ../../inc/custom.php:3186 ../../inc/custom.php:3372
+msgid "repeat-x"
+msgstr ""
+
+#: ../../inc/custom.php:3187 ../../inc/custom.php:3373
+msgid "repeat-y"
+msgstr ""
+
+#: ../../inc/custom.php:3188 ../../inc/custom.php:3374
+msgid "no-repeat"
+msgstr ""
+
+#: ../../inc/custom.php:3203 ../../inc/custom.php:3389
+msgid "auto"
+msgstr ""
+
+#: ../../inc/custom.php:3204 ../../inc/custom.php:3390
+msgid "contain"
+msgstr ""
+
+#: ../../inc/custom.php:3205 ../../inc/custom.php:3391
+msgid "cover"
+msgstr ""
+
+#: ../../inc/custom.php:3206 ../../inc/custom.php:3392
+msgid "width: 100%,  height: auto"
+msgstr ""
+
+#: ../../inc/custom.php:3207 ../../inc/custom.php:3393
+msgid "width: auto,  height: 100%"
+msgstr ""
+
+#: ../../inc/custom.php:3208 ../../inc/custom.php:3394
+msgid "width: 100%,  height: 100%"
+msgstr ""
+
+#: ../../inc/custom.php:3221 ../../inc/custom.php:3233
+#: ../../inc/custom.php:3245
+msgid "screen width"
+msgstr ""
+
+#: ../../inc/custom.php:3233
+msgid "mobile"
+msgstr ""
+
+#: ../../inc/custom.php:3233 ../../inc/custom.php:3245
+msgid ""
+"* If an image isn&apos;t selected, it&apos;ll be the same as the above "
+"image. ( You need an header BG image for PC )"
+msgstr ""
+
+#: ../../inc/custom.php:3245
+msgid "cell"
+msgstr ""
+
+#: ../../inc/custom.php:3270
+msgid "Adjust height automatically to fit image"
+msgstr ""
+
+#: ../../inc/custom.php:3283
+msgid "Maximum height when height is automatically adjusted"
+msgstr ""
+
+#: ../../inc/custom.php:3300
+msgid "Minimum height when height is automatically adjusted"
+msgstr ""
+
+#: ../../inc/custom.php:3332
+msgid "Header background image layout"
+msgstr ""
+
+#: ../../inc/custom.php:3418
+msgid "Logo image"
+msgstr ""
+
+#: ../../inc/custom.php:3430
+msgid "On top of the global navigation"
+msgstr ""
+
+#: ../../inc/custom.php:3440
+msgid "Breadcrumb link"
+msgstr ""
+
+#: ../../inc/custom.php:3451
+msgid "Position of breadcrumb link"
+msgstr ""
+
+#: ../../inc/custom.php:3455
+msgid "Outside of the content area"
+msgstr ""
+
+#: ../../inc/custom.php:3456
+msgid "Inside of the content area"
+msgstr ""
+
+#: ../../inc/custom.php:3457
+msgid "Do not show"
+msgstr ""
+
+#: ../../inc/custom.php:3469
+msgid "Padding of breadcrumb menu for above and below"
+msgstr ""
+
+#: ../../inc/custom.php:3486
+msgid "Padding of breadcrumb menu for left and right"
+msgstr ""
+
+#: ../../inc/custom.php:3503
+msgid "Breadcrumb menu link color"
+msgstr ""
+
+#: ../../inc/custom.php:3515
+msgid "Breadcrumb menu background color"
+msgstr ""
+
+#: ../../inc/custom.php:3527
+msgid "Surround the breadcrumb menu with border"
+msgstr ""
+
+#: ../../inc/custom.php:3556
+msgid "Breadcrumb menu border color"
+msgstr ""
+
+#: ../../inc/custom.php:3566
+msgid ""
+"* Menu settings is under &quot;Appearance -&gt; Menus&quot;.  Please create "
+"and save your desired menu,and make sure to select for the location &quot;"
+"Header Band Menu&quot;."
+msgstr ""
+
+#: ../../inc/custom.php:3577
+msgid "Display the band menu above the header"
+msgstr ""
+
+#: ../../inc/custom.php:3590
+msgid "Band menu to be full width"
+msgstr ""
+
+#: ../../inc/custom.php:3603
+msgid "Make band menu sticky"
+msgstr ""
+
+#: ../../inc/custom.php:3616
+msgid "Appearance of band menu"
+msgstr ""
+
+#: ../../inc/custom.php:3617
+msgid "Height of band menu"
+msgstr ""
+
+#: ../../inc/custom.php:3633 ../../inc/custom.php:3645
+#: ../../inc/custom.php:3657
+msgid "Band menu "
+msgstr ""
+
+#: ../../inc/custom.php:3669
+msgid "Color of the line bottom of the band menu"
+msgstr ""
+
+#: ../../inc/custom.php:3681
+msgid "Thickness of the line bottom of the band menu"
+msgstr ""
+
+#: ../../inc/custom.php:3697
+msgid "Display Search Box"
+msgstr ""
+
+#: ../../inc/custom.php:3710 ../../inc/custom.php:3722
+#: ../../inc/custom.php:3734
+msgid "Search Box "
+msgstr ""
+
+#: ../../inc/custom.php:3747
+msgid "Display style of social buttons"
+msgstr ""
+
+#: ../../inc/custom.php:3751 ../../inc/widget.php:746
+msgid "Icon only"
+msgstr ""
+
+#: ../../inc/custom.php:3752 ../../inc/widget.php:748
+msgid "Icon + SNS name"
+msgstr ""
+
+#: ../../inc/custom.php:3764
+msgid "Apply color on the follow buttons"
+msgstr ""
+
+#: ../../inc/custom.php:3777 ../../inc/custom.php:3804
+#: ../../inc/custom.php:3831 ../../inc/custom.php:3858
+#: ../../inc/custom.php:3885 ../../inc/custom.php:3912
+#: ../../inc/custom.php:3953 ../../inc/widget.php:757
+msgid "follow button display"
+msgstr ""
+
+#: ../../inc/custom.php:3791 ../../inc/custom.php:3818
+#: ../../inc/custom.php:3845 ../../inc/custom.php:3872
+#: ../../inc/custom.php:3899 ../../inc/custom.php:3926
+#: ../../inc/custom.php:3940 ../../inc/custom.php:3967
+msgid "&nbsp;&nbsp;&nbsp;Enter the XXXXX part"
+msgstr ""
+
+#: ../../inc/custom.php:3980 ../../inc/custom.php:3993
+msgid "button display"
+msgstr ""
+
+#: ../../inc/custom.php:4004 ../../inc/custom.php:5267
+msgid "Global Nav"
+msgstr ""
+
+#: ../../inc/custom.php:4015
+msgid "Display Global Navigation"
+msgstr ""
+
+#: ../../inc/custom.php:4028
+msgid "The position of the Global Nav"
+msgstr ""
+
+#: ../../inc/custom.php:4032
+msgid "Below header  ( Normal )"
+msgstr ""
+
+#: ../../inc/custom.php:4033
+msgid "Above header"
+msgstr ""
+
+#: ../../inc/custom.php:4045
+msgid "Type of mobile menu"
+msgstr ""
+
+#: ../../inc/custom.php:4049 ../../inc/custom.php:4051
+msgid "Luxury version"
+msgstr ""
+
+#: ../../inc/custom.php:4050 ../../inc/custom.php:4052
+msgid "Global menu only"
+msgstr ""
+
+#: ../../inc/custom.php:4064
+msgid "How to open and close the mobile menu"
+msgstr ""
+
+#: ../../inc/custom.php:4068
+msgid "Individually opening and closing the parent and child"
+msgstr ""
+
+#: ../../inc/custom.php:4069
+msgid "All opening and closing"
+msgstr ""
+
+#: ../../inc/custom.php:4081
+msgid "Size of width"
+msgstr ""
+
+#: ../../inc/custom.php:4085 ../../inc/custom.php:4086
+msgid "Automatically resize the width"
+msgstr ""
+
+#: ../../inc/custom.php:4086
+msgid "full width"
+msgstr ""
+
+#: ../../inc/custom.php:4087
+msgid "All the same width"
+msgstr ""
+
+#: ../../inc/custom.php:4112
+msgid "Separator line"
+msgstr ""
+
+#: ../../inc/custom.php:4116 ../../inc/custom.php:4501
+#: ../../inc/widget.php:883 ../../inc/widget.php:1241
+#: ../../inc/widget.php:1247 ../../inc/widget.php:1252
+#: ../../inc/widget.php:1648 ../../inc/sections/highlighter-css.php:22
+#: ../../inc/sections/lazyload.php:30 ../../inc/sections/speedup-items.php:141
+msgid "None"
+msgstr ""
+
+#: ../../inc/custom.php:4117
+msgid "Add separator line"
+msgstr ""
+
+#: ../../inc/custom.php:4118
+msgid "Add separator line including both ends"
+msgstr ""
+
+#: ../../inc/custom.php:4130 ../../inc/custom.php:4135
+#: ../../inc/custom.php:4159
+msgid "Make it sticky"
+msgstr ""
+
+#: ../../inc/custom.php:4134
+msgid "Not make it sticky"
+msgstr ""
+
+#: ../../inc/custom.php:4136
+msgid "Make it sticky on small devices"
+msgstr ""
+
+#: ../../inc/custom.php:4137
+msgid "Make it sticky on PC"
+msgstr ""
+
+#: ../../inc/custom.php:4149
+msgid "Sticky options"
+msgstr ""
+
+#: ../../inc/custom.php:4150
+msgid "Shadow density when sticky"
+msgstr ""
+
+#: ../../inc/custom.php:4164
+msgid "Semi transparent when sticky"
+msgstr ""
+
+#: ../../inc/custom.php:4177
+msgid "Sticky only when scrolling up"
+msgstr ""
+
+#: ../../inc/custom.php:4187
+msgid "Scroll progress bar"
+msgstr ""
+
+#: ../../inc/custom.php:4199
+msgid "Display scroll progress bar on underline"
+msgstr ""
+
+#: ../../inc/custom.php:4200
+msgid "* Require sticky"
+msgstr ""
+
+#: ../../inc/custom.php:4213
+msgid "Scroll progress rate"
+msgstr ""
+
+#: ../../inc/custom.php:4217
+msgid "Bottom of page is 100%"
+msgstr ""
+
+#: ../../inc/custom.php:4218
+msgid "Bottom of post is 100%"
+msgstr ""
+
+#: ../../inc/custom.php:4230 ../../inc/custom.php:4242
+#: ../../inc/custom.php:4254 ../../inc/custom.php:4266
+#: ../../inc/custom.php:4278 ../../inc/custom.php:4290
+#: ../../inc/custom.php:4302 ../../inc/custom.php:4314
+msgid "Nav item: "
+msgstr ""
+
+#: ../../inc/custom.php:4242
+msgid "Description text color"
+msgstr ""
+
+#: ../../inc/custom.php:4278
+msgid "Link hover background color"
+msgstr ""
+
+#: ../../inc/custom.php:4290
+msgid "Current color"
+msgstr ""
+
+#: ../../inc/custom.php:4302
+msgid "Current item description text color"
+msgstr ""
+
+#: ../../inc/custom.php:4314
+msgid "Current background color"
+msgstr ""
+
+#: ../../inc/custom.php:4326 ../../inc/custom.php:4338
+#: ../../inc/custom.php:4350 ../../inc/custom.php:4362
+#: ../../inc/custom.php:4374
+msgid "Nav bar: "
+msgstr ""
+
+#: ../../inc/custom.php:4338
+msgid "Color of the lines above the Nav"
+msgstr ""
+
+#: ../../inc/custom.php:4350
+msgid "Color of the line bottom to the Nav"
+msgstr ""
+
+#: ../../inc/custom.php:4362
+msgid "Color of the progress bar"
+msgstr ""
+
+#: ../../inc/custom.php:4374
+msgid "Color of the separator line"
+msgstr ""
+
+#: ../../inc/custom.php:4386
+msgid "Thickness of the line above the Nav"
+msgstr ""
+
+#: ../../inc/custom.php:4402
+msgid "Thickness of the line bottom to the Nav"
+msgstr ""
+
+#: ../../inc/custom.php:4418
+msgid "Padding of Nav for above and below"
+msgstr ""
+
+#: ../../inc/custom.php:4434
+msgid "Padding of Navigation bar for above and below"
+msgstr ""
+
+#: ../../inc/custom.php:4448
+msgid ""
+"* Menu settings is under &quot;Appearance -&gt; Menus&quot;.  Please create "
+"and save your desired menu,and make sure to select for the location &quot;"
+"Footer nav&quot;."
+msgstr ""
+
+#: ../../inc/custom.php:4459
+msgid "Footer nav position"
+msgstr ""
+
+#: ../../inc/custom.php:4463
+msgid "Above footer widget"
+msgstr ""
+
+#: ../../inc/custom.php:4464
+msgid "Below footer widget"
+msgstr ""
+
+#: ../../inc/custom.php:4476
+msgid "alignment of nav items by device"
+msgstr ""
+
+#: ../../inc/custom.php:4480
+msgid "Always line up nav items horizontal."
+msgstr ""
+
+#: ../../inc/custom.php:4481
+msgid "For smartphone size or smaller, line up nav items vertically."
+msgstr ""
+
+#: ../../inc/custom.php:4482
+msgid "For mobile device size or smaller, line up nav items vertically."
+msgstr ""
+
+#: ../../inc/custom.php:4494
+msgid "Footer nav separator"
+msgstr ""
+
+#: ../../inc/custom.php:4498 ../../inc/sections/title.php:23
+msgid "The pipe symbol"
+msgstr ""
+
+#: ../../inc/custom.php:4499
+msgid "The slash symbol"
+msgstr ""
+
+#: ../../inc/custom.php:4500 ../../inc/sections/title.php:27
+msgid "The hyphen symbol"
+msgstr ""
+
+#: ../../inc/custom.php:4558
+msgid "Mobile Nav buttons"
+msgstr ""
+
+#: ../../inc/custom.php:4559
+msgid ""
+"If these items are checked, mobile navigation button is displayed at the "
+"bottom of the screen."
+msgstr ""
+
+#: ../../inc/custom.php:4570
+msgid "Home button"
+msgstr ""
+
+#: ../../inc/custom.php:4571
+msgid "* This button is not displayed on the top page."
+msgstr ""
+
+#: ../../inc/custom.php:4584
+msgid "Global Nav button"
+msgstr ""
+
+#: ../../inc/custom.php:4597
+msgid "SNS button"
+msgstr ""
+
+#: ../../inc/custom.php:4598
+msgid ""
+"* This button is displayed only when there are SNS buttons other than normal "
+"buttons on the page."
+msgstr ""
+
+#: ../../inc/custom.php:4611
+msgid "Sidebar button"
+msgstr ""
+
+#: ../../inc/custom.php:4624
+msgid "Table of contents button"
+msgstr ""
+
+#: ../../inc/custom.php:4625
+msgid ""
+"* This button is displayed only when there are table of contents on the page."
+msgstr ""
+
+#: ../../inc/custom.php:4638
+msgid "Comment button"
+msgstr ""
+
+#: ../../inc/custom.php:4639
+msgid "* Scroll to the comment field."
+msgstr ""
+
+#: ../../inc/custom.php:4652
+msgid "Search button"
+msgstr ""
+
+#: ../../inc/custom.php:4665
+msgid "Page top button"
+msgstr ""
+
+#: ../../inc/custom.php:4678
+msgid "Hide button when scrolling down"
+msgstr ""
+
+#: ../../inc/custom.php:4691
+msgid "Appearance of mobile buttons"
+msgstr ""
+
+#: ../../inc/custom.php:4746
+msgid "Spacing between buttons"
+msgstr ""
+
+#: ../../inc/custom.php:4763
+msgid "Hide button names (only icons)"
+msgstr ""
+
+#: ../../inc/custom.php:4776
+msgid "Icon and text arrangement"
+msgstr ""
+
+#: ../../inc/custom.php:4780
+msgid "Vertical arrangement"
+msgstr ""
+
+#: ../../inc/custom.php:4781
+msgid "Horizontal arrangement"
+msgstr ""
+
+#: ../../inc/custom.php:4810
+msgid "Button min width"
+msgstr ""
+
+#: ../../inc/custom.php:4810
+msgid "Automatic at 0"
+msgstr ""
+
+#: ../../inc/custom.php:4827
+msgid "If it does not fit on the screen"
+msgstr ""
+
+#: ../../inc/custom.php:4831
+msgid "Horizontal scroll"
+msgstr ""
+
+#: ../../inc/custom.php:4832
+msgid "Wrap"
+msgstr ""
+
+#: ../../inc/custom.php:4842
+msgid "Create the table of contents based on the heading tag in the post."
+msgstr ""
+
+#: ../../inc/custom.php:4853
+msgid "Automatically insert the TOC"
+msgstr ""
+
+#: ../../inc/custom.php:4866
+msgid "Apply style"
+msgstr ""
+
+#: ../../inc/custom.php:4879
+msgid "Automatically insert the TOC also in AMP page"
+msgstr ""
+
+#: ../../inc/custom.php:4892
+msgid "Show when: (number of headings)"
+msgstr ""
+
+#: ../../inc/custom.php:4904
+msgid "Post type to display"
+msgstr ""
+
+#: ../../inc/custom.php:4943
+msgid "Heading hierarchy to display"
+msgstr ""
+
+#: ../../inc/custom.php:4963
+msgid "Position of jump destination (Height)"
+msgstr ""
+
+#: ../../inc/custom.php:4975
+msgid "Items below this do not apply to widgets"
+msgstr ""
+
+#: ../../inc/custom.php:4988
+msgid "Start status"
+msgstr ""
+
+#: ../../inc/custom.php:4992
+msgid "Open state"
+msgstr ""
+
+#: ../../inc/custom.php:4993
+msgid "Closed state"
+msgstr ""
+
+#: ../../inc/custom.php:5018
+msgid "Show button"
+msgstr ""
+
+#: ../../inc/custom.php:5031
+msgid "Hide button"
+msgstr ""
+
+#: ../../inc/custom.php:5048
+msgid "Auto"
+msgstr ""
+
+#: ../../inc/custom.php:5097 ../../inc/custom.php:5109
+msgid "Button"
+msgstr ""
+
+#: ../../inc/custom.php:5118
+msgid "Animation"
+msgstr ""
+
+#: ../../inc/custom.php:5119
+msgid "Enable animation effects"
+msgstr ""
+
+#: ../../inc/custom.php:5130
+msgid "Header parallax scroll"
+msgstr ""
+
+#: ../../inc/custom.php:5131
+msgid "( default value 0 )"
+msgstr ""
+
+#: ../../inc/custom.php:5148
+msgid "Opening animation"
+msgstr ""
+
+#: ../../inc/custom.php:5152 ../../inc/custom.php:5216
+#: ../../inc/custom.php:5234 ../../inc/custom.php:5252
+#: ../../inc/custom.php:5271
+msgid "Without animation effect"
+msgstr ""
+
+#: ../../inc/custom.php:5153 ../../inc/custom.php:5154
+msgid "Curtain"
+msgstr ""
+
+#: ../../inc/custom.php:5153 ../../inc/custom.php:5155
+msgid "Dark"
+msgstr ""
+
+#: ../../inc/custom.php:5155 ../../inc/custom.php:5156
+msgid "Shutter"
+msgstr ""
+
+#: ../../inc/custom.php:5157
+msgid "Stretch sideways"
+msgstr ""
+
+#: ../../inc/custom.php:5158
+msgid "Stretch vertically"
+msgstr ""
+
+#: ../../inc/custom.php:5159
+msgid "Rotate title"
+msgstr ""
+
+#: ../../inc/custom.php:5160
+msgid "FadeIn"
+msgstr ""
+
+#: ../../inc/custom.php:5171
+msgid "Scope"
+msgstr ""
+
+#: ../../inc/custom.php:5175
+msgid "Apply to all pages"
+msgstr ""
+
+#: ../../inc/custom.php:5176
+msgid "Apply to the top page only"
+msgstr ""
+
+#: ../../inc/custom.php:5187
+msgid "Applies to external access only"
+msgstr ""
+
+#: ../../inc/custom.php:5199
+msgid "Always applied to the top page"
+msgstr ""
+
+#: ../../inc/custom.php:5212 ../../inc/sections/title.php:34
+#: ../../inc/sections/title.php:38 ../../inc/sections/title.php:45
+#: ../../inc/sections/title.php:49 ../../inc/sections/title.php:53
+#: ../../inc/sections/title.php:57 ../../inc/sections/title.php:68
+#: ../../inc/sections/title.php:72
+msgid "Site name"
+msgstr ""
+
+#: ../../inc/custom.php:5217 ../../inc/custom.php:5235
+#: ../../inc/custom.php:5254
+msgid "Zoom in"
+msgstr ""
+
+#: ../../inc/custom.php:5218 ../../inc/custom.php:5236
+#: ../../inc/custom.php:5255
+msgid "Zoom out"
+msgstr ""
+
+#: ../../inc/custom.php:5230
+msgid "Posts List thumbnail"
+msgstr ""
+
+#: ../../inc/custom.php:5248 ../../inc/custom.php:5616
+#: ../../inc/custom.php:5950
+msgid "SNS share buttons"
+msgstr ""
+
+#: ../../inc/custom.php:5253 ../../inc/custom.php:5272
+msgid "Upward movement"
+msgstr ""
+
+#: ../../inc/custom.php:5281
+msgid "Image gallery"
+msgstr ""
+
+#: ../../inc/custom.php:5292
+msgid "Script for image popup"
+msgstr ""
+
+#: ../../inc/custom.php:5296
+msgid "Do not use"
+msgstr ""
+
+#: ../../inc/custom.php:5305
+msgid "Cannot coexist with &quot;Lazy Load&quot;"
+msgstr ""
+
+#: ../../inc/custom.php:5314
+msgid "External link"
+msgstr ""
+
+#: ../../inc/custom.php:5325 ../../inc/custom.php:5338
+#: ../../inc/custom.php:5380 ../../inc/custom.php:5393
+#, php-format
+msgid "Add %s in the external links of the article"
+msgstr ""
+
+#: ../../inc/custom.php:5338
+msgid " icon "
+msgstr ""
+
+#: ../../inc/custom.php:5351
+msgid "Type of external link icon"
+msgstr ""
+
+#: ../../inc/custom.php:5368
+msgid "The color of external link icon"
+msgstr ""
+
+#: ../../inc/custom.php:5394
+msgid ""
+"* Not recommended! (such nofollow link in your articles could be a breach in "
+"manners.)"
+msgstr ""
+
+#: ../../inc/custom.php:5404
+msgid "Author (post contributor)"
+msgstr ""
+
+#: ../../inc/custom.php:5414
+msgid "Display author (post contributor)"
+msgstr ""
+
+#: ../../inc/custom.php:5415
+msgid "* If you hide the author, a structured data error will result.."
+msgstr ""
+
+#: ../../inc/custom.php:5427
+msgid "URL spanned the author"
+msgstr ""
+
+#: ../../inc/custom.php:5431
+msgid "Link to the contributor archive page"
+msgstr ""
+
+#: ../../inc/custom.php:5432
+msgid "Link to the URL you desire"
+msgstr ""
+
+#: ../../inc/custom.php:5443
+msgid "The URL you desire!"
+msgstr ""
+
+#: ../../inc/custom.php:5464
+msgid "Eanable Blog Card"
+msgstr ""
+
+#: ../../inc/custom.php:5477
+msgid "Make embedded URL a blog card"
+msgstr ""
+
+#: ../../inc/custom.php:5478
+msgid ""
+"* If you check this, Some oEmbed features of WordPress will not be usable."
+msgstr ""
+
+#: ../../inc/custom.php:5491
+msgid "The maximum width of the blog card"
+msgstr ""
+
+#: ../../inc/custom.php:5492
+msgid "* default value 540"
+msgstr ""
+
+#: ../../inc/custom.php:5508
+msgid "Border radius of Card"
+msgstr ""
+
+#: ../../inc/custom.php:5524
+msgid "Shadow on the card"
+msgstr ""
+
+#: ../../inc/custom.php:5537
+msgid "Image position"
+msgstr ""
+
+#: ../../inc/custom.php:5554
+msgid "Surround the image with border"
+msgstr ""
+
+#: ../../inc/custom.php:5567
+msgid "Shadow on the image"
+msgstr ""
+
+#: ../../inc/custom.php:5580
+msgid "Border radius of image"
+msgstr ""
+
+#: ../../inc/custom.php:5596
+msgid "Cache expiration time"
+msgstr ""
+
+#: ../../inc/custom.php:5600 ../../inc/custom.php:5601
+#: ../../inc/custom.php:5665 ../../inc/sections/sns-cache-setting.php:39
+#: ../../inc/sections/speedup-items.php:169
+#, php-format
+msgid "%s day"
+msgstr ""
+
+#: ../../inc/custom.php:5602 ../../inc/custom.php:5603
+#, php-format
+msgid "%s week"
+msgstr ""
+
+#: ../../inc/custom.php:5604 ../../inc/custom.php:5605
+#: ../../inc/custom.php:5606
+#, php-format
+msgid "%s month"
+msgstr ""
+
+#: ../../inc/custom.php:5607
+msgid "half year"
+msgstr ""
+
+#: ../../inc/custom.php:5627 ../../inc/sections/sns-cache-setting.php:21
+#: ../../inc/sections/speedup-items.php:156
+msgid "Eanable cache for SNS counter"
+msgstr ""
+
+#: ../../inc/custom.php:5627 ../../inc/sections/jquery.php:24
+#: ../../inc/sections/sns-cache-setting.php:21
+#: ../../inc/sections/speedup-items.php:66
+msgid "Recommend"
+msgstr ""
+
+#: ../../inc/custom.php:5628 ../../inc/sections/sns-cache-setting.php:22
+#: ../../inc/sections/speedup-items.php:157
+msgid "* will not function if normal SNS button is selected."
+msgstr ""
+
+#: ../../inc/custom.php:5628 ../../inc/sections/sns-cache-setting.php:23
+msgid ""
+"* by enabling cache, the SNS counter will work even on WAF enabled servers."
+msgstr ""
+
+#: ../../inc/custom.php:5641 ../../inc/sections/sns-cache-setting.php:27
+msgid "Count and cache the SNS counts even NO display is selected."
+msgstr ""
+
+#: ../../inc/custom.php:5654 ../../inc/sections/sns-cache-setting.php:30
+#: ../../inc/sections/speedup-items.php:160
+msgid "Interval for cache restructure"
+msgstr ""
+
+#: ../../inc/custom.php:5658 ../../inc/sections/sns-cache-setting.php:32
+#: ../../inc/sections/speedup-items.php:162
+#, php-format
+msgid "%s seconds"
+msgstr ""
+
+#: ../../inc/custom.php:5659 ../../inc/custom.php:5660
+#: ../../inc/sections/sns-cache-setting.php:33
+#: ../../inc/sections/sns-cache-setting.php:34
+#: ../../inc/sections/speedup-items.php:163
+#: ../../inc/sections/speedup-items.php:164
+#, php-format
+msgid "%s minutes"
+msgstr ""
+
+#: ../../inc/custom.php:5661 ../../inc/sections/sns-cache-setting.php:35
+#: ../../inc/sections/speedup-items.php:165
+#, php-format
+msgid "%s hour"
+msgstr ""
+
+#: ../../inc/custom.php:5662 ../../inc/custom.php:5663
+#: ../../inc/custom.php:5664 ../../inc/sections/sns-cache-setting.php:36
+#: ../../inc/sections/sns-cache-setting.php:37
+#: ../../inc/sections/sns-cache-setting.php:38
+#: ../../inc/sections/speedup-items.php:166
+#: ../../inc/sections/speedup-items.php:167
+#: ../../inc/sections/speedup-items.php:168
+#, php-format
+msgid "%s hours"
+msgstr ""
+
+#: ../../inc/custom.php:5677 ../../inc/sections/sns-cache-setting.php:43
+msgid "Weekly cache cleaning"
+msgstr ""
+
+#: ../../inc/custom.php:5681 ../../inc/sections/sns-cache-setting.php:45
+msgid "Delete trash considered cache"
+msgstr ""
+
+#: ../../inc/custom.php:5682 ../../inc/sections/sns-cache-setting.php:46
+msgid "Delete all cache"
+msgstr ""
+
+#: ../../inc/custom.php:5683 ../../inc/sections/recaptcha.php:66
+#: ../../inc/sections/sns-cache-setting.php:47
+msgid "Do nothing"
+msgstr ""
+
+#: ../../inc/custom.php:5695
+msgid "SNS button above article type and layout"
+msgstr ""
+
+#: ../../inc/custom.php:5699 ../../inc/custom.php:5776
+msgid "Normal button"
+msgstr ""
+
+#: ../../inc/custom.php:5700 ../../inc/custom.php:5701
+#: ../../inc/custom.php:5777 ../../inc/custom.php:5778
+msgid "Variable width flat type"
+msgstr ""
+
+#: ../../inc/custom.php:5700 ../../inc/custom.php:5702
+#: ../../inc/custom.php:5704 ../../inc/custom.php:5777
+#: ../../inc/custom.php:5779 ../../inc/custom.php:5781
+#: ../../inc/widget.php:1481
+#: ../../inc/sections/block-editor-color-palette.php:40
+#: ../../inc/sections/block-editor-color-palette.php:64
+msgid "Color"
+msgstr ""
+
+#: ../../inc/custom.php:5702 ../../inc/custom.php:5703
+#: ../../inc/custom.php:5779 ../../inc/custom.php:5780
+msgid "Nameless icon type"
+msgstr ""
+
+#: ../../inc/custom.php:5704 ../../inc/custom.php:5705
+#: ../../inc/custom.php:5781 ../../inc/custom.php:5782
+msgid "Fixed width type"
+msgstr ""
+
+#: ../../inc/custom.php:5732
+msgid "Display SNS button above the articles"
+msgstr ""
+
+#: ../../inc/custom.php:5744
+msgid "Show the counts on SNS buttons(above)"
+msgstr ""
+
+#: ../../inc/custom.php:5772
+msgid "SNS button beneath article type and layout"
+msgstr ""
+
+#: ../../inc/custom.php:5809
+msgid "Display SNS button below the articles"
+msgstr ""
+
+#: ../../inc/custom.php:5821
+msgid "Show the counts on SNS buttons (below article)"
+msgstr ""
+
+#: ../../inc/custom.php:5844 ../../inc/defaults.php:70
+#: ../../languages/site/translations.php:64
+msgid "Please share this if you liked it!"
+msgstr ""
+
+#: ../../inc/custom.php:5849
+msgid "Tagline for the SNS buttons under articles"
+msgstr ""
+
+#: ../../inc/custom.php:5861
+msgid "Dispplay SNS button at the bottom of top page list"
+msgstr ""
+
+#: ../../inc/custom.php:5873
+msgid "Display SNS button on static pages"
+msgstr ""
+
+#: ../../inc/custom.php:5885
+msgid "Display Save button of Pinterest at image hover"
+msgstr ""
+
+#: ../../inc/custom.php:5898
+msgid "Copy target of copy button"
+msgstr ""
+
+#: ../../inc/custom.php:5902
+msgid "Post title and URL"
+msgstr ""
+
+#: ../../inc/custom.php:5915
+msgid "Facebook settings"
+msgstr ""
+
+#: ../../inc/custom.php:5916
+msgid "* Required to display Facebook share count."
+msgstr ""
+
+#: ../../inc/custom.php:5951
+msgid "Display / non-display SNS button above articles"
+msgstr ""
+
+#: ../../inc/custom.php:5962 ../../inc/custom.php:5975
+#: ../../inc/custom.php:5988 ../../inc/custom.php:6001
+#: ../../inc/custom.php:6014 ../../inc/custom.php:6027
+#: ../../inc/custom.php:6040 ../../inc/custom.php:6053
+#: ../../inc/custom.php:6066 ../../inc/custom.php:6079
+#: ../../inc/custom.php:6093 ../../inc/custom.php:6106
+#: ../../inc/custom.php:6119 ../../inc/custom.php:6132
+#: ../../inc/custom.php:6145 ../../inc/custom.php:6158
+#: ../../inc/custom.php:6171 ../../inc/custom.php:6184
+#: ../../inc/custom.php:6197 ../../inc/custom.php:6210
+#: ../../inc/widget.php:776 ../../inc/widget.php:779
+#, php-format
+msgid "%s button display"
+msgstr ""
+
+#: ../../inc/custom.php:6079 ../../inc/custom.php:6210
+msgid "Copy "
+msgstr ""
+
+#: ../../inc/custom.php:6080
+msgid "Display / non-display SNS button below articles"
+msgstr ""
+
+#: ../../inc/customize.php:37
+msgid "Pagination"
+msgstr ""
+
+#: ../../inc/customize.php:40 ../../inc/sections/speedup-items.php:22
+msgid "Compression and optimization"
+msgstr ""
+
+#: ../../inc/customize.php:44 ../../inc/sections/speedup-items.php:78
+msgid "Icon fonts"
+msgstr ""
+
+#: ../../inc/customize.php:47
+msgid "Copyright"
+msgstr ""
+
+#: ../../inc/customize.php:48 ../../inc/customize.php:311
+#: ../../inc/customize.php:368 ../../inc/sections/script.php:20
+#: ../../inc/sections/shortcode-sample.php:41
+#: ../../inc/sections/speedup-items.php:146
+msgid "Others"
+msgstr ""
+
+#: ../../inc/customize.php:49 ../../inc/customize.php:65
+msgid "Version"
+msgstr ""
+
+#: ../../inc/customize.php:58
+msgid "Block editor settings"
+msgstr ""
+
+#: ../../inc/customize.php:59
+msgid "Classic block &amp; Old editor settings"
+msgstr ""
+
+#: ../../inc/customize.php:60
+msgid "Widget management"
+msgstr ""
+
+#: ../../inc/customize.php:61 ../../inc/customize.php:389
+msgid "Thumbnail management"
+msgstr ""
+
+#: ../../inc/customize.php:62
+msgid "Thumbnail regenerate"
+msgstr ""
+
+#: ../../inc/customize.php:63 ../../inc/sections/backup-child.php:29
+msgid "Backup"
+msgstr ""
+
+#: ../../inc/customize.php:64 ../../inc/sections/design-select.php:129
+msgid "Reset"
+msgstr ""
+
+#: ../../inc/customize.php:74
+msgid "Block patterns"
+msgstr ""
+
+#: ../../inc/customize.php:85
+msgid "Design Select"
+msgstr ""
+
+#: ../../inc/customize.php:86
+msgid "Design file creation support"
+msgstr ""
+
+#: ../../inc/customize.php:91
+msgid "Design File Manager"
+msgstr ""
+
+#: ../../inc/customize.php:99 ../../inc/widget.php:861
+#: ../../inc/widget.php:1212
+msgid "Top page"
+msgstr ""
+
+#: ../../inc/customize.php:102
+msgid "All caches restructure"
+msgstr ""
+
+#: ../../inc/customize.php:105
+msgid "Control"
+msgstr ""
+
+#: ../../inc/customize.php:112
+msgid "htaccess for speed boost &amp; security improvement"
+msgstr ""
+
+#: ../../inc/customize.php:121 ../../inc/design-editor.php:33
+#: ../../inc/theme-editor.php:33
+msgid "Stylesheet"
+msgstr ""
+
+#: ../../inc/customize.php:123 ../../inc/customize.php:315
+#: ../../inc/theme-editor.php:43
+msgid "tag"
+msgstr ""
+
+#: ../../inc/customize.php:125 ../../inc/customize.php:126
+msgid "Access Analytics"
+msgstr ""
+
+#: ../../inc/customize.php:129
+msgid "AMP style"
+msgstr ""
+
+#: ../../inc/customize.php:130
+msgid "Editor style"
+msgstr ""
+
+#: ../../inc/customize.php:308
+msgid "Mobile Theme"
+msgstr ""
+
+#: ../../inc/customize.php:310
+msgid "Manifest"
+msgstr ""
+
+#: ../../inc/customize.php:315 ../../inc/customize.php:348
+#: ../../inc/customize.php:349 ../../inc/customize.php:353
+#: ../../inc/customize.php:358 ../../inc/customize.php:359
+#: ../../inc/customize.php:360 ../../inc/customize.php:368
+#: ../../inc/customize.php:453 ../../inc/sections/amp.php:20
+#: ../../inc/sections/amp.php:71 ../../inc/sections/design-create.php:38
+#: ../../inc/sections/ogp.php:20 ../../inc/sections/ogp.php:27
+#: ../../inc/sections/ogp.php:36 ../../inc/sections/ogp.php:54
+#: ../../inc/sections/others.php:146 ../../inc/sections/pwa.php:32
+#: ../../inc/sections/recaptcha.php:30 ../../inc/sections/recaptcha.php:74
+#: ../../inc/sections/seo.php:51 ../../inc/sections/seo.php:558
+#, php-format
+msgid "Setting of %s"
+msgstr ""
+
+#: ../../inc/customize.php:319 ../../inc/sections/pagination.php:20
+msgid "Blog pages show at most"
+msgstr ""
+
+#: ../../inc/customize.php:323
+msgid "Compression of HTML"
+msgstr ""
+
+#: ../../inc/customize.php:324
+msgid "Optimization of CSS"
+msgstr ""
+
+#: ../../inc/customize.php:325
+msgid "Optimization of Javascript"
+msgstr ""
+
+#: ../../inc/customize.php:329
+msgid "Mode select"
+msgstr ""
+
+#: ../../inc/customize.php:330
+msgid "Direct output of external CSS"
+msgstr ""
+
+#: ../../inc/customize.php:331
+msgid "CSS of child theme"
+msgstr ""
+
+#: ../../inc/customize.php:332
+msgid "CSS of syntax highlighter"
+msgstr ""
+
+#: ../../inc/customize.php:333
+msgid "CSS of widgets"
+msgstr ""
+
+#: ../../inc/customize.php:338
+msgid "Plugins"
+msgstr ""
+
+#: ../../inc/customize.php:339
+msgid "Other setting of Javascript"
+msgstr ""
+
+#: ../../inc/customize.php:343 ../../inc/sections/speedup-items.php:92
+msgid "Lazy loading of image"
+msgstr ""
+
+#: ../../inc/customize.php:348
+msgid "icon fonts"
+msgstr ""
+
+#: ../../inc/customize.php:353
+msgid "Search Widget"
+msgstr ""
+
+#: ../../inc/customize.php:357
+msgid "Comment posting setting"
+msgstr ""
+
+#: ../../inc/customize.php:358
+msgid "CAPTCHA"
+msgstr ""
+
+#: ../../inc/customize.php:364
+msgid "Format of copyright"
+msgstr ""
+
+#: ../../inc/customize.php:372 ../../inc/sections/block-editor-off.php:21
+msgid "Disable Block Editor"
+msgstr ""
+
+#: ../../inc/customize.php:373
+msgid "Features specific to Luxeritas"
+msgstr ""
+
+#: ../../inc/customize.php:374
+msgid "Color palette for block editor"
+msgstr ""
+
+#: ../../inc/customize.php:378
+msgid "Visual Editor"
+msgstr ""
+
+#: ../../inc/customize.php:379
+msgid "Text Editor"
+msgstr ""
+
+#: ../../inc/customize.php:383 ../../inc/sections/others.php:166
+msgid "Block-based Widgets Editor"
+msgstr ""
+
+#: ../../inc/customize.php:384 ../../inc/sections/widget-area.php:27
+#: ../../inc/sections/widget-body.php:35 ../../inc/sections/widget-css.php:26
+msgid "Widget"
+msgstr ""
+
+#: ../../inc/customize.php:385
+msgid "Widget Area"
+msgstr ""
+
+#: ../../inc/customize.php:393
+msgid "Regenerate all thumbnails"
+msgstr ""
+
+#: ../../inc/customize.php:397
+msgid "Back up or restore Luxeritas all settings"
+msgstr ""
+
+#: ../../inc/customize.php:399
+msgid "Back up or restore Luxeritas appearance settings"
+msgstr ""
+
+#: ../../inc/customize.php:400
+msgid "Back up Child Theme"
+msgstr ""
+
+#: ../../inc/customize.php:404
+msgid "RESET all the customizations of Luxeritas"
+msgstr ""
+
+#: ../../inc/customize.php:405 ../../inc/customize.php:454
+msgid "Clean up of SNS count cache"
+msgstr ""
+
+#: ../../inc/customize.php:406
+msgid "Clean up of Blog Card cache"
+msgstr ""
+
+#: ../../inc/customize.php:410
+msgid "htaccess for apache web server"
+msgstr ""
+
+#: ../../inc/customize.php:425
+msgid "Block pattern list"
+msgstr ""
+
+#: ../../inc/customize.php:429
+msgid "HTML pattern list"
+msgstr ""
+
+#: ../../inc/customize.php:433
+msgid "Shortcode list"
+msgstr ""
+
+#: ../../inc/customize.php:441 ../../inc/sections/design-create.php:50
+msgid "Create Zip file"
+msgstr ""
+
+#: ../../inc/customize.php:453
+msgid "cache"
+msgstr ""
+
+#: ../../inc/customize.php:458
+msgid "Download CSV"
+msgstr ""
+
+#: ../../inc/customize.php:462
+msgid "Restructure of all SNS count caches"
+msgstr ""
+
+#: ../../inc/customize.php:480
+msgid "Setting selection"
+msgstr ""
+
+#: ../../inc/customize.php:481
+msgid "Setting items"
+msgstr ""
+
+#: ../../inc/defaults.php:862 ../../inc/defaults.php:863
+#: ../../inc/defaults.php:864
+msgid "User thumbnail"
+msgstr ""
+
+#: ../../inc/design-editor.php:38 ../../inc/theme-editor.php:84
+msgid "Stylesheet for AMP"
+msgstr ""
+
+#: ../../inc/design-editor.php:46 ../../inc/theme-editor.php:97
+msgid "You do not have sufficient permissions to edit templates for this site."
+msgstr ""
+
+#: ../../inc/design-editor.php:49 ../../inc/design-editor.php:52
+#: ../../inc/theme-editor.php:100 ../../inc/theme-editor.php:103
+msgid "The requested theme does not exist."
+msgstr ""
+
+#: ../../inc/design-editor.php:83
+msgid "An editable design file is not activated"
+msgstr ""
+
+#: ../../inc/design-editor.php:84
+msgid "Please select design."
+msgstr ""
+
+#: ../../inc/design-editor.php:102 ../../inc/theme-editor.php:147
+msgid "Oops, no such file exists! Double check the name and try again, merci."
+msgstr ""
+
+#: ../../inc/design-upload.php:49
+msgid "Invalid file"
+msgstr ""
+
+#: ../../inc/design-upload.php:66
+msgid "Stylesheets were not included"
+msgstr ""
+
+#: ../../inc/design-upload.php:71
+msgid "File for customization were not included"
+msgstr ""
+
+#: ../../inc/design-upload.php:114
+msgid "Directory with the same name already exists."
+msgstr ""
+
+#: ../../inc/design-upload.php:127
+msgid "Installation suspended because a suspicious file was found."
+msgstr ""
+
+#: ../../inc/filters.php:884 ../../languages/site/translations.php:87
+#: ../../pages/sitemap.php:42
+msgid "Pages"
+msgstr ""
+
+#: ../../inc/filters.php:940
+#, php-format
+msgid "%s Tag"
+msgstr ""
+
+#: ../../inc/ladmin.php:52 ../../inc/ladmin.php:74 ../../inc/respond.php:228
+#: ../../inc/respond.php:233 ../../languages/site/translations.php:91
+msgid "Tablet"
+msgstr ""
+
+#: ../../inc/ladmin.php:53 ../../inc/ladmin.php:75 ../../inc/respond.php:240
+#: ../../inc/respond.php:245 ../../languages/site/translations.php:92
+msgid "Mobile"
+msgstr ""
+
+#: ../../inc/ladmin.php:67 ../../languages/site/translations.php:88
+msgid "Show"
+msgstr ""
+
+#: ../../inc/ladmin.php:85 ../../inc/widget.php:1165
+#: ../../languages/site/translations.php:96
+msgid "Structured data"
+msgstr ""
+
+#: ../../inc/ladmin.php:94 ../../languages/site/translations.php:97
+msgid "Log out"
+msgstr ""
+
+#: ../../inc/luxe-amp-mu.php:130
+#, php-format
+msgid "File deletion failed. Please remove <code>%s</code>."
+msgstr ""
+
+#: ../../inc/phrase-post.php:57
+msgid "Insert HTML pattern"
+msgstr ""
+
+#: ../../inc/phrase-post.php:75 ../../inc/phrase-post.php:129
+msgid "There is no HTML pattern registered."
+msgstr ""
+
+#: ../../inc/phrase-post.php:170
+msgid "Text not selected."
+msgstr ""
+
+#: ../../inc/phrase-post.php:270 ../../inc/sections/block-pattern-list.php:300
+#: ../../inc/sections/phrase-list.php:323
+#: ../../inc/sections/shortcode-list.php:405
+msgid "Failed to read."
+msgstr ""
+
+#: ../../inc/phrase-sample.php:18
+msgid "Quote"
+msgstr ""
+
+#: ../../inc/phrase-sample.php:19
+msgid "Preformatted text"
+msgstr ""
+
+#: ../../inc/phrase-sample.php:22
+msgid "Heading 2"
+msgstr ""
+
+#: ../../inc/phrase-sample.php:23
+msgid "Heading 3"
+msgstr ""
+
+#: ../../inc/phrase-sample.php:24
+msgid "Heading 4"
+msgstr ""
+
+#: ../../inc/phrase-sample.php:26 ../../inc/phrase-sample.php:27
+#: ../../inc/shortcode-sample.php:21 ../../inc/shortcode-sample.php:22
+#: ../../inc/sections/phrase-luxeritas.php:41
+#: ../../inc/sections/phrase-luxeritas.php:44
+#: ../../inc/sections/phrase-luxeritas.php:49
+#: ../../inc/sections/shortcode-balloon.php:43
+#: ../../inc/sections/shortcode-balloon.php:47
+#: ../../inc/sections/shortcode-balloon.php:98
+msgid "Speech balloon"
+msgstr ""
+
+#: ../../inc/post-meta-boxes.php:60
+msgid ""
+"* If you would like to add &lt;style&gt;, &lt;javascript&gt;, &lt;meta&gt;, "
+"&lt;link&gt; and other tags in the head tag in post, please write it here."
+msgstr ""
+
+#: ../../inc/post-meta-boxes.php:61
+msgid ""
+"* You can change the title by describing &lt;title&gt; ~ &lt;/title&gt;."
+msgstr ""
+
+#: ../../inc/post-meta-boxes.php:80
+msgid ""
+"* If you would like to change the meta description, please write it here."
+msgstr ""
+
+#: ../../inc/post-meta-boxes.php:99
+msgid ""
+"* If there are meta keywords you want to add other than category names and "
+"tags, please write them here (comma separated)."
+msgstr ""
+
+#: ../../inc/post-meta-boxes.php:126
+msgid "* If you would like to change the canonical url, please write it here."
+msgstr ""
+
+#: ../../inc/post-meta-boxes.php:127
+msgid "* If you want to return to the initial value, save it blank."
+msgstr ""
+
+#: ../../inc/post-meta-boxes.php:146
+msgid ""
+"* If you would like to add CSS for AMP in post, please write it here. ( No "
+"&lt;style&gt; tag required )"
+msgstr ""
+
+#: ../../inc/post-meta-boxes.php:185 ../../inc/sections/amp.php:101
+#: ../../inc/sections/design-create.php:44 ../../inc/sections/ogp.php:71
+#: ../../inc/sections/seo.php:499 ../../inc/sections/seo.php:541
+msgid "Delete image"
+msgstr ""
+
+#: ../../inc/post-meta-boxes.php:215
+msgid "Additional AMP styles"
+msgstr ""
+
+#: ../../inc/post-meta-boxes.php:218
+msgid "Change canonical url"
+msgstr ""
+
+#: ../../inc/post-meta-boxes.php:220
+msgid "Add keywords"
+msgstr ""
+
+#: ../../inc/post-meta-boxes.php:222
+msgid "Change description"
+msgstr ""
+
+#: ../../inc/post-meta-boxes.php:224
+msgid "Additional headers"
+msgstr ""
+
+#: ../../inc/post-meta-boxes.php:228
+#: ../../inc/sections/shortcode-balloon.php:54
+#: ../../inc/sections/shortcode-balloon.php:105
+msgid "Image"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:23
+msgid "Update method"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:44
+msgid "Normal update"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:45
+msgid "Quick fix (No change to modify date)"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:46
+msgid "Erase modify date (Publish date and modify date becomes the same)"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:47
+msgid "Set the modify date manually"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:50 ../../inc/post-side-boxes.php:53
+msgid "Modified on:"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:50
+msgid "M j, Y @ H:i"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:53
+msgid "Not updated"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:84 ../../inc/post-side-boxes.php:86
+msgid "Year"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:88 ../../inc/post-side-boxes.php:97
+msgid "Month"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:99 ../../inc/post-side-boxes.php:101
+msgid "Day"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:102
+msgid "Hour"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:105
+msgid "Minute"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:170 ../../inc/post-side-boxes.php:171
+msgid "Search Engine Visibility"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:206
+msgid "Noindex tells search engines not to index."
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:212
+msgid "Nofollow tells search engines not to follow the links."
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:218
+msgid "Noarchive tells search engines not to store a cache."
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:224
+msgid "Noimageindex tells search engines not to index images on this page."
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:238 ../../inc/post-side-boxes.php:239
+msgid "Disable jQuery Asynchronous"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:255
+msgid "Disable jQuery Asynchronous on this page"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:270 ../../inc/post-side-boxes.php:271
+msgid "Disable AMP"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:287
+msgid "Disable AMP on this page"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:301 ../../inc/post-side-boxes.php:302
+msgid "Hide TOC"
+msgstr ""
+
+#: ../../inc/post-side-boxes.php:318
+msgid "Hide TOC on this page"
+msgstr ""
+
+#: ../../inc/regenerate-thumbnail.php:57 ../../inc/sns-cache-all-get.php:53
+msgid "Processing started."
+msgstr ""
+
+#: ../../inc/regenerate-thumbnail.php:65 ../../inc/sns-cache-all-get.php:61
+msgid "Processing is completed"
+msgstr ""
+
+#: ../../inc/respond.php:256 ../../languages/site/translations.php:95
+msgid "Rotate"
+msgstr ""
+
+#: ../../inc/restore.php:147
+#, php-format
+msgid "Restored %s settings"
+msgstr ""
+
+#: ../../inc/restore.php:150
+msgid "Restore failed"
+msgstr ""
+
+#: ../../inc/restore.php:154
+msgid "Not file selected"
+msgstr ""
+
+#: ../../inc/shortcode-post.php:56
+msgid "Insert Shortcode"
+msgstr ""
+
+#: ../../inc/shortcode-post.php:80 ../../inc/shortcode-post.php:143
+msgid "There is no active shortcode."
+msgstr ""
+
+#: ../../inc/shortcode-regist.php:32 ../../inc/shortcode-regist.php:38
+#: ../../inc/sections/shortcode-list.php:280
+#: ../../inc/sections/shortcode-list.php:286
+msgid "This shortcode name is not available in WordPress"
+msgstr ""
+
+#: ../../inc/shortcode-regist.php:56
+msgid "shortcode"
+msgstr ""
+
+#: ../../inc/shortcode-sample.php:18
+#: ../../inc/sections/shortcode-sample.php:30
+msgid "Sample that simply displays a character string"
+msgstr ""
+
+#: ../../inc/shortcode-sample.php:19
+#: ../../inc/sections/shortcode-sample.php:34
+msgid "Sample using enclosing shortcode"
+msgstr ""
+
+#: ../../inc/shortcode-sample.php:20
+#: ../../inc/sections/shortcode-sample.php:38
+msgid "Sample to display argument given to shortcode"
+msgstr ""
+
+#: ../../inc/sns-cache.php:61
+msgid "Could not create cache file."
+msgstr ""
+
+#: ../../inc/sns-count-view.php:74
+msgid "Published date"
+msgstr ""
+
+#: ../../inc/sns-count-view.php:204
+msgid "Not cached"
+msgstr ""
+
+#: ../../inc/theme-editor-script.php:70
+msgid "Svae"
+msgstr ""
+
+#: ../../inc/theme-editor-script.php:73
+msgid "Jump"
+msgstr ""
+
+#: ../../inc/theme-editor-script.php:78
+msgid "RegEx"
+msgstr ""
+
+#: ../../inc/theme-editor-script.php:84
+msgid "Replace All"
+msgstr ""
+
+#: ../../inc/theme-editor.php:34
+msgid ""
+"* Deleting the original comment may malfunction to have the theme not work "
+"as the child theme."
+msgstr ""
+
+#: ../../inc/theme-editor.php:44
+msgid ""
+"* Write here the Sytle or Javascript which wants to be placed in the head "
+"tag."
+msgstr ""
+
+#: ../../inc/theme-editor.php:49
+msgid ""
+"* Write here the Sytle or Javascript which wants to be placed in the footer."
+msgstr ""
+
+#: ../../inc/theme-editor.php:54
+msgid ""
+"* When inserting the tracking code in &lt;head&gt; tag, please write it here."
+msgstr ""
+
+#: ../../inc/theme-editor.php:55
+msgid ""
+"* Recommended to add Google Analytics code (gtag.js) and other tracking code "
+"here."
+msgstr ""
+
+#: ../../inc/theme-editor.php:60
+msgid ""
+"* When inserting the tracking code in &lt;body&gt; tag, please write it here."
+msgstr ""
+
+#: ../../inc/theme-editor.php:62
+msgid "Tracking code position"
+msgstr ""
+
+#: ../../inc/theme-editor.php:63 ../../inc/theme-editor.php:78
+#, php-format
+msgid "Top of %s"
+msgstr ""
+
+#: ../../inc/theme-editor.php:64 ../../inc/theme-editor.php:79
+#, php-format
+msgid "Bottom of %s"
+msgstr ""
+
+#: ../../inc/theme-editor.php:69
+msgid "Child Theme Functions"
+msgstr ""
+
+#: ../../inc/theme-editor.php:70
+msgid ""
+"* Miss writing the functions.php may lead to malfunctin of Wordpress, so be "
+"careful!!!"
+msgstr ""
+
+#: ../../inc/theme-editor.php:75
+msgid "* Please insert amp-auto-ads tag here when using Auto ads for AMP."
+msgstr ""
+
+#: ../../inc/theme-editor.php:75
+msgid ""
+"The head tag of amp-auto-ads is unnecessary as it is automatically loaded."
+msgstr ""
+
+#: ../../inc/theme-editor.php:77
+msgid "Insertion position"
+msgstr ""
+
+#: ../../inc/theme-editor.php:89
+msgid "Stylesheet for post editor"
+msgstr ""
+
+#: ../../inc/thk-zip.php:27
+msgid "In the PHP environment you are using, ZipArchive could not be handled."
+msgstr ""
+
+#: ../../inc/thk-zip.php:40
+msgid "Temporary file creation failed."
+msgstr ""
+
+#: ../../inc/thumbnail-images.php:48
+msgid "Micro thumbnail"
+msgstr ""
+
+#: ../../inc/thumbnail-images.php:55
+msgid "Small thumbnail"
+msgstr ""
+
+#: ../../inc/thumbnail-images.php:62
+msgid "Horizontal thumbnail"
+msgstr ""
+
+#: ../../inc/thumbnail-images.php:69 ../../inc/thumbnail-images.php:76
+msgid "Small size"
+msgstr ""
+
+#: ../../inc/thumbnail-images.php:69 ../../inc/thumbnail-images.php:83
+msgid "Side bar with 336 px"
+msgstr ""
+
+#: ../../inc/thumbnail-images.php:76 ../../inc/thumbnail-images.php:90
+msgid "Side bar with 300 px"
+msgstr ""
+
+#: ../../inc/thumbnail-images.php:83 ../../inc/thumbnail-images.php:90
+msgid "Large size"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:147
+msgid "Paragraph <p>"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:148
+msgid "Block <div>"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:149
+msgid "Heading 2 <h2>"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:150
+msgid "Heading 3 <h3>"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:151
+msgid "Heading 4 <h4>"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:152
+msgid "Heading 5 <h5>"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:153
+msgid "Heading 6 <h6>"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:154
+msgid "Blockquote <blockquote>"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:155
+msgid "Preformatted <pre>"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:156
+msgid "Address <address>"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:164
+msgid "Sans-serif"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:165
+msgid "serif"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:166
+msgid "Monospaced font"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:167
+msgid "Yu Gothic"
+msgstr ""
+
+#: ../../inc/tinymce-before-init.php:168
+msgid "Yu Mincho"
+msgstr ""
+
+#: ../../inc/tinymce-settings.php:37
+msgid "* These settings will be activated after reloading the screen."
+msgstr ""
+
+#: ../../inc/tinymce-settings.php:41 ../../inc/sections/balloon-css.php:87
+msgid "Max width"
+msgstr ""
+
+#: ../../inc/tinymce-settings.php:42 ../../inc/sections/balloon-css.php:88
+msgid "When input is 0, 100%"
+msgstr ""
+
+#: ../../inc/tinymce-settings.php:53
+msgid "Behavior of enter key"
+msgstr ""
+
+#: ../../inc/tinymce-settings.php:62 ../../inc/tinymce-settings.php:75
+msgid "Newline"
+msgstr ""
+
+#: ../../inc/tinymce-settings.php:85
+msgid "Show Menu bar"
+msgstr ""
+
+#: ../../inc/tinymce-settings.php:89
+msgid "Auto reload after saving"
+msgstr ""
+
+#: ../../inc/widget.php:23 ../../inc/widget.php:24 ../../inc/widget.php:34
+#: ../../inc/widget.php:87 ../../inc/sections/widget-css.php:41
+#: ../../languages/site/translations.php:66
+msgid "QR Code"
+msgstr ""
+
+#: ../../inc/widget.php:24 ../../inc/widget.php:119 ../../inc/widget.php:241
+#: ../../inc/widget.php:558 ../../inc/widget.php:792 ../../inc/widget.php:847
+#: ../../inc/widget.php:1206 ../../inc/widget.php:1536
+#: ../../inc/widget.php:1601 ../../inc/widget.php:1671
+#: ../../inc/sections/widget-css.php:36 ../../inc/sections/widget-css.php:37
+#: ../../inc/sections/widget-css.php:38 ../../inc/sections/widget-css.php:41
+#: ../../inc/sections/widget-css.php:42
+msgid "by Luxeritas"
+msgstr ""
+
+#: ../../inc/widget.php:93 ../../inc/widget.php:225 ../../inc/widget.php:507
+#: ../../inc/widget.php:741 ../../inc/widget.php:825 ../../inc/widget.php:1119
+#: ../../inc/widget.php:1403 ../../inc/widget.php:1581
+#: ../../inc/widget.php:1635 ../../inc/widget.php:1754
+#: ../../languages/site/translations.php:67
+msgid "Title:"
+msgstr ""
+
+#: ../../inc/widget.php:94 ../../inc/sections/recaptcha.php:82
+msgid "Size"
+msgstr ""
+
+#: ../../inc/widget.php:95
+msgid "Margin:"
+msgstr ""
+
+#: ../../inc/widget.php:97
+msgid "Alignment:"
+msgstr ""
+
+#: ../../inc/widget.php:118 ../../inc/widget.php:119
+#: ../../inc/sections/widget-css.php:38
+#: ../../languages/site/translations.php:68
+msgid "Recent Comments"
+msgstr ""
+
+#: ../../inc/widget.php:159 ../../languages/site/translations.php:72
+msgid "Anonymous"
+msgstr ""
+
+#: ../../inc/widget.php:168 ../../inc/widget.php:171
+#: ../../languages/site/translations.php:69
+#, php-format
+msgid "%s&apos; website"
+msgstr ""
+
+#: ../../inc/widget.php:191 ../../languages/site/translations.php:70
+msgid "Post of this comment"
+msgstr ""
+
+#: ../../inc/widget.php:222 ../../languages/site/translations.php:71
+msgid "The latest comments to all posts"
+msgstr ""
+
+#: ../../inc/widget.php:227
+msgid "Number of comments to show:"
+msgstr ""
+
+#: ../../inc/widget.php:240 ../../inc/widget.php:241 ../../inc/widget.php:497
+#: ../../inc/sections/widget-css.php:36
+#: ../../languages/site/translations.php:73
+msgid "Recent posts"
+msgstr ""
+
+#: ../../inc/widget.php:471 ../../languages/site/translations.php:74
+msgid "No new posts"
+msgstr ""
+
+#: ../../inc/widget.php:511
+msgid "All Categories"
+msgstr ""
+
+#: ../../inc/widget.php:515
+msgid "Small square thumbnail"
+msgstr ""
+
+#: ../../inc/widget.php:516
+msgid "Wide thumbnail"
+msgstr ""
+
+#: ../../inc/widget.php:520
+msgid "Sort"
+msgstr ""
+
+#: ../../inc/widget.php:523 ../../inc/sections/seo.php:571
+msgid "publish date"
+msgstr ""
+
+#: ../../inc/widget.php:524 ../../inc/sections/seo.php:572
+msgid "updated date"
+msgstr ""
+
+#: ../../inc/widget.php:528
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../../inc/widget.php:531
+msgid "Category or tag display:"
+msgstr ""
+
+#: ../../inc/widget.php:534
+msgid "Display category preferentially"
+msgstr ""
+
+#: ../../inc/widget.php:536
+msgid "Display tag preferentially"
+msgstr ""
+
+#: ../../inc/widget.php:538
+msgid "Do not display"
+msgstr ""
+
+#: ../../inc/widget.php:541
+msgid "No date"
+msgstr ""
+
+#: ../../inc/widget.php:543
+msgid "No excerpt"
+msgstr ""
+
+#: ../../inc/widget.php:545
+msgid "No thumbnail"
+msgstr ""
+
+#: ../../inc/widget.php:557 ../../inc/widget.php:558
+msgid "SNS Follow Button"
+msgstr ""
+
+#: ../../inc/widget.php:684 ../../languages/site/translations.php:75
+msgid "Follow me!"
+msgstr ""
+
+#: ../../inc/widget.php:744
+msgid "Button appearance:"
+msgstr ""
+
+#: ../../inc/widget.php:791 ../../inc/widget.php:792
+msgid "RSS / Feedly Button"
+msgstr ""
+
+#: ../../inc/widget.php:823 ../../languages/site/translations.php:76
+msgid "Subscribe to this blog"
+msgstr ""
+
+#: ../../inc/widget.php:844
+msgid ""
+"It&#x27;s mainly for adsense, but you can write whatever you like text, "
+"HTML, shortcode etc."
+msgstr ""
+
+#: ../../inc/widget.php:845
+msgid ""
+"This widget can be switched between &quot;show / hide&quot; on the specified "
+"page."
+msgstr ""
+
+#: ../../inc/widget.php:847
+msgid "Advertising / Adsense"
+msgstr ""
+
+#: ../../inc/widget.php:853
+msgid "Preview page"
+msgstr ""
+
+#: ../../inc/widget.php:854
+msgid "Customize preview page"
+msgstr ""
+
+#: ../../inc/widget.php:855
+msgid "404 Not Found page"
+msgstr ""
+
+#: ../../inc/widget.php:856 ../../inc/sections/pagination.php:74
+#: ../../inc/sections/widget-area.php:33 ../../inc/sections/widget-area.php:55
+#: ../../inc/sections/widget-body.php:41 ../../inc/sections/widget-body.php:63
+msgid "Search result page"
+msgstr ""
+
+#: ../../inc/widget.php:862 ../../inc/widget.php:1223
+msgid "Specified page"
+msgstr ""
+
+#: ../../inc/widget.php:862 ../../inc/widget.php:1223
+msgid "Specify post IDs separated by commas or line feeds"
+msgstr ""
+
+#: ../../inc/widget.php:877 ../../inc/widget.php:879
+msgid "Dual Ad horizon"
+msgstr ""
+
+#: ../../inc/widget.php:878 ../../inc/widget.php:880
+msgid "Dual Ad vertical"
+msgstr ""
+
+#: ../../inc/widget.php:884 ../../inc/widget.php:963
+#: ../../languages/site/translations.php:3
+msgid "Sponsored Links"
+msgstr ""
+
+#: ../../inc/widget.php:885 ../../inc/widget.php:960
+#: ../../languages/site/translations.php:4
+msgid "Advertisement"
+msgstr ""
+
+#: ../../inc/widget.php:1121
+msgid "Content:"
+msgstr ""
+
+#: ../../inc/widget.php:1123
+msgid "* Google Adsense please paste responsive ads."
+msgstr ""
+
+#: ../../inc/widget.php:1124
+msgid ""
+"* In addition to advertisements, you can write whatever you like text, HTML, "
+"shortcode etc."
+msgstr ""
+
+#: ../../inc/widget.php:1127
+msgid "Adsense Size"
+msgstr ""
+
+#: ../../inc/widget.php:1152 ../../inc/sections/block-pattern-list.php:119
+#: ../../inc/sections/block-pattern-list.php:160
+#: ../../inc/sections/phrase-list.php:70
+#: ../../inc/sections/phrase-list.php:112
+#: ../../inc/sections/shortcode-list.php:90
+#: ../../inc/sections/shortcode-list.php:147
+msgid "Label"
+msgstr ""
+
+#: ../../inc/widget.php:1162
+msgid "Center the label"
+msgstr ""
+
+#: ../../inc/widget.php:1167
+msgid "Add structured data representing advertisements"
+msgstr ""
+
+#: ../../inc/widget.php:1169
+msgid "Surrounded by &lt;aside&gt; tag"
+msgstr ""
+
+#: ../../inc/widget.php:1172
+msgid "Pages not to display this widget:"
+msgstr ""
+
+#: ../../inc/widget.php:1204
+msgid "High feature carousel slider. This widget is not displayed in AMP."
+msgstr ""
+
+#: ../../inc/widget.php:1206
+msgid "Carousel Slider"
+msgstr ""
+
+#: ../../inc/widget.php:1219
+msgid "Latest list of categories to belong"
+msgstr ""
+
+#: ../../inc/widget.php:1220
+msgid "Latest list of tags to belong"
+msgstr ""
+
+#: ../../inc/widget.php:1221
+msgid "Latest list of all posts"
+msgstr ""
+
+#: ../../inc/widget.php:1222
+msgid "Latest list of static pages"
+msgstr ""
+
+#: ../../inc/widget.php:1242
+msgid "Bullets"
+msgstr ""
+
+#: ../../inc/widget.php:1243
+msgid "Fraction"
+msgstr ""
+
+#: ../../inc/widget.php:1244
+msgid "Progress bar"
+msgstr ""
+
+#: ../../inc/widget.php:1248
+msgid "Always display"
+msgstr ""
+
+#: ../../inc/widget.php:1249
+msgid "Displayed only when mouse hover"
+msgstr ""
+
+#: ../../inc/widget.php:1253
+msgid "3D animation"
+msgstr ""
+
+#: ../../inc/widget.php:1254
+msgid "Rotate on mouse over"
+msgstr ""
+
+#: ../../inc/widget.php:1255
+msgid "Display active slide a little larger"
+msgstr ""
+
+#: ../../inc/widget.php:1258
+msgid "Display the displayed post in the center"
+msgstr ""
+
+#: ../../inc/widget.php:1259
+msgid "Display the latest post in the center"
+msgstr ""
+
+#: ../../inc/widget.php:1260
+msgid "Display in order of posting date / time"
+msgstr ""
+
+#: ../../inc/widget.php:1405
+msgid "Page display this widget"
+msgstr ""
+
+#: ../../inc/widget.php:1415
+msgid "Item type and number of display items"
+msgstr ""
+
+#: ../../inc/widget.php:1427
+msgid ""
+" : Maximum display number ( * a number smaller than the number of items )"
+msgstr ""
+
+#: ../../inc/widget.php:1430
+msgid " : Maximum number of items"
+msgstr ""
+
+#: ../../inc/widget.php:1445
+msgid "Automatic width"
+msgstr ""
+
+#: ../../inc/widget.php:1447
+msgid "Stretch the image to full-width"
+msgstr ""
+
+#: ../../inc/widget.php:1449
+msgid "Height"
+msgstr ""
+
+#: ../../inc/widget.php:1452
+msgid "Automatic height"
+msgstr ""
+
+#: ../../inc/widget.php:1452
+msgid "It will be the height of the largest thumbnail size"
+msgstr ""
+
+#: ../../inc/widget.php:1454
+msgid "Stretch the image to full height"
+msgstr ""
+
+#: ../../inc/widget.php:1456
+msgid "Fixed height"
+msgstr ""
+
+#: ../../inc/widget.php:1458
+msgid "Margin color"
+msgstr ""
+
+#: ../../inc/widget.php:1462
+msgid "Navigation"
+msgstr ""
+
+#: ../../inc/widget.php:1485
+msgid "Efects"
+msgstr ""
+
+#: ../../inc/widget.php:1497
+msgid "Display non-active slides dark"
+msgstr ""
+
+#: ../../inc/widget.php:1500
+msgid "Options"
+msgstr ""
+
+#: ../../inc/widget.php:1511
+msgid "Autoplay"
+msgstr ""
+
+#: ../../inc/widget.php:1512
+msgid "sec"
+msgstr ""
+
+#: ../../inc/widget.php:1515
+msgid "Display post title "
+msgstr ""
+
+#: ../../inc/widget.php:1518
+msgid "Disable Lazy Load"
+msgstr ""
+
+#: ../../inc/widget.php:1534
+msgid "Insert table of contents."
+msgstr ""
+
+#: ../../inc/widget.php:1583
+msgid ""
+"The setting of this widget is in &quot;Table of Contents&quot; of appearance "
+"customization."
+msgstr ""
+
+#: ../../inc/widget.php:1585
+msgid "Hide widgets when there is no item"
+msgstr ""
+
+#: ../../inc/widget.php:1599
+msgid "Display selected reusable block."
+msgstr ""
+
+#: ../../inc/widget.php:1618
+msgid "This content cannot be displayed in widgets."
+msgstr ""
+
+#: ../../inc/widget.php:1637
+msgid "Reusable Blocks:"
+msgstr ""
+
+#: ../../inc/widget.php:1657 ../../inc/sections/block-pattern-list.php:54
+msgid "No reusable block available to select."
+msgstr ""
+
+#: ../../inc/widget.php:1670 ../../inc/widget.php:1671
+#: ../../inc/sections/widget-css.php:42
+msgid "PWA install button"
+msgstr ""
+
+#: ../../inc/widget.php:1756
+msgid "Button name"
+msgstr ""
+
+#: ../../inc/widget.php:1758
+msgid "Button description"
+msgstr ""
+
+#: ../../inc/widget.php:1767
+msgid "Display only when mobile device."
+msgstr ""
+
+#: ../../inc/widget.php:1933 ../../inc/widget.php:1942
+msgid "General-purpose sidebar"
+msgstr ""
+
+#: ../../inc/widget.php:1933 ../../inc/widget.php:1942
+#: ../../inc/widget.php:1951 ../../inc/widget.php:1960
+#: ../../inc/widget.php:1969 ../../inc/widget.php:1978
+#: ../../inc/widget.php:2203 ../../inc/widget.php:2212
+#, php-format
+msgid "title %s type"
+msgstr ""
+
+#: ../../inc/widget.php:1934 ../../inc/widget.php:1943
+#: ../../inc/widget.php:1952 ../../inc/widget.php:1961
+#: ../../inc/widget.php:1970 ../../inc/widget.php:1979
+#: ../../inc/widget.php:2204 ../../inc/widget.php:2213
+#, php-format
+msgid "If you want the title to have %s tag."
+msgstr ""
+
+#: ../../inc/widget.php:1951 ../../inc/widget.php:1960
+msgid "Front page sidebar"
+msgstr ""
+
+#: ../../inc/widget.php:1952 ../../inc/widget.php:1961
+msgid "Front page dedicated."
+msgstr ""
+
+#: ../../inc/widget.php:1969 ../../inc/widget.php:1978
+msgid "Other than the front page sidebar"
+msgstr ""
+
+#: ../../inc/widget.php:1970 ../../inc/widget.php:1979
+msgid "Pages other than the front page."
+msgstr ""
+
+#: ../../inc/widget.php:1987
+msgid "Scroll follow sidebar (H4 type)"
+msgstr ""
+
+#: ../../inc/widget.php:1988
+msgid "Widget to follow the scroll. The title is only h4."
+msgstr ""
+
+#: ../../inc/widget.php:1996
+msgid "AMP sidebar (H4 type)"
+msgstr ""
+
+#: ../../inc/widget.php:1997
+msgid "AMP dedicated. The title is only h4."
+msgstr ""
+
+#: ../../inc/widget.php:2005 ../../inc/widget.php:2014
+msgid "Under Header Widget"
+msgstr ""
+
+#: ../../inc/widget.php:2006 ../../inc/widget.php:2015
+msgid "Place the widget just below the header."
+msgstr ""
+
+#: ../../inc/widget.php:2014 ../../inc/widget.php:2032
+#: ../../inc/widget.php:2050 ../../inc/widget.php:2068
+#: ../../inc/widget.php:2086 ../../inc/widget.php:2104
+#: ../../inc/widget.php:2176 ../../inc/widget.php:2194
+msgid "for AMP"
+msgstr ""
+
+#: ../../inc/widget.php:2023 ../../inc/widget.php:2032
+msgid "Above Post Title Widget"
+msgstr ""
+
+#: ../../inc/widget.php:2024 ../../inc/widget.php:2033
+msgid "Place the widget above the post title."
+msgstr ""
+
+#: ../../inc/widget.php:2041 ../../inc/widget.php:2050
+msgid "Under Post Title Widget"
+msgstr ""
+
+#: ../../inc/widget.php:2042 ../../inc/widget.php:2051
+msgid "Place the widget under the post title."
+msgstr ""
+
+#: ../../inc/widget.php:2059 ../../inc/widget.php:2068
+msgid "Above the first H2 tag in the post"
+msgstr ""
+
+#: ../../inc/widget.php:2060 ../../inc/widget.php:2069
+msgid "Place the widget above first H2 tag in the post."
+msgstr ""
+
+#: ../../inc/widget.php:2077 ../../inc/widget.php:2086
+msgid "Above Related Posts Widget"
+msgstr ""
+
+#: ../../inc/widget.php:2078 ../../inc/widget.php:2087
+msgid "Place the widget above the related posts."
+msgstr ""
+
+#: ../../inc/widget.php:2095 ../../inc/widget.php:2104
+msgid "Under Related Posts Widget"
+msgstr ""
+
+#: ../../inc/widget.php:2096 ../../inc/widget.php:2105
+msgid "Place the widget under the related posts."
+msgstr ""
+
+#: ../../inc/widget.php:2113
+msgid "Above Posts List Widget"
+msgstr ""
+
+#: ../../inc/widget.php:2114
+msgid "Place the widget above the posts list."
+msgstr ""
+
+#: ../../inc/widget.php:2122
+msgid "Middle of Posts List Widget"
+msgstr ""
+
+#: ../../inc/widget.php:2123
+msgid "Place the widget middle of the posts list."
+msgstr ""
+
+#: ../../inc/widget.php:2131
+msgid "Under Posts List Widget"
+msgstr ""
+
+#: ../../inc/widget.php:2132
+msgid "Place the widget under the posts list."
+msgstr ""
+
+#: ../../inc/widget.php:2140
+msgid "Footer left"
+msgstr ""
+
+#: ../../inc/widget.php:2140 ../../inc/widget.php:2149
+#: ../../inc/widget.php:2158
+msgid "Title H4"
+msgstr ""
+
+#: ../../inc/widget.php:2141 ../../inc/widget.php:2150
+#: ../../inc/widget.php:2159
+msgid "When the sidebar is offscreen, it will be not shown."
+msgstr ""
+
+#: ../../inc/widget.php:2149
+msgid "Footer center"
+msgstr ""
+
+#: ../../inc/widget.php:2158
+msgid "Footer right"
+msgstr ""
+
+#: ../../inc/widget.php:2167 ../../inc/widget.php:2176
+msgid "Under Post Widget"
+msgstr ""
+
+#: ../../inc/widget.php:2168 ../../inc/widget.php:2177
+msgid "Place the widget under the post."
+msgstr ""
+
+#: ../../inc/widget.php:2185 ../../inc/widget.php:2194
+msgid "Further below &quot;Under Post Widget&quot;"
+msgstr ""
+
+#: ../../inc/widget.php:2186 ../../inc/widget.php:2195
+msgid "Place the widget further below &quot;Under Post Widget&quot;."
+msgstr ""
+
+#: ../../inc/widget.php:2203 ../../inc/widget.php:2212
+msgid "3 Column Left Sidebar"
+msgstr ""
+
+#: ../../inc/wpfunc.php:1558 ../../inc/wpfunc.php:1561
+#: ../../inc/wpfunc.php:1622 ../../languages/site/translations.php:85
+msgid "Could not delete cache directory."
+msgstr ""
+
+#: ../../inc/sections/all_clear.php:21
+msgid "RESET all the customizations"
+msgstr ""
+
+#: ../../inc/sections/all_clear.php:22
+msgid "* This will reset all customizations of luxe."
+msgstr ""
+
+#: ../../inc/sections/amp.php:23 ../../inc/sections/pwa.php:35
+#, php-format
+msgid "Enable %s"
+msgstr ""
+
+#: ../../inc/sections/amp.php:29
+msgid "Do not show comment list"
+msgstr ""
+
+#: ../../inc/sections/amp.php:33
+msgid "Plug-in to be activated with AMP"
+msgstr ""
+
+#: ../../inc/sections/amp.php:34
+msgid ""
+"* If you activate a plugin that inserts elements forbidden by AMP, an AMP "
+"error occurs."
+msgstr ""
+
+#: ../../inc/sections/amp.php:35
+msgid ""
+"* It is not necessary to activate the plugin which is necessary only in the "
+"management screen."
+msgstr ""
+
+#: ../../inc/sections/amp.php:71
+msgid "AMP Logo image"
+msgstr ""
+
+#: ../../inc/sections/amp.php:74
+msgid "Same as the site logo"
+msgstr ""
+
+#: ../../inc/sections/amp.php:78
+msgid "Set the AMP logo separately"
+msgstr ""
+
+#: ../../inc/sections/backup-appearance.php:24
+msgid ""
+"* Will only back up customized data for the appearance design. (Image, "
+"various ID etc excluded)"
+msgstr ""
+
+#: ../../inc/sections/backup-appearance.php:25
+#: ../../inc/sections/backup-child.php:25 ../../inc/sections/backup.php:25
+#, php-format
+msgid "* File will be saved in %s format."
+msgstr ""
+
+#: ../../inc/sections/backup-appearance.php:28
+#: ../../inc/sections/design-select.php:37
+msgid "Appearance Backup"
+msgstr ""
+
+#: ../../inc/sections/backup-appearance.php:41
+msgid ""
+"* Will restore Luxeritas appearance customized setting from JSON backed up "
+"file."
+msgstr ""
+
+#: ../../inc/sections/backup-appearance.php:42
+#: ../../inc/sections/backup-appearance.php:47
+#: ../../inc/sections/design-select.php:47
+#: ../../inc/sections/design-select.php:52
+msgid "Appearance Restore"
+msgstr ""
+
+#: ../../inc/sections/backup-child.php:24
+msgid "* Will create backup file of child theme."
+msgstr ""
+
+#: ../../inc/sections/backup-child.php:26
+msgid "* If the filename contains multibyte characters, it may be skipped."
+msgstr ""
+
+#: ../../inc/sections/backup.php:24
+msgid "* Will create the back up for all the Luxeritas customized data."
+msgstr ""
+
+#: ../../inc/sections/backup.php:28
+msgid "All Backup"
+msgstr ""
+
+#: ../../inc/sections/backup.php:41
+msgid "* Will restore Luxeritas customized setting from JSON backed up file."
+msgstr ""
+
+#: ../../inc/sections/backup.php:42
+msgid "All Restore"
+msgstr ""
+
+#: ../../inc/sections/balloon-css.php:31
+msgid "Load CSS for speech balloon"
+msgstr ""
+
+#: ../../inc/sections/balloon-css.php:31
+msgid "If speech balloon shortcode is registered, it will be sure to loaded."
+msgstr ""
+
+#: ../../inc/sections/balloon-css.php:43 ../../inc/sections/balloon-css.php:69
+msgid "Border"
+msgstr ""
+
+#: ../../inc/sections/balloon-css.php:56 ../../inc/sections/balloon-css.php:82
+msgid "Shadow"
+msgstr ""
+
+#: ../../inc/sections/block-based-widgets-enable.php:21
+#: ../../inc/sections/others.php:168
+msgid "Enable Block-based Widgets Editor"
+msgstr ""
+
+#: ../../inc/sections/block-editor-color-palette.php:42
+#: ../../inc/sections/block-editor-color-palette.php:66
+#: ../../inc/sections/thumbnail-manage.php:29
+msgid "Slug"
+msgstr ""
+
+#: ../../inc/sections/block-editor-color-palette.php:79
+msgid "(Addition)"
+msgstr ""
+
+#: ../../inc/sections/block-editor-color-palette.php:86
+#: ../../inc/sections/speedup-set.php:26
+msgid "Initial settings"
+msgstr ""
+
+#: ../../inc/sections/block-editor-luxe-off.php:22
+msgid "Turn off Luxeritas block toolbar"
+msgstr ""
+
+#: ../../inc/sections/block-editor-luxe-off.php:28
+msgid "Turn off Luxeritas Blocks"
+msgstr ""
+
+#: ../../inc/sections/block-editor-off.php:22
+msgid "* Disable block editor and revert to the old one."
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:26
+#: ../../inc/sections/design-select.php:25
+#: ../../inc/sections/phrase-list.php:24
+#: ../../inc/sections/shortcode-list.php:24
+msgid "Add New"
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:27
+#: ../../inc/sections/phrase-list.php:25
+#: ../../inc/sections/shortcode-list.php:25
+msgid "Import"
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:31
+msgid ""
+"* If you create a new block pattern, we recommend that you create a block in "
+"a reusable block and then add it to the block patterns."
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:36
+msgid "Create a pattern from the reusable block."
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:36 ../../inc/sections/ogp.php:32
+msgid "Recommended"
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:46
+msgid "Please select a reusable block."
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:58
+#: ../../inc/sections/block-pattern-list.php:79
+#: ../../inc/sections/block-pattern-list.php:351
+#: ../../inc/sections/block-pattern-list.php:355
+#: ../../inc/sections/block-pattern-list.php:368
+#: ../../inc/sections/block-pattern-list.php:372
+msgid "Add"
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:64
+msgid "Create a pattern from the HTML pattern."
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:67
+msgid "Please select a HTML pattern."
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:134
+#: ../../inc/sections/phrase-list.php:87
+#: ../../inc/sections/shortcode-list.php:113
+#: ../../inc/sections/shortcode-list.php:123
+msgid "Edit"
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:135
+#: ../../inc/sections/design-select.php:136
+#: ../../inc/sections/design-select.php:190
+#: ../../inc/sections/phrase-list.php:88
+#: ../../inc/sections/shortcode-list.php:114
+#: ../../inc/sections/shortcode-list.php:124
+msgid "Delete"
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:136
+msgid "Add to Reusable blocks"
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:137
+#: ../../inc/sections/phrase-list.php:89
+#: ../../inc/sections/shortcode-list.php:115
+#: ../../inc/sections/shortcode-list.php:125
+msgid "Export"
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:154
+msgid "Block pattern Edit"
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:160
+#: ../../inc/sections/phrase-list.php:112
+#: ../../inc/sections/shortcode-list.php:151
+msgid "required"
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:164
+msgid "Block pattern"
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:213
+#: ../../inc/sections/phrase-list.php:222
+msgid "Required items are not entered"
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:240
+msgid "You are about to delete the selected item. Is it OK ?"
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:251
+msgid "Add this pattern to the reuse block. Is it OK ?"
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:270
+#: ../../inc/sections/phrase-list.php:279
+#: ../../inc/sections/shortcode-list.php:346
+msgid "Loding..."
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:270
+#: ../../inc/sections/phrase-list.php:279
+#: ../../inc/sections/shortcode-list.php:346
+msgid "Please wait a little while."
+msgstr ""
+
+#: ../../inc/sections/block-pattern-list.php:347
+#: ../../inc/sections/block-pattern-list.php:364
+msgid "Already registered"
+msgstr ""
+
+#: ../../inc/sections/blogcard-cache-cleanup.php:21
+msgid "Clear all Blog Card cache"
+msgstr ""
+
+#: ../../inc/sections/blogcard-cache-cleanup.php:22
+msgid ""
+"* This will delete the whole cache directory including cache expiration time "
+"infomation."
+msgstr ""
+
+#: ../../inc/sections/blogcard-cache-cleanup.php:26
+msgid "Clear only the cache expiration time information of Blog Card"
+msgstr ""
+
+#: ../../inc/sections/blogcard-cache-cleanup.php:27
+msgid "* This will delete only the cache expiration time information."
+msgstr ""
+
+#: ../../inc/sections/bootstrap.php:20
+msgid "How to load bootstrap.js"
+msgstr ""
+
+#: ../../inc/sections/bootstrap.php:22 ../../inc/sections/bootstrap.php:23
+#: ../../inc/sections/bootstrap.php:24 ../../inc/sections/css-to-style.php:32
+#: ../../inc/sections/icon-font.php:41 ../../inc/sections/icon-font.php:61
+#: ../../inc/sections/speedup-items.php:55
+#: ../../inc/sections/speedup-items.php:82
+#: ../../inc/sections/speedup-items.php:87
+msgid "Asynchronous"
+msgstr ""
+
+#: ../../inc/sections/bootstrap.php:25 ../../inc/sections/icon-font.php:42
+#: ../../inc/sections/icon-font.php:62 ../../inc/sections/speedup-items.php:81
+#: ../../inc/sections/speedup-items.php:86
+msgid "Synchronism"
+msgstr ""
+
+#: ../../inc/sections/bootstrap.php:26 ../../inc/sections/css-to-style.php:33
+#: ../../inc/sections/optimize-script.php:26
+#: ../../inc/sections/speedup-items.php:43
+#: ../../inc/sections/speedup-items.php:56
+msgid "Not required (no load)"
+msgstr ""
+
+#: ../../inc/sections/bootstrap.php:28
+msgid "* It is necessary only when using Bootstrap components, plugins, etc."
+msgstr ""
+
+#: ../../inc/sections/bootstrap.php:29
+msgid ""
+"* Even if Bootstrap mode is selected, bootstrap.js is not always necessary."
+msgstr ""
+
+#: ../../inc/sections/captcha.php:20
+msgid "Image authentication type for comments"
+msgstr ""
+
+#: ../../inc/sections/captcha.php:23 ../../inc/sections/captcha.php:27
+#, php-format
+msgid "Enable Google reCAPTCHA %s"
+msgstr ""
+
+#: ../../inc/sections/captcha.php:31
+msgid "Enable Securimage PHP CAPTCHA"
+msgstr ""
+
+#: ../../inc/sections/captcha.php:35
+msgid "Do not use image authentication"
+msgstr ""
+
+#: ../../inc/sections/child-css.php:21
+msgid "Load the child theme CSS"
+msgstr ""
+
+#: ../../inc/sections/comment.php:20
+msgid "HTML tags replacement or removal"
+msgstr ""
+
+#: ../../inc/sections/comment.php:23
+msgid "Remove not allowed HTML tags. ( WordPress Default Settings )"
+msgstr ""
+
+#: ../../inc/sections/comment.php:27
+msgid "Replace not allowed HTML tags with entities."
+msgstr ""
+
+#: ../../inc/sections/comment.php:31
+msgid "Replace all HTML tags with entities."
+msgstr ""
+
+#: ../../inc/sections/comment.php:51
+msgid "* Allowed HTML tags : "
+msgstr ""
+
+#: ../../inc/sections/comment.php:56 ../../inc/sections/others.php:103
+msgid "Prevent automatic conversion to link"
+msgstr ""
+
+#: ../../inc/sections/comment.php:59 ../../inc/sections/others.php:118
+msgid "Prevent URLs written in comments turning into links."
+msgstr ""
+
+#: ../../inc/sections/copyright.php:20
+msgid "Web site start year"
+msgstr ""
+
+#: ../../inc/sections/copyright.php:24
+msgid "Author name"
+msgstr ""
+
+#: ../../inc/sections/copyright.php:28
+msgid "Format"
+msgstr ""
+
+#: ../../inc/sections/copyright.php:67 ../../inc/sections/copyright.php:71
+msgid "Free Format"
+msgstr ""
+
+#: ../../inc/sections/css-to-style.php:20
+msgid "Theme&apos;s CSS"
+msgstr ""
+
+#: ../../inc/sections/css-to-style.php:23
+#: ../../inc/sections/speedup-items.php:50
+msgid "Include theme&apos;s CSS in HTML"
+msgstr ""
+
+#: ../../inc/sections/css-to-style.php:23
+#: ../../inc/sections/css-to-style.php:41
+msgid "Accelerate"
+msgstr ""
+
+#: ../../inc/sections/css-to-style.php:25
+msgid ""
+"* It will include the style.css code directly in the HTML file. You can "
+"reduce HTTP requests."
+msgstr ""
+
+#: ../../inc/sections/css-to-style.php:26
+msgid ""
+"* Since the CSS will not be cached in the browser, if you have many visitors "
+"circulating within your site, it may end up counterproductive."
+msgstr ""
+
+#: ../../inc/sections/css-to-style.php:29
+#: ../../inc/sections/speedup-items.php:52
+msgid "CSS for WordPress block library"
+msgstr ""
+
+#: ../../inc/sections/css-to-style.php:31
+#: ../../inc/sections/speedup-items.php:54
+msgid "Include CSS in HTML"
+msgstr ""
+
+#: ../../inc/sections/css-to-style.php:32 ../../inc/sections/icon-font.php:41
+#: ../../inc/sections/icon-font.php:61 ../../inc/sections/speedup-items.php:55
+#: ../../inc/sections/speedup-items.php:82
+#: ../../inc/sections/speedup-items.php:87
+msgid "High rendering speed"
+msgstr ""
+
+#: ../../inc/sections/css-to-style.php:34
+#: ../../inc/sections/speedup-items.php:57
+msgid "Leave initial setting of WordPress"
+msgstr ""
+
+#: ../../inc/sections/css-to-style.php:38
+msgid "The WordPress duotone filters for image blocks in block editor"
+msgstr ""
+
+#: ../../inc/sections/css-to-style.php:41
+msgid "Disable duotone filters for image blocks in block editor."
+msgstr ""
+
+#: ../../inc/sections/design-create.php:25
+msgid "Create a design file based on the following contents."
+msgstr ""
+
+#: ../../inc/sections/design-create.php:27
+msgid "Customize (Appearance) settings (Image, various ID etc excluded)"
+msgstr ""
+
+#: ../../inc/sections/design-create.php:28
+msgid "Stylesheet of currently selected design file"
+msgstr ""
+
+#: ../../inc/sections/design-create.php:29
+msgid "Child theme&apos;s stylesheet"
+msgstr ""
+
+#: ../../inc/sections/design-create.php:31
+msgid ""
+"* Images set in &quot;Customize (Appearance)&quot; are copied to the images "
+"directory, but they are not applicable in the style sheet. If necessary, "
+"please append later."
+msgstr ""
+
+#: ../../inc/sections/design-create.php:32
+msgid ""
+"* In order to use this feature, the server must be compatible with "
+"ZipArchive."
+msgstr ""
+
+#: ../../inc/sections/design-create.php:33
+msgid "Design file name"
+msgstr ""
+
+#: ../../inc/sections/design-create.php:34
+msgid ""
+"* 20 characters or less. The characters that can be used are alphanumeric "
+"and - (hyphen) and _ (underscore)."
+msgstr ""
+
+#: ../../inc/sections/design-create.php:38
+msgid "Screenshot"
+msgstr ""
+
+#: ../../inc/sections/design-create.php:39
+msgid ""
+"* Aspect ratio 4: 3 recommended ( e.g. 600 x 450 px, 720 x 540 px, 800 x 600 "
+"px, 1200 x 900 px )"
+msgstr ""
+
+#: ../../inc/sections/design-select.php:70
+msgid ""
+"(Caution) Settings of appearance customization will be rewritten to the "
+"value specified in the design file. (Image, various ID etc excluded)"
+msgstr ""
+
+#: ../../inc/sections/design-select.php:71
+msgid "Recommend that you backup appearance customization before changing."
+msgstr ""
+
+#: ../../inc/sections/design-select.php:153
+msgid "Initialization of appearance"
+msgstr ""
+
+#: ../../inc/sections/design-select.php:160
+#: ../../inc/sections/design-select.php:185
+#: ../../inc/sections/shortcode-list.php:91
+#: ../../inc/sections/shortcode-list.php:118
+#: ../../inc/sections/shortcode-list.php:182
+msgid "Activate"
+msgstr ""
+
+#: ../../inc/sections/design-select.php:198
+msgid "Rewrite the setting of appearance customization. Is it OK?"
+msgstr ""
+
+#: ../../inc/sections/design-select.php:204
+msgid "You are about to delete the design file. Is it OK?"
+msgstr ""
+
+#: ../../inc/sections/design-select.php:210
+msgid "Reset stylesheet of the design file.. Is it OK?"
+msgstr ""
+
+#: ../../inc/sections/editor-t-settings.php:108
+msgid ""
+"* You can set display / non-display of button with drag &amp; drop. ( Sort "
+"is not possible )"
+msgstr ""
+
+#: ../../inc/sections/editor-t-settings.php:120
+#: ../../inc/sections/editor-v-settings.php:221
+msgid "Trash can"
+msgstr ""
+
+#: ../../inc/sections/editor-t-settings.php:132
+#: ../../inc/sections/editor-v-settings.php:234
+msgid "Saved"
+msgstr ""
+
+#: ../../inc/sections/editor-t-settings.php:136
+#: ../../inc/sections/editor-v-settings.php:238
+msgid "Restore initial settings"
+msgstr ""
+
+#: ../../inc/sections/editor-v-settings.php:194
+msgid "* You can set display / hide / sort of buttons by drag & drop."
+msgstr ""
+
+#: ../../inc/sections/fontawesome-load.php:22
+msgid "How to load icon"
+msgstr ""
+
+#: ../../inc/sections/fontawesome-load.php:25
+msgid "Web Fonts with CSS"
+msgstr ""
+
+#: ../../inc/sections/fontawesome-load.php:29
+msgid "SVG with JavaScript"
+msgstr ""
+
+#: ../../inc/sections/fontawesome-load.php:35
+msgid "Backward compatibility"
+msgstr ""
+
+#: ../../inc/sections/fontawesome-load.php:38
+msgid "Font Awesome 4 compatibility support"
+msgstr ""
+
+#: ../../inc/sections/htaccess.php:35
+msgid "For apache web server."
+msgstr ""
+
+#: ../../inc/sections/htaccess.php:36
+msgid ""
+"By adding the below lines on your .htaccess, it will enable Gzip compression "
+"and browser cache and will boost rendering speed."
+msgstr ""
+
+#: ../../inc/sections/htaccess.php:37
+msgid ""
+"* <span class=\"bold\">Do not overwrite/replace with your .htaccess, but ADD "
+"these lines !</span>"
+msgstr ""
+
+#: ../../inc/sections/htaccess.php:38
+msgid ""
+"* <span class=\"bold\"><span style=\"color:red\">Red letters</span> are for "
+"SSL (HTTPS connection). If your site is HTTP, remove this letters.</span>"
+msgstr ""
+
+#: ../../inc/sections/icon-font.php:22
+msgid "Select icon fonts to load"
+msgstr ""
+
+#: ../../inc/sections/icon-font.php:25 ../../inc/sections/icon-font.php:53
+#: ../../inc/sections/icon-font.php:57
+msgid "Icons list"
+msgstr ""
+
+#: ../../inc/sections/icon-font.php:42 ../../inc/sections/icon-font.php:62
+#: ../../inc/sections/speedup-items.php:81
+#: ../../inc/sections/speedup-items.php:86
+msgid "No delays in icon font"
+msgstr ""
+
+#: ../../inc/sections/intersection-observer.php:20
+#, php-format
+msgid "* This feature uses %s."
+msgstr ""
+
+#: ../../inc/sections/intersection-observer.php:23
+#: ../../inc/sections/speedup-items.php:106
+msgid "Enable Lazy Load for various thumbnail images"
+msgstr ""
+
+#: ../../inc/sections/intersection-observer.php:27
+#: ../../inc/sections/speedup-items.php:110
+msgid "Enable Lazy Load for post contents"
+msgstr ""
+
+#: ../../inc/sections/intersection-observer.php:31
+#: ../../inc/sections/speedup-items.php:114
+msgid "Enable Lazy Load for sidebar"
+msgstr ""
+
+#: ../../inc/sections/intersection-observer.php:33
+#: ../../inc/sections/speedup-items.php:116
+msgid "* The scroll follow sidebar may become strange movement."
+msgstr ""
+
+#: ../../inc/sections/intersection-observer.php:36
+#: ../../inc/sections/speedup-items.php:119
+msgid "Enable Lazy Load for footer"
+msgstr ""
+
+#: ../../inc/sections/intersection-observer.php:40
+#: ../../inc/sections/speedup-items.php:123
+msgid "Enable Lazy Load for Gravatar"
+msgstr ""
+
+#: ../../inc/sections/intersection-observer.php:48
+#: ../../inc/sections/others.php:69 ../../inc/sections/speedup-items.php:131
+msgid "Disable Jetpack&apos;s Lazy Load"
+msgstr ""
+
+#: ../../inc/sections/intersection-observer.php:57
+msgid "Option"
+msgstr ""
+
+#: ../../inc/sections/intersection-observer.php:60
+msgid "Display images even if Javascript is disabled"
+msgstr ""
+
+#: ../../inc/sections/intersection-observer.php:65
+msgid "Effect"
+msgstr ""
+
+#: ../../inc/sections/intersection-observer.php:68
+msgid "Fade-in"
+msgstr ""
+
+#: ../../inc/sections/intersection-observer.php:72
+msgid "Show (No effect)"
+msgstr ""
+
+#: ../../inc/sections/jquery.php:20 ../../inc/sections/speedup-items.php:62
+msgid "How to load jQuery"
+msgstr ""
+
+#: ../../inc/sections/jquery.php:22 ../../inc/sections/speedup-items.php:64
+msgid "Stable"
+msgstr ""
+
+#: ../../inc/sections/jquery.php:23 ../../inc/sections/jquery.php:24
+#: ../../inc/sections/jquery.php:26 ../../inc/sections/speedup-items.php:65
+#: ../../inc/sections/speedup-items.php:66
+#: ../../inc/sections/speedup-items.php:68
+msgid "High speed"
+msgstr ""
+
+#: ../../inc/sections/jquery.php:23 ../../inc/sections/jquery.php:24
+#: ../../inc/sections/speedup-items.php:65
+#: ../../inc/sections/speedup-items.php:66
+msgid "Not supported before IE8"
+msgstr ""
+
+#: ../../inc/sections/jquery.php:25 ../../inc/sections/jquery.php:26
+#: ../../inc/sections/speedup-items.php:67
+#: ../../inc/sections/speedup-items.php:68
+msgid "WordPress Built In jQuery"
+msgstr ""
+
+#: ../../inc/sections/jquery.php:25 ../../inc/sections/speedup-items.php:67
+msgid "Most stable"
+msgstr ""
+
+#: ../../inc/sections/jquery.php:25 ../../inc/sections/speedup-items.php:67
+msgid "Default behavior of WordPress."
+msgstr ""
+
+#: ../../inc/sections/jquery.php:26 ../../inc/sections/speedup-items.php:68
+msgid "Combine jQuery and Luxeritas's script"
+msgstr ""
+
+#: ../../inc/sections/jquery.php:26 ../../inc/sections/speedup-items.php:68
+msgid "More stable"
+msgstr ""
+
+#: ../../inc/sections/jquery.php:27 ../../inc/sections/speedup-items.php:69
+msgid "Not load jQuery"
+msgstr ""
+
+#: ../../inc/sections/jquery.php:29
+msgid "* JQuery loading from CDN is not designed to avoid conflicts."
+msgstr ""
+
+#: ../../inc/sections/jquery.php:33
+msgid "Load jQuery-Migrate"
+msgstr ""
+
+#: ../../inc/sections/jquery.php:34
+msgid "* Older plugins that have not been updated may require jQuery-Migrate."
+msgstr ""
+
+#: ../../inc/sections/jquery.php:38 ../../inc/sections/speedup-items.php:74
+msgid ""
+"Make jQuery asynchronous ( It will boost speed, be careful when using this. )"
+msgstr ""
+
+#: ../../inc/sections/jquery.php:39
+msgid ""
+"* When you are combining jQuery and other scripts, Will add &quot;"
+"async&quot; property for jQuery and add &quot;defer&quot; property for "
+"external script plugin files."
+msgstr ""
+
+#: ../../inc/sections/jquery.php:40
+msgid ""
+"* Otherwise, Will add &quot;defer&quot; property for jQuery and external "
+"script plugin files. ( &quot;async&quot; property will not be added )"
+msgstr ""
+
+#: ../../inc/sections/jquery.php:41 ../../inc/sections/speedup-items.php:75
+msgid "Please do not check if you do not have knowledge."
+msgstr ""
+
+#: ../../inc/sections/jquery.php:41 ../../inc/sections/speedup-items.php:75
+msgid "Some plugin may not work correctly when this option is enabled."
+msgstr ""
+
+#: ../../inc/sections/mode-select.php:20
+msgid ""
+"* Both has the same design layout but Luxeritas mode is faster and lighter.  "
+"Bootstrap mode should be chosen if you want to use the functions or classes "
+"of Bootstrap."
+msgstr ""
+
+#: ../../inc/sections/ogp-jetpack.php:23
+msgid "Disable Jetpack&apos;s OGP"
+msgstr ""
+
+#: ../../inc/sections/ogp.php:23 ../../inc/sections/ogp.php:39
+#: ../../inc/sections/seo.php:23 ../../inc/sections/seo.php:29
+#: ../../inc/sections/seo.php:35 ../../inc/sections/seo.php:41
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: ../../inc/sections/ogp.php:28
+msgid "Depreciated: Unnecessary if app_id exists"
+msgstr ""
+
+#: ../../inc/sections/ogp.php:36 ../../inc/sections/ogp.php:39
+#: ../../inc/sections/ogp.php:43
+msgid "Twitter Card"
+msgstr ""
+
+#: ../../inc/sections/ogp.php:43
+#, php-format
+msgid "Type of %s"
+msgstr ""
+
+#: ../../inc/sections/ogp.php:45
+msgid "summary"
+msgstr ""
+
+#: ../../inc/sections/ogp.php:46
+msgid "summary_large_image"
+msgstr ""
+
+#: ../../inc/sections/ogp.php:50
+msgid "No need"
+msgstr ""
+
+#: ../../inc/sections/ogp.php:54
+msgid "default OGP image"
+msgstr ""
+
+#: ../../inc/sections/ogp.php:55
+msgid ""
+"* When OGP image is not set in the post, the default image set here will be "
+"applied."
+msgstr ""
+
+#: ../../inc/sections/ogp.php:84
+msgid "* The above image is a reduced version."
+msgstr ""
+
+#: ../../inc/sections/optimize-css.php:20
+#: ../../inc/sections/speedup-items.php:31
+msgid "CSS compression of child theme"
+msgstr ""
+
+#: ../../inc/sections/optimize-css.php:21
+msgid ""
+"* If other than &quot;do not compress&quot; is selected, it will compress "
+"&amp; combine and create a file named style.min.css."
+msgstr ""
+
+#: ../../inc/sections/optimize-css.php:22
+msgid ""
+"* If other than &quot;do not compress&quot; is selected, it will load the "
+"style.min.css."
+msgstr ""
+
+#: ../../inc/sections/optimize-css.php:23
+msgid ""
+"* If you merged with Parent Theme, it will no longer load Parent Theme CSS."
+msgstr ""
+
+#: ../../inc/sections/optimize-css.php:24
+msgid "* CSS of parent theme will always be compressed."
+msgstr ""
+
+#: ../../inc/sections/optimize-css.php:26
+#: ../../inc/sections/optimize-html.php:23
+#: ../../inc/sections/optimize-script.php:24
+#: ../../inc/sections/speedup-items.php:25
+#: ../../inc/sections/speedup-items.php:33
+#: ../../inc/sections/speedup-items.php:41
+msgid "Do not compress"
+msgstr ""
+
+#: ../../inc/sections/optimize-css.php:27
+#: ../../inc/sections/speedup-items.php:34
+msgid "Compress only the child theme CSS"
+msgstr ""
+
+#: ../../inc/sections/optimize-css.php:28
+#: ../../inc/sections/speedup-items.php:35
+msgid "Compression after combining CSS of parent and child"
+msgstr ""
+
+#: ../../inc/sections/optimize-html.php:20
+#: ../../inc/sections/speedup-items.php:23
+msgid "Compression ratio of HTML"
+msgstr ""
+
+#: ../../inc/sections/optimize-html.php:21
+msgid ""
+"* &quot;Compression rate high&quot;, is the compression level which is still "
+"readable, and will not compress to the limit."
+msgstr ""
+
+#: ../../inc/sections/optimize-html.php:24
+#: ../../inc/sections/speedup-items.php:26
+msgid "Compression rate low"
+msgstr ""
+
+#: ../../inc/sections/optimize-html.php:25
+#: ../../inc/sections/speedup-items.php:27
+msgid "Compression rate high"
+msgstr ""
+
+#: ../../inc/sections/optimize-script.php:20
+#: ../../inc/sections/speedup-items.php:39
+msgid "Javascript compression of child theme"
+msgstr ""
+
+#: ../../inc/sections/optimize-script.php:21
+msgid ""
+"* It will compress the file luxech.js in the child theme folder and create a "
+"new file of luxech.min.js."
+msgstr ""
+
+#: ../../inc/sections/optimize-script.php:22
+msgid ""
+"* If you select the &quot;compress&quot;, it will automatically load the "
+"luxech.min.js."
+msgstr ""
+
+#: ../../inc/sections/optimize-script.php:25
+msgid "Compress (you can also compress with combined additional files)"
+msgstr ""
+
+#: ../../inc/sections/optimize-script.php:30
+msgid "Additional Javascript file names to combine &amp; compress"
+msgstr ""
+
+#: ../../inc/sections/optimize-script.php:31
+msgid ""
+"* In addition to luxech.js, it can be combine and compress any three files "
+"directly under the child theme folder."
+msgstr ""
+
+#: ../../inc/sections/optimize-script.php:32
+msgid ""
+"* The extension must be &quot;.js&quot;  (Please do not input the extension "
+"in the below boxes)."
+msgstr ""
+
+#: ../../inc/sections/others.php:21
+msgid "404 Not Found Page"
+msgstr ""
+
+#: ../../inc/sections/others.php:26
+msgid "Default"
+msgstr ""
+
+#: ../../inc/sections/others.php:34 ../../inc/sections/pwa-manifest.php:40
+#: ../../inc/sections/pwa.php:70
+msgid "No pages available to select."
+msgstr ""
+
+#: ../../inc/sections/others.php:40
+msgid "Site display settings"
+msgstr ""
+
+#: ../../inc/sections/others.php:43 ../../inc/sections/speedup-items.php:149
+msgid "To enable the sequential output of buffering"
+msgstr ""
+
+#: ../../inc/sections/others.php:45
+msgid "* It will improve the speed if you check this."
+msgstr ""
+
+#: ../../inc/sections/others.php:46 ../../inc/sections/speedup-items.php:151
+msgid "* If you use cache related plugins, it may conflict one another."
+msgstr ""
+
+#: ../../inc/sections/others.php:49
+msgid "Add the role attribute for a barrier-free"
+msgstr ""
+
+#: ../../inc/sections/others.php:56
+msgid "Remove hentry class"
+msgstr ""
+
+#: ../../inc/sections/others.php:58
+msgid ""
+"* Checking this will avoid getting hetnry errors from Google Webmasters even "
+"if you have the post dates, update dates, and author information not "
+"displayed."
+msgstr ""
+
+#: ../../inc/sections/others.php:61
+msgid "Allow multi byte characters for slugs"
+msgstr ""
+
+#: ../../inc/sections/others.php:61 ../../inc/sections/others.php:126
+msgid "Not recommended"
+msgstr ""
+
+#: ../../inc/sections/others.php:106
+msgid "Prevent detected phone numbers turning into links."
+msgstr ""
+
+#: ../../inc/sections/others.php:106 ../../inc/sections/others.php:110
+#: ../../inc/sections/others.php:114
+#, php-format
+msgid "Mainly %s"
+msgstr ""
+
+#: ../../inc/sections/others.php:106 ../../inc/sections/others.php:110
+#: ../../inc/sections/others.php:114
+msgid "Smartphone"
+msgstr ""
+
+#: ../../inc/sections/others.php:110
+msgid "Prevent detected email address turning into links."
+msgstr ""
+
+#: ../../inc/sections/others.php:114
+msgid "Prevent detected address turning into links."
+msgstr ""
+
+#: ../../inc/sections/others.php:123
+msgid "Pingback settings"
+msgstr ""
+
+#: ../../inc/sections/others.php:126
+msgid "Allow self-pingback"
+msgstr ""
+
+#: ../../inc/sections/others.php:131
+msgid "Smooth scroll settings"
+msgstr ""
+
+#: ../../inc/sections/others.php:134
+msgid "Turn off the smooth scroll of the anchor link."
+msgstr ""
+
+#: ../../inc/sections/others.php:141
+msgid "Leave the URL hash / fragment after scrolling."
+msgstr ""
+
+#: ../../inc/sections/others.php:158
+msgid "Admin bar at the bottom left of the blog screen"
+msgstr ""
+
+#: ../../inc/sections/others.php:161
+msgid "Hide Admin bar at the bottom left"
+msgstr ""
+
+#: ../../inc/sections/others.php:172
+#, php-format
+msgid "Setting for %s"
+msgstr ""
+
+#: ../../inc/sections/others.php:172
+msgid "design purpose"
+msgstr ""
+
+#: ../../inc/sections/others.php:175
+msgid ""
+"Place the number of posts inside the &lt;a&gt; tag in the category widget"
+msgstr ""
+
+#: ../../inc/sections/others.php:182
+msgid ""
+"Place the number of posts inside the &lt;a&gt; tag in the archive widget"
+msgstr ""
+
+#: ../../inc/sections/others.php:189
+msgid "Non-compression for Parent Theme (for debugging)"
+msgstr ""
+
+#: ../../inc/sections/others.php:194
+msgid "Measures to be taken when the widget cannot be saved"
+msgstr ""
+
+#: ../../inc/sections/others.php:195
+msgid "* It may be worth a try if you can not save with WAF or plug-ins."
+msgstr ""
+
+#: ../../inc/sections/others.php:198
+msgid ""
+"Measures to be taken when the widget save button cannot be saved by spinning "
+"around."
+msgstr ""
+
+#: ../../inc/sections/pagination.php:20
+msgid "Reading Settings"
+msgstr ""
+
+#: ../../inc/sections/pagination.php:35 ../../inc/sections/pagination.php:52
+#: ../../inc/sections/pagination.php:69 ../../inc/sections/pagination.php:86
+msgid "posts"
+msgstr ""
+
+#: ../../inc/sections/phrase-list.php:31
+#: ../../inc/sections/phrase-list.php:187
+#: ../../inc/sections/shortcode-list.php:31
+#: ../../inc/sections/shortcode-list.php:245
+msgid "Sample registration"
+msgstr ""
+
+#: ../../inc/sections/phrase-list.php:71
+#: ../../inc/sections/phrase-list.php:125
+msgid "Enclosing"
+msgstr ""
+
+#: ../../inc/sections/phrase-list.php:85
+#: ../../inc/sections/shortcode-list.php:94
+#: ../../inc/sections/shortcode-list.php:121
+#: ../../inc/sections/shortcode-list.php:173
+msgid "Enclose"
+msgstr ""
+
+#: ../../inc/sections/phrase-list.php:106
+msgid "HTML pattern Edit"
+msgstr ""
+
+#: ../../inc/sections/phrase-list.php:249
+#: ../../inc/sections/shortcode-list.php:314
+msgid "You are about to delete the selected item. Is it OK?"
+msgstr ""
+
+#: ../../inc/sections/phrase-luxeritas.php:37
+#: ../../inc/sections/shortcode-balloon.php:39
+msgid " for luxeritas only"
+msgstr ""
+
+#: ../../inc/sections/phrase-luxeritas.php:42
+msgid ""
+"* After registration, please rewrite URL and Caption of the image from the "
+"HTML pattern edit screen as necessary."
+msgstr ""
+
+#: ../../inc/sections/phrase-luxeritas.php:54
+#: ../../inc/sections/shortcode-balloon.php:147
+msgid "CSS settings for speech balloon"
+msgstr ""
+
+#: ../../inc/sections/phrase-luxeritas.php:55
+msgid "* This item is CSS settings for speech balloon shortcode and shared."
+msgstr ""
+
+#: ../../inc/sections/phrase-sample.php:23
+#: ../../inc/sections/shortcode-sample.php:23
+msgid " sample"
+msgstr ""
+
+#: ../../inc/sections/phrase-sample.php:31
+#: ../../inc/sections/shortcode-sample.php:44
+msgid "Please edit contents after registration."
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:23
+msgid "Even if PWA is invalid, create and load manifest"
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:27
+msgid "Start Page"
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:32
+msgid "Top Page"
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:43
+msgid "* It is the first page displayed when the application is launched."
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:46
+msgid "Application name"
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:50
+msgid "Application short name"
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:52
+msgid ""
+"* <code class=\"normal-family\">12 characters or less</code>. Used when "
+"there is insufficient space to display the full name of the application."
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:55
+msgid "Description"
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:59
+msgid "Application and Splash screen icon"
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:60
+msgid "Please set from &quot;Site icon&quot; of appearance customization."
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:63
+msgid "Display mode"
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:65
+msgid "No UI"
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:66
+msgid "Minimal UI"
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:67
+msgid "Same UI as browser"
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:71
+msgid "Orientation of screen"
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:73
+msgid "Allow rotation"
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:74
+msgid "Fixed in portrait"
+msgstr ""
+
+#: ../../inc/sections/pwa-manifest.php:75
+msgid "Fixed in landscape"
+msgstr ""
+
+#: ../../inc/sections/pwa-others.php:21
+msgid "How to output Service Worker and Manifest files."
+msgstr ""
+
+#: ../../inc/sections/pwa-others.php:24
+msgid "Dynamic"
+msgstr ""
+
+#: ../../inc/sections/pwa-others.php:26
+msgid ""
+"* If the root directory does not have write permission, please check dynamic."
+msgstr ""
+
+#: ../../inc/sections/pwa-others.php:29
+msgid "Cahce control"
+msgstr ""
+
+#: ../../inc/sections/pwa-others.php:32
+msgid ""
+"When you login to Administration Screens, delete the PWA cache in the "
+"browser."
+msgstr ""
+
+#: ../../inc/sections/pwa-theme.php:34
+msgid "* Set the color of mobile browser."
+msgstr ""
+
+#: ../../inc/sections/pwa-theme.php:38
+msgid "Theme color"
+msgstr ""
+
+#: ../../inc/sections/pwa.php:25
+msgid "Your website is not served over SSL"
+msgstr ""
+
+#: ../../inc/sections/pwa.php:28
+msgid "Your website is served over SSL"
+msgstr ""
+
+#: ../../inc/sections/pwa.php:51
+msgid "Offline page"
+msgstr ""
+
+#: ../../inc/sections/pwa.php:54
+msgid "Allow browsing offline by caching"
+msgstr ""
+
+#: ../../inc/sections/pwa.php:73
+msgid ""
+"* Offline page is displayed when the device is offline and the requested "
+"page is not already cached."
+msgstr ""
+
+#: ../../inc/sections/pwa.php:78
+msgid "Install button"
+msgstr ""
+
+#: ../../inc/sections/pwa.php:81
+msgid "Display application install button on mobile global nav."
+msgstr ""
+
+#: ../../inc/sections/pwa.php:87
+msgid "Arrange the install button using widget."
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:26
+msgid ""
+"* To use Google reCAPCHA, you will need Site Key and Secrect Key. Please go "
+"to <a href=\"https://www.google.com/recaptcha\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Google reCAPTCHA</a> page and get yours."
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:27
+msgid ""
+"* It might take some time till you are abel to use the feature after getting "
+"your keys."
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:33
+msgid "Disable login users"
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:35
+msgid "Reliable score threshold ( Google recommended value: 0.5 )"
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:64
+msgid "Position of reCAPTCHA badge and Page Top button"
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:67
+msgid ""
+"Display a link to Privacy &amp; Terms above the comment submission button"
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:68
+msgid "Slide the Page Top button to the left"
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:69
+msgid "Slide the Page Top button up"
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:71
+msgid "* Hiding Privacy &amp; Terms violates the terms."
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:75
+msgid "Theme"
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:77
+msgid "light"
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:78
+msgid "dark"
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:84
+msgid "normal"
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:85
+msgid "compact"
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:89
+msgid "Type of authentication"
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:91
+msgid "image"
+msgstr ""
+
+#: ../../inc/sections/recaptcha.php:92
+msgid "audio"
+msgstr ""
+
+#: ../../inc/sections/regenerate-thumbnail.php:25
+msgid "* Regenerate all thumbnails being used."
+msgstr ""
+
+#: ../../inc/sections/regenerate-thumbnail.php:26
+msgid ""
+"* Processing takes time. Please do not move to another page during "
+"processing."
+msgstr ""
+
+#: ../../inc/sections/regenerate-thumbnail.php:27
+#: ../../inc/sections/sns-cache-all-get.php:26
+msgid ""
+"* Do not use this function consecutively because this function is burdens "
+"the server."
+msgstr ""
+
+#: ../../inc/sections/regenerate-thumbnail.php:30
+msgid "Regenerate started"
+msgstr ""
+
+#: ../../inc/sections/regenerate-thumbnail.php:33
+#: ../../inc/sections/sns-cache-all-get.php:33
+msgid "Stop"
+msgstr ""
+
+#: ../../inc/sections/regenerate-thumbnail.php:36
+msgid ""
+"Delete thumbnails that are not checked in &quot;Thumbnail Management&quot;"
+msgstr ""
+
+#: ../../inc/sections/regenerate-thumbnail.php:55
+#: ../../inc/sections/sns-cache-all-get.php:44
+msgid "Count"
+msgstr ""
+
+#: ../../inc/sections/script.php:23
+msgid "Do not load javascript of child theme ( luxech.js )"
+msgstr ""
+
+#: ../../inc/sections/script.php:25
+msgid ""
+"* If you are not going to customly add anything on the luxech.js, enabling "
+"this will streamline the page resource."
+msgstr ""
+
+#: ../../inc/sections/script.php:30
+msgid "Do not load the emoji script for WordPress"
+msgstr ""
+
+#: ../../inc/sections/script.php:32
+msgid "* If you do not use emoji, not loading it will make things faster !"
+msgstr ""
+
+#: ../../inc/sections/script.php:37
+msgid "Turn OFF the WordPress Embed function"
+msgstr ""
+
+#: ../../inc/sections/script.php:39
+msgid ""
+"* If you do not use emded functions, this will also make things faster !"
+msgstr ""
+
+#: ../../inc/sections/search.php:20
+msgid "Layout of search result"
+msgstr ""
+
+#: ../../inc/sections/search.php:23
+msgid "Show excerpt based on word matching"
+msgstr ""
+
+#: ../../inc/sections/search.php:27
+msgid "Show normal excerpts"
+msgstr ""
+
+#: ../../inc/sections/search.php:32
+msgid "Number of letters when #1 is chosen"
+msgstr ""
+
+#: ../../inc/sections/search.php:33
+msgid ""
+"When #2 is chosen, the number of letters set in &quot;Customizing "
+"(Appearance)  -&gt; Style Details&quot; will apply."
+msgstr ""
+
+#: ../../inc/sections/search.php:36
+msgid "Two-byte and One-byte character distinction"
+msgstr ""
+
+#: ../../inc/sections/search.php:39
+msgid "Apply the WordPress&apos;s MySQL / Maria DB setting"
+msgstr ""
+
+#: ../../inc/sections/search.php:43
+msgid "Do not distinguish Two/One-Byte and search"
+msgstr ""
+
+#: ../../inc/sections/search.php:47
+msgid "Distinguish Two/One-Byte and search"
+msgstr ""
+
+#: ../../inc/sections/search.php:51
+msgid "Extended Function"
+msgstr ""
+
+#: ../../inc/sections/search.php:54
+msgid "Include Comments as search results"
+msgstr ""
+
+#: ../../inc/sections/search.php:60
+msgid "Use search string autocomplete function"
+msgstr ""
+
+#: ../../inc/sections/search.php:60
+msgid "* It can not be used with smartphones etc."
+msgstr ""
+
+#: ../../inc/sections/search.php:66
+msgid "Highlight the searched words"
+msgstr ""
+
+#: ../../inc/sections/search.php:70
+msgid "Highlight decoration style"
+msgstr ""
+
+#: ../../inc/sections/search.php:77
+msgid "Oblique"
+msgstr ""
+
+#: ../../inc/sections/search.php:81
+msgid "Apply background color"
+msgstr ""
+
+#: ../../inc/sections/securimage.php:24
+msgid "Image Size (Width : Height)"
+msgstr ""
+
+#: ../../inc/sections/securimage.php:30
+msgid "Number of characters (Min - Max)"
+msgstr ""
+
+#: ../../inc/sections/securimage.php:36
+msgid "Character Set"
+msgstr ""
+
+#: ../../inc/sections/securimage.php:38
+msgid "Number"
+msgstr ""
+
+#: ../../inc/sections/securimage.php:39 ../../inc/sections/securimage.php:40
+#: ../../inc/sections/securimage.php:41
+msgid "Alphabet"
+msgstr ""
+
+#: ../../inc/sections/securimage.php:40 ../../inc/sections/securimage.php:43
+msgid "upper"
+msgstr ""
+
+#: ../../inc/sections/securimage.php:41 ../../inc/sections/securimage.php:44
+msgid "lower"
+msgstr ""
+
+#: ../../inc/sections/securimage.php:42 ../../inc/sections/securimage.php:43
+#: ../../inc/sections/securimage.php:44
+msgid "Alphanumeric"
+msgstr ""
+
+#: ../../inc/sections/securimage.php:52
+msgid "Image color"
+msgstr ""
+
+#: ../../inc/sections/securimage.php:81
+msgid "Character distortion"
+msgstr ""
+
+#: ../../inc/sections/securimage.php:85
+msgid "Background noise"
+msgstr ""
+
+#: ../../inc/sections/securimage.php:100
+msgid "Noise color"
+msgstr ""
+
+#: ../../inc/sections/securimage.php:104
+msgid "Number of lines above the image to make it obscure"
+msgstr ""
+
+#: ../../inc/sections/securimage.php:118
+msgid "Line color"
+msgstr ""
+
+#: ../../inc/sections/seo.php:20
+msgid "To add tags"
+msgstr ""
+
+#: ../../inc/sections/seo.php:45
+msgid "The front page meta description"
+msgstr ""
+
+#: ../../inc/sections/seo.php:47
+msgid ""
+"* You can change meta description of each post by writing it in &quot;"
+"Excerpt&quot; on New Post / Edit Post page."
+msgstr ""
+
+#: ../../inc/sections/seo.php:48
+msgid ""
+"* You can change meta description of category and tag page by writing it in "
+"&quot;Description&quot; on Edit Categories or Tags page."
+msgstr ""
+
+#: ../../inc/sections/seo.php:51
+msgid "Structured data "
+msgstr ""
+
+#: ../../inc/sections/seo.php:52
+msgid "Types of site names recognized by the search engine"
+msgstr ""
+
+#: ../../inc/sections/seo.php:55
+msgid "Web site name"
+msgstr ""
+
+#: ../../inc/sections/seo.php:59
+msgid "Organization name"
+msgstr ""
+
+#: ../../inc/sections/seo.php:62
+msgid "Organization"
+msgstr ""
+
+#: ../../inc/sections/seo.php:66
+msgid "Airline"
+msgstr ""
+
+#: ../../inc/sections/seo.php:67
+msgid "Corporation"
+msgstr ""
+
+#: ../../inc/sections/seo.php:68
+msgid "EducationalOrganization"
+msgstr ""
+
+#: ../../inc/sections/seo.php:77
+msgid "CollegeOrUniversity"
+msgstr ""
+
+#: ../../inc/sections/seo.php:78
+msgid "ElementarySchool"
+msgstr ""
+
+#: ../../inc/sections/seo.php:79
+msgid "HighSchool"
+msgstr ""
+
+#: ../../inc/sections/seo.php:80
+msgid "MiddleSchool"
+msgstr ""
+
+#: ../../inc/sections/seo.php:81
+msgid "Preschool"
+msgstr ""
+
+#: ../../inc/sections/seo.php:82
+msgid "School"
+msgstr ""
+
+#: ../../inc/sections/seo.php:91
+msgid "GovernmentOrganization"
+msgstr ""
+
+#: ../../inc/sections/seo.php:92
+msgid "LocalBusiness"
+msgstr ""
+
+#: ../../inc/sections/seo.php:101
+msgid "AnimalShelter"
+msgstr ""
+
+#: ../../inc/sections/seo.php:102
+msgid "AutomotiveBusiness"
+msgstr ""
+
+#: ../../inc/sections/seo.php:111
+msgid "AutoBodyShop"
+msgstr ""
+
+#: ../../inc/sections/seo.php:112
+msgid "AutoDealer"
+msgstr ""
+
+#: ../../inc/sections/seo.php:113
+msgid "AutoPartsStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:114
+msgid "AutoRental"
+msgstr ""
+
+#: ../../inc/sections/seo.php:115
+msgid "AutoRepair"
+msgstr ""
+
+#: ../../inc/sections/seo.php:116
+msgid "AutoWash"
+msgstr ""
+
+#: ../../inc/sections/seo.php:117
+msgid "GasStation"
+msgstr ""
+
+#: ../../inc/sections/seo.php:118
+msgid "MotorcycleDealer"
+msgstr ""
+
+#: ../../inc/sections/seo.php:119
+msgid "MotorcycleRepair"
+msgstr ""
+
+#: ../../inc/sections/seo.php:128
+msgid "ChildCare"
+msgstr ""
+
+#: ../../inc/sections/seo.php:129
+msgid "DryCleaningOrLaundry"
+msgstr ""
+
+#: ../../inc/sections/seo.php:130
+msgid "EmergencyService"
+msgstr ""
+
+#: ../../inc/sections/seo.php:139
+msgid "FireStation"
+msgstr ""
+
+#: ../../inc/sections/seo.php:140
+msgid "PoliceStation"
+msgstr ""
+
+#: ../../inc/sections/seo.php:149
+msgid "EmploymentAgency"
+msgstr ""
+
+#: ../../inc/sections/seo.php:150
+msgid "EntertainmentBusiness"
+msgstr ""
+
+#: ../../inc/sections/seo.php:159
+msgid "AdultEntertainment"
+msgstr ""
+
+#: ../../inc/sections/seo.php:160
+msgid "AmusementPark"
+msgstr ""
+
+#: ../../inc/sections/seo.php:161
+msgid "ArtGallery"
+msgstr ""
+
+#: ../../inc/sections/seo.php:162
+msgid "Casino"
+msgstr ""
+
+#: ../../inc/sections/seo.php:163
+msgid "ComedyClub"
+msgstr ""
+
+#: ../../inc/sections/seo.php:164
+msgid "MovieTheater"
+msgstr ""
+
+#: ../../inc/sections/seo.php:165
+msgid "NightClub"
+msgstr ""
+
+#: ../../inc/sections/seo.php:174
+msgid "FinancialService"
+msgstr ""
+
+#: ../../inc/sections/seo.php:183
+msgid "AccountingService"
+msgstr ""
+
+#: ../../inc/sections/seo.php:184
+msgid "AutomatedTeller"
+msgstr ""
+
+#: ../../inc/sections/seo.php:185
+msgid "BankOrCreditUnion"
+msgstr ""
+
+#: ../../inc/sections/seo.php:186
+msgid "InsuranceAgency"
+msgstr ""
+
+#: ../../inc/sections/seo.php:195
+msgid "FoodEstablishment"
+msgstr ""
+
+#: ../../inc/sections/seo.php:204
+msgid "Bakery"
+msgstr ""
+
+#: ../../inc/sections/seo.php:205
+msgid "BarOrPub"
+msgstr ""
+
+#: ../../inc/sections/seo.php:206
+msgid "Brewery"
+msgstr ""
+
+#: ../../inc/sections/seo.php:207
+msgid "CafeOrCoffeeShop"
+msgstr ""
+
+#: ../../inc/sections/seo.php:208
+msgid "FastFoodRestaurant"
+msgstr ""
+
+#: ../../inc/sections/seo.php:209
+msgid "IceCreamShop"
+msgstr ""
+
+#: ../../inc/sections/seo.php:210
+msgid "Restaurant"
+msgstr ""
+
+#: ../../inc/sections/seo.php:211
+msgid "Winery"
+msgstr ""
+
+#: ../../inc/sections/seo.php:220
+msgid "GovernmentOffice"
+msgstr ""
+
+#: ../../inc/sections/seo.php:229
+msgid "PostOffice"
+msgstr ""
+
+#: ../../inc/sections/seo.php:238
+msgid "HealthAndBeautyBusiness"
+msgstr ""
+
+#: ../../inc/sections/seo.php:247
+msgid "BeautySalon"
+msgstr ""
+
+#: ../../inc/sections/seo.php:248
+msgid "DaySpa"
+msgstr ""
+
+#: ../../inc/sections/seo.php:249
+msgid "HairSalon"
+msgstr ""
+
+#: ../../inc/sections/seo.php:250 ../../inc/sections/seo.php:348
+msgid "HealthClub"
+msgstr ""
+
+#: ../../inc/sections/seo.php:251
+msgid "NailSalon"
+msgstr ""
+
+#: ../../inc/sections/seo.php:252
+msgid "TattooParlor"
+msgstr ""
+
+#: ../../inc/sections/seo.php:261
+msgid "HomeAndConstructionBusiness"
+msgstr ""
+
+#: ../../inc/sections/seo.php:270
+msgid "Electrician"
+msgstr ""
+
+#: ../../inc/sections/seo.php:271
+msgid "GeneralContractor"
+msgstr ""
+
+#: ../../inc/sections/seo.php:272
+msgid "HVACBusiness"
+msgstr ""
+
+#: ../../inc/sections/seo.php:273
+msgid "HousePainter"
+msgstr ""
+
+#: ../../inc/sections/seo.php:274
+msgid "Locksmith"
+msgstr ""
+
+#: ../../inc/sections/seo.php:275
+msgid "MovingCompany"
+msgstr ""
+
+#: ../../inc/sections/seo.php:276
+msgid "Plumber"
+msgstr ""
+
+#: ../../inc/sections/seo.php:277
+msgid "RoofingContractor"
+msgstr ""
+
+#: ../../inc/sections/seo.php:286
+msgid "InternetCafe"
+msgstr ""
+
+#: ../../inc/sections/seo.php:287
+msgid "LegalService"
+msgstr ""
+
+#: ../../inc/sections/seo.php:296
+msgid "Attorney"
+msgstr ""
+
+#: ../../inc/sections/seo.php:297
+msgid "Notary"
+msgstr ""
+
+#: ../../inc/sections/seo.php:306
+msgid "Library"
+msgstr ""
+
+#: ../../inc/sections/seo.php:307
+msgid "LodgingBusiness"
+msgstr ""
+
+#: ../../inc/sections/seo.php:316
+msgid "BedAndBreakfast"
+msgstr ""
+
+#: ../../inc/sections/seo.php:317
+msgid "Campground"
+msgstr ""
+
+#: ../../inc/sections/seo.php:318
+msgid "Hostel"
+msgstr ""
+
+#: ../../inc/sections/seo.php:319
+msgid "Hotel"
+msgstr ""
+
+#: ../../inc/sections/seo.php:320
+msgid "Motel"
+msgstr ""
+
+#: ../../inc/sections/seo.php:321
+msgid "Resort"
+msgstr ""
+
+#: ../../inc/sections/seo.php:330
+msgid "ProfessionalService"
+msgstr ""
+
+#: ../../inc/sections/seo.php:331
+msgid "RadioStation"
+msgstr ""
+
+#: ../../inc/sections/seo.php:332
+msgid "RealEstateAgent"
+msgstr ""
+
+#: ../../inc/sections/seo.php:333
+msgid "RecyclingCenter"
+msgstr ""
+
+#: ../../inc/sections/seo.php:334
+msgid "SelfStorage"
+msgstr ""
+
+#: ../../inc/sections/seo.php:335
+msgid "ShoppingCenter"
+msgstr ""
+
+#: ../../inc/sections/seo.php:336
+msgid "SportsActivityLocation"
+msgstr ""
+
+#: ../../inc/sections/seo.php:345
+msgid "BowlingAlley"
+msgstr ""
+
+#: ../../inc/sections/seo.php:346
+msgid "ExerciseGym"
+msgstr ""
+
+#: ../../inc/sections/seo.php:347
+msgid "GolfCourse"
+msgstr ""
+
+#: ../../inc/sections/seo.php:349
+msgid "PublicSwimmingPool"
+msgstr ""
+
+#: ../../inc/sections/seo.php:350
+msgid "SkiResort"
+msgstr ""
+
+#: ../../inc/sections/seo.php:351
+msgid "SportsClub"
+msgstr ""
+
+#: ../../inc/sections/seo.php:352
+msgid "StadiumOrArena"
+msgstr ""
+
+#: ../../inc/sections/seo.php:353
+msgid "TennisComplex"
+msgstr ""
+
+#: ../../inc/sections/seo.php:362
+msgid "Store"
+msgstr ""
+
+#: ../../inc/sections/seo.php:371
+msgid "BikeStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:372
+msgid "BookStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:373
+msgid "ClothingStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:374
+msgid "ComputerStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:375
+msgid "ConvenienceStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:376
+msgid "DepartmentStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:377
+msgid "ElectronicsStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:378
+msgid "Florist"
+msgstr ""
+
+#: ../../inc/sections/seo.php:379
+msgid "FurnitureStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:380
+msgid "GardenStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:381
+msgid "GroceryStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:382
+msgid "HardwareStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:383
+msgid "HobbyShop"
+msgstr ""
+
+#: ../../inc/sections/seo.php:384
+msgid "HomeGoodsStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:385
+msgid "JewelryStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:386
+msgid "LiquorStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:387
+msgid "MensClothingStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:388
+msgid "MobilePhoneStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:389
+msgid "MovieRentalStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:390
+msgid "MusicStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:391
+msgid "OfficeEquipmentStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:392
+msgid "OutletStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:393
+msgid "PawnShop"
+msgstr ""
+
+#: ../../inc/sections/seo.php:394
+msgid "PetStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:395
+msgid "ShoeStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:396
+msgid "SportingGoodsStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:397
+msgid "TireShop"
+msgstr ""
+
+#: ../../inc/sections/seo.php:398
+msgid "ToyStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:399
+msgid "WholesaleStore"
+msgstr ""
+
+#: ../../inc/sections/seo.php:408
+msgid "TelevisionStation"
+msgstr ""
+
+#: ../../inc/sections/seo.php:409
+msgid "TouristInformationCenter"
+msgstr ""
+
+#: ../../inc/sections/seo.php:410
+msgid "TravelAgency"
+msgstr ""
+
+#: ../../inc/sections/seo.php:419
+msgid "MedicalOrganization"
+msgstr ""
+
+#: ../../inc/sections/seo.php:428
+msgid "Dentist"
+msgstr ""
+
+#: ../../inc/sections/seo.php:429
+msgid "Hospital"
+msgstr ""
+
+#: ../../inc/sections/seo.php:430
+msgid "Pharmacy"
+msgstr ""
+
+#: ../../inc/sections/seo.php:431
+msgid "Physician"
+msgstr ""
+
+#: ../../inc/sections/seo.php:440
+msgid "NGO"
+msgstr ""
+
+#: ../../inc/sections/seo.php:441
+msgid "PerformingGroup"
+msgstr ""
+
+#: ../../inc/sections/seo.php:450
+msgid "DanceGroup"
+msgstr ""
+
+#: ../../inc/sections/seo.php:451
+msgid "MusicGroup"
+msgstr ""
+
+#: ../../inc/sections/seo.php:452
+msgid "TheaterGroup"
+msgstr ""
+
+#: ../../inc/sections/seo.php:461
+msgid "SportsOrganization"
+msgstr ""
+
+#: ../../inc/sections/seo.php:470
+msgid "SportsTeam"
+msgstr ""
+
+#: ../../inc/sections/seo.php:483
+msgid "Site logo"
+msgstr ""
+
+#: ../../inc/sections/seo.php:516
+msgid "Organization logo"
+msgstr ""
+
+#: ../../inc/sections/seo.php:516
+msgid ""
+"Only when &quoValid only when &quot;Organization name&quot; is selected as "
+"the type of site name"
+msgstr ""
+
+#: ../../inc/sections/seo.php:517
+msgid "* Required depending on the selected organization"
+msgstr ""
+
+#: ../../inc/sections/seo.php:520
+msgid "There is no organization logo. Or don&apos;t need such a setting"
+msgstr ""
+
+#: ../../inc/sections/seo.php:524
+msgid ""
+"Make the search engine recognize the following image as &quot;Organization "
+"logo&quot;"
+msgstr ""
+
+#: ../../inc/sections/seo.php:526
+msgid "* The image must be at least 112 px wide and at least 112 px high."
+msgstr ""
+
+#: ../../inc/sections/seo.php:561
+msgid "Put tags and category names into meta keywords"
+msgstr ""
+
+#: ../../inc/sections/seo.php:565
+msgid "Do not need any meta keywords!"
+msgstr ""
+
+#: ../../inc/sections/seo.php:569
+msgid "Date to display in Google search results"
+msgstr ""
+
+#: ../../inc/sections/seo.php:574
+msgid ""
+"* It is a setting of the date to display in Google search results when there "
+"is both a publish date and an update date."
+msgstr ""
+
+#: ../../inc/sections/seo.php:577
+msgid "category and tag pages"
+msgstr ""
+
+#: ../../inc/sections/seo.php:578
+msgid "* For SEO reasons, you can only select either category or tag page."
+msgstr ""
+
+#: ../../inc/sections/seo.php:581
+msgid "Index category page."
+msgstr ""
+
+#: ../../inc/sections/seo.php:581 ../../inc/sections/seo.php:585
+msgid "Only the first page"
+msgstr ""
+
+#: ../../inc/sections/seo.php:585
+msgid "Index tag page."
+msgstr ""
+
+#: ../../inc/sections/seo.php:589
+msgid "Prohibit crawlers to index either"
+msgstr ""
+
+#: ../../inc/sections/seo.php:593
+msgid "Splitting Content for blog posts and pages"
+msgstr ""
+
+#: ../../inc/sections/seo.php:596
+msgid ""
+"Prohibit crawlers to index second page onward when contents are split using "
+"&lt;!--nextpage--&gt; tag."
+msgstr ""
+
+#: ../../inc/sections/shortcode-balloon.php:39
+msgid "Speech balloon shortcode"
+msgstr ""
+
+#: ../../inc/sections/shortcode-balloon.php:44
+msgid ""
+"* If speech balloon shortcode is registered, CSS for speech balloon will be "
+"automatically loaded."
+msgstr ""
+
+#: ../../inc/sections/shortcode-balloon.php:59
+#: ../../inc/sections/shortcode-balloon.php:82
+#: ../../inc/sections/shortcode-balloon.php:110
+#: ../../inc/sections/shortcode-balloon.php:133
+msgid "Registered"
+msgstr ""
+
+#: ../../inc/sections/shortcode-balloon.php:68
+#: ../../inc/sections/shortcode-balloon.php:119
+msgid "Select image"
+msgstr ""
+
+#: ../../inc/sections/shortcode-balloon.php:69
+#: ../../inc/sections/shortcode-balloon.php:120
+#, php-format
+msgid "Width %s recommended"
+msgstr ""
+
+#: ../../inc/sections/shortcode-balloon.php:77
+#: ../../inc/sections/shortcode-balloon.php:128
+msgid "Caption"
+msgstr ""
+
+#: ../../inc/sections/shortcode-balloon.php:87
+msgid "Left caption"
+msgstr ""
+
+#: ../../inc/sections/shortcode-balloon.php:138
+msgid "Right caption"
+msgstr ""
+
+#: ../../inc/sections/shortcode-balloon.php:148
+msgid "* This item can be changed even after shortcode registration."
+msgstr ""
+
+#: ../../inc/sections/shortcode-list.php:66
+#, php-format
+msgid "* %s names with the same name can not be registered."
+msgstr ""
+
+#: ../../inc/sections/shortcode-list.php:67
+msgid ""
+"* Import is self responsible, please import only from the trustworthy file."
+msgstr ""
+
+#: ../../inc/sections/shortcode-list.php:68
+msgid "* Shortcode is stored in shortcodes directory of the child theme."
+msgstr ""
+
+#: ../../inc/sections/shortcode-list.php:69
+msgid ""
+"* Except for Luxeritas special shortcode, you can use it for other themes by "
+"porting the contents stored in the shortcodes directory to functions.php."
+msgstr ""
+
+#: ../../inc/sections/shortcode-list.php:140
+msgid "Shortcode Edit"
+msgstr ""
+
+#: ../../inc/sections/shortcode-sample.php:27
+msgid "Tutorial"
+msgstr ""
+
+#: ../../inc/sections/sns-cache-all-get.php:24
+msgid ""
+"* It will retrieve the SNS count number of all posts and restructure the "
+"cache."
+msgstr ""
+
+#: ../../inc/sections/sns-cache-all-get.php:25
+msgid "* Normally you do not need to use this function."
+msgstr ""
+
+#: ../../inc/sections/sns-cache-all-get.php:30
+msgid "Restructure started"
+msgstr ""
+
+#: ../../inc/sections/sns-cache-cleanup.php:21
+msgid "Clear all SNS count cache"
+msgstr ""
+
+#: ../../inc/sections/sns-cache-cleanup.php:22
+msgid "* This will delete the whole cache directory including cache settings."
+msgstr ""
+
+#: ../../inc/sections/sns-cache-csv.php:24
+msgid "* Download the list of SNS count caches in CSV format."
+msgstr ""
+
+#: ../../inc/sections/sns-cache-csv.php:27
+msgid "Download"
+msgstr ""
+
+#: ../../inc/sections/speedup-items.php:42
+msgid "Compress"
+msgstr ""
+
+#: ../../inc/sections/speedup-items.php:79
+#: ../../inc/sections/speedup-items.php:84
+#, php-format
+msgid "How to Load CSS of %s"
+msgstr ""
+
+#: ../../inc/sections/speedup-items.php:154
+msgid "SNS count cache"
+msgstr ""
+
+#: ../../inc/sections/speedup-items.php:174
+#: ../../inc/sections/speedup-items.php:178
+msgid "* Please setting this item yourself."
+msgstr ""
+
+#: ../../inc/sections/speedup-set.php:21
+msgid "* Using cache plugin with Luxeritas may be rather slow."
+msgstr ""
+
+#: ../../inc/sections/speedup-set.php:22
+msgid "* Red letters set are not basically recommended."
+msgstr ""
+
+#: ../../inc/sections/speedup-set.php:23
+msgid "Recommended settings"
+msgstr ""
+
+#: ../../inc/sections/speedup-set.php:24
+msgid ""
+"Faster settings <span style=\"color:red\">( But lags in rendering ! )</span>"
+msgstr ""
+
+#: ../../inc/sections/speedup-set.php:25
+msgid "Extreme settings"
+msgstr ""
+
+#: ../../inc/sections/speedup-set.php:25
+msgid "Caution"
+msgstr ""
+
+#: ../../inc/sections/speedup-set.php:27
+msgid "You selected the item."
+msgstr ""
+
+#: ../../inc/sections/speedup-set.php:27
+msgid "Please press save button"
+msgstr ""
+
+#: ../../inc/sections/thumbnail-manage.php:19
+msgid ""
+"* For checked size, thumbnails will be created when uploading images on the "
+"Media Library."
+msgstr ""
+
+#: ../../inc/sections/thumbnail-manage.php:20
+msgid ""
+"* Crop = When the aspect ratio does not match, the protruding part is cut "
+"away."
+msgstr ""
+
+#: ../../inc/sections/thumbnail-manage.php:21
+msgid ""
+"* Selectable = On post, you can select &quot;ATTACHMENT DISPLAY "
+"SETTINGS&quot; in the Media Library."
+msgstr ""
+
+#: ../../inc/sections/thumbnail-manage.php:26
+msgid "Generate"
+msgstr ""
+
+#: ../../inc/sections/thumbnail-manage.php:27
+msgid "Max size"
+msgstr ""
+
+#: ../../inc/sections/thumbnail-manage.php:132
+msgid ""
+"* To use user thumbnails with existing images, you need to regenerate "
+"thumbnails."
+msgstr ""
+
+#: ../../inc/sections/title.php:20
+msgid "Separator of title"
+msgstr ""
+
+#: ../../inc/sections/title.php:31
+msgid "Page title when Front Page is post pages"
+msgstr ""
+
+#: ../../inc/sections/title.php:38 ../../inc/sections/title.php:49
+#: ../../inc/sections/title.php:76
+msgid "Tagline"
+msgstr ""
+
+#: ../../inc/sections/title.php:42
+msgid "Page title when Front Page is static pages"
+msgstr ""
+
+#: ../../inc/sections/title.php:53 ../../inc/sections/title.php:57
+#: ../../inc/sections/title.php:64 ../../inc/sections/title.php:68
+#: ../../inc/sections/title.php:72 ../../inc/sections/title.php:76
+msgid "Page title"
+msgstr ""
+
+#: ../../inc/sections/title.php:61
+msgid "Other page title"
+msgstr ""
+
+#: ../../inc/sections/version.php:58
+msgid "Current Theme"
+msgstr ""
+
+#: ../../inc/sections/version.php:59 ../../inc/sections/version.php:65
+#, php-format
+msgid "Version: %s"
+msgstr ""
+
+#: ../../inc/sections/version.php:62
+#, php-format
+msgid "This is a child theme of %s."
+msgstr ""
+
+#: ../../inc/sections/version.php:64
+msgid "Parent Theme"
+msgstr ""
+
+#: ../../inc/sections/version.php:69
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../../inc/sections/version.php:73
+msgid "Tags"
+msgstr ""
+
+#: ../../inc/sections/widget-area.php:21
+msgid "* When checked, hide the widget area."
+msgstr ""
+
+#: ../../inc/sections/widget-area.php:34 ../../inc/sections/widget-area.php:56
+#: ../../inc/sections/widget-body.php:42 ../../inc/sections/widget-body.php:64
+msgid "Preview"
+msgstr ""
+
+#: ../../inc/sections/widget-body.php:29
+msgid "* When checked, hides the widget."
+msgstr ""
+
+#: ../../inc/sections/widget-css.php:20
+msgid "Load CSS for widgets"
+msgstr ""
+
+#: ../../inc/sections/widget-css.php:21
+msgid ""
+"* If you are not using CSS for widgets, disabling its load will decrease the "
+"total filze size of the page and can make your page render faster."
+msgstr ""
+
+#: ../../inc/sections/widget-css.php:31
+msgid "Search Form Widget"
+msgstr ""
+
+#: ../../inc/sections/widget-css.php:32
+msgid "Categories &amp; Archive Widget"
+msgstr ""
+
+#: ../../inc/sections/widget-css.php:33
+msgid "Categories &amp; Archive DropDown Widget"
+msgstr ""
+
+#: ../../inc/sections/widget-css.php:34
+msgid "Calendar Widget"
+msgstr ""
+
+#: ../../inc/sections/widget-css.php:35
+msgid "Tag cloud Widget"
+msgstr ""
+
+#: ../../inc/sections/widget-css.php:37
+msgid "Adsense Widget"
+msgstr ""
+
+#: ../../inc/sections/widget-css.php:39
+msgid "SNS Follow Button (by Luxeritas)"
+msgstr ""
+
+#: ../../inc/sections/widget-css.php:40
+msgid "RSS / Feedly Button (by Luxeritas)"
+msgstr ""
+
+#: ../../languages/site/translations.php:77
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: ../../languages/site/translations.php:78
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: ../../languages/site/translations.php:79
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../../languages/site/translations.php:80
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../../languages/site/translations.php:81
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../../languages/site/translations.php:82
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../../languages/site/translations.php:83
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: ../../languages/site/translations.php:84
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: ../../languages/site/translations.php:86 ../../pages/sitemap.php:23
+#: ../../pages/sitemap.php:24 ../../pages/sitemap.php:36
+msgid "Sitemap"
+msgstr ""
+
+#: ../../pages/wrapper-menu.php:15 ../../pages/wrapper-menu.php:16
+msgid "Custom global nav"
+msgstr ""

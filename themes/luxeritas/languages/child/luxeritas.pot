@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luxeritas\n"
+"POT-Creation-Date: 2020-12-30 07:52+0900\n"
+"PO-Revision-Date: 2020-12-30 13:55+0900\n"
+"Last-Translator: \n"
+"Language-Team: Thought is Free\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_x;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: ../../pages\n"
+
+#: ../../pages/sitemap.php:31
+msgid "Sitemap"
+msgstr ""
+
+#: ../../pages/sitemap.php:37
+msgid "Pages"
+msgstr ""
+
+#: ../../pages/sitemap.php:46
+msgid "Category"
+msgstr ""
+
+#: ../../pages/wrapper-menu.php:15 ../../pages/wrapper-menu.php:16
+msgid "Custom global nav"
+msgstr ""

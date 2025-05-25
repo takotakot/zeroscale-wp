@@ -1,0 +1,46 @@
+/* Luxeritas WordPress Theme - free/libre wordpress platform
+ *
+ * @copyright Copyright (C) 2015 Thought is free.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+ * @author LunaNuko
+ * @link https://thk.kanzae.net/
+ * @translators rakeem( http://rakeem.jp/ )
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ */
+
+/* Opening - Rotate title */
+
+#sitename {
+	animation: rotateTitle 1s forwards;
+}
+@keyframes rotateTitle {
+	0%{
+		transform: rotateY(0);
+	}
+	10%{
+		transform: rotateY(45deg);
+	}
+	20%{
+		transform: rotateY(90deg);
+	}
+	30%{
+		transform: rotateY(135deg);
+	}
+	60%{
+		transform: rotateY(-45deg);
+	}
+	70%{
+		transform: rotateY(-90deg);
+	}
+	80%{
+		transform: rotateY(-135deg);
+	}
+	100%{
+		transform: none;
+	}
+}

@@ -1,0 +1,510 @@
+{
+	"domain": "messages",
+	"locale_data": {
+		"messages": {
+			"": {
+				"domain": "messages",
+				"plural_forms": "nplurals=2; plural=(n != 1);",
+				"lang": "ja"
+			},
+			"Block in block": [
+				"ブロック内ブロック",
+			],
+			"Blogcard": [
+				"ブログカード",
+			],
+			"Insert blogcard (Luxeritas only)": [
+				"ブログカードを挿入します (Luxeritas 専用)",
+			],
+			"Link Text": [
+				"リンク文字列",
+			],
+			"Open link in a new tab": [
+				"リンクを新しいタブで開く"
+			],
+			"Divider": [
+				"区切り線"
+			],
+			"A divider to indicate a thematic change in the content in style.": [
+				"段落間に区切り線を引きます。"
+			],
+			"Style": [
+				"スタイル"
+			],
+			"Border style": [
+				"枠線のスタイル"
+			],
+			"Divider line thickness": [
+				"線の太さ"
+			],
+			"Width": [
+				"幅"
+			],
+			"Height": [
+				"高さ"
+			],
+			"Alignment": [
+				"左右の位置"
+			],
+			"Divider line Color": [
+				"区切り線の色"
+			],
+			"Appearance": [
+				"外観"
+			],
+			"Icon type": [
+				"アイコンタイプ"
+			],
+			"icon": [
+				"アイコン"
+			],
+			"image": [
+				"画像"
+			],
+			"Icon size": [
+				"アイコンの大きさ"
+			],
+			"Margin around icon": [
+				"アイコン周辺の余白"
+			],
+			"Border thickness": [
+				"枠線の太さ"
+			],
+			"Alignment of block": [
+				"ブロックの配置"
+			],
+			"Border radius": [
+				"枠線の丸み"
+			],
+			"Max width": [
+				"最大幅"
+			],
+			"When input is 0, 100%": [
+				"0 で 100%"
+			],
+			"Margin": [
+				"マージン"
+			],
+			"Padding": [
+				"パディング"
+			],
+			"Write contents": [
+				"コンテンツを入力"
+			],
+			"Write HTML": [
+				"HTMLを入力"
+			],
+			"Nest blocks": [
+				"ブロックを入れ子にする"
+			],
+			"Select parent block": [
+				"親ブロックを選択"
+			],
+			"Selected parent block": [
+				"親ブロック選択中"
+			],
+			"Selected child block": [
+				"子ブロック選択中"
+			],
+			"Border block": [
+				"枠線ブロック"
+			],
+			"Paragraph with a border.": [
+				"枠線つきの段落です。"
+			],
+			"Topic": [
+				"トピック"
+			],
+			"Topic block": [
+				"トピックブロック"
+			],
+			"Titled topic": [
+				"タイトルつきのトピック枠"
+			],
+			"Notification": [
+				"お知らせ"
+			],
+			"Notification block": [
+				"お知らせブロック"
+			],
+			"Notification block with icon": [
+				"アイコン付きお知らせブロック"
+			],
+			"Title background color": [
+				"タイトル背景色"
+			],
+			"Title text color": [
+				"タイトル文字色"
+			],
+			"Icon background color": [
+				"アイコン背景色"
+			],
+			"Icon color": [
+				"アイコン色"
+			],
+			"Text color": [
+				"文字色"
+			],
+			"Background color": [
+				"背景色"
+			],
+			"Overlay Color": [
+				"オーバーレイの色"
+			],
+			"Background Opacity": [
+				"背景透過率"
+			],
+			"Border color": [
+				"枠線色"
+			],
+			"Top": [
+				"上"
+			],
+			"Bottom": [
+				"下"
+			],
+			"Right": [
+				"右"
+			],
+			"Left": [
+				"左"
+			],
+			"Center": [
+				"中央"
+			],
+			"Title position": [
+				"タイトルの位置"
+			],
+			"Syntax Highlighter": [
+				"シンタックスハイライター"
+			],
+			"Adds syntax highlighting to source code.": [
+				"ソースコードの構文をハイライト表示します。"
+			],
+			"Code Language": [
+				"言語"
+			],
+			"* The theme can be changed from the CSS tab of Luxeritas menu.": [
+				"※ テーマ(見た目)は Luxeritas メニューの CSS タブから変更できます。"
+			],
+			"Line number": [
+				"行番号"
+			],
+			"Choose a code language.": [
+				"言語を選択してください"
+			],
+			"To the right, choose a code language from the block settings.": [
+				"右側のブロック設定から言語を選択してください。"
+			],
+			"HTML pattern insert editor": [
+				"定型文挿入エディタ"
+			],
+			"Advanced text editor. Can also insert HTML pattern registered in Luxeritas menu.": [
+				"高度なテキストエディタです。Luxeritas メニューで登録した HTML 定型文の挿入もできます。"
+			],
+			"HTML pattern": [
+				"定型文"
+			],
+			"There is no active pattern": [
+				"定型文が登録されていません"
+			],
+			"There is no active shortcode": [
+				"ショートコードが登録されていません"
+			],
+			"Heading tags": [
+				"見出しタグ"
+			],
+			"Heading 2": [
+				"見出し2"
+			],
+			"Heading 3": [
+				"見出し3"
+			],
+			"Heading 4": [
+				"見出し4"
+			],
+			"Heading 5": [
+				"見出し5"
+			],
+			"Heading 6": [
+				"見出し6"
+			],
+			"Block tags": [
+				"ブロック要素"
+			],
+			"Paragraph": [
+				"段落"
+			],
+			"Block": [
+				"ブロック"
+			],
+			"Quotation": [
+				"引用"
+			],
+			"Preformatted text": [
+				"整形済みテキスト"
+			],
+			"Source code": [
+				"ソースコード"
+			],
+			"Address": [
+				"連絡先・問合せ先"
+			],
+			"Inline tags": [
+				"インライン要素"
+			],
+			"Inline container": [
+				"範囲"
+			],
+			"Strong emphasis": [
+				"強い強調"
+			],
+			"Line break": [
+				"改行"
+			],
+			"Link": [
+				"リンク"
+			],
+			"External link": [
+				"外部リンク"
+			],
+			"Image tag": [
+				"イメージタグ"
+			],
+			"Bulleted list": [
+				"リスト(箇条書き)"
+			],
+			"Numbered list": [
+				"番号付きリスト"
+			],
+			"Table": [
+				"テーブル"
+			],
+			"Please enter url.": [
+				"URL を入力してください。"
+			],
+			"Title Color Settings": [
+				"タイトルの色設定"
+			],
+			"Icon Color Settings": [
+				"アイコンの色設定"
+			],
+			"Color Settings": [
+				"色設定"
+			],
+			"Accordion": [
+				"アコーディオン"
+			],
+			"Accordion block": [
+				"アコーディオンブロック"
+			],
+			"Accordion block that opens and closes by clicking the title.": [
+				"タイトルをクリックすると開閉するアコーディオンブロックです。"
+			],
+			"Profile": [
+				"紹介文"
+			],
+			"Displaying personal profiles.": [
+				"プロフィールなど、人物や画像の紹介文を書きます。"
+			],
+			"Add structured data to represent a person.": [
+				"人物を表す構造化データを付与する。"
+			],
+			"Background image": [
+				"背景画像"
+			],
+			"Fixed Background": [
+				"固定背景"
+			],
+			"Focal Point Picker": [
+				"焦点ピッカー"
+			],
+			"Select image": [
+				"画像を選択"
+			],
+			"Delete image": [
+				"画像を削除"
+			],
+			"Repeat": [
+				"繰り返し"
+			],
+			"repeat": [
+				"repeat ( 繰り返し )"
+			],
+			"repeat-x": [
+				"repeat-x ( 横に繰り返し )"
+			],
+			"repeat-y": [
+				"repeat-y ( 縦に繰り返し )"
+			],
+			"no-repeat": [
+				"no-repeat ( 繰り返さない )"
+			],
+			"Size": [
+				"サイズ"
+			],
+			"auto": [
+				"auto ( 自動 )"
+			],
+			"contain": [
+				"contain ( 画像全体が見えるように伸長 )"
+			],
+			"cover": [
+				"cover ( 領域を埋めるように伸長 )"
+			],
+			"width: 100%,  height: auto": [
+				"幅: 100%、高さ: 自動"
+			],
+			"width: auto,  height: 100%": [
+				"幅: 自動、高さ: 100%"
+			],
+			"width: 100%,  height: 100%": [
+				"幅: 100%、高さ: 100%"
+			],
+			"Parallax": [
+				"パララックス（視差スクロール）"
+			],
+			"* Parallax does not work on the post screen. Check on the preview screen.": [
+				"※ 投稿画面でパララックスは動きません。プレビュー画面で動きを確認してください。"
+			],
+			"* Parallax does not work on AMP.": [
+				"※ AMP ではパララックスは動作しません。"
+			],
+			"Caption": [
+				"キャプション"
+			],
+			"Write profile": [
+				"紹介文を入力"
+			],
+			"Social Media Links": [
+				"SNS フォローボタン"
+			],
+			"Title icon": [
+				"タイトルのアイコン"
+			],
+			"Image ratio": [
+				"画像の比率"
+			],
+			"Image border radius": [
+				"画像の丸み"
+			],
+			"Vertical writing": [
+				"縦書き"
+			],
+			"Block of vertical writing.": [
+				"縦書き用のブロックです。"
+			],
+			"Automatic when input is 0": [
+				"0 で 自動"
+			],
+			"Half-width alphanumeric orientation": [
+				"半角英数字の向き"
+			],
+			"Sideways": [
+				"横向き"
+			],
+			"Upright": [
+				"縦向き"
+			],
+			"Speech balloon": [
+				"吹き出し"
+			],
+			"This block is a comic style speach balloon.": [
+				"マンガ風の吹き出しを作ります。"
+			],
+			"Fix the size of the image": [
+				"画像のサイズを固定する"
+			],
+			"Image size": [
+				"画像サイズ"
+			],
+			"Image margin": [
+				"画像の上下マージン"
+			],
+			"width: px": [
+				"幅: px"
+			],
+			"Full width": [
+				"幅いっぱい"
+			],
+			"Full width of title": [
+				"タイトルの幅いっぱい"
+			],
+			"Position": [
+				"配置"
+			],
+			"Balloon type": [
+				"吹き出しタイプ"
+			],
+			"Normal conversation": [
+				"通常会話"
+			],
+			"Thought": [
+				"思い・考え"
+			],
+			"Shadow": [
+				"影"
+			],
+			"Black shadow": [
+				"黒い影"
+			],
+			"White shadow": [
+				"白い影"
+			],
+			"Shadow density": [
+				"影の濃さ"
+			],
+			"Scroll block": [
+				"スクロールブロック"
+			],
+			"Create scrollable tables, images, and more.": [
+				"スクロールできる表や画像などを作成します。"
+			],
+			"Drag scroll": [
+				"ドラッグスクロール"
+			],
+			"* Syntax highlighter cannot be drag-scrolled.": [
+				"※ シンタックスハイライターはドラッグスクロールできません。"
+			],
+			"Scroll Animation": [
+				"スクロールアニメ"
+			],
+			"Animate block on scroll.": [
+				"スクロール時にアニメーションするブロックを作成します。"
+			],
+			"Animation behavior settings": [
+				"アニメの動作設定"
+			],
+			"Animation type": [
+				"アニメの種類"
+			],
+			"Animated duration": [
+				"アニメーション時間"
+			],
+			"Delay time until animation starts": [
+				"アニメーション開始までの遅延時間"
+			],
+			"Animation trigger point": [
+				"アニメの開始位置"
+			],
+			"elements of ": [
+				"要素の"
+			],
+			" part of the screen ": [
+				"部分が画面"
+			],
+			" start anime when it reaches a distance of": [
+				"px の距離になったらアニメを開始します。"
+			],
+			"Block (Element)": [
+				"ブロック (要素)"
+			],
+			"Window (Screen)": [
+				"ウィンドウ (画面)"
+			],
+			"Offset from trigger point": [
+				"オフセット (距離)"
+			],
+		}
+	}
+}

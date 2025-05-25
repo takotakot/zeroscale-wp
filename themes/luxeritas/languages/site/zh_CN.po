@@ -1,0 +1,427 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luxeritas\n"
+"POT-Creation-Date: 2021-04-19 09:20+0900\n"
+"PO-Revision-Date: 2023-05-23 11:27+0800\n"
+"Last-Translator: \n"
+"Language-Team: Thought is Free\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-KeywordsList: __;_e;_x;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: translations.php:2
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr "对不起，但您正在寻找的东西不在这里。"
+
+#: translations.php:3
+msgid "Sponsored Links"
+msgstr "Sponsored Links"
+
+#: translations.php:4
+msgid "Advertisement"
+msgstr "Advertisement"
+
+#: translations.php:5
+msgid "Home"
+msgstr "Home"
+
+#: translations.php:6
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: translations.php:7
+msgid "F Y"
+msgstr "F Y"
+
+#: translations.php:8
+msgid "Y"
+msgstr "Y"
+
+#: translations.php:9
+#, php-format
+msgid "Search results of [%s]"
+msgstr "Search results of [%s]"
+
+#: translations.php:10
+msgid "Page not found"
+msgstr "Page not found"
+
+#: translations.php:11
+msgid "Discussion"
+msgstr "Discussion"
+
+#: translations.php:12
+msgid "New Comments"
+msgstr "New Comments"
+
+#: translations.php:13
+msgid "says:"
+msgstr "says:"
+
+#: translations.php:14
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#: translations.php:15
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: translations.php:16
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: translations.php:17
+msgid "No comments yet.  Be the first one!"
+msgstr "暂无评论。 成为第一个！"
+
+#: translations.php:18
+msgid "New Pnigbacks &amp; Trackbacks"
+msgstr "New Pnigbacks &amp; Trackbacks"
+
+#: translations.php:19
+msgid "Name"
+msgstr "Name"
+
+#: translations.php:20
+msgid "Email"
+msgstr "Email"
+
+#: translations.php:21
+msgid "Website"
+msgstr "Website"
+
+#: translations.php:22
+msgid "Captcha"
+msgstr "Captcha"
+
+#: translations.php:23
+msgid "Enter Captcha"
+msgstr "Enter Captcha"
+
+#: translations.php:24
+msgid "Leave a Reply"
+msgstr "Leave a Reply"
+
+#: translations.php:25
+msgid "Comment"
+msgstr "Comment"
+
+#: translations.php:26
+msgid "To comment"
+msgstr "To comment"
+
+#: translations.php:27
+msgid "Hatena Bookmark"
+msgstr "Hatena Bookmark"
+
+#: translations.php:28
+msgid "You copied URL."
+msgstr "You copied URL."
+
+#: translations.php:29
+msgid "You copied this post title and URL."
+msgstr "You copied this post title and URL."
+
+#: translations.php:30
+#, php-format
+msgid " : %s"
+msgstr " : %s"
+
+#: translations.php:31
+msgid "Read more"
+msgstr "Read more"
+
+#: translations.php:32
+msgid "Sorry, the requested post was not found."
+msgstr "抱歉，找不到请求的文章。"
+
+#: translations.php:33
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: translations.php:34
+msgid "TOC"
+msgstr "TOC"
+
+#: translations.php:35
+msgid " Next "
+msgstr " Next "
+
+#: translations.php:36
+msgid " Prev "
+msgstr " Prev "
+
+#: translations.php:37
+msgid "Page Top"
+msgstr "Page Top"
+
+#: translations.php:38
+msgid "Menu"
+msgstr "Menu"
+
+#: translations.php:39
+msgid "Install"
+msgstr "Install"
+
+#: translations.php:40
+msgid "Edit This"
+msgstr "Edit This"
+
+#: translations.php:41
+msgid "No posts yet"
+msgstr "尚未发布文章"
+
+#: translations.php:42
+msgid "Posted by"
+msgstr "Posted by"
+
+#: translations.php:43
+msgid "Next"
+msgstr "Next"
+
+#: translations.php:44
+msgid "Home "
+msgstr "Home "
+
+#: translations.php:45
+msgid "Prev"
+msgstr "Prev"
+
+#: translations.php:46
+msgid "TrackBack URL"
+msgstr "TrackBack URL"
+
+#: translations.php:47
+msgid "No related posts yet."
+msgstr "还没有相关文章"
+
+#: translations.php:48
+msgid "No search hits"
+msgstr "没有搜索到"
+
+#: translations.php:49
+msgid "Connection to the authentication server failed. Please try again later."
+msgstr "与身份验证服务器连接失败。请稍后重试。"
+
+#: translations.php:50
+msgid "You have been identified as a bot and could not authenticate."
+msgstr "你已被标识为机器人，无法进行身份验证。"
+
+#: translations.php:51
+msgid "Please enter image authentication."
+msgstr "请进行图像身份验证。"
+
+#: translations.php:52
+msgid "Image authentication is incorrect."
+msgstr "图像身份验证不正确。"
+
+#: translations.php:53
+msgid "Search for"
+msgstr "Search for"
+
+#: translations.php:54
+msgid "Search"
+msgstr "Search"
+
+#: translations.php:55
+msgid "Related Posts"
+msgstr "Related Posts"
+
+#: translations.php:56
+msgid "Send to LINE"
+msgstr "Send to LINE"
+
+#: translations.php:57
+msgid "Only administrators can see this comment."
+msgstr "只有管理员才能看到此评论。"
+
+#: translations.php:58
+msgid "This theme is broken."
+msgstr "这个主题被破坏了。"
+
+#: translations.php:59
+msgid "Adsense has a mistake. Some adsense is not displayed properly."
+msgstr "Adsense有一个错误。某些广告无法正确显示。"
+
+#: translations.php:60
+msgid "Creating a cache ..."
+msgstr "Creating a cache ..."
+
+#: translations.php:61
+msgid "Category"
+msgstr "Category"
+
+#: translations.php:62
+#, php-format
+msgid ""
+"Luxeritas requires at least %s version %s. You are running version %s. "
+"Please upgrade and try again."
+msgstr "Luxeritas 至少需要 %s 版本 %s。您正在运行版本 %s。请升级并重试。"
+
+#: translations.php:63
+msgid "Table of Contents"
+msgstr "Table of Contents"
+
+#: translations.php:64
+msgid "Please share this if you liked it!"
+msgstr "如果你喜欢请分享它！"
+
+#: translations.php:65
+#, php-format
+msgid "%s Category"
+msgstr "%s Category"
+
+#: translations.php:66
+msgid "QR Code"
+msgstr "QR Code"
+
+#: translations.php:67
+msgid "Title:"
+msgstr "Title:"
+
+#: translations.php:68
+msgid "Recent Comments"
+msgstr "Recent Comments"
+
+#: translations.php:69
+#, php-format
+msgid "%s&apos; website"
+msgstr "%s&apos; website"
+
+#: translations.php:70
+msgid "Post of this comment"
+msgstr "Post of this comment"
+
+#: translations.php:71
+msgid "The latest comments to all posts"
+msgstr "所有帖子的最新评论"
+
+#: translations.php:72
+msgid "Anonymous"
+msgstr "Anonymous"
+
+#: translations.php:73
+msgid "Recent posts"
+msgstr "近期文章"
+
+#: translations.php:74
+msgid "No new posts"
+msgstr "没有新文章"
+
+#: translations.php:75
+msgid "Follow me!"
+msgstr "Follow me!"
+
+#: translations.php:76
+msgid "Subscribe to this blog"
+msgstr "订阅该博客"
+
+#: translations.php:77
+#, php-format
+msgid "Category: %s"
+msgstr "Category: %s"
+
+#: translations.php:78
+#, php-format
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: translations.php:79
+#, php-format
+msgid "Author: %s"
+msgstr "Author: %s"
+
+#: translations.php:80
+#, php-format
+msgid "Year: %s"
+msgstr "Year: %s"
+
+#: translations.php:81
+#, php-format
+msgid "Month: %s"
+msgstr "Month: %s"
+
+#: translations.php:82
+#, php-format
+msgid "Day: %s"
+msgstr "Day: %s"
+
+#: translations.php:83
+#, php-format
+msgid "Archives: %s"
+msgstr "Archives: %s"
+
+#: translations.php:84
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: translations.php:85
+msgid "Could not delete cache directory."
+msgstr "无法删除缓存目录。"
+
+#: translations.php:86
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: translations.php:87
+msgid "Pages"
+msgstr "Pages"
+
+#: translations.php:88
+msgid "Show"
+msgstr "Show"
+
+#: translations.php:89
+msgid "Hide"
+msgstr "Hide"
+
+#: translations.php:90
+msgid "Origin"
+msgstr "Origin"
+
+#: translations.php:91
+msgid "Tablet"
+msgstr "Tablet"
+
+#: translations.php:92
+msgid "Mobile"
+msgstr "Mobile"
+
+#: translations.php:93
+msgid "Validate"
+msgstr "Validate"
+
+#: translations.php:94
+msgid "Cache"
+msgstr "Cache"
+
+#: translations.php:95
+msgid "Rotate"
+msgstr "Rotate"
+
+#: translations.php:96
+msgid "Structured data"
+msgstr "结构化数据"
+
+#: translations.php:97
+msgid "Log out"
+msgstr "注销"
+
+#: translations.php:98
+msgid "Log out ?"
+msgstr "注销？"
+
+msgid " Menu"
+msgstr " 菜单"
+
+msgid "Authentication is not valid."
+msgstr "身份验证无效。"
