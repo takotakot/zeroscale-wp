@@ -14,6 +14,9 @@ locals {
   ]
 
   service_label_value = "zero-wp"
+  gce_zone            = "us-west1-c"
+  gce_instance_id     = "zero-wp-db"
+  gce_ip              = "10.138.0.2"
 }
 
 # Google Cloud サービスの有効化
