@@ -59,6 +59,7 @@ for ( $i = 0; $i < 8; $i++ ) {
 		$keys[$i] = hash( 'sha256', $keys_string . $i );
 	}
 }
+// phpcs:disable Generic.Functions.FunctionCallArgumentSpacing.TooMuchSpaceAfterComma
 define( 'AUTH_KEY',         $keys[0] );
 define( 'SECURE_AUTH_KEY',  $keys[1] );
 define( 'LOGGED_IN_KEY',    $keys[2] );
@@ -67,6 +68,7 @@ define( 'AUTH_SALT',        $keys[4] );
 define( 'SECURE_AUTH_SALT', $keys[5] );
 define( 'LOGGED_IN_SALT',   $keys[6] );
 define( 'NONCE_SALT',       $keys[7] );
+// phpcs:enable Generic.Functions.FunctionCallArgumentSpacing.TooMuchSpaceAfterComma
 /**#@-*/
 
 /**
