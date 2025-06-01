@@ -590,3 +590,38 @@ resource "google_cloud_run_v2_service" "stop-compute-engine" {
 #   id = "projects/${var.project_id}/locations/${var.region}/services/stop-compute-engine"
 #   to = google_cloud_run_v2_service.stop-compute-engine
 # }
+
+resource "google_eventarc_trigger" "stop-compute-engine" {
+  name     = "stop-compute-engine"
+  location = var.region
+
+  matching_criteria {
+    attribute = "type"
+    value     = "google.cloud.pubsub.topic.v1.messagePublished"
+  }
+  destination {
+    cloud_run_service {
+      path    = "/"
+      service = google_cloud_run_v2_service.stop-compute-engine.name
+      region  = var.region
+    }
+  }
+
+  # labels = {
+  #   service = local.service_label_value
+  # }
+
+  transport {
+    pubsub {
+      topic = google_pubsub_topic.cloud_run_zero_instance_alerts.id
+    }
+  }
+
+  service_account = "${data.google_project.project.number}-compute@developer.gserviceaccount.com"
+  # service_account = google_service_account.zero-wp-stop-compute-engine.email
+}
+
+import {
+  id = "projects/${var.project_id}/locations/${var.region}/triggers/stop-compute-engine"
+  to = google_eventarc_trigger.stop-compute-engine
+}
