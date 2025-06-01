@@ -621,7 +621,7 @@ resource "google_eventarc_trigger" "stop-compute-engine" {
   # service_account = google_service_account.zero-wp-stop-compute-engine.email
 }
 
-import {
-  id = "projects/${var.project_id}/locations/${var.region}/triggers/stop-compute-engine"
-  to = google_eventarc_trigger.stop-compute-engine
-}
+# import {
+#   id = "projects/${var.project_id}/locations/${var.region}/triggers/stop-compute-engine"
+#   to = google_eventarc_trigger.stop-compute-engine
+# }
