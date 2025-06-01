@@ -428,7 +428,7 @@ resource "google_cloud_run_v2_service" "zero-wp" {
         period_seconds        = 10
         timeout_seconds       = 10
         http_get {
-          path = "/startup_gce.php"
+          path = var.startup_probe_path
         }
       }
 

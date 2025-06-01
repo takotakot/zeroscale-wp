@@ -32,3 +32,8 @@ variable "wordpress_db_user" {
   type    = string
   default = "wordpress"
 }
+
+variable "startup_probe_path" {
+  type    = string
+  default = "/startup_gce.php"
+}
