@@ -591,6 +591,16 @@ resource "google_cloud_run_v2_service" "stop-compute-engine" {
 #   to = google_cloud_run_v2_service.stop-compute-engine
 # }
 
+resource "google_cloud_run_v2_service_iam_member" "zero-wp-stop-compute-engine_run_invoker" {
+  project  = var.project_id
+  location = google_cloud_run_v2_service.stop-compute-engine.location
+  name     = google_cloud_run_v2_service.stop-compute-engine.name
+  role     = "roles/run.invoker"
+  member   = "serviceAccount:${google_service_account.zero-wp-stop-compute-engine.email}"
+
+  depends_on = []
+}
+
 resource "google_eventarc_trigger" "stop-compute-engine" {
   name     = "stop-compute-engine"
   location = var.region
