@@ -607,9 +607,9 @@ resource "google_eventarc_trigger" "stop-compute-engine" {
     }
   }
 
-  # labels = {
-  #   service = local.service_label_value
-  # }
+  labels = {
+    service = local.service_label_value
+  }
 
   transport {
     pubsub {
@@ -617,8 +617,7 @@ resource "google_eventarc_trigger" "stop-compute-engine" {
     }
   }
 
-  service_account = "${data.google_project.project.number}-compute@developer.gserviceaccount.com"
-  # service_account = google_service_account.zero-wp-stop-compute-engine.email
+  service_account = google_service_account.zero-wp-stop-compute-engine.email
 }
 
 # import {
