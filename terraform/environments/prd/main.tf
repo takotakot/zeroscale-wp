@@ -14,9 +14,9 @@ locals {
   ]
 
   service_label_value = "zero-wp"
-  gce_zone            = "us-west1-c"
-  gce_instance_id     = "zero-wp-db"
-  gce_ip              = "10.138.0.2"
+  gce_zone            = var.gce_zone
+  gce_instance_id     = var.gce_instance_id
+  gce_ip              = var.gce_ip
 }
 
 # Google Cloud サービスの有効化
@@ -207,7 +207,7 @@ import {
 # zero-wp-admin-bucket
 resource "google_storage_bucket" "zero-wp-admin-bucket" {
   name     = "zero-wp-admin-bucket"
-  location = "US-WEST1"
+  location = var.region
 
   uniform_bucket_level_access = true
   force_destroy               = false
@@ -253,7 +253,7 @@ resource "google_storage_bucket" "zero-wp-admin-bucket" {
 
 resource "google_storage_bucket" "zero-wp-uploads" {
   name     = "zero-wp-uploads"
-  location = "US-WEST1"
+  location = var.region
 
   uniform_bucket_level_access = true
   force_destroy               = false
@@ -533,7 +533,7 @@ resource "google_cloud_run_v2_service" "stop-compute-engine" {
 
   template {
     containers {
-      base_image_uri = "us-west1-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/php83"
+      base_image_uri = "${var.region}-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/php83"
       image          = "" # Ignore
       name           = "stop-compute-engine-1"
 
@@ -559,7 +559,7 @@ resource "google_cloud_run_v2_service" "stop-compute-engine" {
   }
 
   build_config {
-    base_image               = "us-west1-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/php83"
+    base_image               = "${var.region}-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/php83"
     enable_automatic_updates = true
 
     # image_uri = null
