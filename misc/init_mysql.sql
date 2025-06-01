@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS wordpress DEFAULT CHARACTER SET utf8mb4;
+CREATE USER IF NOT EXISTS 'wordpress'@'%' IDENTIFIED BY 'wordpress-password';
+GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress'@'%';
+FLUSH PRIVILEGES;

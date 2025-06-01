@@ -1,0 +1,7 @@
+export PROJECT_ID="tako-test-general"
+export WORDPRESS_DB_NAME="wordpress"
+export WORDPRESS_DB_USER="wordpress"
+export WORDPRESS_DB_PASSWORD="wordpress-password"
+export GCE_ZONE="us-west1-c"
+export WORDPRESS_DB_INSTANCE_ID="zero-wp-db"
+export WORDPRESS_DB_HOST="10.146.0.6"
