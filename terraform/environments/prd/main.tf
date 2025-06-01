@@ -507,3 +507,87 @@ resource "google_cloud_run_v2_service" "zero-wp" {
 #   to = google_cloud_run_v2_service.zero-wp
 #   id = "projects/${var.project_id}/locations/${var.region}/services/zero-wp"
 # }
+
+# --- Cloud Run サービス (停止用) の作成 ---
+resource "google_service_account" "zero-wp-stop-compute-engine" {
+  account_id   = "zero-wp-stop-compute-engine"
+  display_name = "Zero WP Stop Compute Engine Service Account"
+  project      = var.project_id
+
+  depends_on = []
+}
+
+resource "google_project_iam_member" "zero-wp-stop-compute-engine_compute_instance_admin" {
+  project = var.project_id
+  role    = "roles/compute.instanceAdmin.v1"
+  member  = "serviceAccount:${google_service_account.zero-wp-stop-compute-engine.email}"
+
+  depends_on = []
+}
+
+resource "google_cloud_run_v2_service" "stop-compute-engine" {
+  name = "stop-compute-engine"
+  # description = "Function to stop Compute Engine instance when Cloud Run instances are zero."
+
+  location = var.region
+
+  template {
+    containers {
+      base_image_uri = "us-west1-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/php83"
+      image          = "" # Ignore
+      name           = "stop-compute-engine-1"
+
+      env {
+        name  = "PROJECT_ID"
+        value = var.project_id
+      }
+      env {
+        name  = "GCE_ZONE"
+        value = local.gce_zone
+      }
+      env {
+        name  = "WORDPRESS_DB_INSTANCE_ID"
+        value = local.gce_instance_id
+      }
+    }
+
+    labels = {
+      service = local.service_label_value
+    }
+
+    # service_account = "zero-wp-stop-compute-engine@${var.project_id}.iam.gserviceaccount.com"
+    service_account = "${data.google_project.project.number}-compute@developer.gserviceaccount.com"
+  }
+
+  build_config {
+    base_image               = "us-west1-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/php83"
+    enable_automatic_updates = true
+
+    # image_uri = null
+    # source_location = null
+    function_target = "stopComputeEngine"
+  }
+
+  # labels = {
+  #   service = local.service_label_value
+  # }
+
+  lifecycle {
+    ignore_changes = [
+      # build_config[0].source[0],
+      build_config[0],
+      template[0].containers[0].image,
+      client,
+    ]
+  }
+
+  depends_on = [
+    google_project_service.services["run.googleapis.com"],
+    google_project_service.services["cloudfunctions.googleapis.com"],
+  ]
+}
+
+import {
+  id = "projects/${var.project_id}/locations/${var.region}/services/stop-compute-engine"
+  to = google_cloud_run_v2_service.stop-compute-engine
+}
