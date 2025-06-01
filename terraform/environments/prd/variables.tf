@@ -22,3 +22,13 @@ variable "gce_ip" {
   type    = string
   default = "10.138.0.2"
 }
+
+variable "wordpress_db_name" {
+  type    = string
+  default = "wordpress"
+}
+
+variable "wordpress_db_user" {
+  type    = string
+  default = "wordpress"
+}

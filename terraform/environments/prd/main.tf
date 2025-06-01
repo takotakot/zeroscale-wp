@@ -388,12 +388,12 @@ resource "google_cloud_run_v2_service" "zero-wp" {
 
       env {
         name  = "WORDPRESS_DB_NAME"
-        value = "wordpress"
+        value = var.wordpress_db_name
       }
 
       env {
         name  = "WORDPRESS_DB_USER"
-        value = "wordpress"
+        value = var.wordpress_db_user
       }
 
       # 環境変数としてデータベースパスワードを設定 (Secret Managerリファレンスを使用)
