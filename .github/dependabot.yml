@@ -1,0 +1,38 @@
+version: 2
+updates:
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+- package-ecosystem: composer
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+- package-ecosystem: composer
+  directory: "/functions/stop_compute_engine"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+- package-ecosystem: composer
+  directory: "/misc/startup_cloud_sql"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+- package-ecosystem: composer
+  directory: "/misc/startup_compute_engine"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+- package-ecosystem: composer
+  directory: "/root_files"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+- package-ecosystem: composer
+  directory: "/structure"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+
