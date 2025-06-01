@@ -110,3 +110,7 @@ Use as: `$_ENV['PROJECT_ID']`
 - `PROJECT_ID`: Google Cloud Project ID
 - `GCE_ZONE`: (Compute Engine Ver.) DB Instance Zone
 - `WORDPRESS_DB_INSTANCE_ID`: DB Instance ID
+
+## 初期設定手順
+
+[initial_setup.ja.md](docs/initial_setup.ja.md) あるいは[initial_setup.en.md](docs/initial_setup.en.md) を参照してください。

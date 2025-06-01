@@ -110,3 +110,9 @@ Environment variables:
 - `PROJECT_ID`: Google Cloud Project ID
 - `GCE_ZONE`: (Compute Engine Ver.) DB Instance Zone
 - `WORDPRESS_DB_INSTANCE_ID`: DB Instance ID
+
+## Initial Setup
+
+## 初期設定手順
+
+For the initial setup, please refer to either [initial_setup.ja.md](docs/initial_setup.ja.md) or [initial_setup.en.md](docs/initial_setup.en.md).
