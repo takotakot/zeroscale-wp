@@ -18,6 +18,8 @@
  * @package WordPress
  */
 
+// phpcs:disable WordPress.Security.ValidatedSanitizedInput.MissingUnslash, WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
+
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', $_SERVER['WORDPRESS_DB_NAME'] ?? $_ENV['WORDPRESS_DB_NAME'] ?? null );
@@ -53,10 +55,10 @@ $keys        = array();
 for ( $i = 0; $i < 8; $i++ ) {
 	$start = $i * 64;
 	if ( strlen( $keys_string ) >= $start + 64 ) {
-		$keys[$i] = substr( $keys_string, $start, 64 );
+		$keys[ $i ] = substr( $keys_string, $start, 64 );
 	} else {
 		// If the keys_string is shorter than expected, generate a new key.
-		$keys[$i] = hash( 'sha256', $keys_string . $i );
+		$keys[ $i ] = hash( 'sha256', $keys_string . $i );
 	}
 }
 // phpcs:disable Generic.Functions.FunctionCallArgumentSpacing.TooMuchSpaceAfterComma
@@ -83,6 +85,7 @@ define( 'NONCE_SALT',       $keys[7] );
  *
  * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
+// phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited
 $table_prefix = 'wp_';
 
 /**
