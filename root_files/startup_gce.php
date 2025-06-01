@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:disable PSR1.Files.SideEffects.FoundWithSymbols
 /**
  * Cloud Run Startup Probe for WordPress with Compute Engine (MySQL Host) Auto-Activation.
  *
