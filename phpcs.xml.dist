@@ -11,6 +11,8 @@
     <exclude-pattern>root_files/wp-config\.php</exclude-pattern>
   </rule>
   <exclude-pattern>vendor/*</exclude-pattern>
+  <exclude-pattern>themes/*</exclude-pattern>
+  <exclude-pattern>root_dir/*</exclude-pattern>
   <rule ref="Generic.Files.LineLength">
     <severity>0</severity>
   </rule>
