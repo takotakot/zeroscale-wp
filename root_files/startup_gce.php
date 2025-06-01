@@ -172,13 +172,11 @@ try {
         $isDone = $operationResponse->isDone();
 
         logMessage('INFO', "GCE instance '" . GCE_INSTANCE_NAME . "' start operation initiated. Operation Name: " . ($operationName ?: 'N/A') . ", Is Done (immediately after call): " . ($isDone ? 'true' : 'false'));
-
     } elseif ($gceInstanceStatusEnumValue === GceInstanceStatusEnum::RUNNING) {
         logMessage('WARNING', "GCE instance '" . GCE_INSTANCE_NAME . "' is RUNNING, but DB connection via '" . WP_DB_HOST . "' failed. MySQL server on GCE might not be ready yet, or there could be network/firewall issues or incorrect WP_DB_HOST.");
     } else {
         logMessage('INFO', "GCE instance '" . GCE_INSTANCE_NAME . "' is in state '$gceInstanceStatusString'. Not attempting to start. Probe will retry.");
     }
-
 } catch (ApiException $e) {
     logMessage('ERROR', 'Google Compute Engine API Error: ' . $e->getMessage() . ' (API Code: ' . $e->getCode() . ') - Trace: ' . $e->getTraceAsString());
 } catch (\Error $e) {
