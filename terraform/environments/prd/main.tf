@@ -526,8 +526,8 @@ resource "google_project_iam_member" "zero-wp-stop-compute-engine_compute_instan
 }
 
 resource "google_cloud_run_v2_service" "stop-compute-engine" {
-  name = "stop-compute-engine"
-  # description = "Function to stop Compute Engine instance when Cloud Run instances are zero."
+  name        = "stop-compute-engine"
+  description = "Function to stop Compute Engine instance when Cloud Run instances are zero."
 
   location = var.region
 
@@ -555,8 +555,7 @@ resource "google_cloud_run_v2_service" "stop-compute-engine" {
       service = local.service_label_value
     }
 
-    # service_account = "zero-wp-stop-compute-engine@${var.project_id}.iam.gserviceaccount.com"
-    service_account = "${data.google_project.project.number}-compute@developer.gserviceaccount.com"
+    service_account = "zero-wp-stop-compute-engine@${var.project_id}.iam.gserviceaccount.com"
   }
 
   build_config {
@@ -568,9 +567,9 @@ resource "google_cloud_run_v2_service" "stop-compute-engine" {
     function_target = "stopComputeEngine"
   }
 
-  # labels = {
-  #   service = local.service_label_value
-  # }
+  labels = {
+    service = local.service_label_value
+  }
 
   lifecycle {
     ignore_changes = [
