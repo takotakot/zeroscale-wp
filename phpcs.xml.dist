@@ -1,0 +1,17 @@
+<ruleset name="Project Coding Standards">
+  <!-- WordPress本体・設定ファイル用 -->
+  <rule ref="WordPress">
+    <include-pattern>root_files/wp-config\.php</include-pattern>
+  </rule>
+  <rule ref="PSR12">
+    <include-pattern>root_files/*</include-pattern>
+    <include-pattern>functions/*</include-pattern>
+    <include-pattern>misc/*</include-pattern>
+    <include-pattern>structure/*</include-pattern>
+    <exclude-pattern>root_files/wp-config\.php</exclude-pattern>
+  </rule>
+  <exclude-pattern>vendor/*</exclude-pattern>
+  <rule ref="Generic.Files.LineLength">
+    <severity>0</severity>
+  </rule>
+</ruleset>
