@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:disable PSR1.Files.SideEffects.FoundWithSymbols
 /**
  * Cloud Run Startup Probe for WordPress with Cloud SQL Auto-Activation.
  *
@@ -196,13 +196,11 @@ try {
         
         $operation = $sqlClient->patch($patchRequest, $optionalArgs);
         logMessage('INFO', "Cloud SQL instance '" . WP_DB_INSTANCE_ID . "' start operation (set ActivationPolicy to ALWAYS) initiated. Operation name: " . $operation->getName());
-
     } elseif ($currentState === SqlInstanceState::RUNNABLE) {
         logMessage('WARNING', "Cloud SQL instance '" . WP_DB_INSTANCE_ID . "' is RUNNABLE (Policy: $currentActivationPolicyStr), but DB connection via '" . WP_DB_HOST . "' failed. Possible Cloud SQL Proxy/network issue, or instance is still initializing.");
     } else {
         logMessage('INFO', "Cloud SQL instance '" . WP_DB_INSTANCE_ID . "' is in state '$currentStateStr'. Not attempting to modify activation policy. Probe will retry.");
     }
-
 } catch (ApiException $e) {
     logMessage('ERROR', 'Google Cloud SQL API Error: ' . $e->getMessage() . ' (API Code: ' . $e->getCode() . ') - Trace: ' . $e->getTraceAsString());
 } catch (\Error $e) { 
