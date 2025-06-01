@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:disable PSR1.Files.SideEffects.FoundWithSymbols
 /**
  * Pub/Sub Push Subscription Handler to Stop a Compute Engine Instance
  *
