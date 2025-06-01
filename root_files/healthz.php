@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:disable PSR1.Files.SideEffects.FoundWithSymbols
 /**
  * Health check
  *
@@ -20,19 +20,20 @@
 // `require_once './wp-config.php';` is removed because it's a heavy process.
 
 /** The name of the database for WordPress */
-define( 'DB_NAME', $_SERVER['WORDPRESS_DB_NAME'] ?? $_ENV['WORDPRESS_DB_NAME'] ?? null );
+
+define('DB_NAME', $_SERVER['WORDPRESS_DB_NAME'] ?? $_ENV['WORDPRESS_DB_NAME'] ?? null);
 
 /** MySQL database username */
-define( 'DB_USER', $_SERVER['WORDPRESS_DB_USER'] ?? $_ENV['WORDPRESS_DB_USER'] ?? null );
+define('DB_USER', $_SERVER['WORDPRESS_DB_USER'] ?? $_ENV['WORDPRESS_DB_USER'] ?? null);
 
 /** MySQL database password */
-define( 'DB_PASSWORD', $_SERVER['WORDPRESS_DB_PASSWORD'] ?? $_ENV['WORDPRESS_DB_PASSWORD'] ?? null );
+define('DB_PASSWORD', $_SERVER['WORDPRESS_DB_PASSWORD'] ?? $_ENV['WORDPRESS_DB_PASSWORD'] ?? null);
 
 /** MySQL hostname */
-define( 'DB_HOST', $_SERVER['WORDPRESS_DB_HOST'] ?? $_ENV['WORDPRESS_DB_HOST'] ?? null );
+define('DB_HOST', $_SERVER['WORDPRESS_DB_HOST'] ?? $_ENV['WORDPRESS_DB_HOST'] ?? null);
 
 /** MySQLi connection timeout in seconds */
-define( 'WP_DB_CONNECT_TIMEOUT_SECONDS', 3 );
+define('WP_DB_CONNECT_TIMEOUT_SECONDS', 3);
 
 // Variable substition.
 $_host    = DB_HOST;
@@ -43,30 +44,30 @@ $database = DB_NAME;
 
 // Create Connection.
 $mysqli = new mysqli();
-if ( ! $mysqli->options( MYSQLI_OPT_CONNECT_TIMEOUT, WP_DB_CONNECT_TIMEOUT_SECONDS ) ) {
-    throw new RuntimeException( 'mysqli set option failed.' );
+if (! $mysqli->options(MYSQLI_OPT_CONNECT_TIMEOUT, WP_DB_CONNECT_TIMEOUT_SECONDS)) {
+    throw new RuntimeException('mysqli set option failed.');
 }
 
-$mysqli->real_connect( $_host, $user, $password, $database );
+$mysqli->real_connect($_host, $user, $password, $database);
 
 // If Connection Error.
-if ( $mysqli->connect_errno ) {
-	throw new RuntimeException( 'mysqli connection error: ' . $mysqli->connect_errno . ' ' . $mysqli->connect_error );
+if ($mysqli->connect_errno) {
+    throw new RuntimeException('mysqli connection error: ' . $mysqli->connect_errno . ' ' . $mysqli->connect_error);
 }
 
 $sql = 'SELECT 1';
 // $sql = 'show databases';  // For debug.
 
-$result = $mysqli->query( $sql );
-if ( false !== $result ) {
-	$row     = $result->fetch_assoc();
-	$dbcheck = $row['1'];
+$result = $mysqli->query($sql);
+if (false !== $result) {
+    $row     = $result->fetch_assoc();
+    $dbcheck = $row['1'];
 
-	if ( '1' !== $dbcheck ) {
-		throw new RuntimeException( 'Invalid value returned from `SELECT 1`' );
-	} else {
-		http_response_code( 200 );
-	}
+    if ('1' !== $dbcheck) {
+        throw new RuntimeException('Invalid value returned from `SELECT 1`');
+    } else {
+        http_response_code(200);
+    }
 }
 
 // Close Connection.
