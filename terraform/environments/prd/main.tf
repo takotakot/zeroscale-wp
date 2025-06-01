@@ -587,7 +587,7 @@ resource "google_cloud_run_v2_service" "stop-compute-engine" {
   ]
 }
 
-import {
-  id = "projects/${var.project_id}/locations/${var.region}/services/stop-compute-engine"
-  to = google_cloud_run_v2_service.stop-compute-engine
-}
+# import {
+#   id = "projects/${var.project_id}/locations/${var.region}/services/stop-compute-engine"
+#   to = google_cloud_run_v2_service.stop-compute-engine
+# }
