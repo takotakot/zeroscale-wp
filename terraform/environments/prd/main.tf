@@ -132,7 +132,7 @@ resource "google_monitoring_alert_policy" "cloud_run_zero_instances" {
   enabled = true
 
   # アラートの重大度 (オプション)
-  severity = "WARNING" # または "ERROR" など、状況に応じて
+  severity = "" # または "ERROR" など、状況に応じて
 
   # ユーザー定義ラベル (オプション)
   user_labels = {
