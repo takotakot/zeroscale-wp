@@ -51,13 +51,13 @@ define( 'DB_COLLATE', '' );
 $keys_string = $_SERVER['WORDPRESS_AUTH_KEYS'] ?? $_ENV['WORDPRESS_AUTH_KEYS'] ?? '';
 $keys        = array();
 for ( $i = 0; $i < 8; $i++ ) {
-    $start = $i * 64;
-    if ( strlen( $keys_string ) >= $start + 64 ) {
-        $keys[$i] = substr( $keys_string, $start, 64 );
-    } else {
+	$start = $i * 64;
+	if ( strlen( $keys_string ) >= $start + 64 ) {
+		$keys[$i] = substr( $keys_string, $start, 64 );
+	} else {
 		// If the keys_string is shorter than expected, generate a new key.
-        $keys[$i] = hash( 'sha256', $keys_string . $i );
-    }
+		$keys[$i] = hash( 'sha256', $keys_string . $i );
+	}
 }
 define( 'AUTH_KEY',         $keys[0] );
 define( 'SECURE_AUTH_KEY',  $keys[1] );
@@ -102,7 +102,7 @@ define( 'WP_DEBUG', strtolower( $_SERVER['WORDPRESS_DEBUG'] ?? $_ENV['WORDPRESS_
 define( 'FS_METHOD', 'direct' );
 
 // If we're behind a proxy server and using HTTPS, we need to alert WordPress of that fact
-// see also https://wordpress.org/support/article/administration-over-ssl/#using-a-reverse-proxy
+// see also https://wordpress.org/support/article/administration-over-ssl/#using-a-reverse-proxy .
 if ( isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && strpos( $_SERVER['HTTP_X_FORWARDED_PROTO'], 'https' ) !== false ) {
 	$_SERVER['HTTPS'] = 'on';
 }
