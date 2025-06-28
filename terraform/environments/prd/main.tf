@@ -322,6 +322,23 @@ resource "google_project_iam_member" "cloud_build_service_account_artifact_regis
   depends_on = [google_project_service.services["artifactregistry.googleapis.com"]]
 }
 
+resource "google_project_iam_member" "cloud_build_service_account_cloud_run_deployer" {
+  project = var.project_id
+  role    = "roles/run.admin"
+  member  = "serviceAccount:${google_service_account.zero-wp-cloud-build.email}"
+
+  depends_on = [google_project_service.services["run.googleapis.com"]]
+}
+
+resource "google_service_account_iam_member" "cloud_build_service_account_deploy_zero_wp" {
+  service_account_id = google_service_account.zero-wp-run.id
+  role               = "roles/iam.serviceAccountUser"
+
+  member = "serviceAccount:${google_service_account.zero-wp-cloud-build.email}"
+
+  depends_on = []
+}
+
 # --- Cloud Run サービスの作成 ---
 resource "google_service_account" "zero-wp-run" {
   account_id   = "zero-wp-run"

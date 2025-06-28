@@ -1,12 +1,13 @@
 steps:
   # 1. composer install
-  - name: 'ubuntu'
+  - id: 'composer-install'
+    name: 'wordpress:php8.4-apache'
     entrypoint: 'bash'
     args:
       - -c
       - |
-        apt-get update
-        apt-get install -y php php-cli unzip curl
+        # apt-get update
+        # apt-get install -y php php-cli unzip curl
         curl -sS https://getcomposer.org/installer | php
         ( cd structure && php ../composer.phar install )
         ( cp root_files/* root_dir/)
@@ -17,23 +18,67 @@ steps:
   - name: 'gcr.io/cloud-builders/gcloud'
     entrypoint: 'bash'
     args: ['-c', './structure/install_themes.sh']
+    waitFor:
+      - 'composer-install'
 
   # 3. プラグインインストール
   - name: 'gcr.io/cloud-builders/gcloud'
     entrypoint: 'bash'
     args: ['-c', './structure/install_plugins.sh']
+    waitFor:
+      - 'composer-install'
 
   # 4. ルートディレクトリへのファイルコピー等
   - name: 'gcr.io/cloud-builders/gcloud'
     entrypoint: 'bash'
     args: ['-c', './structure/update_root.sh']
 
+  # Prepare latest image
+  - id: 'pull-latest-image'
+    name: 'gcr.io/cloud-builders/docker'
+    entrypoint: 'bash'
+    args:
+      - -c
+      - |
+        docker pull gcr.io/$PROJECT_ID/zero-wp:latest || true
+        docker pull wordpress:php8.4-apache
+        docker pull us-docker.pkg.dev/gcr-cleaner/gcr-cleaner/gcr-cleaner-cli:latest
+    waitFor:
+      - '-'
+
   # 5. Dockerイメージビルド
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/$PROJECT_ID/zero-wp:$COMMIT_SHA', '.']
+  - id: 'build-image'
+    name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '--cache-from', 'gcr.io/$PROJECT_ID/zero-wp:latest', '-t', 'gcr.io/$PROJECT_ID/zero-wp:$COMMIT_SHA', '.']
     dir: '.'
+
+  # 6. Push the image to Artifact Registry
+  - id: 'push-image'
+    name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/$PROJECT_ID/zero-wp:$COMMIT_SHA']
+
+  # 7. Deploy image to Cloud Run
+  - name: 'gcr.io/cloud-builders/gcloud'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'zero-wp'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/zero-wp:$COMMIT_SHA'
+      - '--region'
+      - 'us-west1'
+
+  # 8. Delete old images from Artifact Registry if deployment is successful
+  - id: 'delete-old-images'
+    name: us-docker.pkg.dev/gcr-cleaner/gcr-cleaner/gcr-cleaner-cli:latest
+    args:
+      - --repo=gcr.io/$PROJECT_ID/zero-wp
+      - --keep=3
+      - --tag-filter-any=.*
 
 images:
   - 'gcr.io/$PROJECT_ID/zero-wp:$COMMIT_SHA'
+  - 'gcr.io/$PROJECT_ID/zero-wp:latest'
 options:
   logging: CLOUD_LOGGING_ONLY
