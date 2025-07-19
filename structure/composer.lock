@@ -401,15 +401,15 @@
         },
         {
             "name": "wpackagist-plugin/google-site-kit",
-            "version": "1.156.0",
+            "version": "1.157.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-site-kit/",
-                "reference": "tags/1.156.0"
+                "reference": "tags/1.157.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-site-kit.1.156.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/google-site-kit.1.157.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -421,10 +421,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
