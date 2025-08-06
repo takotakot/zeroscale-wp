@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6feba7e2532af5f0fd33f45c033a0cab",
+    "content-hash": "04229bc60e98733bab56658f8ebf7074",
     "packages": [
         {
             "name": "brick/math",
@@ -300,16 +300,16 @@
         },
         {
             "name": "google/cloud-functions-framework",
-            "version": "v1.4.2",
+            "version": "v1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GoogleCloudPlatform/functions-framework-php.git",
-                "reference": "e6c79221b8e22ecfbfbebaaf4b65bb44d4452ae8"
+                "reference": "0bd9f3ada8b369e7e6b1440a904799182c3c7600"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GoogleCloudPlatform/functions-framework-php/zipball/e6c79221b8e22ecfbfbebaaf4b65bb44d4452ae8",
-                "reference": "e6c79221b8e22ecfbfbebaaf4b65bb44d4452ae8",
+                "url": "https://api.github.com/repos/GoogleCloudPlatform/functions-framework-php/zipball/0bd9f3ada8b369e7e6b1440a904799182c3c7600",
+                "reference": "0bd9f3ada8b369e7e6b1440a904799182c3c7600",
                 "shasum": ""
             },
             "require": {
@@ -341,9 +341,9 @@
             "description": "Google Cloud Functions Framework for PHP",
             "support": {
                 "issues": "https://github.com/GoogleCloudPlatform/functions-framework-php/issues",
-                "source": "https://github.com/GoogleCloudPlatform/functions-framework-php/tree/v1.4.2"
+                "source": "https://github.com/GoogleCloudPlatform/functions-framework-php/tree/v1.4.3"
             },
-            "time": "2025-01-03T20:00:05+00:00"
+            "time": "2025-07-14T23:48:00+00:00"
         },
         {
             "name": "google/common-protos",
