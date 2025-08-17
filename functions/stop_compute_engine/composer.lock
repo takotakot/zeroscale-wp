@@ -250,16 +250,16 @@
         },
         {
             "name": "google/cloud-compute",
-            "version": "v1.33.0",
+            "version": "v1.34.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-compute.git",
-                "reference": "9145249db09882da8239aead4f2ea95d41d42a95"
+                "reference": "7579d64eaf4887b10b0e85b59a289709af1efe82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-compute/zipball/9145249db09882da8239aead4f2ea95d41d42a95",
-                "reference": "9145249db09882da8239aead4f2ea95d41d42a95",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-compute/zipball/7579d64eaf4887b10b0e85b59a289709af1efe82",
+                "reference": "7579d64eaf4887b10b0e85b59a289709af1efe82",
                 "shasum": ""
             },
             "require": {
@@ -294,9 +294,9 @@
             ],
             "description": "Compute Client for PHP",
             "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-compute/tree/v1.33.0"
+                "source": "https://github.com/googleapis/google-cloud-php-compute/tree/v1.34.0"
             },
-            "time": "2025-08-01T22:55:44+00:00"
+            "time": "2025-08-08T22:07:42+00:00"
         },
         {
             "name": "google/cloud-functions-framework",
