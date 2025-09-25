@@ -2,7 +2,7 @@
     "description": "Cloud Run functions: Compute Engine auto-stop",
     "require": {
         "cloudevents/sdk-php": "^1.0",
-        "google/cloud-compute": "^1.30",
+        "google/cloud-compute": "^2.0",
         "google/cloud-functions-framework": "^1.1"
     }
 }
