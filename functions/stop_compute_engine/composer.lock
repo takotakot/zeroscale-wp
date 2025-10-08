@@ -189,16 +189,16 @@
         },
         {
             "name": "google/auth",
-            "version": "v1.48.0",
+            "version": "v1.48.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "3053a5bfe284538419d4fee8c9df148488db6d30"
+                "reference": "023f41a2c80fb98a493dfb9dffcab643481a7ab0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/3053a5bfe284538419d4fee8c9df148488db6d30",
-                "reference": "3053a5bfe284538419d4fee8c9df148488db6d30",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/023f41a2c80fb98a493dfb9dffcab643481a7ab0",
+                "reference": "023f41a2c80fb98a493dfb9dffcab643481a7ab0",
                 "shasum": ""
             },
             "require": {
@@ -244,22 +244,22 @@
             "support": {
                 "docs": "https://cloud.google.com/php/docs/reference/auth/latest",
                 "issues": "https://github.com/googleapis/google-auth-library-php/issues",
-                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.48.0"
+                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.48.1"
             },
-            "time": "2025-09-16T22:09:18+00:00"
+            "time": "2025-09-30T04:22:33+00:00"
         },
         {
             "name": "google/cloud-compute",
-            "version": "v2.0.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-compute.git",
-                "reference": "7d88bfeb40ea55d282e3abf8a8125b931f63345e"
+                "reference": "4dd5087f03f36185c69679e5b22e2fa43e245671"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-compute/zipball/7d88bfeb40ea55d282e3abf8a8125b931f63345e",
-                "reference": "7d88bfeb40ea55d282e3abf8a8125b931f63345e",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-compute/zipball/4dd5087f03f36185c69679e5b22e2fa43e245671",
+                "reference": "4dd5087f03f36185c69679e5b22e2fa43e245671",
                 "shasum": ""
             },
             "require": {
@@ -294,9 +294,9 @@
             ],
             "description": "Compute Client for PHP",
             "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-compute/tree/v2.0.0"
+                "source": "https://github.com/googleapis/google-cloud-php-compute/tree/v2.1.1"
             },
-            "time": "2025-09-20T01:29:44+00:00"
+            "time": "2025-10-07T18:41:09+00:00"
         },
         {
             "name": "google/cloud-functions-framework",
