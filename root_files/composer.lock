@@ -192,16 +192,16 @@
         },
         {
             "name": "google/cloud-compute",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-compute.git",
-                "reference": "780f254e541bff31747a7ece5bd779305f1f2164"
+                "reference": "4dd5087f03f36185c69679e5b22e2fa43e245671"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-compute/zipball/780f254e541bff31747a7ece5bd779305f1f2164",
-                "reference": "780f254e541bff31747a7ece5bd779305f1f2164",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-compute/zipball/4dd5087f03f36185c69679e5b22e2fa43e245671",
+                "reference": "4dd5087f03f36185c69679e5b22e2fa43e245671",
                 "shasum": ""
             },
             "require": {
@@ -236,9 +236,9 @@
             ],
             "description": "Compute Client for PHP",
             "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-compute/tree/v2.1.0"
+                "source": "https://github.com/googleapis/google-cloud-php-compute/tree/v2.1.1"
             },
-            "time": "2025-10-01T16:57:30+00:00"
+            "time": "2025-10-07T18:41:09+00:00"
         },
         {
             "name": "google/common-protos",
