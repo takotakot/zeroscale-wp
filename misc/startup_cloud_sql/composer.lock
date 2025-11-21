@@ -193,16 +193,16 @@
         },
         {
             "name": "google/cloud-sql-admin",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-sql-admin.git",
-                "reference": "37f839c00cd6f8ddb9770cae01f49429ad6c93a7"
+                "reference": "2006e0d3b1fddc94b88a88300351380bf372274a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-sql-admin/zipball/37f839c00cd6f8ddb9770cae01f49429ad6c93a7",
-                "reference": "37f839c00cd6f8ddb9770cae01f49429ad6c93a7",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-sql-admin/zipball/2006e0d3b1fddc94b88a88300351380bf372274a",
+                "reference": "2006e0d3b1fddc94b88a88300351380bf372274a",
                 "shasum": ""
             },
             "require": {
@@ -237,9 +237,9 @@
             ],
             "description": "Google Cloud Sql Admin Client for PHP",
             "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-sql-admin/tree/v1.4.0"
+                "source": "https://github.com/googleapis/google-cloud-php-sql-admin/tree/v1.5.0"
             },
-            "time": "2025-11-07T23:31:32+00:00"
+            "time": "2025-11-20T23:31:53+00:00"
         },
         {
             "name": "google/common-protos",
@@ -302,16 +302,16 @@
         },
         {
             "name": "google/gax",
-            "version": "v1.38.1",
+            "version": "v1.38.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/gax-php.git",
-                "reference": "04ba0821b551f8788e23ea0335186d224a7278d1"
+                "reference": "9848673203b9af459ce0481f73fa22debf7cc4db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/gax-php/zipball/04ba0821b551f8788e23ea0335186d224a7278d1",
-                "reference": "04ba0821b551f8788e23ea0335186d224a7278d1",
+                "url": "https://api.github.com/repos/googleapis/gax-php/zipball/9848673203b9af459ce0481f73fa22debf7cc4db",
+                "reference": "9848673203b9af459ce0481f73fa22debf7cc4db",
                 "shasum": ""
             },
             "require": {
@@ -353,9 +353,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/gax-php/issues",
-                "source": "https://github.com/googleapis/gax-php/tree/v1.38.1"
+                "source": "https://github.com/googleapis/gax-php/tree/v1.38.2"
             },
-            "time": "2025-11-06T22:48:43+00:00"
+            "time": "2025-11-19T17:28:29+00:00"
         },
         {
             "name": "google/grpc-gcp",
@@ -448,16 +448,16 @@
         },
         {
             "name": "google/protobuf",
-            "version": "v4.33.0",
+            "version": "v4.33.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/protocolbuffers/protobuf-php.git",
-                "reference": "b50269e23204e5ae859a326ec3d90f09efe3047d"
+                "reference": "0cd73ccf0cd26c3e72299cce1ea6144091a57e12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/b50269e23204e5ae859a326ec3d90f09efe3047d",
-                "reference": "b50269e23204e5ae859a326ec3d90f09efe3047d",
+                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/0cd73ccf0cd26c3e72299cce1ea6144091a57e12",
+                "reference": "0cd73ccf0cd26c3e72299cce1ea6144091a57e12",
                 "shasum": ""
             },
             "require": {
@@ -486,9 +486,9 @@
                 "proto"
             ],
             "support": {
-                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.33.0"
+                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.33.1"
             },
-            "time": "2025-10-15T20:10:28+00:00"
+            "time": "2025-11-12T21:58:05+00:00"
         },
         {
             "name": "grpc/grpc",
