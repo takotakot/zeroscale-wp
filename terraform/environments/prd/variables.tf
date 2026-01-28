@@ -37,3 +37,8 @@ variable "startup_probe_path" {
   type    = string
   default = "/startup_gce.php"
 }
+
+variable "use_suspend" {
+  type    = bool
+  default = true
+}
