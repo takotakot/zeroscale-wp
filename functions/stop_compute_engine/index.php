@@ -26,6 +26,7 @@ use CloudEvents\V1\CloudEventInterface;
 use Google\CloudFunctions\FunctionsFramework;
 use Google\Cloud\Compute\V1\Client\InstancesClient;
 use Google\Cloud\Compute\V1\StopInstanceRequest;
+use Google\Cloud\Compute\V1\SuspendInstanceRequest;
 use Google\ApiCore\ApiException;
 
 // --- Helper Functions ---
@@ -68,14 +69,26 @@ function stopComputeEngine(CloudEventInterface $event): void
     try {
         // Compute Engine APIクライアントの初期化
         $client = new InstancesClient();
-        // 停止リクエストの作成
-        $stopRequest = (new StopInstanceRequest())
-            ->setProject($projectId)
-            ->setZone($zone)
-            ->setInstance($instanceId);
-        // 停止APIの呼び出し
-        $operation = $client->stop($stopRequest);
-        logMessage('INFO', "Stop operation started for instance '$instanceId' in zone '$zone'. Operation: " . $operation->getName());
+        // 環境変数 `USE_SUSPEND` を検査して suspend を行うか決定
+        $useSuspend = in_array(strtolower((string)($_SERVER['USE_SUSPEND'] ?? '0')), ['1', 'true'], true);
+
+        if ($useSuspend) {
+            // サスペンドリクエストの作成と呼び出し
+            $suspendRequest = (new SuspendInstanceRequest())
+                ->setProject($projectId)
+                ->setZone($zone)
+                ->setInstance($instanceId);
+            $operation = $client->suspend($suspendRequest);
+            logMessage('INFO', "Suspend operation started for instance '$instanceId' in zone '$zone'. Operation: " . $operation->getName());
+        } else {
+            // 停止リクエストの作成と呼び出し
+            $stopRequest = (new StopInstanceRequest())
+                ->setProject($projectId)
+                ->setZone($zone)
+                ->setInstance($instanceId);
+            $operation = $client->stop($stopRequest);
+            logMessage('INFO', "Stop operation started for instance '$instanceId' in zone '$zone'. Operation: " . $operation->getName());
+        }
     } catch (ApiException $e) {
         logMessage('ERROR', 'Google Compute Engine API Error: ' . $e->getMessage());
         throw new RuntimeException('Failed to stop Compute Engine instance: ' . $e->getMessage(), 0, $e);

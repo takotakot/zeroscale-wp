@@ -17,6 +17,7 @@ locals {
   gce_zone            = var.gce_zone
   gce_instance_id     = var.gce_instance_id
   gce_ip              = var.gce_ip
+  use_suspend         = var.use_suspend ? "1" : "0"
 }
 
 # Google Cloud サービスの有効化
@@ -565,6 +566,10 @@ resource "google_cloud_run_v2_service" "stop-compute-engine" {
       env {
         name  = "WORDPRESS_DB_INSTANCE_ID"
         value = local.gce_instance_id
+      }
+      env {
+        name  = "USE_SUSPEND"
+        value = local.use_suspend
       }
     }
 
