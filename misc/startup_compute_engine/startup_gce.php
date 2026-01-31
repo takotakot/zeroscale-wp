@@ -44,14 +44,14 @@ use Google\Cloud\Compute\V1\Instance\Status as GceInstanceStatusEnum;
 use Google\ApiCore\ApiException;
 
 // --- Configuration Constants ---
-define('PROJECT_ID', $_SERVER['PROJECT_ID'] ?? null);
-define('GCE_ZONE', $_SERVER['GCE_ZONE'] ?? null);
-define('GCE_INSTANCE_NAME', $_SERVER['WORDPRESS_DB_INSTANCE_ID'] ?? null);
-define('WORDPRESS_DB_NAME', $_SERVER['WORDPRESS_DB_NAME'] ?? null);
-define('WORDPRESS_DB_USER', $_SERVER['WORDPRESS_DB_USER'] ?? null);
-define('WORDPRESS_DB_PASSWORD', $_SERVER['WORDPRESS_DB_PASSWORD'] ?? null);
-define('WORDPRESS_DB_HOST', $_SERVER['WORDPRESS_DB_HOST'] ?? null);
-define('WORDPRESS_DB_CONNECT_TIMEOUT_SECONDS', 3); // MySQLi connection timeout in seconds
+define('PROJECT_ID', $_SERVER['PROJECT_ID'] ?? $_ENV['PROJECT_ID'] ?? null);
+define('GCE_ZONE', $_SERVER['GCE_ZONE'] ?? $_ENV['GCE_ZONE'] ?? null);
+define('GCE_INSTANCE_NAME', $_SERVER['WORDPRESS_DB_INSTANCE_ID'] ?? $_ENV['WORDPRESS_DB_INSTANCE_ID'] ?? null);
+define('WP_DB_NAME', $_SERVER['WORDPRESS_DB_NAME'] ?? $_ENV['WORDPRESS_DB_NAME'] ?? null);
+define('WP_DB_USER', $_SERVER['WORDPRESS_DB_USER'] ?? $_ENV['WORDPRESS_DB_USER'] ?? null);
+define('WP_DB_PASSWORD', $_SERVER['WORDPRESS_DB_PASSWORD'] ?? $_ENV['WORDPRESS_DB_PASSWORD'] ?? null);
+define('WP_DB_HOST', $_SERVER['WORDPRESS_DB_HOST'] ?? $_ENV['WORDPRESS_DB_HOST'] ?? null);
+define('WP_DB_CONNECT_TIMEOUT_SECONDS', 3); // MySQLi connection timeout in seconds
 
 // --- Helper Functions ---
 

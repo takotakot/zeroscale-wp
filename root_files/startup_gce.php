@@ -17,7 +17,7 @@
  * Required Environment Variables (accessible via $_SERVER):
  * - PROJECT_ID: Your Google Cloud Project ID.
  * - GCE_ZONE: The zone where the Compute Engine instance resides (e.g., 'us-central1-a').
- * - GCE_INSTANCE_NAME: The name of the Compute Engine instance hosting MySQL.
+ * - WP_DB_INSTANCE_ID: The name of the Compute Engine instance hosting MySQL.
  * - WP_DB_NAME: The name of the WordPress database.
  * - WP_DB_USER: The MySQL database username.
  * - WP_DB_PASSWORD: The MySQL database password.
@@ -39,6 +39,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use Google\Cloud\Compute\V1\Client\InstancesClient;
 use Google\Cloud\Compute\V1\GetInstanceRequest;
 use Google\Cloud\Compute\V1\StartInstanceRequest;
+use Google\Cloud\Compute\V1\ResumeInstanceRequest;
 use Google\Cloud\Compute\V1\Instance\Status as GceInstanceStatusEnum;
 use Google\ApiCore\ApiException;
 
@@ -172,6 +173,20 @@ try {
         $isDone = $operationResponse->isDone();
 
         logMessage('INFO', "GCE instance '" . GCE_INSTANCE_NAME . "' start operation initiated. Operation Name: " . ($operationName ?: 'N/A') . ", Is Done (immediately after call): " . ($isDone ? 'true' : 'false'));
+    } elseif ($gceInstanceStatusEnumValue === GceInstanceStatusEnum::SUSPENDED) {
+        logMessage('INFO', "GCE instance '" . GCE_INSTANCE_NAME . "' is SUSPENDED. Attempting to resume it...");
+
+        $resumeRequest = (new ResumeInstanceRequest())
+            ->setProject(PROJECT_ID)
+            ->setZone(GCE_ZONE)
+            ->setInstance(GCE_INSTANCE_NAME);
+        logMessage('DEBUG', "ResumeInstanceRequest prepared. Calling gceClient->resume().");
+        $operationResponse = $gceClient->resume($resumeRequest);
+
+        $operationName = $operationResponse->getName();
+        $isDone = $operationResponse->isDone();
+
+        logMessage('INFO', "GCE instance '" . GCE_INSTANCE_NAME . "' resume operation initiated. Operation Name: " . ($operationName ?: 'N/A') . ", Is Done (immediately after call): " . ($isDone ? 'true' : 'false'));
     } elseif ($gceInstanceStatusEnumValue === GceInstanceStatusEnum::RUNNING) {
         logMessage('WARNING', "GCE instance '" . GCE_INSTANCE_NAME . "' is RUNNING, but DB connection via '" . WP_DB_HOST . "' failed. MySQL server on GCE might not be ready yet, or there could be network/firewall issues or incorrect WP_DB_HOST.");
     } else {
