@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "brick/math",
-            "version": "0.14.1",
+            "version": "0.14.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "f05858549e5f9d7bb45875a75583240a38a281d0"
+                "reference": "32498d5e1897e7642c0b961ace2df6d7dc9a3bc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/f05858549e5f9d7bb45875a75583240a38a281d0",
-                "reference": "f05858549e5f9d7bb45875a75583240a38a281d0",
+                "url": "https://api.github.com/repos/brick/math/zipball/32498d5e1897e7642c0b961ace2df6d7dc9a3bc3",
+                "reference": "32498d5e1897e7642c0b961ace2df6d7dc9a3bc3",
                 "shasum": ""
             },
             "require": {
@@ -56,7 +56,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.14.1"
+                "source": "https://github.com/brick/math/tree/0.14.6"
             },
             "funding": [
                 {
@@ -64,7 +64,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-11-24T14:40:29+00:00"
+            "time": "2026-02-05T07:59:58+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -193,16 +193,16 @@
         },
         {
             "name": "google/cloud-sql-admin",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-sql-admin.git",
-                "reference": "c90281a5152458abc5c7bd99846aa37c154a75e1"
+                "reference": "d1c8214a67aab8c112ca87506388e192fffa4972"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-sql-admin/zipball/c90281a5152458abc5c7bd99846aa37c154a75e1",
-                "reference": "c90281a5152458abc5c7bd99846aa37c154a75e1",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-sql-admin/zipball/d1c8214a67aab8c112ca87506388e192fffa4972",
+                "reference": "d1c8214a67aab8c112ca87506388e192fffa4972",
                 "shasum": ""
             },
             "require": {
@@ -237,9 +237,9 @@
             ],
             "description": "Google Cloud Sql Admin Client for PHP",
             "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-sql-admin/tree/v1.6.0"
+                "source": "https://github.com/googleapis/google-cloud-php-sql-admin/tree/v1.7.0"
             },
-            "time": "2026-01-27T15:59:20+00:00"
+            "time": "2026-02-04T10:40:43+00:00"
         },
         {
             "name": "google/common-protos",
@@ -448,16 +448,16 @@
         },
         {
             "name": "google/protobuf",
-            "version": "v4.33.4",
+            "version": "v4.33.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/protocolbuffers/protobuf-php.git",
-                "reference": "22d28025cda0d223a2e48c2e16c5284ecc9f5402"
+                "reference": "ebe8010a61b2ae0cff0d246fe1c4d44e9f7dfa6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/22d28025cda0d223a2e48c2e16c5284ecc9f5402",
-                "reference": "22d28025cda0d223a2e48c2e16c5284ecc9f5402",
+                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/ebe8010a61b2ae0cff0d246fe1c4d44e9f7dfa6d",
+                "reference": "ebe8010a61b2ae0cff0d246fe1c4d44e9f7dfa6d",
                 "shasum": ""
             },
             "require": {
@@ -486,9 +486,9 @@
                 "proto"
             ],
             "support": {
-                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.33.4"
+                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.33.5"
             },
-            "time": "2026-01-12T17:58:43+00:00"
+            "time": "2026-01-29T20:49:00+00:00"
         },
         {
             "name": "grpc/grpc",
