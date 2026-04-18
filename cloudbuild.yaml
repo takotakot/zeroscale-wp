@@ -42,7 +42,7 @@ steps:
       - |
         docker pull gcr.io/$PROJECT_ID/zero-wp:latest || true
         docker pull wordpress:php8.4-apache
-        docker pull us-docker.pkg.dev/gcr-cleaner/gcr-cleaner/gcr-cleaner-cli:latest
+        # docker pull us-docker.pkg.dev/gcr-cleaner/gcr-cleaner/gcr-cleaner-cli:latest
     waitFor:
       - '-'
 
@@ -70,12 +70,12 @@ steps:
       - 'us-west1'
 
   # 8. Delete old images from Artifact Registry if deployment is successful
-  - id: 'delete-old-images'
-    name: us-docker.pkg.dev/gcr-cleaner/gcr-cleaner/gcr-cleaner-cli:latest
-    args:
-      - --repo=gcr.io/$PROJECT_ID/zero-wp
-      - --keep=3
-      - --tag-filter-any=.*
+  # - id: 'delete-old-images'
+  #   name: us-docker.pkg.dev/gcr-cleaner/gcr-cleaner/gcr-cleaner-cli:latest
+  #   args:
+  #     - --repo=gcr.io/$PROJECT_ID/zero-wp
+  #     - --keep=3
+  #     - --tag-filter-any=.*
 
 images:
   - 'gcr.io/$PROJECT_ID/zero-wp:$COMMIT_SHA'
