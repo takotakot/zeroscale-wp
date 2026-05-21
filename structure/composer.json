@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "roots/wordpress": "~6.9",
+        "roots/wordpress": "~7.0",
         "inpsyde/wp-translation-downloader": "^2.5",
         "wpackagist-plugin/google-site-kit": "^1.153"
 
