@@ -1,7 +1,7 @@
 steps:
   # 1. composer install
   - id: 'composer-install'
-    name: 'wordpress:php8.4-apache'
+    name: 'wordpress:php8.5-apache'
     entrypoint: 'bash'
     args:
       - -c
@@ -41,7 +41,7 @@ steps:
       - -c
       - |
         docker pull gcr.io/$PROJECT_ID/zero-wp:latest || true
-        docker pull wordpress:php8.4-apache
+        docker pull wordpress:php8.5-apache
         # docker pull us-docker.pkg.dev/gcr-cleaner/gcr-cleaner/gcr-cleaner-cli:latest
     waitFor:
       - '-'
