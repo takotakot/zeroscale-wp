@@ -1,4 +1,4 @@
-FROM wordpress:php8.4-apache
+FROM wordpress:php8.5-apache
 
 # other-vhosts-access-log.conf を上書きし、 Apache のアクセスログフォーマットを JSON 化
 RUN rm -f /etc/apache2/conf-enabled/other-vhosts-access-log.conf && sed -i 's/combined/json_combined/g' /etc/apache2/sites-available/000-default.conf
