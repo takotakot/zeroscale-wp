@@ -196,16 +196,16 @@
         },
         {
             "name": "google/cloud-compute",
-            "version": "v2.11.0",
+            "version": "v2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-compute.git",
-                "reference": "1447008d98dd1608eff5e66a7a98a367cbfaa0ed"
+                "reference": "4d36bd6a948454c2213fb9006795e1909d3cfda7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-compute/zipball/1447008d98dd1608eff5e66a7a98a367cbfaa0ed",
-                "reference": "1447008d98dd1608eff5e66a7a98a367cbfaa0ed",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-compute/zipball/4d36bd6a948454c2213fb9006795e1909d3cfda7",
+                "reference": "4d36bd6a948454c2213fb9006795e1909d3cfda7",
                 "shasum": ""
             },
             "require": {
@@ -240,9 +240,9 @@
             ],
             "description": "Compute Client for PHP",
             "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-compute/tree/v2.11.0"
+                "source": "https://github.com/googleapis/google-cloud-php-compute/tree/v2.12.0"
             },
-            "time": "2026-07-17T19:39:21+00:00"
+            "time": "2026-08-10T16:39:50+00:00"
         },
         {
             "name": "google/common-protos",
@@ -305,16 +305,16 @@
         },
         {
             "name": "google/gax",
-            "version": "v1.47.0",
+            "version": "v1.47.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/gax-php.git",
-                "reference": "ec67d460a42acaea3b787c73ff29801978d12ae5"
+                "reference": "0c25a2499a7204bee09e3cb28437a391d85976e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/gax-php/zipball/ec67d460a42acaea3b787c73ff29801978d12ae5",
-                "reference": "ec67d460a42acaea3b787c73ff29801978d12ae5",
+                "url": "https://api.github.com/repos/googleapis/gax-php/zipball/0c25a2499a7204bee09e3cb28437a391d85976e5",
+                "reference": "0c25a2499a7204bee09e3cb28437a391d85976e5",
                 "shasum": ""
             },
             "require": {
@@ -363,9 +363,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/gax-php/issues",
-                "source": "https://github.com/googleapis/gax-php/tree/v1.47.0"
+                "source": "https://github.com/googleapis/gax-php/tree/v1.47.1"
             },
-            "time": "2026-07-28T00:15:15+00:00"
+            "time": "2026-08-10T16:39:50+00:00"
         },
         {
             "name": "google/grpc-gcp",
@@ -414,16 +414,16 @@
         },
         {
             "name": "google/longrunning",
-            "version": "0.7.1",
+            "version": "0.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/php-longrunning.git",
-                "reference": "cac9bedf199239ae2b1acd4a8e4ea2276bd9f55a"
+                "reference": "2c22ca5184cba320f5e7e012261b82bdc969a4f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/php-longrunning/zipball/cac9bedf199239ae2b1acd4a8e4ea2276bd9f55a",
-                "reference": "cac9bedf199239ae2b1acd4a8e4ea2276bd9f55a",
+                "url": "https://api.github.com/repos/googleapis/php-longrunning/zipball/2c22ca5184cba320f5e7e012261b82bdc969a4f6",
+                "reference": "2c22ca5184cba320f5e7e012261b82bdc969a4f6",
                 "shasum": ""
             },
             "require-dev": {
@@ -452,9 +452,9 @@
             ],
             "description": "Google LongRunning Client for PHP",
             "support": {
-                "source": "https://github.com/googleapis/php-longrunning/tree/v0.7.1"
+                "source": "https://github.com/googleapis/php-longrunning/tree/v0.8.0"
             },
-            "time": "2026-03-31T19:52:22+00:00"
+            "time": "2026-08-10T16:39:50+00:00"
         },
         {
             "name": "google/protobuf",
@@ -546,21 +546,21 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "8.0.1",
+            "version": "8.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "3aeea0406aab88cbbd86531313d7cebf8ae149a4"
+                "reference": "d1cbca76970939a9c2ced55b1e25ea26f34fc773"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/3aeea0406aab88cbbd86531313d7cebf8ae149a4",
-                "reference": "3aeea0406aab88cbbd86531313d7cebf8ae149a4",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/d1cbca76970939a9c2ced55b1e25ea26f34fc773",
+                "reference": "d1cbca76970939a9c2ced55b1e25ea26f34fc773",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "guzzlehttp/promises": "^3.0",
+                "guzzlehttp/promises": "^3.0.1",
                 "guzzlehttp/psr7": "^3.0",
                 "php": "^7.4 || ^8.0",
                 "psr/http-client": "^1.0",
@@ -652,7 +652,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/8.0.1"
+                "source": "https://github.com/guzzle/guzzle/tree/8.0.2"
             },
             "funding": [
                 {
@@ -668,20 +668,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-07-26T23:23:24+00:00"
+            "time": "2026-08-05T19:50:26+00:00"
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "d961a21387cd680ec1cc6f52aa1fdcef33105e24"
+                "reference": "64f38b87fa7d371853804161bfc701c9bc2cc00a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/d961a21387cd680ec1cc6f52aa1fdcef33105e24",
-                "reference": "d961a21387cd680ec1cc6f52aa1fdcef33105e24",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/64f38b87fa7d371853804161bfc701c9bc2cc00a",
+                "reference": "64f38b87fa7d371853804161bfc701c9bc2cc00a",
                 "shasum": ""
             },
             "require": {
@@ -735,7 +735,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/3.0.0"
+                "source": "https://github.com/guzzle/promises/tree/3.0.1"
             },
             "funding": [
                 {
@@ -751,7 +751,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-07-20T13:44:17+00:00"
+            "time": "2026-08-05T19:35:04+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
